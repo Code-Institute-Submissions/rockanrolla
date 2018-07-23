@@ -9,7 +9,7 @@ this project should give me the chance to show all the learnings acquired after 
 included in the Code Institute Full Stack Software Development Course.
 
 The overall project consists of creating a website for a 1960's Rock band, showing their music and publicizing
-their availability and future events. Project brief and guidelines can be reviewed in this [portable document file](https://github.com/danmtt/rockanrolla/blob/master/project_docs/stream-three.html "Project Brief and Guidelinesam").
+their availability and future events. Project brief and guidelines can be reviewed in this [portable document file](https://github.com/danmtt/rockanrolla/blob/master/project_docs/Project%20Brief%20and%20Guidelines.pdf "Project Brief and Guidelines").
 
 
 ## How does it work?
