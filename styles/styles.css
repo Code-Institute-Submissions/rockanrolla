@@ -33,7 +33,7 @@ header{
     margin: 0;
     padding: 0 10px;
     font-family: monoton, sans-serif;
-    font-size: 35px;
+    font-size: 1.9em;
     text-align: center;
     border: none;
     color: #fff;
@@ -62,6 +62,10 @@ header{
     order: 2;
     border: none;
     background-color: #0f0f0f;
+}
+
+#header_nav .nav_btn_content{
+    display: none;
 }
     
 #header_nav .bar{
@@ -100,7 +104,6 @@ header{
 }   
     
 #header_nav .toggle_menu{
-    /*list-style: none;*/
     display:inherit;
     width: 100%;
     margin:0;
@@ -178,12 +181,37 @@ section{
     text-align: center;
 }
 
-.footer_main{
+.footer_form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 100%;
-    height: 100px;
+    height: 150px;
     color: #fafafa;
     font-family: Anton, sans-serif;
 }
+
+.footer_form input{
+    margin: 5px;
+}
+/*    word-wrap: break-word;*/
+/*    word-break: break-all;*/
+/*    height: 80px;*/
+/*}*/
+
+.fform_input_comments{    
+    height: 50px;
+    /*text-overflow: clip;*/
+}
+
+.fform_input_comments.break{
+    word-wrap: break-word;
+    word-break: break-all;
+
+}
+/*    height: 50px;*/
+/*    word-wrap: break-word;*/
+/*}*/
 
 .footer_sm{
     width: 100%;
@@ -270,81 +298,94 @@ section{
 /*Start of Media queries---------------------------*/
 /*-------------------------------------------------*/
 
-/*Mobile-------------------------------------------*/
-/*-------------------------------------------------*/
-
-@media (min-device-width : 415px){
-    
-/*-------------------------------------------Header*/
-
-.header_logo {
-        width: 30%;
-        max-height: 250px;
-    }
-    
-.header_title{
-        display: inherit;
-        width: 70%;
-        float:left;
-        margin:0;
-        padding:0;
-        clear: right;
-        font-family: Monoton, sans-serif;
-        font-size: 50px;
-        text-align: center;
-        color: white;
-    }
-    
-.nav_responsive{
-        width: 70%;
-    }
-    
-.nav_inline{
-        display: inherit;
-        width: 100%;
-        font-family: Monoton, sans-serif;
-        font-size: 20px;
-        color: white;
-    }
-    
-.nav_inline ul{
-        display: inline-block;
-        width: 100%;
-        margin:0;
-        padding: 0;
-    }
-    
-.nav_inline ul li{
-        display: inline-block;
-        width: 20%;
-        margin: 10px;
-        padding: 0;
-        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
-    }
-    
-.nav_inline a{
-        text-decoration: none;
-        text-transform: uppercase;
-        font-family: Monoton, sans-serif;
-        color: white;
-        
-    }
-    
-.nav_inline ul li:hover{
-        background-color: #3269c1;
-    }
-    
-.nav_dropdown{
-        display: none;
-    }
-    
-}
-
 /*Tablet-------------------------------------------*/
 /*-------------------------------------------------*/
 
 @media (min-device-width : 416px){
     
+/*-------------------------------------------Header*/
+
+header {
+    min-height: 300px;
+}
+    
+#header_logo{
+    order: 1;
+    width: 30%;
+    min-height: 200px;
+}
+
+#header_title{
+    order: 2;
+    width: 65%;
+    padding-top: 40px;
+    font-family: monoton, sans-serif;
+    font-size: 3.9em;
+    text-align: left;
+}
+
+#header_nav{
+    order:3;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+#header_nav .nav_inline{
+    display: none;
+}
+
+#header_nav .nav_btn{
+    /*order: 1;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*width: 100%;*/
+    /*text-decoration: none;*/
+    /*font-family: monoton, sans-serif;*/
+    /*font-size: 1.5em;*/
+    /*text-align: left;*/
+    /*color: #fff;*/
+    /*background-color: #0f0f0f;*/
+    /*border: 1px solid #fff;*/
+    /*padding: 0;*/
+}
+
+#header_nav .nav_btn_content{
+    display: flex;
+    font-family: monoton, sans-serif;
+    font-size: 1.5em;
+    /*text-align: left;*/
+    color: #fff;
+    background-color: #0f0f0f;
+
+}
+
+#header_nav .nav_btn .bar{
+    display: none;
+}
+
+#header_nav .nav_toggle{
+    left: 140%;
+    top: 60%;
+    margin-top: 20px;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+
+#header_nav .toggle_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#header_nav .toggle_item{
+    font-size: 0.5em;
+}
+
+#header_nav .nav_btn:hover +.nav_toggle{
+    transform: translateX(-140%);
+}
+   
 }
 
 /*Laptop------------------------------------------*/
@@ -354,7 +395,7 @@ section{
     
 /*------------------------------------------Header*/
 
-.header_title{
+#header_title{
     width: 70%;
     font-size: 60px;
 }

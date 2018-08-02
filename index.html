@@ -10,10 +10,10 @@
     <body>
         <header>
             <div id="header_css">
-                <div id="header_title" ><i>The Invasors</i></div>
+                <div id="header_title"><i>The Invasors</i></div>
                 <nav id="header_nav">
 <!------------------Inline menu------------------------>
-                    <div class="nav_inline">
+                    <div class="nav_inline"><i>MenuThe Invasors</i>
                         <ul class="">
     			            	<li role="presentation"><a href="index.html">Home</a></li>
     				  			<li role="presentation"><a href="#">Pictures</a></li>
@@ -23,7 +23,7 @@
     			         </ul>
                     </div>
 <!------------------Toggle Menu---------------------->
-                    <div class="nav_btn">
+                    <div class="nav_btn" onclick=""><span class="nav_btn_content">Menu ></span>
                         <div class="bar"></div>
                         <div class="bar"></div>
                         <div class="bar"></div>
@@ -58,10 +58,14 @@
         <footer>
             <div class="footer_container">
                 <span>Contact us!</span>
-                <form class="footer_main">
-                    <input type="text" name="Comments"/>
-                    <input type="text" email="Email"/>
+                <form class="footer_form">
+                    <input type="text" name="Comments" class="fform_input_comments" id="comments" placeholder="Please insert your comments"/>
+                    <input type="text" email="Email"class="fform_input_email" id="email" placeholder="Email"/>
                     <input type="submit" value="Submit"/>
+                    <!--<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>-->
+                    <!--<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>-->
+                    <!--<textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>-->
+                    <!--<button type="submit" class="btn btn-secondary center-block">Send Project Request</button>-->
                 </form>
                 <span>Follow us!</span>
                 <div class=" footer_sm">
