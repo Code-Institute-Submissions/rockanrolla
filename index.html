@@ -9,38 +9,27 @@
     </head>
     <body>
         <header>
-            <div id="header_css">
-                <div id="header_title"><i>The Invasors</i></div>
-                <nav id="header_nav">
-<!------------------Inline menu------------------------>
-                    <div class="nav_inline"><i>MenuThe Invasors</i>
-                        <ul class="">
-    			            	<li role="presentation"><a href="index.html">Home</a></li>
-    				  			<li role="presentation"><a href="#">Pictures</a></li>
-    				  			<li role="presentation"><a href="#">Clips</a></li>
-    				  			<li role="presentation"><a href="#">Events</a></li>
-    				  			<li role="presentation"><a href="#">Contact</a></li>
-    			         </ul>
-                    </div>
-<!------------------Toggle Menu---------------------->
-                    <div class="nav_btn" onclick=""><span class="nav_btn_content">Menu ></span>
-                        <div class="bar"></div>
-                        <div class="bar"></div>
-                        <div class="bar"></div>
-                    </div>
-                    <div class="nav_toggle">
-                        <ul class="toggle_menu">
-                            <li class="toggle_item"><a href="#" class="toggle_link">Home</a></li>
-                            <li class="toggle_item"><a href="#" class="toggle_link">Pictures</a></li>
-                            <li class="toggle_item"><a href="#" class="toggle_link">Clips</a></li>
-                            <li class="toggle_item"><a href="#" class="toggle_link">Events</a></li>
-                            <li class="toggle_item"><a href="#" class="toggle_link">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <div id="header_logo">
-                    <a href="index.html"></a>
-                </div>
+            <div class="header_css">
+                <h1 class="header_title"><i>The Invasors</i></h1>
+                <nav class="header_nav">
+                <!------------------Toggle Menu---------------------->
+                        <div class="nav_btn" onclick="">
+                            <span class="nav_btn_content">Menu</span>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                        <div class="nav_toggle">
+                            <ul class="toggle_menu">
+                                <li class="toggle_item"><a href="#" class="toggle_link">Home</a></li>
+                                <li class="toggle_item"><a href="#" class="toggle_link">Pictures</a></li>
+                                <li class="toggle_item"><a href="#" class="toggle_link">Clips</a></li>
+                                <li class="toggle_item"><a href="#" class="toggle_link">Events</a></li>
+                                <li class="toggle_item"><a href="#" class="toggle_link">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                <div class="header_logo"><a href="index.html"></a></div>
             </div>
         </header>
         <section>
@@ -59,6 +48,7 @@
             <div class="footer_container">
                 <span>Contact us!</span>
                 <form class="footer_form">
+                    <label for="comments">Comments</label>
                     <input type="text" name="Comments" class="fform_input_comments" id="comments" placeholder="Please insert your comments"/>
                     <input type="text" email="Email"class="fform_input_email" id="email" placeholder="Email"/>
                     <input type="submit" value="Submit"/>
