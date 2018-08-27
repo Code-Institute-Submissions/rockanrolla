@@ -5,14 +5,42 @@
 
 /*----------------------------------Main Properties*/
 body{
-    background-color: #0f0f0f;
-   /* background-color: red; Only for design purposes*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    /*background-color: #0f0f0f;*/
+    /* background-color: red; Only for design purposes*/
+    background-image: url("../pict/bckgr_main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body h1,h2,h3 {
+    font-family: monoton, sans-serif;
+    color: #fff;
+    background-color: transparent;
 }
 
 header{
+    order:1;
     margin:1px;
     padding:0;
     min-height: 425px;
+}
+
+section{
+    order:2;
+    margin:1px;
+    padding:0;
+
+}
+
+footer{
+    order:3;
+    margin:1px;
+    padding:0;
+    min-height: 150px;
+
 }
 
 /*-------------------------------------------Header*/
@@ -25,19 +53,17 @@ header{
     margin:0;
     padding:0;
     text-align: center;
-    background-color: #0f0f0f;
+
 }
 
 .header_title{
     order: 1;
     margin: 0;
     padding: 0 10px;
-    font-family: monoton, sans-serif;
-    font-size: 1.9em;
+    font-size: 2em;
     text-align: center;
     border: none;
-    color: #fff;
-    background-color: #0f0f0f;
+    background-color: transparent;
 }
 
 .header_nav{
@@ -56,12 +82,13 @@ header{
     min-height: 350px;
 }
 
-/*------------------------------------------Navicon*/
+/*------------------------------------------Nav Burguer Btn*/
 
 .header_nav .nav_btn{
     order: 2;
     border: none;
-    background-color: #0f0f0f;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header_nav .nav_btn_content{
@@ -70,61 +97,53 @@ header{
     
 .header_nav .bar{
     content: "";
-    width: 20px;
-    height: 4px;
+    width: 35px;
+    height: 5px;
     margin: 5px;
     background-color: #fafafa;
-    border-radius: 30%;
+    border-radius: 15%;
 }
 
-/*---------------------------------------Nav Inline*/
+/*-------------------------------------Nav Toggle*/
 
-/*#header_nav .nav_inline{*/
-/*    display: none;*/
-/*}*/
-
-/*-------------------------------------Nav Dropdown*/
-
-.header_nav .nav_toggle{
+.nav_toggle{
     position: absolute;
     width: 100%;
     padding: 5% 0;
     left: -100%;
-    top: 10%;
-    background-color: #0f0f0f;
-    margin-top: 10px;
     z-index: 1;
-    transition: transform 1s ease-in-out;
+    transition: transform 0.7s ease-in-out;
 }
 
-.header_nav .nav_toggle ul li{
+.nav_toggle ul li{
     list-style: none;
     padding: 0;
-    background-color: #fff;
+    /*background-color: #fff;*/
 }   
     
-.header_nav .toggle_menu{
-    display:inherit;
+.toggle_menu{
+    /*display:inherit;*/
     width: 100%;
     margin:0;
     padding: 0;
-    font-family: monoton, sans-serif;
-    font-size: 40px;
-    color: #fafafa;
 }
 
-.header_nav .toggle_item{
+.toggle_item{
     width: 100%;
+    font-family: monoton, sans-serif;
     font-size: 30px;
+    color: #fafafa;
+    text-align: right;
 }
 
-.header_nav .toggle_link{
+.toggle_link{
     display: block;
     text-decoration: none;
     background-color: #0f0f0f;
+    opacity: 0.8;
     color: #fff;
     padding: 10px 5px;
-    transition: color 1s ease-in-out, background-color 1s ease-in-out;
+    transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
 }
 
 .header_nav .nav_btn:focus{
@@ -133,10 +152,11 @@ header{
 
 .header_nav .nav_btn:hover .bar{
     background-color: #ed7621;
+    background-color: #0f0f0f;
 }
 
 .header_nav .nav_btn:hover +.nav_toggle{
-    transform: translateX(100%);
+    transform: translateX(50%);
 }
 
 .header_nav .toggle_link:hover{
@@ -146,49 +166,64 @@ header{
 
 /*------------------------------------------Section*/
 
-section{
-    float: left;
-    margin: 1px;
+.section_title{
+    order:1;
+    margin: 10px;
     padding: 0;
-    font-family: Anton, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    border: none;
 }
 
-.column_40{
-    float: left;
+.article_a{
+    order:2;
     color: #0f0f0f;
+    font-family: Anton, sans-serif;
     background-color: #fff;
+    opacity: 0.5;
 }
 
-.column_60{
-    float: left;
+.article_b{
+    order:3;
     color: #fff;
+    font-family: Anton, sans-serif;
     background-color: #0f0f0f;
+    opacity: 0.5;
 }
 
 /*-------------------------------------------Footer*/
 
 .footer_container{
-    float: left;
     margin: 10px 1px 10px;
     padding: 0;
     width: 100%;
-    /*border: 2px solid #fafafa;*/
-    background-color: #0f0f0f;
-    min-height: 150px;
     font-family: Anton, sans-serif;
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
     color: #fafafa;
     text-align: center;
 }
 
+.footer_form_title{
+    order:1;
+    margin: 10px;
+    padding: 0;
+    font-size: 2em;
+    text-align: center;
+    border: none;
+}
+
 .footer_form{
+    order:2;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
     height: 150px;
-    color: #fafafa;
+    background-color: #0f0f0f;
+    opacity: 0.5;
     font-family: Anton, sans-serif;
+    color: #fafafa;
+
 }
 
 .footer_form input{
@@ -213,16 +248,28 @@ section{
 /*    word-wrap: break-word;*/
 /*}*/
 
+.footer_socialmedia_title{
+    order:3;
+    margin: 10px;
+    padding: 0;
+    font-size: 2em;
+    text-align: center;
+    border: none;
+}
+    
 .footer_sm{
-    width: 100%;
-    height: 50px;
-    margin-top: 10px;
-    color: #fafafa;
-    text-transform: uppercase;
-    margin-top: 5px;
+    order:4;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    background-color: #0f0f0f;
+    opacity: 0.5;
+    color: #fafafa;
+    text-transform: uppercase;
+ 
 }
 
 .sm_icon {
@@ -249,15 +296,17 @@ section{
 }
 
 .footer_info{
-    width: 100%;
-    max-height: 50px;
-    color: #0f0f0f;
-    margin-top: 10px;
-    background-color: #fafafa;
-    font-family: Anton, sans-serif;
+    order:5;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+    width: 100%;
+    max-height: 50px;
+    margin-top: 10px;
+    font-family: Anton, sans-serif;
+    color: #0f0f0f;
+    background-color: #fafafa;
+
 }
 
 .footer_logo_link{
@@ -281,6 +330,7 @@ section{
 }
 
 .footer_thanks{
+    order:6;
     margin-top: 10px;
     width: 100%;
 }
@@ -452,4 +502,3 @@ to{
 /*------------------------------------------------*/
 /*End of Animations-------------------------------*/
 /*------------------------------------------------*/
-/**/
