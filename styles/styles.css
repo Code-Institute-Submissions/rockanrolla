@@ -1,69 +1,97 @@
 
-/*-----------------------------------Font Selection*/
+/*--------------------------------------------Font Selection*/
 
 @import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Anton:100,200,300,400,500,600,700');
 
-/*----------------------------------Main Properties*/
+/*------------------------------------------------------------*/
+/*----------------------------------------Start of Mobile_body*/
+/*------------------------------------------------------------*/
+
+/*----------------------------------------------------Main CSS*/
+/*------------------------------------------------------------*/
+
 body{
     display: flex;
-    justify-content: space-around;
-    flex-wrap:wrap;
-    /*background-color: #0f0f0f;*/
-    /* background-color: red; Only for design purposes*/
+    justify-content: center;
+    flex-wrap: wrap;
+    /*width:100%;*/
+    margin:0;
+    padding:0;
     background-image: url("../pict/bckgr_main.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    	
+	/*background-color: #0f0f0f;*/
+    /* background-color: red; *//*Only for design purposes*/
+    
+    /*background-size: cover;*/
 }
 
 body h1,h2,h3 {
     font-family: monoton, sans-serif;
     color: #fff;
-    background-color: transparent;
     text-transform: uppercase;
 }
 
 header{
     order:1;
-    margin:1px;
+    margin: 0 6%;
     padding:0;
     min-height: 425px;
+    
+    /* padding: 2%; */
+    /*margin:1px;*/
 }
 
 section{
     order:2;
-    margin:1px;
+	margin: 0 6%;
+    /*margin:1px;*/
     padding:0;
-
 }
 
 footer{
     order:3;
-    margin:1px;
+    margin: 6%;
+    /*margin:1px;*/
     padding:0;
     min-height: 150px;
-
 }
 
-/*-------------------------------------------Header*/
-
-.header_css{
+.wrapper{
     display: flex;
+    
+    border: solid 2px yellow;
+    /*Comment when responsive design reviewed*/
+    
+    /*flex-direction: column;*/
+}
+
+/*---------------------------------------------Mobile <header>*/
+/*------------------------------------------------------------*/
+
+.header_container{
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    /*width: 100%;*/
-    margin:0;
+    margin:5px 0 5px;
     padding:0;
+    width: 340px;
+    
+   	/*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+    
+    /*display: flex;*/
+    /*width: 100%;*/
     /*text-align: center;*/
-
 }
 
 .header_title{
     order: 1;
     margin: 0;
-    padding: 0 10px;
-    font-size: 1.7em;
-    text-align: center;
-    border: none;
+    padding: 0;
+    font-size: 2em;
+    text-align: left;
     background-color: transparent;
 }
 
@@ -75,42 +103,44 @@ footer{
 .header_logo{
     order: 3;
     width: 100%;
+    margin-bottom: 10px;
     padding:0;
     background: url("../pict/The Guess Who 1972-74_edit.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 350px;
+    min-height: 400px;
 }
 
-/*------------------------------------------Nav Burguer Btn*/
+/*---------------------------------------------Nav Burguer Btn*/
 
-.header_nav .nav_btn{
+.nav_btn{
     order: 2;
     border: none;
     margin: 0px;
-    padding: 0px;
+    padding: 2px;
 }
 
-.header_nav .nav_btn_content{
+.nav_btn_content{
     display: none;
 }
     
 .header_nav .bar{
     content: "";
-    width: 35px;
-    height: 5px;
+    width: 30px;
+    height: 4px;
     margin: 5px;
+    padding: 0px;
     background-color: #fafafa;
-    border-radius: 15%;
-}
+    border-radius: 50%;
+} /*Warning: class .bar is so common...*/
 
-/*-------------------------------------Nav Toggle*/
+/*--------------------------------------------------Nav Toggle*/
 
 .nav_toggle{
     position: absolute;
     width: 100%;
-    padding: 5% 0;
+    padding: 6% 0;
     left: -100%;
     z-index: 1;
     transition: transform 0.7s ease-in-out;
@@ -147,40 +177,332 @@ footer{
     transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
 }
 
-.header_nav .nav_btn:focus{
+.nav_btn:focus{
     outline: none;
 }
 
-.header_nav .nav_btn:hover .bar{
+.nav_btn:hover .bar{
     background-color: #ed7621;
     background-color: #0f0f0f;
 }
 
-.header_nav .nav_btn:hover +.nav_toggle{
-    transform: translateX(50%);
+.nav_btn:hover +.nav_toggle{
+    transform: translateX(70%);
+    /*transform: translateX(50%);*/
 }
 
-.header_nav .toggle_link:hover{
+.toggle_link:hover{
     color: #0f0f0f;
     background-color: #fff;
 }
 
-/*------------------------------------------Section*/
+/*--------------------------------------------Mobile <section>*/
+/*------------------------------------------------------------*/
 
-.section_title{
-    order:1;
-    margin: 10px;
-    padding: 0;
-    font-size: 2em;
-    text-align: center;
-    border: none;
+.section_container{
+	flex-direction: column;
+   	/*border: solid 2px yellow;*/
+	/*Comment when responsive design reviewed*/
 }
 
 .column_40{
-    order:2;
-    background-color: transparent;
+    order:1;
+    
+    /*width: 60%;*/
+    /*border: solid 2px yellow;*/
+    /*align-items: center;*/
     /*background-color: #fff;*/
     /*opacity: 0.5;*/
+    
+    /*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+}
+
+.column_60{
+    order:2;
+    
+    /*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+    
+    /*width: 60%;*/
+    /*display:flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: justify;*/
+    /*background-color: transparent;*/
+    /*justify-content: center;*/
+    /*background-color: #0f0f0f;*/
+    /*opacity: 0.5;*/
+}
+
+.column_title{
+    order:1;
+    margin: 0;
+    padding: 0;
+    font-size: 1.7em;
+    text-align: center;
+    
+   /*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+    
+    /*width:100%;*/
+    /*border: solid 2px yellow;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*text-overflow: clip;*/
+}
+
+
+			
+
+/*---------------------------------------------Mobile <footer>*/
+/*------------------------------------------------------------*/
+
+.footer_container{
+    /*display: flex;*/
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #fafafa;
+    text-align: center;
+    
+   /*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+    
+    /*opacity: 0.7;*/
+    /*font-family: Anton, sans-serif;*/
+    /*font-size: 1.5em;*/
+    /*background-color: red;*/
+    /*border: solid 2px yellow;*/
+}
+
+.footer_tittle{
+
+}
+
+.footer_tittle_contact{
+	/*order:1;    */
+    display: flex;
+	justify-content: center;
+    padding: 0;
+    font-size: 1.7em;
+    
+	/*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+    
+    /*background-color: #0f0f0f;*/
+    
+    /*margin: 10px;*/
+    /*text-align: center;*/
+    /*opacity: 1;*/
+    /*border: none;*/
+}
+
+.form_tittle_contact:hover{
+	/*background-color: blared;*/
+    color: black;
+}
+
+.footer_form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 340px;
+    height: 250px;
+    margin-bottom: 10px;
+    font-family: Anton, sans-serif;
+    color: #fafafa;
+
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
+    
+    /*order:2;*/
+    /*background-color: #0f0f0f;*/
+    /*opacity: 0.5;*/
+}
+
+.footer_form input{
+    margin: 5px;
+    border-radius: 5%;
+	border: solid 2px #9e9e9f;
+}
+
+.footer_form_input_comments{    
+    height: 150px;
+    margin-bottom: 10px;
+    /*text-overflow: clip;*/
+}
+
+.footer_form_input_comments.break{
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.form_input_submit{
+
+}
+
+.footer_form_input_email{ 
+    margin-bottom: 10px;
+    
+    /*height: 100px;*/
+    /*text-overflow: clip;*/
+}
+
+.footer_tittle_socialmedia{
+   
+   	display: flex;
+	justify-content: center;
+	margin: 10px;
+    padding: 0;
+    font-size: 1.7em;
+    text-align: center;
+    background-color: #68666600;
+  
+   /*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+ 
+   	/*order:3;*/
+    /*border: none;*/
+    /*opacity: 0.5;*/
+}
+      
+.footer_tittle_socialmedia:hover{
+	background-color: red;
+    color: white;
+}
+
+.footer_sm{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    background-color: #0f0f0f;
+    opacity: 0.5;
+    color: #fafafa;
+    text-transform: uppercase;
+    
+   /*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+    
+    /*order:4;*/
+}
+
+.sm_icon {
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fcbk_icon{
+    order:1;
+    background: url("../pict/icons/facebook-4-48.png");
+}
+
+.twt_icon{
+    order:2;
+    background: url("../pict/icons/twitter-4-48.png");
+}
+
+.ytb_icon{
+    order:3;
+    background: url("../pict/icons/youtube-4-48.png");
+}
+
+/*-----------------------------------------------display: none*/
+/*------------------------------------------------------------*/
+
+.footer_info{    
+    display: none;
+    
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
+     
+    /*order:5;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content:space-around;*/
+    /*width: 100%;*/
+    /*max-height: 50px;*/
+    /*margin-top: 10px;*/
+    /*font-family: Anton, sans-serif;*/
+    /*color: #0f0f0f;*/
+    /*background-color: #fafafa;*/
+
+}
+
+.footer_logo_link{
+    order: 1;
+    width:40px;
+    height: 40px;
+    margin: 5px;
+    background: url("../pict/icons/rubik-icon-23.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: flip;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+}
+
+.contact_me{
+    order: 2;
+    margin: 5px;
+}
+
+.footer_thanks{
+    display: none;
+    
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
+   
+ 	order:6;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.text_link>a{
+    text-decoration: none;
+}
+
+.text_link>a:link{
+    color: #ed7621;
+}
+
+/*------------------------------------------------------------*/
+/*------------------------------------------End of Mobile_body*/
+/*------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------*/
+/*--------------------------------------Start of Site contents*/
+/*------------------------------------------------------------*/
+
+/*---------------------------------------HOME section contents*/
+/*------------------------------------------------------------*/
+
+/*"----------------------------Column_40 / Slider "The Albums"*/
+
+.slider {
+    order: 2;
+    width: 340px;
+    margin: 1%;
+    text-align: center;
+    
+   /*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+    
+    /*-webkit-overflow-scrolling: touch; Mobile smooth swipe*/
+    
+    /*height: 475px;*/
+    /*flex-shrink: 0;*/
+    /*overflow: hidden; */
 }
 
 #slide_1{
@@ -208,67 +530,108 @@ footer{
     background-image: url("../pict/album_nav/slide_08.jpg")
 }
 
-.slider {
-    width: 325px;
-    height: 400px;
-    margin: 10px;
-    text-align: center;
-    overflow: hidden;
- 
-}
-
-.slides {
-    display: flex;
-    overflow-x: auto;
-    border-radius: 5px;
-}
-
-.slides::-webkit-scrollbar {
-    width: 10px;
+.slide::-webkit-scrollbar-thumb {
+    background: red;
+    border-color: black;
     height: 10px;
-}
-
-.slides::-webkit-scrollbar-thumb {
-    background: black;
     border-radius: 10px;
 }
 
-.slides::-webkit-scrollbar-track {
-    background: transparent;
+.slider_controls{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
 }
 
-.slides > div{
-    position: relative;
-    flex-shrink: 0;
+.slide_link{
+    content: "";
+    width: 25px;
+    height: 25px;
     margin: 5px;
-    width: 315px;
-    height: 375px;
-    border-radius: 10px;
+    background-color: #626262;
+    border-radius: 50%;
+    cursor:pointer;
+    font-family: Anton, sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    
+    transition: transform 0.2s ease-in-out;
+
+	border: solid 5px red;
+		
+	/*background: transparent;*/
+	/*opacity:0.5; */
+}
+
+.slide_link:hover {
+  	transform: scale(1.3,1.3);
+  	background-color: #fff;
+  	color: #0f0f0f;
+  	
+    /*transform: translateX(70%);*/
+    /*transform: translateX(50%);*/
+        
+    /*transform: background-color: #ed7621;*/
+
+/*    background-color: #ed7621;*/
+/*    background-color: #0f0f0f;*/
+}
+
+.slider_box{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    margin: 7px;
+        
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
+    
+    /*position: relative;*/
+    /*width: 315px;*/
+   
+}
+
+.slider_box > div{
+	border-radius: 5px;
     transform-origin: center center;
     transform: scale(1);
     transition: transform 0.5s;
-}
-
-.slides > div:target {
-  transform: scale(0.8);
+    flex-shrink: 0;
+    height: 400px;
 }
 
 .slide{
     display: flex;
-    flex-direction:column;
-    background-color: transparent;
+    flex-direction: column;
     background-color: white;
+    border-radius: 10px;
     margin:5px;
+    
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
+    
+    /*background-color: transparent;*/
+    /*scroll-behavior: smooth;*/
 }
 
 .album_cover{
     order:1;
-    width: 300px;
     height: 275px;
-    margin: 5px 7px;
+    margin: 5px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
+ 
+    /*width: 300px;*/
+    /*margin: 5px 7px;*/    
 }
 
 .album_title{
@@ -279,307 +642,170 @@ footer{
     align-items: center;
     font-size: 25px;
     color: #0f0f0f;
+
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
+ 
 }
 
 .album_text{
     order:3;
-    margin: 5px 10px;
+    margin: 20px;
+    height: 75px;
+    margin: 5px;
     font-family: Anton, sans-serif;
     color: #0f0f0f;
-}
 
-/*.slider > a {*/
-/*  display: inline-flex;*/
-/*  width: 1.5rem;*/
-/*  height: 1.5rem;*/
-/*  background: transparent;*/
-/*  text-decoration: none;*/
-/*  align-items: center;*/
-/*  justify-content: center;*/
-/*  border-radius: 50%;*/
-/*  margin: 0 0 0.5rem 0;*/
-/*  position: relative;*/
-/*}*/
-/*.slider > a:active {*/
-/*  top: 1px;*/
-/*}*/
-/*.slider > a:focus {*/
-  /*background: #000;*/
-/*}*/
-
-
-.column_60{
-    order:3;
-    color: #fff;
-    font-family: Anton, sans-serif;
-    background-color: red;
-    /*background-color: #0f0f0f;*/
-    /*opacity: 0.5;*/
-}
-
-/*-------------------------------------------Footer*/
-
-.footer_container{
-    margin: 10px 1px 10px;
-    padding: 0;
-    width: 100%;
-    font-family: Anton, sans-serif;
-    /*font-size: 1.5em;*/
-    color: #fafafa;
-    text-align: center;
-}
-
-.footer_form_title{
-    order:1;
-    margin: 10px;
-    padding: 0;
-    font-size: 2em;
-    text-align: center;
-    border: none;
-}
-
-.footer_form{
-    order:2;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    height: 150px;
-    background-color: #0f0f0f;
-    opacity: 0.5;
-    font-family: Anton, sans-serif;
-    color: #fafafa;
-
-}
-
-.footer_form input{
-    margin: 5px;
-}
-/*    word-wrap: break-word;*/
-/*    word-break: break-all;*/
-/*    height: 80px;*/
-/*}*/
-
-.fform_input_comments{    
-    height: 50px;
-    /*text-overflow: clip;*/
-}
-
-.fform_input_comments.break{
-    word-wrap: break-word;
-    word-break: break-all;
-
-}
-/*    height: 50px;*/
-/*    word-wrap: break-word;*/
-/*}*/
-
-.footer_socialmedia_title{
-    order:3;
-    margin: 10px;
-    padding: 0;
-    font-size: 2em;
-    text-align: center;
-    border: none;
-}
-    
-.footer_sm{
-    order:4;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    width: 100%;
-    height: 50px;
-    margin-top: 5px;
-    background-color: #0f0f0f;
-    opacity: 0.5;
-    color: #fafafa;
-    text-transform: uppercase;
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
  
+     /*overflow-y: scroll;*/
 }
 
-.sm_icon {
-    width: 48px;
-    height: 48px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+/*"---------------------Column_60 / .band_history "The History*/
+					
+.band_history{
+	font-family: Anton, sans-serif;
+    color: #fff;
 }
+    				
+/*--------------------------------End of HOME section contents*/
+/*------------------------------------------------------------*/
 
-.fcbk_icon{
-    order:1;
-    background: url("../pict/icons/facebook-4-48.png");
-}
+/*------------------------------------------------------------*/
+/*----------------------------------------End of Site contents*/
+/*------------------------------------------------------------*/
+			
 
-.twt_icon{
-    order:2;
-    background: url("../pict/icons/twitter-4-48.png");
-}
+/*------------------------------------------------------------*/
+/*--------------------------------------Start of Media queries*/
+/*------------------------------------------------------------*/
 
-.ytb_icon{
-    order:3;
-    background: url("../pict/icons/youtube-4-48.png");
-}
-
-.footer_info{
-    order:5;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    width: 100%;
-    max-height: 50px;
-    margin-top: 10px;
-    font-family: Anton, sans-serif;
-    color: #0f0f0f;
-    background-color: #fafafa;
-
-}
-
-.footer_logo_link{
-    order: 1;
-    width:40px;
-    height: 40px;
-    margin: 5px;
-    background: url("../pict/icons/rubik-icon-23.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    animation-name: flip;
-    animation-iteration-count: infinite;
-    animation-duration: 2.5s;
-    animation-timing-function: linear;
-}
-
-.contact_me{
-    order: 2;
-    margin: 5px;
-}
-
-.footer_thanks{
-    order:6;
-    margin-top: 10px;
-    width: 100%;
-}
-
-.text_link>a{
-    text-decoration: none;
-}
-
-.text_link>a:link{
-    color: #ed7621;
-}
-
-
-/*-------------------------------------------------*/
-/*Start of Media queries---------------------------*/
-/*-------------------------------------------------*/
-
-/*Tablet-------------------------------------------*/
-/*-------------------------------------------------*/
+/*-----------------------------------------------------Tablet */
+/*------------------------------------------------------------*/
 
 @media all and (min-device-width : 416px){
     
-/*-------------------------------------------Header*/
-
-header {
-    min-height: 300px;
-}
-
-.header_css{
-    /*display: flex;*/
-    flex-wrap: nowrap;
-    /*flex-flow: row no-wrap;*/
-    /*justify-content: space-around;*/
-    justify-content: flex-start;
-    /*width: 100%;*/
+body{
+    display: flex;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+    /*width:100%;*/
     /*margin:0;*/
     /*padding:0;*/
+    /*background-image: url("../pict/bckgr_main.jpg");*/
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    
+    align-items: center;
+	
+	/*background-color: #0f0f0f;*/
+    /* background-color: red; *//*Only for design purposes*/
+}
+
+.wrapper{    
+
+    /*display:flex;*/
+    /*width:100%;*/
+    /*margin:0;*/
+    /*padding:0;*/
+}
+
+/*---------------------------------------------Tablet <header>*/
+
+.header_container{
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    flex-wrap: nowrap;
+    margin:1% 0 8%;
+    /*padding:0;*/
+    /*width: 340px;*/
+    width:auto;
+    justify-content: space-around;
+    /*justify-content: space-between;*/
+	/*justify-content: flex-start;*/
+
+    align-items: center; 
+    
+    /*border: solid 2px green;*/
+    /*Comment when responsive design reviewed*/
+    
+    /*width: 100%;*/
     /*text-align: center;*/
-    /*background-color: #0f0f0f;*/
-    /*border: 2px solid yellow;*/
-}    
+}
 
 .header_logo{
+    /*order: 3;*/
     order: 1;
-    width: 40%;
-    /*max-height: 100px;*/
-    
+    /*width: 100%;*/
+    min-width: 150px;
+    /*margin-bottom: 10px;*/    
+    /*padding:0;*/
+    /*background: url("../pict/The Guess Who 1972-74_edit.jpg");*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*min-height: 400px;*/
+        	
+    border: solid 2px green;
+    /*Comment when responsive design reviewed*/
+        
+    /*width: 90%;*/
+    /*min-height: 400px;*/
 }
 
 .header_title{
-    order: 2;
-    /*flex-grow: 2;*/
-    /*width: 70%;*/
-    padding-top: 60px;
-    font-family: monoton, sans-serif;
-    font-size: 5em;
-    text-align: left;
-    /*border: 2px solid black;*/
-}
-
-.header_nav{
-    order:3;
-    top:50px;
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content:flex-start;*/
-    /*border: 2px solid black;*/
-}
-
-.header_nav .nav_btn{
-    display:none;
     /*order: 1;*/
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*width: 100%;*/
-    /*text-decoration: none;*/
-    /*font-family: monoton, sans-serif;*/
-    /*font-size: 1.5em;*/
-    /*text-align: left;*/
-    /*color: #fff;*/
-    /*background-color: #0f0f0f;*/
-    /*border: 1px solid #fff;*/
+    order: 2;
+    /*margin: 0;*/
     /*padding: 0;*/
+    /*font-size: 2em;*/
+    font-size: 3.5em;
+	/*text-align: left;*/
+	text-align: center;
+    /*background-color: transparent;*/
+    
+    
+    border: solid 2px green;
+    /*Comment when responsive design reviewed*/
+    
+    /*flex-grow: 2;*/
+    /*width: 60%;*/
+    /*margin: 5%;*/
+    /*padding: 5%;*/
 }
 
-.header_nav .nav_btn_content{
-    /*display: flex;*/
-    /*font-family: monoton, sans-serif;*/
-    /*font-size: 2.5em;*/
-    /*text-align: left;*/
-    /*color: #fff;*/
-    /*background-color: #0f0f0f;*/
-
-}
-
-.header_nav .nav_btn .bar{
-    display: none;
-}
-
-.header_nav .nav_toggle{
-    visibility: visible;
-    /*order: 4;*/
-    right: 40%;
-    /*left: 40%;*/
-    top: 35%;
-    margin-top: 20px;
-    padding: 0;
-    /*border: 1px solid red;*/
-}
-
-
-.header_nav .nav_toggle{
+.nav_toggle{
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*padding: 6% 0;*/
+    padding: 4% 0;
+    /*left: -100%;*/
+    /*z-index: 1;*/
+    /*transition: transform 0.7s ease-in-out;*/
+    
+    margin-top: 150px;
     transform: translateX(100%);
+        
+    border: 1px solid black;
+    /*Comment when responsive design reviewed*/
 }
 
-.header_nav .toggle_menu{
+.nav_btn{
+    display:none;
+}
+
+.toggle_menu{
     /*visibility: visible;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin:0;
+    padding:0;
 }
 
-.header_nav .toggle_item{
+.toggle_item{
     /*visibility: visible;*/
     font-size: 1.5em;
     text-align: center;
@@ -595,18 +821,131 @@ header {
     transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
 }
 
-/*.header_nav .nav_btn:hover +.nav_toggle{*/
-    /*transform: translateX(-140%);*/
-/*}*/
-   
+
+/*--------------------------------------------Tablet <section>*/
+
+.column_title{
+    order:1;
+    margin: 10px;
+    padding: 0;
+    font-size: 2em;
+    text-align: center;
+    border: solid 2px green;
 }
 
-/*Laptop------------------------------------------*/
-/*------------------------------------------------*/
-
-/*@media (min-device-width : 769px){*/
+.section_container{
+    flex-direction:row;
     
-/*------------------------------------------Header*/
+   /*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+}
+
+.column_40{
+    order:1;
+    /*width: 60%;*/
+    /*border: solid 2px yellow;*/
+    /*align-items: center;*/
+    /*background-color: #fff;*/
+    /*opacity: 0.5;*/
+    
+    /*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+}
+
+.column_60{
+    order:2;
+    font-family: Anton, sans-serif;
+    color: #fff;
+    text-align: center;
+    
+    /*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+    
+    /*width: 60%;*/
+    /*display:flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*background-color: transparent;*/
+    /*justify-content: center;*/
+    /*background-color: #0f0f0f;*/
+    /*opacity: 0.5;*/
+}
+
+.column_title{
+    order:1;
+    margin: 0;
+    padding: 0;
+    font-size: 1.7em;
+    text-align: center;
+    
+   /*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+    
+    /*width:100%;*/
+    /*border: solid 2px yellow;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*text-overflow: clip;*/
+}
+
+/*---------------------------------------------Tablet <footer>*/
+
+footer{
+    /*order:3;*/
+    /*margin: 6%;*/
+    margin: 2% 0 0 0;
+    /*margin:1px;*/
+    padding:0;
+    min-height: 150px;
+}
+
+.footer_container{
+    /*display: flex;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*width: 100%;*/
+    /*color: #fafafa;*/
+    /*text-align: center;*/
+    background-color: #626262;
+   	/*border: solid 2px yellow;*/
+    /*Comment when responsive design reviewed*/
+    
+    opacity: 0.7;
+    /*font-family: Anton, sans-serif;*/
+    /*font-size: 1.5em;*/
+    /*background-color: red;*/
+    /*border: solid 2px yellow;*/
+}
+
+
+
+/*------------------------------------------------------Laptop*/
+/*------------------------------------------------------------*/
+
+@media all and (min-device-width : 769px){
+    
+/*----------------------------------------------Laptop <header>*/
+
+.header_title{
+    /*order: 1;*/
+    /*order: 2;*/
+    /*margin: 0;*/
+    /*margin: 5%;*/
+    /*padding: 0;*/
+    /*padding: 5%;*/
+    /*font-size: 2em;*/
+    font-size: 5em;
+	/*text-align: left;*/
+	/*text-align: center;*/
+    /*background-color: transparent;*/
+    
+    border: solid 2px blue;
+    /*Comment when responsive design reviewed*/
+    
+    /*flex-grow: 2;*/
+    /*width: 60%;*/
+}
 
 /*#header_title{*/
 /*    width: 70%;*/
@@ -629,16 +968,24 @@ header {
 /*    display: none;*/
 /*}*/
 
-/*}*/
-
-/*------------------------------------------------*/
-/*End of Media queries----------------------------*/
-/*------------------------------------------------*/
+}
 
 
-/*------------------------------------------------*/
-/*Start of Animations-----------------------------*/
-/*------------------------------------------------*/
+/*---------------------------------------------Laptop <section>*/
+/*-------------------------------------------------------------*/
+
+/*---------------------------------------------Laptop <footer>*/
+/*-------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------*/
+/*-----------------------------------------End of Media queries*/
+/*-------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------*/
+/*------------------------------------------Start of Animations*/
+/*-------------------------------------------------------------*/
 
 @keyframes flip{
     
@@ -652,6 +999,98 @@ to{
  
 }
 
-/*------------------------------------------------*/
-/*End of Animations-------------------------------*/
-/*------------------------------------------------*/
+/*-------------------------------------------------------------*/
+/*s-------------------------------------------End of Animations*/
+/*-------------------------------------------------------------*/
+
+
+/*--------------------*//*ooooooooooo*//*----------------------*/
+/*--------------------*//*   B I N   *//*----------------------*/
+/*--------------------*//*ooooooooooo*//*----------------------*/
+
+/*.column_40{*/
+    /*order:1;*/
+    /*width: 40%;*/
+    /*background-color: transparent;*/
+    /*background-color: #fff;*/
+    /*opacity: 0.5;*/
+    /*border: solid 2px green;*/
+/*}*/
+
+/*.column_60{*/
+    /*order:2;*/
+    /*width: 60%;*/
+    /*color: #fff;*/
+    /*font-family: Anton, sans-serif;*/
+    /*background-color: red;*/
+    /*background-color: #0f0f0f;*/
+    /*opacity: 0.5;*/
+    /*border: solid 2px green;*/
+/*}*/
+
+/*.wrapper{*/
+
+    /*display: flex;*/
+    /*width: auto;*/
+    /*min-width: 600px;*/
+/*} */
+
+/*.header_nav .nav_btn:hover +.nav_toggle{*/
+    /*transform: translateX(-140%);*/
+/*}*/
+   
+/*header {*/
+    /*min-height: 200px;*/
+    /*max-height: 200px;*/
+/*}*/
+
+/*header{*/
+/*    order:1;*/
+/*    margin:1px;*/
+/*    padding:0;*/
+/*    min-height: 425px;*/
+/*}*/
+
+/*.column {*/
+/*	display:flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    background-color: transparent;*/
+/*    text-align: center;*/
+/*    border-color: #34343d;*/
+/*}*/
+
+/*.header_nav .nav_btn:focus{*/
+/*    outline: none;*/
+/*}*/
+
+/*.header_nav .slide_link:hover .bar{*/
+/*    background-color: #ed7621;*/
+/*    background-color: #0f0f0f;*/
+/*}*/
+
+/*.header_nav .toggle_link:hover{*/
+/*    color: #0f0f0f;*/
+/*    background-color: #fff;*/
+/*}*/
+
+/*.slider::-webkit-scrollbar {*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+/*}*/
+
+/*.slides::-webkit-scrollbar-track {*/
+/*    background: transparent;*/
+/*}*/
+
+/*.slider_box > div:target {*/
+/*  transform: scale(0.8);*/
+/*}*/
+
+/*.open_slider{*/
+/*}*/
+
+/*    word-wrap: break-word;*/
+/*    word-break: break-all;*/
+/*    height: 80px;*/
+/*}*/
