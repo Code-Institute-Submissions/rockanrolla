@@ -231,6 +231,10 @@ footer{
     text-align: center;
 }
 
+
+/*-----------------------------------------------display: none*/
+/*------------------------------------------------------------*/
+
 .footer_form{
 	order:2;                                       
     display:flex;
@@ -276,9 +280,9 @@ footer{
    background-color: #9e9e9f;
 }
 
-.column_title.socialmedia{
-    font-size: 1.7em;
-}
+/*------------------------------------------------------------*/
+/*------------------------------------------------------------*/
+
 
 /*.column_title.socialmedia::hover{*/
 /*	background-color: white;*/
@@ -289,29 +293,34 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    width: 100%;
-    /*height: 50px;*/
-    margin-top: 5px;
-    background-color: #0f0f0f;
+    align-items: center;
+    width: 100%;    
+    background-color: #360c0c;
     color: #fafafa;
     text-transform: uppercase;
+}
+
+.column_title.socialmedia{
+    order:0;
+    font-size: 2.5em;
 }
 
 .sm_icon {
     width: 48px;
     height: 48px;
+    margin: 5px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .fcbk_icon{
-    order:1;
+	order:1;
     background: url("../pict/icons/facebook-4-48.png");
 }
 
 .twt_icon{
-    order:2;
+	order:2;
     background: url("../pict/icons/twitter-4-48.png");
 }
 
@@ -337,7 +346,7 @@ footer{
 /*-----------------------------------------------display: none*/
 /*------------------------------------------------------------*/
 
-.footer_info{    
+.footer_design{    
     display: none;
     
     /*border: solid 2px yellow; */
@@ -356,19 +365,23 @@ footer{
 
 }
 
-.footer_logo_link{
-    order: 1;
-    width:40px;
-    height: 40px;
-    margin: 5px;
-    background: url("../pict/icons/rubik-icon-23.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    animation-name: flip;
-    animation-iteration-count: infinite;
-    animation-duration: 2.5s;
-    animation-timing-function: linear;
+.footer_logo{
+	
+	/*border: solid 2px yellow; */
+	/*Comment when responsive design reviewed*/
+	    
+    /*order: 1;*/
+    /*width:40px;*/
+    /*height: 40px;*/
+    /*margin: 5px;*/
+    /*background: url("../pict/icons/rubik-icon-23.png");*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*animation-name: spin;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-duration: 2.5s;*/
+    /*animation-timing-function: linear;*/
 }
 
 .contact_me{
@@ -709,7 +722,6 @@ footer{
 }
 
 .column_title{
-	/*font-size: 2.2em;*/
 	font-size: 2em;
 }
 
@@ -725,18 +737,83 @@ footer{
 .footer_container{
 	flex-direction: row;
 	background-color: #8e16239e;
+	/*margin-bottom: 10px;*/
 	opacity: 0.9;
 }
 
-.footer_container .column_40{
-	width:40%;
-	margin:10px;
+.footer_design{
+	display: flex;
+	order:1;}
+
+.footer_logo{
+	background-image: url("../pict/icons/rubik-icon-23_trnsp_128x128.jpg");
+	opacity: 0.9;
 }
 
 .footer_container .column_60{
+	order:2;
 	width:60%;
-	margin:10px;
+	margin: 10px;
 }
+
+/*.footer_container .column_40{*/
+/*	width:60%;*/
+/*	margin:10px;*/
+
+/*}*/
+
+.column_title{
+    order: 0;
+    /*margin-top: 10px;*/
+    margin:0;
+
+    font-size: 1.8em;
+    text-transform: lowercase;
+}
+
+.column_title .socialmedia{
+	order:1;
+	font-family: Anton, sans-serif;
+	font-size: small;}
+
+/*.footer_design{    */
+/*    display: none;*/
+    
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
+     
+    /*order:5;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content:space-around;*/
+    /*width: 100%;*/
+    /*max-height: 50px;*/
+    /*margin-top: 10px;*/
+    /*font-family: Anton, sans-serif;*/
+    /*color: #0f0f0f;*/
+    /*background-color: #fafafa;*/
+
+/*}*/
+
+/*.footer_logo{*/
+	
+	/*border: solid 2px yellow; */
+	/*Comment when responsive design reviewed*/
+	    
+    /*order: 1;*/
+    /*width:40px;*/
+    /*height: 40px;*/
+    /*margin: 5px;*/
+    /*background: url("../pict/icons/rubik-icon-23.png");*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*animation-name: spin;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-duration: 2.5s;*/
+    /*animation-timing-function: linear;*/
+/*}*/
+
 
 .footer_form{
     flex-direction: column;
@@ -768,12 +845,34 @@ footer{
     align-items: center;
     /*width: 100%;*/
     /*height: 50px;*/
-    height: 200px;
+    height: 125px;
+	border-radius: 25px;
     /*margin-top: 5px;*/
     /*background-color: #0f0f0f;*/
     /*color: #fafafa;*/
     /*text-transform: uppercase;*/
 }
+
+/*.footer_design{    */
+/*    display: flex;*/
+    /*visibility: visible;*/
+    
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
+     
+    /*order:5;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content:space-around;*/
+    /*width: 100%;*/
+    /*max-height: 50px;*/
+    /*margin-top: 10px;*/
+    /*font-family: Anton, sans-serif;*/
+    /*color: #0f0f0f;*/
+    /*background-color: #fafafa;*/
+
+/*}*/
+
 
 /*------------------------------------End Tablet Media queries*/
 /*------------------------------------------------------------*/
@@ -865,6 +964,24 @@ to{
  transform: rotateY(360deg) 
  }
  
+}
+
+
+@keyframes spin{
+	
+    0%{
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    }
+    
+    100%{
+    -moz-transform: rotate(-360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+	}
 }
 
 /*-------------------------------------------------------------*/
