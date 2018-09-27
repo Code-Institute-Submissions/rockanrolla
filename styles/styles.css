@@ -54,7 +54,7 @@ section{
 
 footer{
     order:3;
-    margin: 6%;
+    margin: 6% 0 0 0 ;
     padding:0;
 }
 
@@ -88,9 +88,12 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin:10px 0 5px;
+    /*margin:10px 0 5px;*/
+    margin:10px 0 0;
     padding:0;
     width: 340px;
+    
+    /*border: 1px solid yellow;*/
 }
 
 .header_title{
@@ -208,22 +211,30 @@ footer{
 
 .section_container{
 	flex-direction: column;
-    margin:10px 0 5px;
+    margin: 0px 0 5px;
 }
 
 .column_40{
     order:1;
+    
+    /*border: 1px solid yellow;*/
 }
 
 .column_60{
     order:2;
     text-align: center;
+    
+    /*border: 1px solid yellow;*/
 }
 
 .column_title{
     order:1;
     font-size: 2.2em;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    /*border: 1px solid yellow;*/
 }
 
 /*----------------------------------------------Mobile <footer>*/
@@ -300,8 +311,6 @@ footer{
     display: none;
 }
 
-
-
 /*-------------------------------------------------------------*/
 
 
@@ -344,8 +353,11 @@ footer{
 .slider {
     order: 2;
     width: 340px;
-    margin: 1%;
+    /*margin: 1%;*/
     text-align: center;
+    margin-top: 0;
+    
+    /*border: 1px solid yellow;*/
     
    /*border: solid 2px yellow;*/
     /*Comment when responsive design reviewed*/
@@ -357,38 +369,13 @@ footer{
     /*overflow: hidden; */
 }
 
-#slide_1{
-    background-image: url("../pict/album_nav/slide_01.jpg")
-}
-#slide_2{
-    background-image: url("../pict/album_nav/slide_02.jpg")
-}
-#slide_3{
-    background-image: url("../pict/album_nav/slide_03.jpg")
-}
-#slide_4{
-    background-image: url("../pict/album_nav/slide_04.jpg")
-}
-#slide_5{
-    background-image: url("../pict/album_nav/slide_05.jpg")
-}
-#slide_6{
-    background-image: url("../pict/album_nav/slide_06.jpg")
-}
-#slide_7{
-    background-image: url("../pict/album_nav/slide_07.jpg")
-}
-#slide_8{
-    background-image: url("../pict/album_nav/slide_08.jpg")
-}
-
 .slider_controls{
     display:flex;
     flex-direction: row;
     justify-content: center;
     margin: 10px;
     
-    /*border: solid 2px yellow; */
+    /*border: 1px solid yellow;*/
     /*Comment when responsive design reviewed*/
 }
 
@@ -431,8 +418,12 @@ footer{
     display: flex;
     flex-direction: row;
     overflow-x: auto;
-    margin: 7px;
+    /*margin-right: 7px;*/
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
     align-items: left;
+    
+    /*border: 1px solid yellow;*/
         
     /*border: solid 2px yellow; */
     /*Comment when responsive design reviewed*/
@@ -445,7 +436,7 @@ footer{
 
 .slider_box > div{
 	flex: 1;
-	border-radius: 5px;
+	border-radius: 10px;
 	transition: transform 1s;
     
     -webkit-transition: transform 1s;
@@ -472,6 +463,31 @@ footer{
     /*margin-bottom: auto;*/
     /*background-color: transparent;*/
     /*scroll-behavior: smooth;*/
+}
+
+#slide_1{
+    background-image: url("../pict/album_nav/slide_01.jpg")
+}
+#slide_2{
+    background-image: url("../pict/album_nav/slide_02.jpg")
+}
+#slide_3{
+    background-image: url("../pict/album_nav/slide_03.jpg")
+}
+#slide_4{
+    background-image: url("../pict/album_nav/slide_04.jpg")
+}
+#slide_5{
+    background-image: url("../pict/album_nav/slide_05.jpg")
+}
+#slide_6{
+    background-image: url("../pict/album_nav/slide_06.jpg")
+}
+#slide_7{
+    background-image: url("../pict/album_nav/slide_07.jpg")
+}
+#slide_8{
+    background-image: url("../pict/album_nav/slide_08.jpg")
 }
 
 .album_cover{
@@ -517,15 +533,21 @@ footer{
  
      /*overflow-y: scroll;*/
 }
+
 /*-------------------------------------------------------------*/
 
 /*"----------------------Column_60 / .band_history "The History*/
 					
+.column_60 >span{
+	margin-top:0;
+}
+
 .band_history{
 	font-family: Anton, sans-serif;
     color: #bab7b7;    
     font-size: 1.1em;
     text-align: center;
+    margin-top: 0;
 }
     				
 /*------------------------------------End HOME section contents*/
@@ -567,7 +589,7 @@ footer{
 
 .header_container{
     flex-wrap: nowrap;
-    margin:1% 0 8%;
+    /*margin:1% 0 8%;*/
     width: auto;
     justify-content: space-around;
     align-items: center; 
@@ -635,6 +657,11 @@ footer{
 
 /*---------------------------------------------Tablet <section>*/
 
+.section_container{
+	/*flex-direction: column;*/
+    margin: 15px 0 5px;
+}
+
 /*.column_40{*/
 /*	width: 43%;*/
 /*	margin-left: auto;*/
@@ -666,17 +693,14 @@ footer{
 	opacity: 0.9;
 }
 
-.footer_container .column_40{
+.footer_POBox{
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	/*margin: 10px;*/
 	order:1;
     margin-right: 0;
-    margin-left: 0;
-    width:35%;
-    
-    /*border: solid 2px yellow; */
-    /*Comment when responsive design reviewed*/
-    
-    /*width:20%;*/
-	/*margin: 10px;*/
+    margin-left: 10px;
+    width:20%;
 }
 
 .footer_POBox h4{
@@ -687,48 +711,30 @@ footer{
 	/*letter-spacing: .5em; */
 	text-align: left;
 }
-
-.footer_container .column_60{
-    order:3;
+  
+.footer_socialmedia{
+    order:2;
     margin-right: 0;
     margin-left: 0;
-    width:50%;
-    /*width: 60%;*/
-}
-    
-.footer_socialmedia{
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content:space-around;*/
+    margin-top: 10px;
+    width:55%;
     align-items: center;
-    /*width: 100%;*/
-    /*height: 50px;*/
     height: 125px;
 	border-radius: 25px;
-    /*margin-top: 5px;*/
-    /*background-color: #0f0f0f;*/
-    /*color: #fafafa;*/
-    /*text-transform: uppercase;*/
 }
 
 .footer_design{
 	display: flex;
-	order:2;
+	order:3;
 	width: 15%;
 	margin: 10px;
-	background-image: url("../pict/icons/rubik-icon-23_trnsp_128x128.jpg");
+	background-image: url("../pict/icons/rubik-icon-23_trnsp_100x100.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	
-	/*border: solid 2px yellow;*/
 }
 
 .footer_logo{
-	
-	/*border: solid 2px yellow; */
-	/*Comment when responsive design reviewed*/
-	    
     /*order: 1;*/
     /*width:40px;*/
     /*height: 40px;*/
@@ -741,10 +747,8 @@ footer{
     /*animation-iteration-count: infinite;*/
     /*animation-duration: 2.5s;*/
     /*animation-timing-function: linear;*/
-}
-
-.footer_logo{
-	background-image: url("../pict/icons/facebook-4-48.png");
+    
+    background-image: url("../pict/icons/facebook-4-48.png");
 	opacity: 0.9;
 }
 
@@ -755,12 +759,6 @@ footer{
 .text_link>a:link{
     color: #ed7621;
 }
-
-/*.footer_container .column_40{*/
-/*	width:60%;*/
-/*	margin:10px;*/
-
-/*}*/
 
 .column_title{
     order: 0;
@@ -816,36 +814,10 @@ footer{
 
 }
 
-
-
-
-/*.footer_design{    */
-/*    display: flex;*/
-    /*visibility: visible;*/
-    
-    /*border: solid 2px yellow; */
-    /*Comment when responsive design reviewed*/
-     
-    /*order:5;*/
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content:space-around;*/
-    /*width: 100%;*/
-    /*max-height: 50px;*/
-    /*margin-top: 10px;*/
-    /*font-family: Anton, sans-serif;*/
-    /*color: #0f0f0f;*/
-    /*background-color: #fafafa;*/
-
-/*}*/
-
-
 /*-------------------------------------End Tablet Media queries*/
 /*-------------------------------------------------------------*/
 
 }
-
-
 
 /*-----------------------------------------Laptop Media queries*/
 /*-------------------------------------------------------------*/
