@@ -582,54 +582,120 @@ footer{
 
 @media all and (min-device-width : 416px){
     
+/*html,body{*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-wrap: wrap;*/
+/*    margin:0;*/
+/*    padding:0;*/
+/*    background-image: url("../pict/bckgr_main.jpg");*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;    	*/
+/*}*/
+
 body{
-    display: flex;
-    justify-content: center;
-    background-size: cover;
-    align-items: center; 	
+    align-items: center;
+    max-width: 767px;
 }
+
+/*body h1,h2,h3 {*/
+/*    font-family: monoton, sans-serif;*/
+/*    color: #fff;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*body h4,h5,h6 {*/
+/*    font-family: Anton, sans-serif;*/
+/*    color: #fff;*/
+/*    margin: 0;*/
+/*    padding:0;*/
+    /*text-transform: uppercase;*/
+/*}*/
+
+/*header{*/
+/*    order:1;*/
+/*    margin: 0 6%;*/
+/*    padding:0;*/
+/*    min-height: 425px;*/
+/*}*/
+
+
+/*section{*/
+/*    order:2;*/
+/*	margin: 0 6%;*/
+/*    padding:0;*/
+/*}*/
+
+/*footer{*/
+/*    order:3;*/
+/*    margin: 6% 0 0 0 ;*/
+/*    padding:0;*/
+/*}*/
 
 footer{    
     /*margin: 2% 0 2% 0;*/
     width:100%;
 }
 
+/*#top_back{*/
+/*    position: fixed;*/
+/* 	bottom: 10px;*/
+/*    left: 84%;*/
+/*    width: 10%;*/
+/*    height: 6%;*/
+/*    background-image: url("../pict/icons/buttonup.png");*/
+/*    background-position: center;*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+/*#top_back:hover {*/
+/*        border: solid 2px red;*/
+/*	}*/
+
+
 #top_back{
 	display:none;
 }
 
+/*.wrapper{*/
+/*    display: flex;*/
+/*}*/
+
+
 /*----------------------------------------------Tablet <header>*/
+
+/*.header_container{*/
+/*    flex-direction: row;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-around;*/
+/*    margin:10px 0 5px;*/
+/*    margin:10px 0 0;*/
+/*    padding:0;*/
+/*    width: 340px;*/
+    
+/*    border: 1px solid yellow;*/
+/*}*/
 
 .header_container{
     flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    
+    border: solid 1px green;
+    
     /*margin:1% 0 8%;*/
     /*width: auto;*/
-    width: 100%;
     /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    
-    /*justify-content: space-between;*/
+    /*margin-right: auto;*/ 
     /*align-items: center; */
-    align-items: center;
-    border: solid 1px green;
-}
-
-.header_logo{
-	/*display: none;*/
-    order: 1;
-    /*min-width: 150px;*/
-    /*min-height: 300px;*/
-    border: solid 1px yellow;
-}
-
-.header_title{
-    order: 2;
-    /*width: 70%;*/
-    /*margin-left: 10%;*/
-	/*text-align: left;*/
-	font-size: 4.5em;
-	letter-spacing: 3px;
-	border: solid 1px yellow;
 }
 
 /*.header_title{*/
@@ -640,6 +706,44 @@ footer{
 /*    text-align: left;*/
 /*    background-color: transparent;*/
 /*}*/
+
+.header_title{
+    order: 2;
+    text-align: justify;
+    min-width: 60%;
+	font-size: 4.5em;
+	letter-spacing: 3px;
+	border: solid 1px yellow;
+}
+
+
+/*.header_nav{*/
+/*    order:2;*/
+/*    margin: 4px 0;*/
+/*}*/
+
+
+/*.header_logo{*/
+/*    order: 3;*/
+/*    width: 100%;*/
+/*    margin-bottom: 10px;*/
+/*    padding:0;*/
+/*    background: url("../pict/The Guess Who 1972-74_edit.jpg");*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: contain;*/
+/*    min-height: 400px;*/
+/*}*/
+
+.header_logo{
+    order: 1;
+    min-width: 40%;
+    border: solid 1px yellow;
+    
+    /*display: none;*/
+    /*min-width: 150px;*/
+    /*min-height: 300px;*/
+}
 
 /*---------------------------------------------------Nav Toggle*/
 
@@ -848,14 +952,87 @@ footer{
 /*-------------------------------------------------------------*/
 
 }
-
+/******************************************************************************/
 /*-----------------------------------------Laptop Media queries*/
 /*-------------------------------------------------------------*/
 
-@media all and (min-device-width : 769px){
+@media all and (min-device-width : 768px){
     
+/*html,body{*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-wrap: wrap;*/
+/*    margin:0;*/
+/*    padding:0;*/
+/*    background-image: url("../pict/bckgr_main.jpg");*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;    	*/
+/*}*/
+
+body{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*background-size: cover;*/    
+    align-items: center;
+}
+
+/*body h1,h2,h3 {*/
+/*    font-family: monoton, sans-serif;*/
+/*    color: #fff;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*body h4,h5,h6 {*/
+/*    font-family: Anton, sans-serif;*/
+/*    color: #fff;*/
+/*    margin: 0;*/
+/*    padding:0;*/
+    /*text-transform: uppercase;*/
+/*}*/
+
+
+
+
+
+
 
 /*----------------------------------------------Laptop <header>*/
+
+.header_container{
+    flex-wrap: nowrap;
+    /*margin:1% 0 8%;*/
+    /*width: auto;*/
+    width: 100%;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    
+    /*justify-content: space-between;*/
+    /*align-items: center; */
+    align-items: center;
+    border: solid 1px green;
+}
+
+.header_logo{
+	/*display: none;*/
+    order: 1;
+    /*min-width: 150px;*/
+    /*min-height: 300px;*/
+    border: solid 1px yellow;
+}
+
+.header_title{
+    order: 2;
+    /*width: 70%;*/
+    /*margin-left: 10%;*/
+	/*text-align: left;*/
+	font-size: 4.5em;
+	letter-spacing: 3px;
+	border: solid 1px yellow;
+}
 
 .header_title{
     /*order: 1;*/
@@ -899,24 +1076,226 @@ footer{
 /*}*/
 
 
-/*---------------------------------------------Laptop <section>*/
-/*-------------------------------------------------------------*/
+/*.header_title{*/
+/*    order: 1;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-size: 2em;*/
+/*    text-align: left;*/
+/*    background-color: transparent;*/
+/*}*/
 
+/*---------------------------------------------------Nav Toggle*/
+
+.nav_toggle{
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*padding: 6% 0;*/
+    padding: 4% 0;
+    /*left: -100%;*/
+    /*z-index: 1;*/
+    /*transition: transform 0.7s ease-in-out;*/
+    
+    margin-top: 150px;
+    transform: translateX(100%);
+        
+    /*border: 1px solid black;*/
+    /*Comment when responsive design reviewed*/
+}
+
+.nav_btn{
+    display:none;
+}
+
+.toggle_menu{
+    /*visibility: visible;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0;
+    padding:0;
+}
+
+.toggle_item{
+    /*visibility: visible;*/
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.toggle_link{
+    display: block;
+    text-decoration: none;
+    background-color: #0f0f0f;
+    opacity: 0.8;
+    color: #fff;
+    /*padding: 10px 5px;*/
+    transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
+}
+
+
+/*---------------------------------------------Laptop <section>*/
+
+.section_container{
+	/*flex-direction: column;*/
+    margin: 15px 0 5px;
+}
+
+/*.column_40{*/
+/*	width: 43%;*/
+/*	margin-left: auto;*/
+/*	margin-right: auto;*/
+/*}*/
+	
+.column_60{
+	width: 43%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column_title{
+	/*font-size: 2em;*/
+	font-size: 2.5em;
+	letter-spacing: 3px;
+}
+
+.slider {
+    margin-right: auto;
+    margin-left: auto;
+    width: 43%;
+}
 
 /*----------------------------------------------Laptop <footer>*/
-/*-------------------------------------------------------------*/
+
+.footer_container{
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #8e16239e;
+	opacity: 0.9;
+}
+
+.footer_POBox{
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	/*margin: 10px;*/
+	order:1;
+    margin:10px 0 ;
+    width:20%;
+}
+
+.footer_POBox >h4{
+	font-size: .9em;
+	/*font-size: 15px;*/
+	/*text-align: left;*/
+	margin: 0 0 0px 25px;
+	text-align: left;
+	margin-bottom: 9px;
+}
+
+.footer_POBox .fanclub{
+	font-size: 1.2em;
+	/*font-style: italic;*/
+	margin-bottom: 5px;
+	
+}
+  
+.footer_socialmedia{
+    order:2;
+    margin: 10px 0;
+    width:50%;
+    align-items: center;
+    height: 125px;
+	border-radius: 25px;
+}
+
+.footer_design{
+	display: flex;
+	order:3;
+	width: 15%;
+	margin: 10px 0 ;
+	background-image: url("../pict/icons/rubik-icon-23_trnsp_100x100.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.9;
+}
+
+
+.text_link>a{
+    text-decoration: none;
+}
+
+.text_link>a:link{
+    color: #ed7621;
+}
+
+.text_link>a:hover{
+    color: #ed7621;
+}
+
+.column_title{
+    /*order: 0;*/
+    /*margin-top: 10px;*/
+    /*margin:0;*/
+
+    font-size: 2.8em;
+    /*text-transform: lowercase;*/
+}
+
+/*.column_title.socialmedia{*/
+/*	order:1;*/
+/*	font-family: Anton, sans-serif;*/
+
+/*	font-size: 2.5em;*/
+/*	letter-spacing: 3px;*/
+
+/*.footer_design{    */
+/*    display: none;*/
+    
+    /*border: solid 2px yellow; */
+    /*Comment when responsive design reviewed*/
+     
+    /*order:5;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content:space-around;*/
+    /*width: 100%;*/
+    /*max-height: 50px;*/
+    /*margin-top: 10px;*/
+    /*font-family: Anton, sans-serif;*/
+    /*color: #0f0f0f;*/
+    /*background-color: #fafafa;*/
+
+/*}*/
+
+/*.footer_logo{*/
+	
+	/*border: solid 2px yellow; */
+	/*Comment when responsive design reviewed*/
+	    
+    /*order: 1;*/
+    /*width:40px;*/
+    /*height: 40px;*/
+    /*margin: 5px;*/
+    /*background: url("../pict/icons/rubik-icon-23.png");*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*animation-name: spin;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-duration: 2.5s;*/
+    /*animation-timing-function: linear;*/
+/*}*/
 
 
 /*-------------------------------------End Laptop Media queries*/
 /*-------------------------------------------------------------*/
-
-}
+/******************************************************************************/
 
 /*-------------------------------------------------------------*/
 /*--------------------------------------------End Media queries*/
 /*-------------------------------------------------------------*/
 
-
+}
 
 /*-------------------------------------------------------------*/
 /*------------------------------------------Start of Animations*/
