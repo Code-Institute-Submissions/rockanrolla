@@ -45,8 +45,6 @@ header{
     height: 425px;
     margin: 0 0 5%;
     padding:0;
-    
-    border: solid 1px green;
 }
 
 section{
@@ -112,12 +110,9 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    /*margin:10px 0 5px;*/
     margin:10px 0 0;
     padding:0;
     width: 340px;
-    
-    /*border: 1px solid yellow;*/
 }
 
 .header_title{
@@ -270,8 +265,12 @@ footer{
 	color: #fafafa;
 	margin: 5px 0 0 25px;
 	letter-spacing: .5em; 
-	text-align: left;
-	
+	text-align: left;	
+}
+
+.footer_POBox .fanclub{
+	font-size: 1.2em;
+	margin-bottom: 5px;	
 }
 
 .footer_socialmedia{
@@ -290,7 +289,7 @@ footer{
     text-align: center;
 }
 
-.column_title.socialmedia::hover{
+.column_title.socialmedia:hover{
 	background-color: white;
     color: black;
 }
@@ -876,136 +875,152 @@ footer{
 
 }
 
-/*****************************************************************************/
-/****************MAINTENANCE: REVIEWED TILL THIS POINT************************/
-/***************************2018.10.06****************************************/
-/*****************************************************************************/
-
-
 /*----------------------------------------------Tablet <footer>*/
 
+/*.footer_container{*/
+/*    flex-direction: column;*/
+/*    background-color: #360c0c;*/
+/*    margin: 0 0 10px 0;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*}*/
+
 .footer_container{
-	flex-direction: row;
 	justify-content: space-between;
-	background-color: #8e16239e;
+    align-items: center;
+    background-color: #8e16239e;
 	opacity: 0.9;
 }
 
+/*.footer_POBox{*/
+/*	justify-content: center;*/
+/*	align-items: center;*/
+/*	margin: 10px;*/
+/*}*/
+
 .footer_POBox{
-	/*justify-content: center;*/
-	/*align-items: center;*/
-	/*margin: 10px;*/
-	order:1;
-    margin:10px 0 ;
-    width:20%;
+	order: 2;
+    /*margin: 10px 0;*/
 }
 
+/*.footer_POBox >h4{*/
+/*	font-size: 1em;*/
+/*	width: 100%;*/
+/*	color: #fafafa;*/
+/*	margin: 5px 0 0 25px;*/
+/*	letter-spacing: .5em; */
+/*	text-align: left;	*/
+/*}*/
+
 .footer_POBox >h4{
-	font-size: .9em;
-	/*font-size: 15px;*/
-	/*text-align: left;*/
-	margin: 0 0 0px 25px;
+	font-size: 1.1em;
+	margin: 0 0 0 25px;
+	letter-spacing: .7em;
 	text-align: left;
 	margin-bottom: 9px;
 }
 
+/*.footer_POBox .fanclub{*/
+/*	font-size: 1.2em;*/
+/*	margin-bottom: 5px;	*/
+/*}*/
+ 
 .footer_POBox .fanclub{
-	font-size: 1.2em;
-	/*font-style: italic;*/
-	margin-bottom: 5px;
-	
+	font-size: 1.8em;
 }
-  
+
+/*.footer_socialmedia{*/
+/*    display: flex;*/
+/*    flex-direction: row-reverse;*/
+/*    justify-content: space-evenly;*/
+/*    align-items: center;*/
+/*    width: 100%;    */
+/*    background-color: #360c0c;*/
+/*    color: #fafafa;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
 .footer_socialmedia{
-    order:2;
+    order:1;
     margin: 10px 0;
-    width:50%;
+    width: 95%;
     align-items: center;
     height: 125px;
 	border-radius: 25px;
 }
 
+/*.footer_design{    */
+/*    display: none;*/
+/*}*/
+
 .footer_design{
 	display: flex;
-	order:3;
-	width: 15%;
+	order: 3;
+    height: 100px;
+    width: 100px;
 	margin: 10px 0 ;
 	background-image: url("../pict/icons/rubik-icon-23_trnsp_100x100.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
 	opacity: 0.9;
+    /*animation-name: spin;*/
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
 }
-
-
-.text_link>a{
-    text-decoration: none;
-}
-
-.text_link>a:link{
-    color: #ed7621;
-}
-
-.text_link>a:hover{
-    color: #ed7621;
-}
-
-/*.column_title{*/
-/*    font-size: 2.8em;*/
-/*}*/
 
 /*.column_title.socialmedia{*/
-/*	order:1;*/
-/*	font-family: Anton, sans-serif;*/
+/*    font-size: 1.5em;*/
+/*    text-align: center;*/
+/*}*/
 
-/*	font-size: 2.5em;*/
-/*	letter-spacing: 3px;*/
+/*.column_title.socialmedia::hover{*/
+/*	background-color: white;*/
+/*    color: black;*/
+/*}*/
+
+/*.sm_icon {*/
+/*    width: 48px;*/
+/*    height: 48px;*/
+/*    margin: 5px;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: contain;*/
+/*}*/
+
+/*.fcbk_icon{*/
+/*	order:2;*/
+/*    background: url("../pict/icons/facebook-4-48.png");*/
+/*}*/
+
+/*.twt_icon{*/
+/*	order:3;*/
+/*    background: url("../pict/icons/twitter-4-48.png");*/
+/*}*/
+
+/*.ytb_icon{*/
+/*    order:4;*/
+/*    background: url("../pict/icons/youtube-4-48.png");*/
+/*}*/
+
+/*------------------------------------------------display: none*/
 
 /*.footer_design{    */
 /*    display: none;*/
-    
-    /*border: solid 2px yellow; */
-    /*Comment when responsive design reviewed*/
-     
-    /*order:5;*/
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content:space-around;*/
-    /*width: 100%;*/
-    /*max-height: 50px;*/
-    /*margin-top: 10px;*/
-    /*font-family: Anton, sans-serif;*/
-    /*color: #0f0f0f;*/
-    /*background-color: #fafafa;*/
-
 /*}*/
-
-/*.footer_logo{*/
-	
-	/*border: solid 2px yellow; */
-	/*Comment when responsive design reviewed*/
-	    
-    /*order: 1;*/
-    /*width:40px;*/
-    /*height: 40px;*/
-    /*margin: 5px;*/
-    /*background: url("../pict/icons/rubik-icon-23.png");*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: contain;*/
-    /*animation-name: spin;*/
-    /*animation-iteration-count: infinite;*/
-    /*animation-duration: 2.5s;*/
-    /*animation-timing-function: linear;*/
-/*}*/
-
-
 
 /*-------------------------------------End Tablet Media queries*/
 /*-------------------------------------------------------------*/
 
 }
-/******************************************************************************/
+
+/*****************************************************************************/
+/****************Responsive Design REVIEWED point*****************************/
+/***************************2018.10.07****************************************/
+/*****************************************************************************/
+
+
 /*-----------------------------------------Laptop Media queries*/
 /*-------------------------------------------------------------*/
 
@@ -1339,6 +1354,19 @@ body{
     /*animation-timing-function: linear;*/
 /*}*/
 
+/* Added greetings text properties*/
+
+.text_link>a{
+    text-decoration: none;
+}
+
+.text_link>a:link{
+    color: #ed7621;
+}
+
+.text_link>a:hover{
+    color: #ed7621;
+}
 
 /*-------------------------------------End Laptop Media queries*/
 /*-------------------------------------------------------------*/
