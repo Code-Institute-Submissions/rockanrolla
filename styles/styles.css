@@ -24,30 +24,34 @@ body{
     background-repeat: no-repeat;    	
 }
 
-body h1,h2,h3 {
-    font-family: monoton, sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-body h4,h5,h6 {
-    font-family: Anton, sans-serif;
+body h1,h2,h3,h4,h5,h6{
     color: #fff;
     margin: 0;
     padding:0;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
+    display: flex;
+}
+
+body h1,h2,h3{
+    font-family: monoton, sans-serif;
+}
+
+body h4,h5,h6{
+    font-family: Anton, sans-serif;
 }
 
 header{
     order:1;
-    margin: 0 6%;
+    height: 425px;
+    margin: 0 0 5%;
     padding:0;
-    min-height: 425px;
+    
+    border: solid 1px green;
 }
 
 section{
     order:2;
-	margin: 0 6%;
+	margin: 5% 0;
     padding:0;
 }
 
@@ -135,7 +139,7 @@ footer{
     width: 100%;
     margin-bottom: 10px;
     padding:0;
-    background: url("../pict/The Guess Who 1972-74_edit.jpg");
+    background: url("../pict/The Guess Who 1972-74_250x282.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -151,10 +155,6 @@ footer{
     padding: 2px;
 }
 
-.nav_btn_content{
-    display: none;
-}
-    
 .header_nav .bar{
     content: "";
     width: 30px;
@@ -179,11 +179,9 @@ footer{
 .nav_toggle ul li{
     list-style: none;
     padding: 0;
-    /*background-color: #fff;*/
 }   
     
 .toggle_menu{
-    /*display:inherit;*/
     width: 100%;
     margin:0;
     padding: 0;
@@ -193,8 +191,8 @@ footer{
     width: 100%;
     font-family: monoton, sans-serif;
     font-size: 2.24em;
-    color: #fafafa;
     text-align: right;
+    color: #fafafa;
 }
 
 .toggle_link{
@@ -212,13 +210,11 @@ footer{
 }
 
 .nav_btn:hover .bar{
-    background-color: #ed7621;
     background-color: #0f0f0f;
 }
 
 .nav_btn:hover +.nav_toggle{
     transform: translateX(70%);
-    /*transform: translateX(50%);*/
 }
 
 .toggle_link:hover{
@@ -236,15 +232,11 @@ footer{
 
 .column_40{
     order:1;
-    
-    /*border: 1px solid yellow;*/
 }
 
 .column_60{
     order:2;
     text-align: center;
-    
-    /*border: 1px solid yellow;*/
 }
 
 .column_title{
@@ -253,15 +245,10 @@ footer{
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    
-    /*border: 1px solid yellow;*/
 }
 
 /*----------------------------------------------Mobile <footer>*/
 /*-------------------------------------------------------------*/
-
-/*.wrapper.footer_container{*/
-/*	margin:0}*/
 
 .footer_container{
     flex-direction: column;
@@ -341,11 +328,6 @@ footer{
 /*-------------------------------------------------------------*/
 
 
-
-
-
-
-
 /*-------------------------------------------------------------*/
 /*----------------------------------------------End Mobile_body*/
 /*-------------------------------------------------------------*/
@@ -363,20 +345,8 @@ footer{
 .slider {
     order: 2;
     width: 340px;
-    /*margin: 1%;*/
     text-align: center;
     margin-top: 0;
-    
-    /*border: 1px solid yellow;*/
-    
-   /*border: solid 2px yellow;*/
-    /*Comment when responsive design reviewed*/
-    
-    /*-webkit-overflow-scrolling: touch; Mobile smooth swipe*/
-    
-    /*height: 475px;*/
-    /*flex-shrink: 0;*/
-    /*overflow: hidden; */
 }
 
 .slider_controls{
@@ -384,9 +354,6 @@ footer{
     flex-direction: row;
     justify-content: center;
     margin: 10px;
-    
-    /*border: 1px solid yellow;*/
-    /*Comment when responsive design reviewed*/
 }
 
 .slide_link{
@@ -507,12 +474,6 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    /*border: solid 2px yellow; */
-    /*Comment when responsive design reviewed*/
- 
-    /*width: 300px;*/
-    /*margin: 5px 7px;*/    
 }
 
 .album_title{
@@ -523,10 +484,6 @@ footer{
     align-items: center;
     font-size: 25px;
     color: #0f0f0f;
-
-    /*border: solid 2px yellow; */
-    /*Comment when responsive design reviewed*/
- 
 }
 
 .album_text{
@@ -537,18 +494,13 @@ footer{
     font-family: Anton, sans-serif;
     color: #0f0f0f;
     text-align: center;
-
-    /*border: solid 2px yellow; */
-    /*Comment when responsive design reviewed*/
- 
-     /*overflow-y: scroll;*/
 }
 
 /*-------------------------------------------------------------*/
 
 /*"----------------------Column_60 / .band_history "The History*/
 					
-.column_60 >span{
+.column_60 >article{
 	margin-top:0;
 }
 
@@ -599,8 +551,16 @@ footer{
 
 body{
     align-items: center;
-    max-width: 767px;
+    max-width: 767px; 
+    justify-content: flex-start;
+    background-color: #000000;
+    background-size: contain;
 }
+
+/*body >header{*/
+/*    justify-content: center;*/
+/*    align-self: flex-start;*/
+/*}*/
 
 /*body h1,h2,h3 {*/
 /*    font-family: monoton, sans-serif;*/
@@ -623,12 +583,23 @@ body{
 /*    min-height: 425px;*/
 /*}*/
 
+header{
+    /*height: unset;*/
+    height: 150px;
+    margin:0;
+}
 
 /*section{*/
 /*    order:2;*/
-/*	margin: 0 6%;*/
+/*	margin: 5% 0;*/
 /*    padding:0;*/
 /*}*/
+
+section{
+    margin-top: 5%;
+    justify-content: center;
+    margin-left: 10%;
+}
 
 /*footer{*/
 /*    order:3;*/
@@ -639,6 +610,7 @@ body{
 footer{    
     /*margin: 2% 0 2% 0;*/
     width:100%;
+    justify-content: center;
 }
 
 /*#top_back{*/
@@ -657,7 +629,6 @@ footer{
 /*#top_back:hover {*/
 /*        border: solid 2px red;*/
 /*	}*/
-
 
 #top_back{
 	display:none;
@@ -687,9 +658,9 @@ footer{
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    height: 250px;
+    height: unset;
     
-    border: solid 1px green;
+    /*border: solid 1px green;*/
     
     /*margin:1% 0 8%;*/
     /*width: auto;*/
@@ -710,18 +681,16 @@ footer{
 .header_title{
     order: 2;
     text-align: justify;
+    text-overflow: ellipsis;
     min-width: 60%;
-	font-size: 4.5em;
+	font-size: 2.2em;
 	letter-spacing: 3px;
-	border: solid 1px yellow;
 }
-
 
 /*.header_nav{*/
 /*    order:2;*/
 /*    margin: 4px 0;*/
 /*}*/
-
 
 /*.header_logo{*/
 /*    order: 3;*/
@@ -738,91 +707,180 @@ footer{
 .header_logo{
     order: 1;
     min-width: 40%;
-    border: solid 1px yellow;
-    
-    /*display: none;*/
-    /*min-width: 150px;*/
-    /*min-height: 300px;*/
-}
+    min-height:unset;
+    height: 140px;
+    /*background-size: cover;*/
+}  
 
 /*---------------------------------------------------Nav Toggle*/
 
+/*.nav_toggle{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    padding: 6% 0;*/
+/*    left: -100%;*/
+/*    z-index: 1;*/
+/*    transition: transform 0.7s ease-in-out;*/
+/*}*/
+
 .nav_toggle{
-    /*position: absolute;*/
-    /*width: 100%;*/
-    /*padding: 6% 0;*/
-    padding: 4% 0;
-    /*left: -100%;*/
-    /*z-index: 1;*/
-    /*transition: transform 0.7s ease-in-out;*/
-    
-    margin-top: 150px;
+    margin-top: 75px;
+    padding: 0;
     transform: translateX(100%);
-        
-    /*border: 1px solid black;*/
-    /*Comment when responsive design reviewed*/
 }
+
+/*.nav_toggle ul li{*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*}   */
+
+/*.nav_btn{*/
+/*    order: 2;*/
+/*    border: none;*/
+/*    margin: 0px;*/
+/*    padding: 2px;*/
+/*}*/
 
 .nav_btn{
     display:none;
 }
 
+/*.toggle_menu{*/
+/*    width: 100%;*/
+/*    margin:0;*/
+/*    padding: 0;*/
+/*}*/
+
 .toggle_menu{
-    /*visibility: visible;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin:0;
-    padding:0;
 }
 
+/*.toggle_item{*/
+/*    width: 100%;*/
+/*    font-family: monoton, sans-serif;*/
+/*    font-size: 2.24em;*/
+/*    text-align: right;*/
+/*    color: #fafafa;*/
+/*}*/
+
 .toggle_item{
-    /*visibility: visible;*/
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
 }
 
+/*.toggle_link{*/
+/*    display: block;*/
+/*    text-decoration: none;*/
+/*    background-color: #0f0f0f;*/
+/*    opacity: 0.8;*/
+/*    color: #fff;*/
+/*    padding: 10px 5px;*/
+/*    transition: color 0.5s ease-in-out, background-color 1s ease-in-out;*/
+/*}*/
+
 .toggle_link{
-    display: block;
-    text-decoration: none;
-    background-color: #0f0f0f;
-    opacity: 0.8;
-    color: #fff;
-    /*padding: 10px 5px;*/
-    transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
+    padding: 0;
 }
 
+/*.nav_btn:focus{*/
+/*    outline: none;*/
+/*}*/
+
+/*.nav_btn:hover .bar{*/
+/*    background-color: #0f0f0f;*/
+/*}*/
+
+/*.nav_btn:hover +.nav_toggle{*/
+/*    transform: translateX(70%);*/
+/*}*/
+
+/*.toggle_link:hover{*/
+/*    color: #0f0f0f;*/
+/*    background-color: #fff;*/
+/*}*/
 
 /*---------------------------------------------Tablet <section>*/
 
+/*.section_container{*/
+/*	flex-direction: column;*/
+/*    margin: 0px 0 5px;*/
+/*}*/
+
 .section_container{
-	/*flex-direction: column;*/
-    margin: 15px 0 5px;
+    margin: 10px 0 0px;
+    width: 15%
 }
 
 /*.column_40{*/
-/*	width: 43%;*/
-/*	margin-left: auto;*/
-/*	margin-right: auto;*/
+/*    order:1;*/
 /*}*/
-	
-.column_60{
-	width: 43%;
-	margin-left: auto;
-	margin-right: auto;
+
+.column_40{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 0 10px;
 }
+
+/*.column_60{*/
+/*    order:2;*/
+/*    text-align: center;*/
+/*}*/
+
+.column_60{
+	margin: 0;
+	width: 100%;
+}
+
+/*.column_title{*/
+/*    order:1;*/
+/*    font-size: 2.2em;*/
+/*    text-align: center;*/
+/*    margin-top: 0;*/
+/*    margin-bottom: 0;*/
+/*}*/
 
 .column_title{
-	/*font-size: 2em;*/
-	font-size: 2.5em;
+    justify-content: center;
+    font-size: 1.8em;
 	letter-spacing: 3px;
+    margin: 15px 0;
 }
 
+/*.slider {*/
+/*    order: 2;*/
+/*    width: 340px;*/
+/*    text-align: center;*/
+/*    margin-top: 0;*/
+/*}*/
+
 .slider {
-    margin-right: auto;
-    margin-left: auto;
-    width: 43%;
+    width: auto;
 }
+
+/*.album_cover{*/
+/*    order:1;*/
+/*    height: 275px;*/
+/*    margin: 5px;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;  */
+/*}*/
+
+.album_cover{
+    height: 60px;
+    margin: 5px;
+
+}
+
+/*****************************************************************************/
+/****************MAINTENANCE: REVIEWED TILL THIS POINT************************/
+/***************************2018.10.06****************************************/
+/*****************************************************************************/
+
 
 /*----------------------------------------------Tablet <footer>*/
 
@@ -892,14 +950,9 @@ footer{
     color: #ed7621;
 }
 
-.column_title{
-    /*order: 0;*/
-    /*margin-top: 10px;*/
-    /*margin:0;*/
-
-    font-size: 2.8em;
-    /*text-transform: lowercase;*/
-}
+/*.column_title{*/
+/*    font-size: 2.8em;*/
+/*}*/
 
 /*.column_title.socialmedia{*/
 /*	order:1;*/
