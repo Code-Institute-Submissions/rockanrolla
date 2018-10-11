@@ -70,8 +70,9 @@ footer{
     position: fixed;
  	bottom: 10px;
     left: 84%;
-    width: 10%;
-    height: 6%;
+    width: 40px;
+    height: 40px;
+    border: solid 2px white;
     background-image: url("../pict/icons/buttonup.png");
     background-position: center;
     background-size: contain;
@@ -1506,6 +1507,9 @@ footer{
 /*    display: none;*/
 /*}*/
 
+/*-------------------------------------------------------------*/
+
+
 /*-------------------------------HOME section contents (MQ768)*/
 /*------------------------------------------------------------*/
 
@@ -1861,6 +1865,11 @@ footer{
 /*	width: 100%;*/
 /*}*/
 
+.column_60{
+	width: 80%;
+}
+
+
 /*.column_title{*/
 /*    order:1;*/
 /*    font-size: 2.2em;*/
@@ -1897,6 +1906,10 @@ footer{
 /*    margin-left: auto;*/
 /*    margin-right: auto;*/
 /*}*/
+
+.slider {
+    width: 80%;
+}
 
 /*.album_cover{*/
 /*    order:1;*/
@@ -2096,13 +2109,38 @@ footer{
 /*    display: none;*/
 /*}*/
 
+/*-------------------------------------------------------------*/
+
+/*-------------------------------HOME section contents (MQ768)*/
+/*------------------------------------------------------------*/
+
+/*"----------------------Column_60 / .band_history "The History*/
+					
+/*.column_60 >article{*/
+/*	margin-top:0;*/
+/*}*/
+
+/*.band_history{*/
+/*	font-family: Anton, sans-serif;*/
+/*    color: #bab7b7;    */
+/*    font-size: 1.1em;*/
+/*    text-align: center;*/
+/*    margin-top: 0;*/
+/*}*/
+ 
+/*.band_history{  */
+/*    font-size: 1.3em;*/
+/*}*/
+
+.band_history{  
+    font-size: 1.5em;
+}
+      				
+/*----------------------------End HOME section contents (MQ768)*/
+/*-------------------------------------------------------------*/
+
 }
 
-
-/*==================================================================*/
-/*               Responsive Design REVIEW point                     */
-/*                           2018.10.10                             */
-/*==================================================================*/
 
 /*==================================================================*/
 /*==============================================End of Media queries*/
@@ -2124,6 +2162,11 @@ to{
  }
  
 }
+
+/*==================================================================*/
+/*               Responsive Design REVIEW point                     */
+/*                           2018.10.11                             */
+/*==================================================================*/
 
 
 @keyframes spin{
@@ -2224,6 +2267,21 @@ to{
 
 /*-------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------*/
+
+/*<!--FORM "CONTACT"------TO CONTACT PAGE----------------------->*/
+/*<!--<div class="column_40">-->*/
+/*    <!--<h2 class="column_title contact">THE INVASORS</h2>-->*/
+/*    <!-- <form class="footer_form">-->*/
+/*    <!--     <label for="comments">Comments</label>-->*/
+/*    <!--     <input type="text" name="comments" class="footer_form_comments" id="comments" placeholder="Please, insert your comments"/>-->*/
+/*    <!--     <label for="email">Your Email</label>-->*/
+/*    <!--     <input type="text" name="email" class="footer_form_email" id="email" placeholder="No need to... but please, if you wish, insert your Email"/>-->*/
+/*    <!--     <input type="submit"  class="footer_form_submit" value="Submit"/>-->*/
+/*    <!--</form>-->                   */
+/*<!--</div>-->*/
+/*<!-- ------------------------------------------------------------ -->*/
+
+
 
     		/*----------------------------bin------------------------------*/
 			/*-------------------------------------------------------------*/
