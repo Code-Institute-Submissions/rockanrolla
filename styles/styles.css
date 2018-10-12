@@ -139,7 +139,7 @@ footer{
     padding: 0px;
     background-color: #fafafa;
     border-radius: 50%;
-} 	   /*Warning: class .bar is so common...*/
+}
 
 /*---------------------------------------------------Nav Toggle*/
 
@@ -344,45 +344,19 @@ footer{
     text-decoration: none;
     
     transition: transform 0.2s ease-in-out;
-
-	border: solid 5px red;
-		
-	/*background: transparent;*/
-	/*opacity:0.5; */
 }
 
 .slide_link:hover {
   	transform: scale(1.3,1.3);
   	background-color: #fff;
   	color: #0f0f0f;
-  	
-    /*transform: translateX(70%);*/
-    /*transform: translateX(50%);*/
-        
-    /*transform: background-color: #ed7621;*/
-
-/*    background-color: #ed7621;*/
-/*    background-color: #0f0f0f;*/
 }
 
 .slider_box{
     display: flex;
     flex-direction: row;
     overflow-x: auto;
-    /*margin-right: 7px;*/
-    /*margin-right: auto;*/
-    /*margin-left: auto;*/
     align-items: left;
-    
-    /*border: 1px solid yellow;*/
-        
-    /*border: solid 2px yellow; */
-    /*Comment when responsive design reviewed*/
-    
-    /*text-align: left;*/
-    /*position: relative;*/
-    /*width: 315px;*/
-   
 }
 
 .slider_box > div{
@@ -406,14 +380,6 @@ footer{
     background-color: white;
     border-radius: 10px;
     margin:5px;
-    
-    /*border: solid 2px yellow; */
-    /*Comment when responsive design reviewed*/
-	
-    /*margin-top: auto;*/
-    /*margin-bottom: auto;*/
-    /*background-color: transparent;*/
-    /*scroll-behavior: smooth;*/
 }
 
 #slide_1{
@@ -470,8 +436,6 @@ footer{
     text-align: center;
 }
 
-/*-------------------------------------------------------------*/
-
 /*"----------------------Column_60 / .band_history "The History*/
 					
 .column_60 >article{
@@ -488,6 +452,89 @@ footer{
     				
 /*------------------------------------End HOME section contents*/
 
+/*------------------------------------PICTURES section contents*/
+
+.gallery{
+    order: 2;
+    width: 340px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.gallery_box{
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;        
+}
+
+.gallery_box > div{
+	border-radius: 10px;
+	transition: transform 1s;
+    margin: 10px;
+    background-color: transparent;
+    -webkit-transition: transform 1s;
+	-moz-transition: transform 1s;
+	-o-transition: transform 1s;
+}
+
+.gallery_box > div:hover{    
+    transform-origin: center left;
+    transform: scale(1.1);
+}
+
+.gallery_pict{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    margin:5px;
+}
+
+.picture{
+    order:1;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#pict_1{
+    background-image: url("/pict/pict_nav/pict_01.jpg")
+}
+#pict_2{
+    background-image: url("/pict/pict_nav/pict_02.jpg")
+}
+#pict_3{
+    background-image: url("/pict/pict_nav/pict_03.jpg")
+}
+#pict_4{
+    background-image: url("/pict/pict_nav/pict_04.jpg")
+}
+#pict_5{
+    background-image: url("/pict/pict_nav/pict_05.jpg")
+}
+#pict_6{
+    background-image: url("/pict/pict_nav/pict_06.jpg")
+}
+#pict_7{
+    background-image: url("/pict/pict_nav/pict_07.jpg")
+}
+#pict_8{
+    background-image: url("/pict/pict_nav/pict_08.jpg")
+}
+#pict_9{
+    background-image: url("/pict/pict_nav/pict_09.jpg")
+}
+
+
+.pict_text{}
+/*------------------------------------End PICTURES section contents*/
+
+
 /*==================================================================*/
 /*End Site contents=================================================*/
 /*==================================================================*/
@@ -495,6 +542,8 @@ footer{
 /*==================================================================*/
 /*End of Body Mobile approach=======================================*/
 /*==================================================================*/
+
+
 
 /*==================================================================*/
 /*Start of Media queries============================================*/
@@ -506,52 +555,11 @@ footer{
 
 @media all and (min-device-width : 416px){
     
-/*html,body{*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-/*body{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    flex-wrap: wrap;*/
-/*    margin:0;*/
-/*    padding:0;*/
-/*    background-image: url("../pict/bckgr_main.jpg");*/
-/*    background-size: cover;*/
-/*    background-repeat: no-repeat;    	*/
-/*}*/
-
 body{
     align-items: center;
     background-color: #000000;
     background-size: contain;
 }
-
-/*body >header{*/
-/*    justify-content: center;*/
-/*    align-self: flex-start;*/
-/*}*/
-
-/*body h1,h2,h3 {*/
-/*    font-family: monoton, sans-serif;*/
-/*    color: #fff;*/
-/*    text-transform: uppercase;*/
-/*}*/
-
-/*body h4,h5,h6 {*/
-/*    font-family: Anton, sans-serif;*/
-/*    color: #fff;*/
-/*    margin: 0;*/
-/*    padding:0;*/
-    /*text-transform: uppercase;*/
-/*}*/
-
-/*header{*/
-/*    order:1;*/
-/*    margin: 0 6%;*/
-/*    padding:0;*/
-/*    min-height: 425px;*/
-/*}*/
 
 header{
     height: 150px;
@@ -559,68 +567,22 @@ header{
     width: 100%;
 }
 
-/*section{*/
-/*    order:2;*/
-/*	margin: 5% 0;*/
-/*    padding:0;*/
-/*}*/
-
 section{
     margin-top: 5%;
     justify-content: center;
     width: 100%;
 }
 
-/*footer{*/
-/*    order:3;*/
-/*    margin: 6% 0 0 0 ;*/
-/*    padding:0;*/
-/*}*/
-
 footer{    
     width:100%;
     justify-content: center;
 }
 
-/*#top_back{*/
-/*    position: fixed;*/
-/* 	bottom: 10px;*/
-/*    left: 84%;*/
-/*    width: 10%;*/
-/*    height: 6%;*/
-/*    background-image: url("../pict/icons/buttonup.png");*/
-/*    background-position: center;*/
-/*    background-size: contain;*/
-/*    background-repeat: no-repeat;*/
-/*    border-radius: 50%;*/
-/*}*/
-
-/*#top_back:hover {*/
-/*        border: solid 2px red;*/
-/*	}*/
-
 #top_back{
 	display:none;
 }
 
-/*.wrapper{*/
-/*    display: flex;*/
-/*}*/
-
-
 /*----------------------------------------------Tablet <header>*/
-
-/*.header_container{*/
-/*    flex-direction: row;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: space-around;*/
-/*    margin:10px 0 5px;*/
-/*    margin:10px 0 0;*/
-/*    padding:0;*/
-/*    width: 340px;*/
-    
-/*    border: 1px solid yellow;*/
-/*}*/
 
 .header_container{
     flex-wrap: nowrap;
@@ -629,15 +591,6 @@ footer{
     justify-content: space-between;
     height: unset;
 }
-
-/*.header_title{*/
-/*    order: 1;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    font-size: 2em;*/
-/*    text-align: left;*/
-/*    background-color: transparent;*/
-/*}*/
 
 .header_title{
     order: 2;
@@ -648,23 +601,6 @@ footer{
 	letter-spacing: 3px;
 }
 
-/*.header_nav{*/
-/*    order:2;*/
-/*    margin: 4px 0;*/
-/*}*/
-
-/*.header_logo{*/
-/*    order: 3;*/
-/*    width: 100%;*/
-/*    margin-bottom: 10px;*/
-/*    padding:0;*/
-/*    background: url("../pict/The Guess Who 1972-74_edit.jpg");*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: contain;*/
-/*    min-height: 400px;*/
-/*}*/
-
 .header_logo{
     order: 1;
     min-width: 40%;
@@ -674,42 +610,15 @@ footer{
 
 /*---------------------------------------------------Nav Toggle*/
 
-/*.nav_toggle{*/
-/*    position: absolute;*/
-/*    width: 100%;*/
-/*    padding: 6% 0;*/
-/*    left: -100%;*/
-/*    z-index: 1;*/
-/*    transition: transform 0.7s ease-in-out;*/
-/*}*/
-
 .nav_toggle{
     margin-top: 75px;
     padding: 0;
     transform: translateX(100%);
 }
 
-/*.nav_toggle ul li{*/
-/*    list-style: none;*/
-/*    padding: 0;*/
-/*}   */
-
-/*.nav_btn{*/
-/*    order: 2;*/
-/*    border: none;*/
-/*    margin: 0px;*/
-/*    padding: 2px;*/
-/*}*/
-
 .nav_btn{
     display:none;
 }
-
-/*.toggle_menu{*/
-/*    width: 100%;*/
-/*    margin:0;*/
-/*    padding: 0;*/
-/*}*/
 
 .toggle_menu{
     display: flex;
@@ -717,64 +626,20 @@ footer{
     justify-content: space-between;
 }
 
-/*.toggle_item{*/
-/*    width: 100%;*/
-/*    font-family: monoton, sans-serif;*/
-/*    font-size: 2.24em;*/
-/*    text-align: right;*/
-/*    color: #fafafa;*/
-/*}*/
-
 .toggle_item{
     font-size: 1em;
     text-align: center;
 }
 
-/*.toggle_link{*/
-/*    display: block;*/
-/*    text-decoration: none;*/
-/*    background-color: #0f0f0f;*/
-/*    opacity: 0.8;*/
-/*    color: #fff;*/
-/*    padding: 10px 5px;*/
-/*    transition: color 0.5s ease-in-out, background-color 1s ease-in-out;*/
-/*}*/
-
 .toggle_link{
     padding: 0;
 }
 
-/*.nav_btn:focus{*/
-/*    outline: none;*/
-/*}*/
-
-/*.nav_btn:hover .bar{*/
-/*    background-color: #0f0f0f;*/
-/*}*/
-
-/*.nav_btn:hover +.nav_toggle{*/
-/*    transform: translateX(70%);*/
-/*}*/
-
-/*.toggle_link:hover{*/
-/*    color: #0f0f0f;*/
-/*    background-color: #fff;*/
-/*}*/
-
 /*---------------------------------------------Tablet <section>*/
-
-/*.section_container{*/
-/*	flex-direction: column;*/
-/*    margin: 0px 0 5px;*/
-/*}*/
 
 .section_container{
     margin: 10px 0 0px;
 }
-
-/*.column_40{*/
-/*    order:1;*/
-/*}*/
 
 .column_40{
     display:flex;
@@ -784,23 +649,10 @@ footer{
     margin: 0 0 10px;
 }
 
-/*.column_60{*/
-/*    order:2;*/
-/*    text-align: center;*/
-/*}*/
-
 .column_60{
 	margin: 0;
 	width: 100%;
 }
-
-/*.column_title{*/
-/*    order:1;*/
-/*    font-size: 2.2em;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*    margin-bottom: 0;*/
-/*}*/
 
 .column_title{
     justify-content: center;
@@ -809,12 +661,10 @@ footer{
     margin: 15px 0;
 }
 
-/*.slider {*/
-/*    order: 2;*/
-/*    width: 340px;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*}*/
+/*----------------------------HOME section contents (MQ Tablet)*/
+/*-------------------------------------------------------------*/
+
+/*"-----------------------------Column_40 / .slider "The Albums*/
 
 .slider {
     width: 95%;
@@ -822,28 +672,14 @@ footer{
     margin-right: auto;
 }
 
-/*.album_cover{*/
-/*    order:1;*/
-/*    height: 275px;*/
-/*    margin: 5px;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;  */
-/*}*/
-
 .album_cover{
     height: 150px;
 }
 
-/*----------------------------------------------Tablet <footer>*/
+/*------------------------End HOME section contents (MQ Tablet)*/
+/*-------------------------------------------------------------*/
 
-/*.footer_container{*/
-/*    flex-direction: column;*/
-/*    background-color: #360c0c;*/
-/*    margin: 0 0 10px 0;*/
-/*    width: 100%;*/
-/*    text-align: center;*/
-/*}*/
+/*----------------------------------------------Tablet <footer>*/
 
 .footer_container{
 	justify-content: space-between;
@@ -852,24 +688,9 @@ footer{
 	opacity: 0.9;
 }
 
-/*.footer_POBox{*/
-/*	justify-content: center;*/
-/*	align-items: center;*/
-/*	margin: 10px;*/
-/*}*/
-
 .footer_POBox{
 	order: 2;
 }
-
-/*.footer_POBox >h4{*/
-/*	font-size: 1em;*/
-/*	width: 100%;*/
-/*	color: #fafafa;*/
-/*	margin: 5px 0 0 25px;*/
-/*	letter-spacing: .5em; */
-/*	text-align: left;	*/
-/*}*/
 
 .footer_POBox >h4{
 	font-size: 1.1em;
@@ -879,25 +700,9 @@ footer{
 	margin-bottom: 9px;
 }
 
-/*.footer_POBox .fanclub{*/
-/*	font-size: 1.2em;*/
-/*	margin-bottom: 5px;	*/
-/*}*/
- 
 .footer_POBox .fanclub{
 	font-size: 1.8em;
 }
-
-/*.footer_socialmedia{*/
-/*    display: flex;*/
-/*    flex-direction: row-reverse;*/
-/*    justify-content: space-evenly;*/
-/*    align-items: center;*/
-/*    width: 100%;    */
-/*    background-color: #360c0c;*/
-/*    color: #fafafa;*/
-/*    text-transform: uppercase;*/
-/*}*/
 
 .footer_socialmedia{
     order:1;
@@ -907,10 +712,6 @@ footer{
     height: 125px;
 	border-radius: 25px;
 }
-
-/*.footer_design{    */
-/*    display: none;*/
-/*}*/
 
 .footer_design{
 	display: flex;
@@ -932,138 +733,24 @@ footer{
     animation-timing-function: linear;
 }
 
-/*.column_title.socialmedia{*/
-/*    font-size: 1.5em;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.column_title.socialmedia::hover{*/
-/*	background-color: white;*/
-/*    color: black;*/
-/*}*/
-
-/*.sm_icon {*/
-/*    width: 48px;*/
-/*    height: 48px;*/
-/*    margin: 5px;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: contain;*/
-/*}*/
-
-/*.fcbk_icon{*/
-/*	order:2;*/
-/*    background: url("../pict/icons/facebook-4-48.png");*/
-/*}*/
-
-/*.twt_icon{*/
-/*	order:3;*/
-/*    background: url("../pict/icons/twitter-4-48.png");*/
-/*}*/
-
-/*.ytb_icon{*/
-/*    order:4;*/
-/*    background: url("../pict/icons/youtube-4-48.png");*/
-/*}*/
-
-/*------------------------------------------------display: none*/
-
-/*.footer_design{    */
-/*    display: none;*/
-/*}*/
-
 }
-
 
 /*-----------------------------------------Laptop Media queries*/
 /*-------------------------------------------------------------*/
 
 @media all and (min-device-width : 768px){
     
-/*html,body{*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-/*body{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    flex-wrap: wrap;*/
-/*    margin:0;*/
-/*    padding:0;*/
-/*    background-image: url("../pict/bckgr_main.jpg");*/
-/*    background-size: cover;*/
-/*    background-repeat: no-repeat;    	*/
-/*}*/
-
-/*body{*/
-/*    align-items: center;*/
-/*    background-color: #000000;*/
-/*    background-size: contain;*/
-/*}*/
-
 body{
     background-size: cover;
 }
-
-
-/*body >header{*/
-/*    justify-content: center;*/
-/*    align-self: flex-start;*/
-/*}*/
-
-/*body h1,h2,h3 {*/
-/*    font-family: monoton, sans-serif;*/
-/*    color: #fff;*/
-/*    text-transform: uppercase;*/
-/*}*/
-
-/*body h4,h5,h6 {*/
-/*    font-family: Anton, sans-serif;*/
-/*    color: #fff;*/
-/*    margin: 0;*/
-/*    padding:0;*/
-    /*text-transform: uppercase;*/
-/*}*/
-
-/*header{*/
-/*    order:1;*/
-/*    margin: 0 6%;*/
-/*    padding:0;*/
-/*    min-height: 425px;*/
-/*}*/
-
-/*header{*/
-/*    height: 150px;*/
-/*    margin:0;*/
-/*    width: 100%;    */
-/*}*/
 
 header{
     height: 200px;
 }
 
-/*section{*/
-/*  order:2;*/
-/*	margin: 5% 0;*/
-/*  padding:0;*/
-/*}*/
-
-/*section{*/
-/*    margin-top: 5%;*/
-/*    justify-content: center;*/
-/*    width: 100%;*/
-/*}*/
-
 section{
     margin: 2% auto 0;
-    /*margin: 2%;*/
 }
-
-/*footer{*/
-/*    order:3;*/
-/*    margin: 6% 0 0 0 ;*/
-/*    padding:0;*/
-/*}*/
 
 footer{    
     width:100%;
@@ -1071,99 +758,11 @@ footer{
     justify-content: center;
 }
 
-/*#top_back{*/
-/*    position: fixed;*/
-/* 	bottom: 10px;*/
-/*    left: 84%;*/
-/*    width: 10%;*/
-/*    height: 6%;*/
-/*    background-image: url("../pict/icons/buttonup.png");*/
-/*    background-position: center;*/
-/*    background-size: contain;*/
-/*    background-repeat: no-repeat;*/
-/*    border-radius: 50%;*/
-/*}*/
-
-/*#top_back:hover {*/
-/*        border: solid 2px red;*/
-/*	}*/
-
-/*#top_back{*/
-/*	display:none;*/
-/*}*/
-
-/*.wrapper{*/
-/*    display: flex;*/
-/*}*/
-
-
 /*----------------------------------------------Laptop <header>*/
-
-/*.header_container{*/
-/*    flex-direction: row;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: space-around;*/
-/*    margin:10px 0 5px;*/
-/*    margin:10px 0 0;*/
-/*    padding:0;*/
-/*    width: 340px;*/
-    
-/*    border: 1px solid yellow;*/
-/*}*/
-
-/*.header_container{*/
-/*    flex-wrap: nowrap;*/
-/*    width: 100%;*/
-/*    align-items: center;*/
-/*    justify-content: space-between;*/
-/*    height: unset;*/
-/*}*/
-
-/*.header_title{*/
-/*    order: 1;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    font-size: 2em;*/
-/*    text-align: left;*/
-/*    background-color: transparent;*/
-/*}*/
-
-/*.header_title{*/
-/*    order: 2;*/
-/*    text-align: justify;*/
-/*    text-overflow: ellipsis;*/
-/*    min-width: 60%;*/
-/*	font-size: 2.2em;*/
-/*	letter-spacing: 3px;*/
-/*}*/
 
 .header_title{
      font-size: 4em;
 }
-
-/*.header_nav{*/
-/*    order:2;*/
-/*    margin: 4px 0;*/
-/*}*/
-
-/*.header_logo{*/
-/*    order: 3;*/
-/*    width: 100%;*/
-/*    margin-bottom: 10px;*/
-/*    padding:0;*/
-/*    background: url("../pict/The Guess Who 1972-74_edit.jpg");*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: contain;*/
-/*    min-height: 400px;*/
-/*}*/
-
-/*.header_logo{*/
-/*    order: 1;*/
-/*    min-width: 40%;*/
-/*    min-height:unset;*/
-/*    height: 140px;*/
-/*} */
 
 .header_logo{
     min-width: unset;
@@ -1172,175 +771,15 @@ footer{
 
 /*---------------------------------------------------Nav Toggle*/
 
-/*.nav_toggle{*/
-/*    position: absolute;*/
-/*    width: 100%;*/
-/*    padding: 6% 0;*/
-/*    left: -100%;*/
-/*    z-index: 1;*/
-/*    transition: transform 0.7s ease-in-out;*/
-/*}*/
-
-/*.nav_toggle{*/
-/*    margin-top: 75px;*/
-/*    padding: 0;*/
-/*    transform: translateX(100%);*/
-/*}*/
-
-/*.nav_toggle ul li{*/
-/*    list-style: none;*/
-/*    padding: 0;*/
-/*}   */
-
-/*.nav_btn{*/
-/*    order: 2;*/
-/*    border: none;*/
-/*    margin: 0px;*/
-/*    padding: 2px;*/
-/*}*/
-
-/*.nav_btn{*/
-/*    display:none;*/
-/*}*/
-
-/*.toggle_menu{*/
-/*    width: 100%;*/
-/*    margin:0;*/
-/*    padding: 0;*/
-/*}*/
-
-/*.toggle_menu{*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: space-between;*/
-/*}*/
-
-/*.toggle_item{*/
-/*    width: 100%;*/
-/*    font-family: monoton, sans-serif;*/
-/*    font-size: 2.24em;*/
-/*    text-align: right;*/
-/*    color: #fafafa;*/
-/*}*/
-
-/*.toggle_item{*/
-/*    font-size: 1em;*/
-/*    text-align: center;*/
-/*}*/
-
 .toggle_item{
     font-size: 1.8em;
 }
 
-/*.toggle_link{*/
-/*    display: block;*/
-/*    text-decoration: none;*/
-/*    background-color: #0f0f0f;*/
-/*    opacity: 0.8;*/
-/*    color: #fff;*/
-/*    padding: 10px 5px;*/
-/*    transition: color 0.5s ease-in-out, background-color 1s ease-in-out;*/
-/*}*/
-
-/*.toggle_link{*/
-/*    padding: 0;*/
-/*}*/
-
-/*.nav_btn:focus{*/
-/*    outline: none;*/
-/*}*/
-
-/*.nav_btn:hover .bar{*/
-/*    background-color: #0f0f0f;*/
-/*}*/
-
-/*.nav_btn:hover +.nav_toggle{*/
-/*    transform: translateX(70%);*/
-/*}*/
-
-/*.toggle_link:hover{*/
-/*    color: #0f0f0f;*/
-/*    background-color: #fff;*/
-/*}*/
-
 /*---------------------------------------------Laptop <section>*/
-
-/*.section_container{*/
-/*	flex-direction: column;*/
-/*    margin: 0px 0 5px;*/
-/*}*/
-
-/*.section_container{*/
-/*    margin: 10px 0 0px;*/
-/*}*/
-
-/*.column_40{*/
-/*    order:1;*/
-/*}*/
-
-/*.column_40{*/
-/*    display:flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*    width: 100%;*/
-/*    margin: 0 0 10px;*/
-/*}*/
-
-/*.column_60{*/
-/*    order:2;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.column_60{*/
-/*	margin: 0;*/
-/*	width: 100%;*/
-/*}*/
-
-/*.column_title{*/
-/*    order:1;*/
-/*    font-size: 2.2em;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*    margin-bottom: 0;*/
-/*}*/
-
-/*.column_title{*/
-/*    justify-content: center;*/
-/*    font-size: 1.8em;*/
-/*	letter-spacing: 3px;*/
-/*    margin: 15px 0;*/
-/*}*/
-
-/*.column_title{*/
-/*    font-size: 1.8em;*/
-/*    margin: 0;*/
-/*}*/
 
 .column_title{
     font-size: 3em;
 }
-
-/*.slider {*/
-/*    order: 2;*/
-/*    width: 340px;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*}*/
-
-/*.slider {*/
-/*    width: 95%;*/
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-/*}*/
-
-/*.album_cover{*/
-/*    order:1;*/
-/*    height: 275px;*/
-/*    margin: 5px;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;  */
-/*}*/
 
 .album_cover{
     height: 200px;
@@ -1348,47 +787,13 @@ footer{
 
 /*----------------------------------------------Laptop <footer>*/
 
-/*.footer_container{*/
-/*    flex-direction: column;*/
-/*    background-color: #360c0c;*/
-/*    margin: 0 0 10px 0;*/
-/*    width: 100%;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.footer_container{*/
-/*	justify-content: space-between;*/
-/*    align-items: center;*/
-/*    background-color: #8e16239e;*/
-/*	opacity: 0.9;*/
-/*}*/
-
 .footer_container{
     flex-direction: row;
 }
 
-/*.footer_POBox{*/
-/*	justify-content: center;*/
-/*	align-items: center;*/
-/*	margin: 10px;*/
-/*}*/
-
-/*.footer_POBox{*/
-/*	order: 2;*/
-/*}*/
-
 .footer_POBox{
 	order: 1;
 }
-
-/*.footer_POBox >h4{*/
-/*	font-size: 1em;*/
-/*	width: 100%;*/
-/*	color: #fafafa;*/
-/*	margin: 5px 0 0 25px;*/
-/*	letter-spacing: .5em; */
-/*	text-align: left;	*/
-/*}*/
 
 .footer_POBox >h4{
 	font-size: 1.1em;
@@ -1397,35 +802,10 @@ footer{
 	text-align: left;
 	margin-bottom: 9px;
 }
-
-/*.footer_POBox .fanclub{*/
-/*	font-size: 1.2em;*/
-/*	margin-bottom: 5px;	*/
-/*}*/
  
 .footer_POBox .fanclub{
 	font-size: 1.6em;
 }
-
-/*.footer_socialmedia{*/
-/*    display: flex;*/
-/*    flex-direction: row-reverse;*/
-/*    justify-content: space-evenly;*/
-/*    align-items: center;*/
-/*    width: 100%;    */
-/*    background-color: #360c0c;*/
-/*    color: #fafafa;*/
-/*    text-transform: uppercase;*/
-/*}*/
-
-/*.footer_socialmedia{*/
-/*    order:1;*/
-/*    margin: 10px 0;*/
-/*    width: 50%;*/
-/*    align-items: center;*/
-/*    height: 125px;*/
-/*	border-radius: 25px;*/
-/*}*/
 
 .footer_socialmedia{
     order:3;
@@ -1437,101 +817,23 @@ footer{
     display: none;
 }
 
-/*.footer_design{    */
-/*    display: none;*/
-/*}*/
-
-/*.footer_design{*/
-/*	display: flex;*/
-/*	order: 3;*/
-/*    height: 100px;*/
-/*    width: 100px;*/
-/*	margin: 10px 0 ;*/
-/*	background-image: url("../pict/icons/rubik-icon-23_trnsp_100x100.png");*/
-/*	background-position: center;*/
-/*	background-repeat: no-repeat;*/
-/*	background-size: contain;*/
-/*	opacity: 0.9;    */
-/*}*/
-
 .footer_design{
 	order: 2;
     height: 200px;
     width: 75px;
 }
 
-/*.footer_design:hover{*/
-/*    animation-name: spin;*/
-/*    animation-iteration-count: infinite;*/
-/*    animation-duration: 2.5s;*/
-/*    animation-timing-function: linear;*/
-/*}*/
 
-/*.column_title.socialmedia{*/
-/*    font-size: 1.5em;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.column_title.socialmedia::hover{*/
-/*	background-color: white;*/
-/*    color: black;*/
-/*}*/
-
-/*.sm_icon {*/
-/*    width: 48px;*/
-/*    height: 48px;*/
-/*    margin: 5px;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: contain;*/
-/*}*/
-
-/*.fcbk_icon{*/
-/*	order:2;*/
-/*    background: url("../pict/icons/facebook-4-48.png");*/
-/*}*/
-
-/*.twt_icon{*/
-/*	order:3;*/
-/*    background: url("../pict/icons/twitter-4-48.png");*/
-/*}*/
-
-/*.ytb_icon{*/
-/*    order:4;*/
-/*    background: url("../pict/icons/youtube-4-48.png");*/
-/*}*/
-
-/*------------------------------------------------display: none*/
-
-/*.footer_design{    */
-/*    display: none;*/
-/*}*/
-
+/*----------------------------HOME section contents (MQ Laptop)*/
 /*-------------------------------------------------------------*/
-
-
-/*-------------------------------HOME section contents (MQ768)*/
-/*------------------------------------------------------------*/
 
 /*"----------------------Column_60 / .band_history "The History*/
 					
-/*.column_60 >article{*/
-/*	margin-top:0;*/
-/*}*/
-
-/*.band_history{*/
-/*	font-family: Anton, sans-serif;*/
-/*    color: #bab7b7;    */
-/*    font-size: 1.1em;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*}*/
- 
 .band_history{  
     font-size: 1.3em;
 }
       				
-/*----------------------------End HOME section contents (MQ768)*/
+/*------------------------End HOME section contents (MQ Laptop)*/
 /*-------------------------------------------------------------*/
 
 }
@@ -1542,613 +844,79 @@ footer{
 
 @media all and (min-device-width : 1024px){
     
-/*html,body{*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-/*body{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    flex-wrap: wrap;*/
-/*    margin:0;*/
-/*    padding:0;*/
-/*    background-image: url("../pict/bckgr_main.jpg");*/
-/*    background-size: cover;*/
-/*    background-repeat: no-repeat;    	*/
-/*}*/
-
-/*body{*/
-/*    align-items: center;*/
-/*    background-color: #000000;*/
-/*    background-size: contain;*/
-/*}*/
-
-/*body{*/
-/*    background-size: cover;*/
-/*}*/
-
-
-/*body >header{*/
-/*    justify-content: center;*/
-/*    align-self: flex-start;*/
-/*}*/
-
-/*body h1,h2,h3 {*/
-/*    font-family: monoton, sans-serif;*/
-/*    color: #fff;*/
-/*    text-transform: uppercase;*/
-/*}*/
-
-/*body h4,h5,h6 {*/
-/*    font-family: Anton, sans-serif;*/
-/*    color: #fff;*/
-/*    margin: 0;*/
-/*    padding:0;*/
-    /*text-transform: uppercase;*/
-/*}*/
-
-/*header{*/
-/*    order:1;*/
-/*    margin: 0 6%;*/
-/*    padding:0;*/
-/*    min-height: 425px;*/
-/*}*/
-
-/*header{*/
-/*    height: 150px;*/
-/*    margin:0;*/
-/*    width: 100%;    */
-/*}*/
-
-/*header{*/
-/*    height: 200px;*/
-/*}*/
-
-/*section{*/
-/*  order:2;*/
-/*	margin: 5% 0;*/
-/*  padding:0;*/
-/*}*/
-
-/*section{*/
-/*    margin-top: 5%;*/
-/*    justify-content: center;*/
-/*    width: 100%;*/
-/*}*/
-
-/*section{*/
-/*    margin: 5% auto 0;*/
-/*}*/
-
-/*footer{*/
-/*    order:3;*/
-/*    margin: 6% 0 0 0 ;*/
-/*    padding:0;*/
-/*}*/
-
-/*footer{    */
-/*    width:100%;*/
-/*    height:300px;*/
-/*    justify-content: center;*/
-/*}*/
-
-/*#top_back{*/
-/*    position: fixed;*/
-/* 	bottom: 10px;*/
-/*    left: 84%;*/
-/*    width: 10%;*/
-/*    height: 6%;*/
-/*    background-image: url("../pict/icons/buttonup.png");*/
-/*    background-position: center;*/
-/*    background-size: contain;*/
-/*    background-repeat: no-repeat;*/
-/*    border-radius: 50%;*/
-/*}*/
-
-/*#top_back:hover {*/
-/*        border: solid 2px red;*/
-/*	}*/
-
-/*#top_back{*/
-/*	display:none;*/
-/*}*/
-
-/*.wrapper{*/
-/*    display: flex;*/
-/*}*/
-
-
-/*----------------------------------------------Laptop <header>*/
-
-/*.header_container{*/
-/*    flex-direction: row;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: space-around;*/
-/*    margin:10px 0 5px;*/
-/*    margin:10px 0 0;*/
-/*    padding:0;*/
-/*    width: 340px;*/
-    
-/*    border: 1px solid yellow;*/
-/*}*/
-
-/*.header_container{*/
-/*    flex-wrap: nowrap;*/
-/*    width: 100%;*/
-/*    align-items: center;*/
-/*    justify-content: space-between;*/
-/*    height: unset;*/
-/*}*/
-
-/*.header_title{*/
-/*    order: 1;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    font-size: 2em;*/
-/*    text-align: left;*/
-/*    background-color: transparent;*/
-/*}*/
-
-/*.header_title{*/
-/*    order: 2;*/
-/*    text-align: justify;*/
-/*    text-overflow: ellipsis;*/
-/*    min-width: 60%;*/
-/*	font-size: 2.2em;*/
-/*	letter-spacing: 3px;*/
-/*}*/
-
-/*.header_title{*/
-/*     font-size: 4em;*/
-/*}*/
+/*----------------------------------------------Screen <header>*/
 
 .header_title{
      font-size: 5em;
 }
 
-/*.header_nav{*/
-/*    order:2;*/
-/*    margin: 4px 0;*/
-/*}*/
-
-/*.header_logo{*/
-/*    order: 3;*/
-/*    width: 100%;*/
-/*    margin-bottom: 10px;*/
-/*    padding:0;*/
-/*    background: url("../pict/The Guess Who 1972-74_edit.jpg");*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: contain;*/
-/*    min-height: 400px;*/
-/*}*/
-
-/*.header_logo{*/
-/*    order: 1;*/
-/*    min-width: 40%;*/
-/*    min-height:unset;*/
-/*    height: 140px;*/
-/*} */
-
-/*.header_logo{*/
-/*    min-width: unset;*/
-/*    width: 30%;*/
-/*}*/
-
 /*---------------------------------------------------Nav Toggle*/
-
-/*.nav_toggle{*/
-/*    position: absolute;*/
-/*    width: 100%;*/
-/*    padding: 6% 0;*/
-/*    left: -100%;*/
-/*    z-index: 1;*/
-/*    transition: transform 0.7s ease-in-out;*/
-/*}*/
-
-/*.nav_toggle{*/
-/*    margin-top: 75px;*/
-/*    padding: 0;*/
-/*    transform: translateX(100%);*/
-/*}*/
-
-/*.nav_toggle ul li{*/
-/*    list-style: none;*/
-/*    padding: 0;*/
-/*}   */
-
-/*.nav_btn{*/
-/*    order: 2;*/
-/*    border: none;*/
-/*    margin: 0px;*/
-/*    padding: 2px;*/
-/*}*/
-
-/*.nav_btn{*/
-/*    display:none;*/
-/*}*/
-
-/*.toggle_menu{*/
-/*    width: 100%;*/
-/*    margin:0;*/
-/*    padding: 0;*/
-/*}*/
-
-/*.toggle_menu{*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: space-between;*/
-/*}*/
-
-/*.toggle_item{*/
-/*    width: 100%;*/
-/*    font-family: monoton, sans-serif;*/
-/*    font-size: 2.24em;*/
-/*    text-align: right;*/
-/*    color: #fafafa;*/
-/*}*/
-
-/*.toggle_item{*/
-/*    font-size: 1em;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.toggle_item{*/
-/*    font-size: 1.8em;*/
-/*}*/
 
 .toggle_item{
     font-size: 2.3em;
 }
 
-/*.toggle_link{*/
-/*    display: block;*/
-/*    text-decoration: none;*/
-/*    background-color: #0f0f0f;*/
-/*    opacity: 0.8;*/
-/*    color: #fff;*/
-/*    padding: 10px 5px;*/
-/*    transition: color 0.5s ease-in-out, background-color 1s ease-in-out;*/
-/*}*/
-
-/*.toggle_link{*/
-/*    padding: 0;*/
-/*}*/
-
-/*.nav_btn:focus{*/
-/*    outline: none;*/
-/*}*/
-
-/*.nav_btn:hover .bar{*/
-/*    background-color: #0f0f0f;*/
-/*}*/
-
-/*.nav_btn:hover +.nav_toggle{*/
-/*    transform: translateX(70%);*/
-/*}*/
-
-/*.toggle_link:hover{*/
-/*    color: #0f0f0f;*/
-/*    background-color: #fff;*/
-/*}*/
-
-/*---------------------------------------------Laptop <section>*/
-
-/*.section_container{*/
-/*	flex-direction: column;*/
-/*    margin: 0px 0 5px;*/
-/*}*/
-
-/*.section_container{*/
-/*    margin: 10px 0 0px;*/
-/*}*/
-
-/*.column_40{*/
-/*    order:1;*/
-/*}*/
-
-/*.column_40{*/
-/*    display:flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*    width: 100%;*/
-/*    margin: 0 0 10px;*/
-/*}*/
-
-/*.column_60{*/
-/*    order:2;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.column_60{*/
-/*	margin: 0;*/
-/*	width: 100%;*/
-/*}*/
+/*---------------------------------------Large Screen <section>*/
 
 .column_60{
 	width: 80%;
 }
 
-
-/*.column_title{*/
-/*    order:1;*/
-/*    font-size: 2.2em;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*    margin-bottom: 0;*/
-/*}*/
-
-/*.column_title{*/
-/*    justify-content: center;*/
-/*    font-size: 1.8em;*/
-/*	letter-spacing: 3px;*/
-/*    margin: 15px 0;*/
-/*}*/
-
-/*.column_title{*/
-/*    font-size: 1.8em;*/
-/*    margin: 0;*/
-/*}*/
-
 .column_title{
     font-size: 4.2em;
 }
 
-/*.slider {*/
-/*    order: 2;*/
-/*    width: 340px;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*}*/
+/*---------------------HOME section contents (MQ Large Screens)*/
+/*-------------------------------------------------------------*/
 
-/*.slider {*/
-/*    width: 95%;*/
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-/*}*/
+/*"-----------------------------Column_40 / .slider "The Albums*/
 
 .slider {
     width: 80%;
 }
 
-/*.album_cover{*/
-/*    order:1;*/
-/*    height: 275px;*/
-/*    margin: 5px;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;  */
-/*}*/
-
-/*.album_cover{*/
-/*    height: 200px;*/
-/*}*/
-
 .album_cover{
     height: 300px;
 }
 
-/*----------------------------------------------Laptop <footer>*/
+/*"----------------------Column_60 / .band_history "The History*/
+					
+.band_history{  
+    font-size: 1.5em;
+}
+      				
+/*------------------End HOME section contents (MQ Large Screens)*/
+/*--------------------------------------------------------------*/
 
-/*.footer_container{*/
-/*    flex-direction: column;*/
-/*    background-color: #360c0c;*/
-/*    margin: 0 0 10px 0;*/
-/*    width: 100%;*/
-/*    text-align: center;*/
-/*}*/
 
-/*.footer_container{*/
-/*	justify-content: space-between;*/
-/*    align-items: center;*/
-/*    background-color: #8e16239e;*/
-/*	opacity: 0.9;*/
-/*}*/
-
-/*.footer_container{*/
-/*    flex-direction: row;*/
-/*}*/
-
-/*.footer_POBox{*/
-/*	justify-content: center;*/
-/*	align-items: center;*/
-/*	margin: 10px;*/
-/*}*/
-
-/*.footer_POBox{*/
-/*	order: 2;*/
-/*}*/
-
-/*.footer_POBox{*/
-/*	order: 1;*/
-/*}*/
-
-/*.footer_POBox >h4{*/
-/*	font-size: 1em;*/
-/*	width: 100%;*/
-/*	color: #fafafa;*/
-/*	margin: 5px 0 0 25px;*/
-/*	letter-spacing: .5em; */
-/*	text-align: left;	*/
-/*}*/
-
-/*.footer_POBox >h4{*/
-/*	font-size: 1.1em;*/
-/*	margin: 0 0 0 25px;*/
-/*	letter-spacing: .7em;*/
-/*	text-align: left;*/
-/*	margin-bottom: 9px;*/
-/*}*/
+/*----------------------------------------Large Screen <footer>*/
 
 .footer_POBox >h4{
     font-size: 1.3em;
-    
-    /*letter-spacing: 0.9em; */
-    /*font-size: initial;*/
 }
-
-/*.footer_POBox .fanclub{*/
-/*	font-size: 1.2em;*/
-/*	margin-bottom: 5px;	*/
-/*}*/
- 
-/*.footer_POBox .fanclub{*/
-/*	font-size: 1.6em;*/
-/*}*/
 
 .footer_POBox .fanclub{
        font-size: 2em;
        text-align: left;
 }
  
-/*.footer_socialmedia{*/
-/*    display: flex;*/
-/*    flex-direction: row-reverse;*/
-/*    justify-content: space-evenly;*/
-/*    align-items: center;*/
-/*    width: 100%;    */
-/*    background-color: #360c0c;*/
-/*    color: #fafafa;*/
-/*    text-transform: uppercase;*/
-/*}*/
-
-/*.footer_socialmedia{*/
-/*    order:1;*/
-/*    margin: 10px 0;*/
-/*    width: 50%;*/
-/*    align-items: center;*/
-/*    height: 125px;*/
-/*	border-radius: 25px;*/
-/*}*/
-
-/*.footer_socialmedia{*/
-/*    order:3;*/
-/*    width: 30%;*/
-/*    margin-right: 15px;*/
-/*}*/
-
 .footer_socialmedia{
     width: 35%;
 }
-
-/*.footer_socialmedia >h2{*/
-/*    display: none;*/
-/*}*/
-
-/*.footer_design{    */
-/*    display: none;*/
-/*}*/
-
-/*.footer_design{*/
-/*	display: flex;*/
-/*	order: 3;*/
-/*    height: 100px;*/
-/*    width: 100px;*/
-/*	margin: 10px 0 ;*/
-/*	background-image: url("../pict/icons/rubik-icon-23_trnsp_100x100.png");*/
-/*	background-position: center;*/
-/*	background-repeat: no-repeat;*/
-/*	background-size: contain;*/
-/*	opacity: 0.9;    */
-/*}*/
-
-/*.footer_design{*/
-/*	order: 2;*/
-/*    height: 200px;*/
-/*    width: 75px;*/
-/*}*/
 
 .footer_design{
     width: 125px;
 }
 
-/*.footer_design:hover{*/
-/*    animation-name: spin;*/
-/*    animation-iteration-count: infinite;*/
-/*    animation-duration: 2.5s;*/
-/*    animation-timing-function: linear;*/
-/*}*/
-
-/*.column_title.socialmedia{*/
-/*    font-size: 1.5em;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.column_title.socialmedia::hover{*/
-/*	background-color: white;*/
-/*    color: black;*/
-/*}*/
-
-/*.sm_icon {*/
-/*    width: 48px;*/
-/*    height: 48px;*/
-/*    margin: 5px;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: contain;*/
-/*}*/
-
-/*.fcbk_icon{*/
-/*	order:2;*/
-/*    background: url("../pict/icons/facebook-4-48.png");*/
-/*}*/
-
-/*.twt_icon{*/
-/*	order:3;*/
-/*    background: url("../pict/icons/twitter-4-48.png");*/
-/*}*/
-
-/*.ytb_icon{*/
-/*    order:4;*/
-/*    background: url("../pict/icons/youtube-4-48.png");*/
-/*}*/
-
-/*------------------------------------------------display: none*/
-
-/*.footer_design{    */
-/*    display: none;*/
-/*}*/
-
-/*-------------------------------------------------------------*/
-
-/*-------------------------------HOME section contents (MQ768)*/
-/*------------------------------------------------------------*/
-
-/*"----------------------Column_60 / .band_history "The History*/
-					
-/*.column_60 >article{*/
-/*	margin-top:0;*/
-/*}*/
-
-/*.band_history{*/
-/*	font-family: Anton, sans-serif;*/
-/*    color: #bab7b7;    */
-/*    font-size: 1.1em;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*}*/
- 
-/*.band_history{  */
-/*    font-size: 1.3em;*/
-/*}*/
-
-.band_history{  
-    font-size: 1.5em;
-}
-      				
-/*----------------------------End HOME section contents (MQ768)*/
-/*-------------------------------------------------------------*/
-
 }
 
+/*==================================================================*/
+/*End of Media queries==============================================*/
+/*==================================================================*/
+
 
 /*==================================================================*/
-/*==============================================End of Media queries*/
-/*==================================================================*/
-
-
-/*==================================================================*/
-/*===============================================Start of Animations*/
+/*Start of Animations===============================================*/
 /*==================================================================*/
 
 @keyframes flip{
@@ -2162,12 +930,6 @@ to{
  }
  
 }
-
-/*==================================================================*/
-/*               Responsive Design REVIEW point                     */
-/*                           2018.10.11                             */
-/*==================================================================*/
-
 
 @keyframes spin{
 	
@@ -2187,9 +949,14 @@ to{
 }
 
 /*==================================================================*/
-/*=================================================End of Animations*/
+/*End of Animations=================================================*/
 /*==================================================================*/
 
+
+/*==================================================================*/
+/*                          REVIEW POINT                            */
+/*                           2018.10.13                             */
+/*==================================================================*/
 
 /*-------------------------------------(Mobile) Form "Contact"*/
 /*------------------------------------------------------------*/
