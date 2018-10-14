@@ -464,7 +464,7 @@ footer{
 .gallery_box{
     display: flex;
     flex-direction: column;
-    /*flex-wrap: wrap;*/
+    background-color: transparent;
     justify-content: center;
     align-items: center;        
 }
@@ -473,14 +473,13 @@ footer{
 	border-radius: 10px;
 	transition: transform 1s;
     margin: 10px;
-    background-color: transparent;
     -webkit-transition: transform 1s;
 	-moz-transition: transform 1s;
 	-o-transition: transform 1s;
 }
 
 .gallery_box > div:hover{    
-    transform-origin: center left;
+    transform-origin: center center;
     transform: scale(1.1);
 }
 
@@ -491,16 +490,8 @@ footer{
     background-color: white;
     border-radius: 10px;
     margin:5px;
+    width:85%;
 }
-
-.picture{
-    order:1;
-    height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 
 #pict_1{
     background-image: url("../pict/pict_nav/pict_01.jpg")
@@ -530,8 +521,42 @@ footer{
     background-image: url("../pict/pict_nav/pict_09.jpg")
 }
 
+.picture{
+    order:2;
+    height: 250px;
+    margin:2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
-.pict_text{}
+.pict_title{
+    align-items: center;
+    color: #0f0f0f;
+}
+
+.pict_text{
+    order:1;
+    font-family: Anton, sans-serif;
+    color: #0f0f0f;
+    text-align: center;
+}
+
+
+
+/*"----------------------Column_60 / .band_history "The History*/
+					
+.fans_feedback{
+	font-family: Anton, sans-serif;
+    color: #bab7b7;    
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 0;
+}
+
+.fans_feedback >span{
+    color: #fafafa;}
+    
 /*------------------------------------End PICTURES section contents*/
 
 
