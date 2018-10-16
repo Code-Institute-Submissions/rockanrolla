@@ -19,7 +19,8 @@ body{
     flex-wrap: wrap;
     margin:0;
     padding:0;
-    background-image: url("../pict/bckgr_main.jpg");
+    /*background-image: url("../pict/bckgr_main.jpg");*/
+    background-image: url("../pict/bckgr_mobile_1080x1920.jpg");
     background-size: cover;
     background-repeat: no-repeat;    	
 }
@@ -709,26 +710,11 @@ footer{
 /*------------------------PICTURES section contents (MQ Tablet)*/
 /*-------------------------------------------------------------*/
 
-/*.gallery{*/
-/*    order: 2;*/
-/*    width: 340px;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*}*/
-
 .gallery{
     width:90%;
     margin-left: auto;
     margin-right: auto;
 }
-
-/*.gallery_box{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    background-color: transparent;*/
-/*    justify-content: center;*/
-/*    align-items: center;        */
-/*}*/
 
 .gallery_box{
     flex-direction: row;
@@ -736,87 +722,14 @@ footer{
 }
 
 
-/*.gallery_box > div{*/
-/*	border-radius: 10px;*/
-/*	transition: transform 1s;*/
-/*    margin: 10px;*/
-/*    -webkit-transition: transform 1s;*/
-/*	-moz-transition: transform 1s;*/
-/*	-o-transition: transform 1s;*/
-/*}*/
-
-/*.gallery_box > div:hover{    */
-/*    transform-origin: center center;*/
-/*    transform: scale(1.1);*/
-/*}*/
-
 .gallery_box > div{
 max-width: 40%;
 max-height: 315px;
 }
 
-/*.gallery_pict{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*    background-color: white;*/
-/*    border-radius: 10px;*/
-/*    margin:5px;*/
-/*    width:85%;*/
-/*}*/
-
-/*#pict_1{*/
-/*    background-image: url("../pict/pict_nav/pict_01.jpg")*/
-/*}*/
-/*#pict_2{*/
-/*    background-image: url("../pict/pict_nav/pict_02.jpg")*/
-/*}*/
-/*#pict_3{*/
-/*    background-image: url("../pict/pict_nav/pict_03.jpg")*/
-/*}*/
-/*#pict_4{*/
-/*    background-image: url("../pict/pict_nav/pict_04.jpg")*/
-/*}*/
-/*#pict_5{*/
-/*    background-image: url("../pict/pict_nav/pict_05.jpg")*/
-/*}*/
-/*#pict_6{*/
-/*    background-image: url("../pict/pict_nav/pict_06.jpg")*/
-/*}*/
-/*#pict_7{*/
-/*    background-image: url("../pict/pict_nav/pict_07.jpg")*/
-/*}*/
-/*#pict_8{*/
-/*    background-image: url("../pict/pict_nav/pict_08.jpg")*/
-/*}*/
-/*#pict_9{*/
-/*    background-image: url("../pict/pict_nav/pict_09.jpg")*/
-/*}*/
-
-/*.picture{*/
-/*    order:2;*/
-/*    height: 250px;*/
-/*    margin:2px;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: contain;*/
-/*}*/
-
 .picture{
     max-height: 25%;
 }
-
-/*.pict_title{*/
-/*    align-items: center;*/
-/*    color: #0f0f0f;*/
-/*}*/
-
-/*.pict_text{*/
-/*    order:1;*/
-/*    font-family: Anton, sans-serif;*/
-/*    color: #0f0f0f;*/
-/*    text-align: center;*/
-/*}*/
 
 .pict_text{
     max-height: 75px;
@@ -825,23 +738,11 @@ max-height: 315px;
 
 /*"----------------------Column_60 / .band_history "The History*/
 					
-/*.fans_feedback{*/
-/*	font-family: Anton, sans-serif;*/
-/*    color: #bab7b7;    */
-/*    font-size: 1.1em;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*}*/
-
 .fans_feedback{
     font-size: 1.3em;
     width: 90%;
 }
 
-/*.fans_feedback >span{*/
-/*    color: #fafafa;*/
-/*}*/
-  
 /*--------------------End PICTURES section contents (MQ Tablet)*/
 /*-------------------------------------------------------------*/
 
@@ -1006,143 +907,12 @@ footer{
 /*------------------------PICTURES section contents (MQ Laptop)*/
 /*-------------------------------------------------------------*/
 
-/*.gallery{*/
-/*    order: 2;*/
-/*    width: 340px;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*}*/
-
-/*.gallery{*/
-/*    width:90%;*/
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-/*}*/
-
-/*.gallery_box{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    background-color: transparent;*/
-/*    justify-content: center;*/
-/*    align-items: center;        */
-/*}*/
-
-/*.gallery_box{*/
-/*    flex-direction: row;*/
-/*    flex-wrap: wrap;*/
-/*}*/
-
-
-/*.gallery_box > div{*/
-/*	border-radius: 10px;*/
-/*	transition: transform 1s;*/
-/*    margin: 10px;*/
-/*    -webkit-transition: transform 1s;*/
-/*	-moz-transition: transform 1s;*/
-/*	-o-transition: transform 1s;*/
-/*}*/
-
-/*.gallery_box > div:hover{    */
-/*    transform-origin: center center;*/
-/*    transform: scale(1.1);*/
-/*}*/
-
-/*.gallery_box > div{*/
-/*max-width: 40%;*/
-/*max-height: 315px;*/
-/*}*/
-
-/*.gallery_pict{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*    background-color: white;*/
-/*    border-radius: 10px;*/
-/*    margin:5px;*/
-/*    width:85%;*/
-/*}*/
-
-/*#pict_1{*/
-/*    background-image: url("../pict/pict_nav/pict_01.jpg")*/
-/*}*/
-/*#pict_2{*/
-/*    background-image: url("../pict/pict_nav/pict_02.jpg")*/
-/*}*/
-/*#pict_3{*/
-/*    background-image: url("../pict/pict_nav/pict_03.jpg")*/
-/*}*/
-/*#pict_4{*/
-/*    background-image: url("../pict/pict_nav/pict_04.jpg")*/
-/*}*/
-/*#pict_5{*/
-/*    background-image: url("../pict/pict_nav/pict_05.jpg")*/
-/*}*/
-/*#pict_6{*/
-/*    background-image: url("../pict/pict_nav/pict_06.jpg")*/
-/*}*/
-/*#pict_7{*/
-/*    background-image: url("../pict/pict_nav/pict_07.jpg")*/
-/*}*/
-/*#pict_8{*/
-/*    background-image: url("../pict/pict_nav/pict_08.jpg")*/
-/*}*/
-/*#pict_9{*/
-/*    background-image: url("../pict/pict_nav/pict_09.jpg")*/
-/*}*/
-
-/*.picture{*/
-/*    order:2;*/
-/*    height: 250px;*/
-/*    margin:2px;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: contain;*/
-/*}*/
-
-/*.picture{*/
-/*    max-height: 25%;*/
-/*}*/
-
-/*.pict_title{*/
-/*    align-items: center;*/
-/*    color: #0f0f0f;*/
-/*}*/
-
-/*.pict_text{*/
-/*    order:1;*/
-/*    font-family: Anton, sans-serif;*/
-/*    color: #0f0f0f;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.pict_text{*/
-/*    max-height: 75px;*/
-/*}*/
-
-
-/*"----------------------Column_60 / .band_history "The History*/
-					
-/*.fans_feedback{*/
-/*	font-family: Anton, sans-serif;*/
-/*    color: #bab7b7;    */
-/*    font-size: 1.1em;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*}*/
-
-/*.fans_feedback{*/
-/*    font-size: 1.3em;*/
-/*}*/
-
-/*.fans_feedback >span{*/
-/*    color: #fafafa;*/
-/*}*/
-  
+/*<<<<<<<<<<<<<<<<<<<<< No changes needed! >>>>>>>>>>>>>>>>>>>>*/
+ 
 /*--------------------End PICTURES section contents (MQ Laptop)*/
 /*-------------------------------------------------------------*/
 
 }
-
 
 /*-----------------------------------Large Screen Media queries*/
 /*-------------------------------------------------------------*/
