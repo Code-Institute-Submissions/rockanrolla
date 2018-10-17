@@ -582,7 +582,7 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: transparent;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
@@ -598,6 +598,16 @@ footer{
 .clips_box > div:hover{    
     transform-origin: center center;
     transform: scale(1.1);
+}
+
+.clips_link{
+    font-family: Anton, sans-serif;
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #fafafa;
+    
 }
 
 .clip_embed{
@@ -717,6 +727,7 @@ footer{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    align-items:center;
     width: 100%;
     margin: 0 0 10px;
 }
@@ -767,8 +778,8 @@ footer{
 
 
 .gallery_box > div{
-max-width: 40%;
-max-height: 315px;
+    max-width: 40%;
+    max-height: 315px;
 }
 
 .picture{
@@ -788,6 +799,87 @@ max-height: 315px;
 }
 
 /*--------------------End PICTURES section contents (MQ Tablet)*/
+
+/*---------------------------------------CLIPS section contents*/
+
+/*.clips{*/
+/*    order: 2;*/
+/*    width: 340px;*/
+/*    text-align: center;*/
+/*    margin-top: 0;*/
+/*}*/
+
+.clips{
+    width: 70%;
+    /*height:auto; */
+}
+
+/*.clips_box{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    background-color: transparent;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+.clips_box{
+
+}   
+    
+.clips_box > div{
+	border-radius: 10px;
+	transition: transform 1s;
+    margin: 10px;
+    -webkit-transition: transform 1s;
+	-moz-transition: transform 1s;
+	-o-transition: transform 1s;
+}
+
+.clips_box > div:hover{    
+    transform-origin: center center;
+    transform: scale(1.1);
+}
+
+.clips_box >ul{
+    padding: 0;
+}
+
+.clip_list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.clip_list_item{
+    text-decoration: none;
+    font-family: Anton, sans-serif;
+    color: #fafafa;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fafafa;
+}
+
+.clips_link{
+    /*width:100%;*/
+    /*height:100%;*/
+    font-size: 1.2em;
+    
+}
+
+.clip_embed{
+    /*display:flex;*/
+    /*align-items: center;*/
+    width: 100%;
+    height:500px;
+    background-color: blue;
+    border: 2px solid yellow;
+}
+
+/*-----------------------------------End CLIPS section contents*/
+
 /*-------------------------------------------------------------*/
 
 
@@ -1074,7 +1166,7 @@ to{
 
 /*==================================================================*/
 /*                          REVIEW POINT                            */
-/*                           2018.10.13                             */
+/*                           2018.XX.XX                             */
 /*==================================================================*/
 
 /*-------------------------------------(Mobile) Form "Contact"*/
