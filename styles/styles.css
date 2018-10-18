@@ -593,6 +593,7 @@ footer{
     -webkit-transition: transform 1s;
 	-moz-transition: transform 1s;
 	-o-transition: transform 1s;
+	background-color: #fafafa;
 }
 
 .clips_box > div:hover{    
@@ -600,20 +601,24 @@ footer{
     transform: scale(1.1);
 }
 
-.clips_link{
-    font-family: Anton, sans-serif;
-    color: #fafafa;
-    text-decoration: none;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    color: #fafafa;
-    
+.clip_embed > iframe{
+    width:85%;
+    height:500px;
 }
 
-.clip_embed{
-    background-color: blue;
-    border: 2px solid yellow;
+.clip_embed > article:hover{
+    animation-name: flip;    
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
 }
+.clip_title{
+    font-family: Anton, sans-serif;
+    color: #0f0f0f;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;}
+
 
 /*-----------------------------------End CLIPS section contents*/
 
