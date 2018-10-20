@@ -68,7 +68,7 @@ footer{
 /*==================== Start of Mobile approach==========================*/
 /*=======================================================================*/
 
-/*index.html <Back-To-Top> (Start) ============================*/
+/* index.html <Back-To-Top> (Start) ===========================*/
 
 #top_back{
     position: fixed;
@@ -88,9 +88,9 @@ footer{
         border: solid 2px red;
 	}
 
-/*index.html <Back-To-Top> (End) ==============================*/
+/* index.html <Back-To-Top> (End) =============================*/
 
-/*index.html <header> (Start) =================================*/
+/* index.html <header> (Start) ================================*/
 
 .header_container{
     flex-direction: row;
@@ -199,9 +199,9 @@ footer{
     background-color: #fff;
 }
 
-/*index.html <header> (End) ===================================*/
+/* index.html <header> (End) ==================================*/
 
-/*index.html <section> (Start) ================================*/
+/* index.html <section> (Start) ===============================*/
 
 .section_container{
 	flex-direction: column;
@@ -228,9 +228,9 @@ footer{
     margin-bottom: 0;
 }
 
-/*index.html <section> (End) ==================================*/
+/* index.html <section> (End) =================================*/
 
-/*index.html <footer> (Start) =================================*/
+/* index.html <footer> (Start) ================================*/
 
 .footer_container{
     flex-direction: column;
@@ -309,15 +309,15 @@ footer{
     display: none;
 }
 
-/*index.html <footer> (End) ===================================*/
+/* index.html <footer> (End) ==================================*/
 
 /*==================================================================*/
 /*===================== Start Site Contents ========================*/
 /*==================================================================*/
 
-/*index.html <section> Contents (Start) =======================*/
+/* index.html <section> Contents (Start) ======================*/
 
-/*-------------------------Column_40 / Slider "The Albums"*/
+/*------------------------Column_40 / Slider "The Albums"*/
 
 .slider {
     order: 2;
@@ -441,7 +441,7 @@ footer{
     text-align: center;
 }
 
-/*"-----------------Column_60 / .band_history "The History*/
+/*-----------------Column_60 / .band_history "The History*/
 					
 .column_60 >article{
     /*align-items: center;*/
@@ -458,11 +458,12 @@ footer{
     margin-top: 0;
 }
 
+
 /* index.html <section> Contents (End) ========================*/
 
-/*pict.html <section> Contents (Start) ========================*/
+/* pict.html <section> Contents (Start) =======================*/
 
-/*"---------------------Column_40 / Gallery "The Concerts"*/
+/*---------------------Column_40 / Gallery "The Concerts"*/
 
 .gallery{
     order: 2;
@@ -560,7 +561,7 @@ footer{
     text-align: center;
 }
 
-/*"------------------Column_60 / .fans_feedback "The Fans"*/
+/*------------------Column_60 / .fans_feedback "The Fans"*/
 					
 .fans_feedback{
 	font-family: Anton, sans-serif;
@@ -573,12 +574,12 @@ footer{
 .fans_feedback >span{
     color: #fafafa;
 }
-    
-/*pict.html <section> Contents (End) ==========================*/
 
-/*clips.html <section> Contents (Start) =======================*/
+/* pict.html <section> Contents (End) =========================*/
 
-/*"-----------------------Column_40 / x4 clips "The Clips"*/
+/* clips.html <section> Contents (Start) ======================*/
+
+/*-----------------------Column_40 / x4 clips "The Clips"*/
 
 .clips{
     order: 2;
@@ -641,7 +642,7 @@ footer{
     text-transform: uppercase;
 }
 
-/*"--------------------Column_60 / x1 clip "The Making of"*/
+/*--------------------Column_60 / x1 clip "The Making of"*/
 
 .column_60  >div{
     display:flex;
@@ -677,16 +678,12 @@ footer{
     margin-bottom: 20px;
 }
     
-.clip_span .back_to_clip{
-
-}
-
 .span_uppercase{
     color: #fafafa;
     text-transform: uppercase;
 }
 
-/*clips.html <section> Contents (End) ==========================*/
+/*clips.html <section> Contents (End) =========================*/
 
 /*==================================================================*/
 /*====================== End Site Contents==========================*/
@@ -696,11 +693,9 @@ footer{
 /*==================== End of Body Mobile approach=======================*/
 /*=======================================================================*/
 
-
 /*=======================================================================*/
 /*====================== Start of Media queries =========================*/
 /*=======================================================================*/
-
 
 /*-----------------------------------------Tablet Media queries*/
 /*-------------------------------------------------------------*/
@@ -1192,7 +1187,6 @@ footer{
 /*=======================================================================*/
 /*======================= End of Media queries ==========================*/
 /*=======================================================================*/
-
 
 /*=======================================================================*/
 /*=======================  Start of Animations ==========================*/
