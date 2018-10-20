@@ -2,12 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Anton:100,200,300,400,500,600,700');
 
-/*==================================================================*/
-/*Start Body Mobile approach========================================*/
-/*==================================================================*/
-
-/*-----------------------------------------------------Main CSS*/
-/*-------------------------------------------------------------*/
+/*=======================================================================*/
+/*========================= Start of Main CSS ===========================*/
+/*=======================================================================*/
 
 html,body{
     box-sizing: border-box;
@@ -62,10 +59,16 @@ footer{
 .wrapper{
     display: flex;
 }
-	
 
-/*-------------------------------------------Mobile Back-To-Top*/
-/*-------------------------------------------------------------*/
+/*=======================================================================*/
+/*======================== End of Main CSS ==============================*/
+/*=======================================================================*/
+
+/*=======================================================================*/
+/*==================== Start of Mobile approach==========================*/
+/*=======================================================================*/
+
+/*index.html <Back-To-Top> (Start) ============================*/
 
 #top_back{
     position: fixed;
@@ -85,8 +88,9 @@ footer{
         border: solid 2px red;
 	}
 
-/*----------------------------------------------Mobile <header>*/
-/*-------------------------------------------------------------*/
+/*index.html <Back-To-Top> (End) ==============================*/
+
+/*index.html <header> (Start) =================================*/
 
 .header_container{
     flex-direction: row;
@@ -123,8 +127,6 @@ footer{
     min-height: 400px;
 }
 
-/*----------------------------------------------Nav Burguer Btn*/
-
 .nav_btn{
     order: 2;
     border: none;
@@ -141,8 +143,6 @@ footer{
     background-color: #fafafa;
     border-radius: 50%;
 }
-
-/*---------------------------------------------------Nav Toggle*/
 
 .nav_toggle{
     position: absolute;
@@ -199,13 +199,15 @@ footer{
     background-color: #fff;
 }
 
-/*---------------------------------------------Mobile <section>*/
-/*-------------------------------------------------------------*/
+/*index.html <header> (End) ===================================*/
+
+/*index.html <section> (Start) ================================*/
 
 .section_container{
 	flex-direction: column;
 	justify-content: center;
     align-items: center;
+    margin:0 5%;
 }
 
 .column_40{
@@ -214,6 +216,7 @@ footer{
 
 .column_60{
     order:2;
+    /*align-items: center;*/
     text-align: center;
 }
 
@@ -225,8 +228,9 @@ footer{
     margin-bottom: 0;
 }
 
-/*----------------------------------------------Mobile <footer>*/
-/*-------------------------------------------------------------*/
+/*index.html <section> (End) ==================================*/
+
+/*index.html <footer> (Start) =================================*/
 
 .footer_container{
     flex-direction: column;
@@ -301,27 +305,27 @@ footer{
     background: url("../pict/icons/youtube-4-48.png");
 }
 
-/*------------------------------------------------display: none*/
-
 .footer_design{    
     display: none;
 }
 
-/*-------------------------------------------------------------*/
+/*index.html <footer> (End) ===================================*/
 
 /*==================================================================*/
-/*Start Site contents===============================================*/
+/*===================== Start Site Contents ========================*/
 /*==================================================================*/
 
-/*----------------------------------------HOME section contents*/
+/*index.html <section> Contents (Start) =======================*/
 
-/*"-----------------------------Column_40 / Slider "The Albums"*/
+/*-------------------------Column_40 / Slider "The Albums"*/
 
 .slider {
     order: 2;
     width: 340px;
     text-align: center;
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .slider_controls{
@@ -437,9 +441,10 @@ footer{
     text-align: center;
 }
 
-/*"----------------------Column_60 / .band_history "The History*/
+/*"-----------------Column_60 / .band_history "The History*/
 					
 .column_60 >article{
+    /*align-items: center;*/
 	margin-top:0;
     margin-left: auto;
     margin-right: auto;
@@ -449,21 +454,23 @@ footer{
 	font-family: Anton, sans-serif;
     color: #bab7b7;    
     font-size: 1.1em;
-    text-align: center;
+    text-align: start;
     margin-top: 0;
 }
-    				
-/*------------------------------------End HOME section contents*/
 
-/*------------------------------------PICTURES section contents*/
+/* index.html <section> Contents (End) ========================*/
 
-/*"--------------------------Column_40 / Gallery "The Concerts"*/
+/*pict.html <section> Contents (Start) ========================*/
+
+/*"---------------------Column_40 / Gallery "The Concerts"*/
 
 .gallery{
     order: 2;
     width: 340px;
     text-align: center;
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gallery_box{
@@ -553,13 +560,13 @@ footer{
     text-align: center;
 }
 
-/*"-----------------------Column_60 / .fans_feedback "The Fans"*/
+/*"------------------Column_60 / .fans_feedback "The Fans"*/
 					
 .fans_feedback{
 	font-family: Anton, sans-serif;
     color: #bab7b7;    
     font-size: 1.1em;
-    text-align: center;
+    text-align: start;
     margin-top: 0;
 }
 
@@ -567,15 +574,23 @@ footer{
     color: #fafafa;
 }
     
-/*--------------------------------End PICTURES section contents*/
+/*pict.html <section> Contents (End) ==========================*/
 
-/*---------------------------------------CLIPS section contents*/
+/*clips.html <section> Contents (Start) =======================*/
+
+/*"-----------------------Column_40 / x4 clips "The Clips"*/
 
 .clips{
     order: 2;
-    width: 340px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 310px;
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .clips_box{
@@ -601,40 +616,90 @@ footer{
     transform: scale(1.1);
 }
 
-.clip_embed > iframe{
-    width:85%;
-    height:500px;
+.clip_embed > h3{
+    margin:0;
+    padding: 0;    
+    text-align: center; 
 }
-
+    
 .clip_embed > article:hover{
     animation-name: flip;    
     animation-iteration-count: 1;
     animation-duration: 2s;
     animation-timing-function: linear;
 }
+
 .clip_title{
-    font-family: Anton, sans-serif;
+    order:2;
+    width: 250px;
+    margin: 0 7px;
+    align-items: center;
     color: #0f0f0f;
+    font-family: Anton, sans-serif;
     text-decoration: none;
     font-size: 1.2em;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+}
 
+/*"--------------------Column_60 / x1 clip "The Making of"*/
 
-/*-----------------------------------End CLIPS section contents*/
+.column_60  >div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clip_making_of{
+    display: flex;
+    flex-direction:column;
+    font-family: Anton, sans-serif;
+  
+    font-size: 1.1em;
+    text-align: start;
+.    margin-top: 0;
+}
+
+.back_to_clip{
+    text-decoration: none;
+    font-style: italic;
+    color: #fafafa;
+    letter-spacing: 0.1em;
+}
+
+.back_to_clip:hover{
+    color: #0f0f0f;
+}
+
+.clip_span{
+    display: block;
+    color: #bab7b7;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+    
+.clip_span .back_to_clip{
+
+}
+
+.span_uppercase{
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+/*clips.html <section> Contents (End) ==========================*/
 
 /*==================================================================*/
-/*End Site contents=================================================*/
+/*====================== End Site Contents==========================*/
 /*==================================================================*/
 
-/*==================================================================*/
-/*End of Body Mobile approach=======================================*/
-/*==================================================================*/
+/*=======================================================================*/
+/*==================== End of Body Mobile approach=======================*/
+/*=======================================================================*/
 
 
-
-/*==================================================================*/
-/*Start of Media queries============================================*/
-/*==================================================================*/
+/*=======================================================================*/
+/*====================== Start of Media queries =========================*/
+/*=======================================================================*/
 
 
 /*-----------------------------------------Tablet Media queries*/
@@ -695,8 +760,6 @@ footer{
     height: 140px;
 }  
 
-/*---------------------------------------------------Nav Toggle*/
-
 .nav_toggle{
     margin-top: 75px;
     padding: 0;
@@ -749,7 +812,7 @@ footer{
     margin: 15px 0;
 }
 
-/*----------------------------HOME section contents (MQ Tablet)*/
+/*----------------------------HOME section Contents (MQ Tablet)*/
 /*-------------------------------------------------------------*/
 
 /*"-----------------------------Column_40 / .slider "The Albums*/
@@ -764,10 +827,10 @@ footer{
     height: 150px;
 }
 
-/*------------------------End HOME section contents (MQ Tablet)*/
+/*------------------------End HOME section Contents (MQ Tablet)*/
 /*-------------------------------------------------------------*/
 
-/*------------------------PICTURES section contents (MQ Tablet)*/
+/*------------------------PICTURES section Contents (MQ Tablet)*/
 /*-------------------------------------------------------------*/
 
 .gallery{
@@ -803,9 +866,9 @@ footer{
     width: 90%;
 }
 
-/*--------------------End PICTURES section contents (MQ Tablet)*/
+/*--------------------End PICTURES section Contents (MQ Tablet)*/
 
-/*---------------------------------------CLIPS section contents*/
+/*---------------------------------------CLIPS section Contents*/
 
 /*.clips{*/
 /*    order: 2;*/
@@ -883,7 +946,7 @@ footer{
     border: 2px solid yellow;
 }
 
-/*-----------------------------------End CLIPS section contents*/
+/*-----------------------------------End CLIPS section Contents*/
 
 /*-------------------------------------------------------------*/
 
@@ -1033,7 +1096,7 @@ footer{
 }
 
 
-/*----------------------------HOME section contents (MQ Laptop)*/
+/*----------------------------HOME section Contents (MQ Laptop)*/
 /*-------------------------------------------------------------*/
 
 /*"----------------------Column_60 / .band_history "The History*/
@@ -1042,15 +1105,15 @@ footer{
     font-size: 1.3em;
 }
       				
-/*------------------------End HOME section contents (MQ Laptop)*/
+/*------------------------End HOME section Contents (MQ Laptop)*/
 /*-------------------------------------------------------------*/
 
-/*------------------------PICTURES section contents (MQ Laptop)*/
+/*------------------------PICTURES section Contents (MQ Laptop)*/
 /*-------------------------------------------------------------*/
 
 /*<<<<<<<<<<<<<<<<<<<<< No changes needed! >>>>>>>>>>>>>>>>>>>>*/
  
-/*--------------------End PICTURES section contents (MQ Laptop)*/
+/*--------------------End PICTURES section Contents (MQ Laptop)*/
 /*-------------------------------------------------------------*/
 
 }
@@ -1082,7 +1145,7 @@ footer{
     font-size: 4.2em;
 }
 
-/*---------------------HOME section contents (MQ Large Screens)*/
+/*---------------------HOME section Contents (MQ Large Screens)*/
 /*-------------------------------------------------------------*/
 
 /*"-----------------------------Column_40 / .slider "The Albums*/
@@ -1101,7 +1164,7 @@ footer{
     font-size: 1.5em;
 }
       				
-/*------------------End HOME section contents (MQ Large Screens)*/
+/*------------------End HOME section Contents (MQ Large Screens)*/
 /*--------------------------------------------------------------*/
 
 
@@ -1126,14 +1189,14 @@ footer{
 
 }
 
-/*==================================================================*/
-/*End of Media queries==============================================*/
-/*==================================================================*/
+/*=======================================================================*/
+/*======================= End of Media queries ==========================*/
+/*=======================================================================*/
 
 
-/*==================================================================*/
-/*Start of Animations===============================================*/
-/*==================================================================*/
+/*=======================================================================*/
+/*=======================  Start of Animations ==========================*/
+/*=======================================================================*/
 
 @keyframes flip{
     
@@ -1164,15 +1227,10 @@ to{
 	}
 }
 
-/*==================================================================*/
-/*End of Animations=================================================*/
-/*==================================================================*/
+/*=======================================================================*/
+/*========================  End of Animations ===========================*/
+/*=======================================================================*/
 
-
-/*==================================================================*/
-/*                          REVIEW POINT                            */
-/*                           2018.XX.XX                             */
-/*==================================================================*/
 
 /*-------------------------------------(Mobile) Form "Contact"*/
 /*------------------------------------------------------------*/
