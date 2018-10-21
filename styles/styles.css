@@ -683,7 +683,150 @@ footer{
     text-transform: uppercase;
 }
 
-/*clips.html <section> Contents (End) =========================*/
+/* clips.html <section> Contents (End) ========================*/
+
+/* events.html <section> Contents (Start) =====================*/
+
+/*--------------Column_40 / x12 eventss "Upcoming Events"*/
+
+.events{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 310px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.events_box{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.event_box > div{
+	border-radius: 10px;
+	transition: transform 1s;
+    margin: 10px;
+    -webkit-transition: transform 1s;
+	-moz-transition: transform 1s;
+	-o-transition: transform 1s;
+	background-color: #fafafa;
+}
+
+.events_box > div:hover{    
+    transform-origin: center center;
+    transform: scale(1.1);
+}
+
+.event{
+    display: flex;
+    flex-direction: row;
+    width: 75%;}
+
+.event_date_box{
+    order:2;
+    display: flex;
+    flex-direction: column;
+    
+    /*font-size: large;*/
+}
+.event_date_row{
+    display: flex;
+    flex-direction: row;
+}
+.event_date_day{
+    order:1;
+    display: flex;
+    margin:0;
+    font-size: 7em;
+}
+
+.event_date_column{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+    margin:0;
+
+}
+.event_date_month{
+    font-size: 3em;
+}
+
+.event_date_year{
+    font-size:2em;
+}
+
+.event_date_weekday{
+    font-size: 1.5em;
+    letter-spacing: 0.4em;
+    line-height: 20px;
+}
+
+
+
+.event_title{
+    order:2;
+    width: 250px;
+    margin: 0 7px;
+    align-items: center;
+    color: #0f0f0f;
+    font-family: Anton, sans-serif;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+/*--------------Column_60 / x1 box "Purchase Tickets here*/
+
+.column_60  >div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.purchase_ticket{
+    display: flex;
+    flex-direction:column;
+    font-family: Anton, sans-serif;
+  
+    font-size: 1.1em;
+    text-align: start;
+    margin-top: 0;
+}
+
+.back_to_clip{
+    text-decoration: none;
+    font-style: italic;
+    color: #fafafa;
+    letter-spacing: 0.1em;
+}
+
+.back_to_clip:hover{
+    color: #0f0f0f;
+}
+
+.clip_span{
+    display: block;
+    color: #bab7b7;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+    
+.span_uppercase{
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+/* events.html <section> Contents (End) =======================*/
 
 /*==================================================================*/
 /*====================== End Site Contents==========================*/
