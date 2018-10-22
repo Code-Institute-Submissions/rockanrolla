@@ -710,7 +710,7 @@ footer{
     align-items: center;
 }
 
-.event_box > div{
+.events_box > div{
 	border-radius: 10px;
 	transition: transform 1s;
     margin: 10px;
@@ -728,23 +728,54 @@ footer{
 .event{
     display: flex;
     flex-direction: row;
-    width: 75%;}
+    width: 80%;
+    background-color: #fafafa;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.event_text{
+    flex-direction: column;
+    order:2;
+}
+
+.event_text >h2,h3{
+    font-family: Anton, sans-serif;
+    color: #0f0f0f;
+    text-align: center;
+    text-transform: uppercase;
+}
+.event_city{
+    order:2;
+    font-size: 2em;
+}
+
+.event_venue{
+    order:3;
+    font-size: 1em;
+}
 
 .event_date_box{
-    order:2;
+    order:1;
     display: flex;
     flex-direction: column;
-    
-    /*font-size: large;*/
+    margin-left:20px;
 }
+
 .event_date_row{
     display: flex;
     flex-direction: row;
 }
+
+.event_date_row >h2,h4,h5{
+    color: #0f0f0f;
+    font-family: Anton, sans-serif;
+    /*text-align: center;*/
+}
 .event_date_day{
     order:1;
     display: flex;
-    margin:0;
+    /*margin:0;*/
     font-size: 7em;
 }
 
@@ -752,38 +783,28 @@ footer{
     order: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     /*align-items: center;*/
-    margin:0;
-
+    /*margin:0;*/
 }
+
 .event_date_month{
     font-size: 3em;
+
 }
 
 .event_date_year{
     font-size:2em;
+
 }
 
 .event_date_weekday{
-    font-size: 1.5em;
-    letter-spacing: 0.4em;
-    line-height: 20px;
+    font-size: 1.9em;
+    /*letter-spacing: 0.6em;*/
+    /*align-items: center;*/
 }
 
 
-
-.event_title{
-    order:2;
-    width: 250px;
-    margin: 0 7px;
-    align-items: center;
-    color: #0f0f0f;
-    font-family: Anton, sans-serif;
-    text-decoration: none;
-    font-size: 1.2em;
-    text-transform: uppercase;
-}
 
 /*--------------Column_60 / x1 box "Purchase Tickets here*/
 
