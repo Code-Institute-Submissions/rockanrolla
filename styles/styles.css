@@ -704,10 +704,11 @@ footer{
 
 .events_box{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: transparent;
-    justify-content: center;
-    align-items: center;
+    align-items: fle-start;
+    overflow-x: scroll;
+    width:100%;
 }
 
 .events_box > div{
@@ -727,83 +728,105 @@ footer{
 
 .event{
     display: flex;
-    flex-direction: row;
-    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    /*width: 80%;*/
+    height: 400px;
     background-color: #fafafa;
     margin-bottom: 30px;
     border-radius: 10px;
 }
 
-.event_text{
-    flex-direction: column;
-    order:2;
+.event_date_weekday{
+    order:1;
+    font-size: 2.2em;
+    color: #0f0f0f;
+    font-family: Anton, sans-serif;
+    /*letter-spacing: 0.5em;*/
+    align-items: center;
 }
 
-.event_text >h2,h3{
-    font-family: Anton, sans-serif;
-    color: #0f0f0f;
-    text-align: center;
-    text-transform: uppercase;
+.event_date_box{
+    order:2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+.event_date_box >h4,h5{
+    color: #0f0f0f;
+    font-family: Anton, sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
+
+.event_date_day{
+    order: 1;
+}
+
+.event_date_month{
+    order: 2;
+}
+
+.event_date_year{
+    order: 3;
+}
+
+.event_footer_box{
+    order:3;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.event_text{
+    order:1;
+    flex-direction: column;
+    margin: 0 0 5% 0
+}
+
+.event_text >h2, h3{
+    color: #0f0f0f;
+    font-family: Anton, sans-serif;
+}
+
 .event_city{
     order:2;
     font-size: 2em;
 }
 
-.event_venue{
+.event_country{
     order:3;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
-.event_date_box{
-    order:1;
-    display: flex;
-    flex-direction: column;
-    margin-left:20px;
+.event_venue{
+    order:4;
 }
 
-.event_date_row{
-    display: flex;
-    flex-direction: row;
+.event_barcode{  
+    order:3;
+    background-image: url("/pict/ticket_nav/ticket_barcode.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 30%;
 }
 
-.event_date_row >h2,h4,h5{
-    color: #0f0f0f;
+.event_sold_out{
+    order:2;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    margin: 5% 0 0 0;
+}
+
+.event_sold_out >h2{
+    color: #eb0e0e;
     font-family: Anton, sans-serif;
-    /*text-align: center;*/
+    font-size: 2em; 
 }
-.event_date_day{
-    order:1;
-    display: flex;
-    /*margin:0;*/
-    font-size: 7em;
-}
-
-.event_date_column{
-    order: 2;
-    display: flex;
-    flex-direction: column;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*margin:0;*/
-}
-
-.event_date_month{
-    font-size: 3em;
-
-}
-
-.event_date_year{
-    font-size:2em;
-
-}
-
-.event_date_weekday{
-    font-size: 1.9em;
-    /*letter-spacing: 0.6em;*/
-    /*align-items: center;*/
-}
-
 
 
 /*--------------Column_60 / x1 box "Purchase Tickets here*/
