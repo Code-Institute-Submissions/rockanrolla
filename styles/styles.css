@@ -588,9 +588,7 @@ footer{
     justify-content: center;
     align-items: center;    
     width: 310px;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 20px;
     text-align: center;
 }
 
@@ -653,12 +651,21 @@ footer{
 .clip_making_of{
     display: flex;
     flex-direction:column;
-    font-family: Anton, sans-serif;
-  
+    font-family: Anton, sans-serif;  
     font-size: 1.1em;
-    text-align: start;
-.    margin-top: 0;
+    text-align: left;
+    margin-top: 0;
 }
+
+.clip_alone{
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 310px;
+    margin: 0 auto 20px;
+    text-align: center;}
 
 .back_to_clip{
     text-decoration: none;
@@ -677,7 +684,23 @@ footer{
     text-align: justify;
     margin-bottom: 20px;
 }
-    
+
+.span_1{
+    order:1;
+}
+
+.span_2{
+    order:2;
+}
+
+.span_3{
+    order:4;
+}
+
+.span_4{
+    order:5;
+}
+
 .span_uppercase{
     color: #fafafa;
     text-transform: uppercase;
@@ -706,7 +729,7 @@ footer{
     display: flex;
     flex-direction: row;
     background-color: transparent;
-    align-items: fle-start;
+    align-items: flex-start;
     overflow-x: scroll;
     width:100%;
 }
@@ -754,11 +777,11 @@ footer{
 }
 
 .event_date_box >h4,h5{
-    color: #0f0f0f;
-    font-family: Anton, sans-serif;
-    margin: 0;
+    color: #360c0c;
+    font-family: Monoton, sans-serif;
+    margin:0 5px;
     text-transform: uppercase;
-    font-size: 3.5em;
+    font-size: 2.5em;
 }
 
 .event_date_day{
@@ -819,12 +842,12 @@ footer{
     order:2;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
-    margin: 5% 0 0 0;
+    margin: 10% 0 0 0;
 }
 
 .event_sold_out >h2{
-    color: #eb0e0e;
-    font-family: Anton, sans-serif;
+    color: #d00000;
+    font-family: Monoton, sans-serif;
     font-size: 2em; 
 }
 
@@ -840,37 +863,81 @@ footer{
 .purchase_ticket{
     display: flex;
     flex-direction:column;
-    font-family: Anton, sans-serif;
-  
+    font-family: Anton, sans-serif;  
     font-size: 1.1em;
     text-align: start;
     margin-top: 0;
 }
 
-.back_to_clip{
+.purchase_button{
+    width: 50%;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    border: solid 5px black;
+    justify-content: center;
+    margin: 0 auto;
+    /*opacity: 0.8;*/
+}
+
+.purchase_link{
     text-decoration: none;
-    font-style: italic;
     color: #fafafa;
-    letter-spacing: 0.1em;
-}
-
-.back_to_clip:hover{
-    color: #0f0f0f;
-}
-
-.clip_span{
-    display: block;
-    color: #bab7b7;
-    text-align: justify;
-    margin-bottom: 20px;
-}
+    font-family: Monoton, sans-serif;
+    font-size: 1.8em;
+}    
     
-.span_uppercase{
+/* events.html <section> Contents (End) =======================*/
+
+/* contact.html <section> Contents (Start) =====================*/
+
+.footer_form{
+	order:2;                                       
+    display:flex;
+    flex-direction: column;
+    width:340px;
+    margin-bottom: 10px;
+    font-family: Anton, sans-serif;
     color: #fafafa;
     text-transform: uppercase;
+    align-items: center;
 }
 
-/* events.html <section> Contents (End) =======================*/
+.footer_form >label{
+    font-size: 1.3em;    
+}
+
+.footer_form >input{
+	font-style: italic;
+	font-size: 0.9em;
+	font-family: Anton, sans-serif;
+    margin: 5px 0 10px;
+    border-radius: 5%;
+}
+
+.column_title .contact{
+    font-size: .7em;
+}
+
+.footer_form_comments{    
+    height: 100px;
+    width: 330px;
+}
+
+.footer_form_email{
+	height: 25px;
+    width: 330px;
+}
+
+.footer_form_submit{
+   height: 35px;
+   width: 100px;
+   text-transform: uppercase;
+   background-color: #9e9e9f;
+}
+
+/* contact.html <section> Contents (End) =====================*/
+
 
 /*==================================================================*/
 /*====================== End Site Contents==========================*/
@@ -1113,15 +1180,11 @@ footer{
 }
 
 .clips_link{
-    /*width:100%;*/
-    /*height:100%;*/
     font-size: 1.2em;
     
 }
 
 .clip_embed{
-    /*display:flex;*/
-    /*align-items: center;*/
     width: 100%;
     height:500px;
     background-color: blue;
@@ -1130,7 +1193,35 @@ footer{
 
 /*-----------------------------------End CLIPS section Contents*/
 
-/*-------------------------------------------------------------*/
+/*--------------------------------Start EVENTS section Contents*/
+/*----------------------------------End EVENTS section Contents*/
+
+/*--------------------------------Start CONTACT section Contents*/
+
+.footer_form{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer_form >input{
+    text-align:center;
+	height: 25px;  
+}
+
+.footer_form_comments{ 
+    width: 100%;
+}
+
+.footer_form_email{
+    width: 100%;
+}
+
+.footer_form_submit{
+   width: 150px;
+}
+
+/*----------------------------------End CONTACT section Contents*/
 
 
 /*----------------------------------------------Tablet <footer>*/
@@ -1411,98 +1502,6 @@ to{
 /*=======================================================================*/
 /*========================  End of Animations ===========================*/
 /*=======================================================================*/
-
-
-/*-------------------------------------(Mobile) Form "Contact"*/
-/*------------------------------------------------------------*/
-
-.footer_form{
-	order:2;                                       
-    display:flex;
-    flex-direction: column;
-    width:340px;
-    margin-bottom: 10px;
-    font-family: Anton, sans-serif;
-    color: #fafafa;
-    text-transform: uppercase;
-    align-items: center;
-}
-
-.footer_form >label{
-    font-size: 1.3em;    
-}
-
-.footer_form >input{
-	font-style: italic;
-	font-size: 0.9em;
-	font-family: Anton, sans-serif;
-    margin: 5px 0 10px;
-    border-radius: 5%;
-}
-
-.column_title .contact{
-    font-size: .7em;
-}
-
-.footer_form_comments{    
-    height: 100px;
-    width: 330px;
-}
-
-.footer_form_email{
-	height: 25px;
-    width: 330px;
-}
-
-.footer_form_submit{
-   height: 35px;
-   width: 100px;
-   text-transform: uppercase;
-   background-color: #9e9e9f;
-}
-
-/*----------------------------(Tablet MQueries) Form "CONTACT"*/
-
-.footer_form{
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.footer_form >input{
-    text-align:center;
-	height: 25px;  
-}
-
-.footer_form_comments{ 
-    width: 100%;
-}
-
-.footer_form_email{
-    width: 100%;
-}
-
-.footer_form_submit{
-   width: 150px;
-}
-
-
-/*-------------------------------------------------------------------------*/
-/*-------------------------------------------------------------------------*/
-
-/*<!--FORM "CONTACT"------TO CONTACT PAGE----------------------->*/
-/*<!--<div class="column_40">-->*/
-/*    <!--<h2 class="column_title contact">THE INVASORS</h2>-->*/
-/*    <!-- <form class="footer_form">-->*/
-/*    <!--     <label for="comments">Comments</label>-->*/
-/*    <!--     <input type="text" name="comments" class="footer_form_comments" id="comments" placeholder="Please, insert your comments"/>-->*/
-/*    <!--     <label for="email">Your Email</label>-->*/
-/*    <!--     <input type="text" name="email" class="footer_form_email" id="email" placeholder="No need to... but please, if you wish, insert your Email"/>-->*/
-/*    <!--     <input type="submit"  class="footer_form_submit" value="Submit"/>-->*/
-/*    <!--</form>-->                   */
-/*<!--</div>-->*/
-/*<!-- ------------------------------------------------------------ -->*/
-
 
 
     		/*----------------------------bin------------------------------*/
