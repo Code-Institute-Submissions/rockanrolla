@@ -1,10 +1,5 @@
-/*-----------------------------------------------Font Selection*/
 
 @import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Anton:100,200,300,400,500,600,700');
-
-/*=======================================================================*/
-/*========================= Start of Main CSS ===========================*/
-/*=======================================================================*/
 
 html,body{
     box-sizing: border-box;
@@ -52,17 +47,13 @@ section{
 
 footer{
     order:3;
-    margin: 6% 0 0 0 ;
+    margin:0;
     padding:0;
 }
 
 .wrapper{
     display: flex;
 }
-
-/*=======================================================================*/
-/*======================== End of Main CSS ==============================*/
-/*=======================================================================*/
 
 /*=======================================================================*/
 /*==================== Start of Mobile approach==========================*/
@@ -311,6 +302,10 @@ footer{
 
 /* index.html <footer> (End) ==================================*/
 
+
+
+
+
 /*==================================================================*/
 /*===================== Start Site Contents ========================*/
 /*==================================================================*/
@@ -361,14 +356,13 @@ footer{
     display: flex;
     flex-direction: row;
     overflow-x: auto;
-    align-items: left;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
 
 .slider_box > div{
-	flex: 1;
 	border-radius: 10px;
-	transition: transform 1s;
-    
+	transition: transform 1s;    
     -webkit-transition: transform 1s;
 	-moz-transition: transform 1s;
 	-o-transition: transform 1s;
@@ -444,7 +438,6 @@ footer{
 /*-----------------Column_60 / .band_history "The History*/
 					
 .column_60 >article{
-    /*align-items: center;*/
 	margin-top:0;
     margin-left: auto;
     margin-right: auto;
@@ -830,7 +823,7 @@ footer{
 
 .event_barcode{  
     order:3;
-    background-image: url("/pict/ticket_nav/ticket_barcode.jpg");
+    background-image: url("/docs/pict/ticket_nav/ticket_barcode.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -850,7 +843,6 @@ footer{
     font-family: Monoton, sans-serif;
     font-size: 2em; 
 }
-
 
 /*--------------Column_60 / x1 box "Purchase Tickets here*/
 
@@ -908,6 +900,8 @@ footer{
 }
 
 .footer_form >input{
+    text-align: center;
+    word-wrap: break-word;
 	font-style: italic;
 	font-size: 0.9em;
 	font-family: Anton, sans-serif;
@@ -920,7 +914,7 @@ footer{
 }
 
 .footer_form_comments{    
-    height: 100px;
+    height: 200px;
     width: 330px;
 }
 
@@ -942,6 +936,8 @@ footer{
 /*==================================================================*/
 /*====================== End Site Contents==========================*/
 /*==================================================================*/
+
+
 
 /*=======================================================================*/
 /*==================== End of Body Mobile approach=======================*/
@@ -1010,7 +1006,7 @@ footer{
 }  
 
 .nav_toggle{
-    margin-top: 75px;
+    margin-top: 70px;
     padding: 0;
     transform: translateX(100%);
 }
@@ -1026,12 +1022,12 @@ footer{
 }
 
 .toggle_item{
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: center;
 }
 
 .toggle_link{
-    padding: 0;
+    padding: 5px;
 }
 
 /*---------------------------------------------Tablet <section>*/
@@ -1064,7 +1060,7 @@ footer{
 /*----------------------------HOME section Contents (MQ Tablet)*/
 /*-------------------------------------------------------------*/
 
-/*"-----------------------------Column_40 / .slider "The Albums*/
+/*"-----------------------Column_40 / .slider "The Albums*/
 
 .slider {
     width: 95%;
@@ -1072,9 +1068,36 @@ footer{
     margin-right: auto;
 }
 
+.slide{
+    min-width: 55%;
+}
+
 .album_cover{
     height: 150px;
 }
+
+.album_title{
+    width: 100%;
+}
+
+.album_text{
+    width: 100%;
+    font-size: .8em;
+    margin:10px 0 0;
+}
+
+/*-----------------Column_60 / .band_history "The History*/
+					
+.column_60 >article{
+    margin: 0 5% 0;
+}
+
+.band_history{
+    text-align: center;
+
+}
+
+/* index.html <section> Contents (End) ========================*/
 
 /*------------------------End HOME section Contents (MQ Tablet)*/
 /*-------------------------------------------------------------*/
