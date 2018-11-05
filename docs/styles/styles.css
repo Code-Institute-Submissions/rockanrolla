@@ -537,18 +537,9 @@ footer{
     background-size: contain;
 }
 
-.pict_title{
-    order:2;
-    width: 300px;
-    height: 25px;
-    margin: 0 7px;
-    align-items: center;
-    font-size: 1.3em;
-    color: #0f0f0f;
-}
-
 .pict_text{
-    order:1;
+    display: flex;
+    flex-direction: column;
     font-family: Anton, sans-serif;
     font-size: 1.1em;
     color: #0f0f0f;
@@ -556,8 +547,23 @@ footer{
     margin-top: 5px;
 }
 
-.pict_text > p{
-  margin-bottom:0;
+.pict_title{
+    order:1;
+    width: 300px;
+    height: 25px;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.3em;
+    color: #0f0f0f;
+}
+
+.pict_text > h3{
+    order:1;
+}
+
+.pict_text > span{
+  order: 2;
+  margin: 10px 0 0;
 }
 
 /*------------------Column_60 / .fans_feedback "The Fans"*/
@@ -1124,8 +1130,45 @@ footer{
 
 .gallery_box > div{
     max-width: 44%;
-    max-height: 315px;
 }
+
+/*.picture{*/
+/*    order:2;*/
+/*    height: 250px;*/
+/*    margin:2px;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: contain;*/
+/*}*/
+
+/*.pict_text{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    font-family: Anton, sans-serif;*/
+/*    font-size: 1.1em;*/
+/*    color: #0f0f0f;*/
+/*    text-align: center;*/
+/*    margin-top: 5px;*/
+/*}*/
+
+/*.pict_title{*/
+/*    order:1;*/
+/*    width: 300px;*/
+/*    height: 25px;*/
+/*    justify-content:center;*/
+/*    align-items: center;*/
+/*    font-size: 1.3em;*/
+/*    color: #0f0f0f;*/
+/*}*/
+
+/*.pict_text > h3{*/
+/*    order:1;*/
+/*}*/
+
+/*.pict_text > span{*/
+/*  order: 2;*/
+/*  margin: 10px 0 0;*/
+/*}*/
 
 .picture{
     max-height: 25%;
@@ -1137,6 +1180,7 @@ footer{
 
 .pict_text{
     max-height: 75px;
+    margin-bottom: 35px;
 }
 
 /*"----------------------Column_60 / .band_history "The History*/
