@@ -207,8 +207,7 @@ footer{
 
 .column_60{
     order:2;
-    /*align-items: center;*/
-    text-align: center;
+    margin: 15px 10px;
 }
 
 .column_title{
@@ -357,7 +356,6 @@ footer{
     flex-direction: row;
     overflow-x: auto;
     align-items: flex-start;
-    margin-bottom: 20px;
 }
 
 .slider_box > div{
@@ -419,10 +417,8 @@ footer{
     order:2;
     width: 300px;
     height: 25px;
-    margin: 0 7px;
     align-items: center;
-    font-size: 25px;
-    color: #0f0f0f;
+    font-size: 1.6em;
 }
 
 .album_text{
@@ -431,10 +427,14 @@ footer{
     height: 75px;
     margin-top: 10px;
     font-family: Anton, sans-serif;
+    font-size: 1em;
     color: #0f0f0f;
     text-align: center;
 }
 
+.album_text > p {
+    margin:0;    
+}
 /*-----------------Column_60 / .band_history "The History*/
 					
 .column_60 >article{
@@ -573,12 +573,16 @@ footer{
     color: #bab7b7;    
     font-size: 1.1em;
     text-align: start;
-    margin-top: 0;
 }
 
-.fans_feedback >span{
+.fans_feedback > span{
     color: #fafafa;
 }
+
+.fans_feedback > p{
+    margin-bottom: 0;
+}
+
 
 /* pict.html <section> Contents (End) =========================*/
 
@@ -706,9 +710,9 @@ footer{
     order:5;
 }
 
-.span_uppercase{
+.span_italic{
     color: #fafafa;
-    text-transform: uppercase;
+    font-style: italic;
 }
 
 /* clips.html <section> Contents (End) ========================*/
@@ -962,8 +966,10 @@ footer{
 /*-----------------------------------------Tablet Media queries*/
 /*-------------------------------------------------------------*/
 
-@media all and (min-device-width : 416px){
-    
+/*@media all and (min-device-width : 416px){*/
+
+@media (min-device-width : 416px){
+
 body{
     align-items: center;
     background-color: #000000;
@@ -1062,11 +1068,17 @@ footer{
 	width: 100%;
 }
 
+.column_60 >article{    
+    margin: 0 5% 0;
+    text-align: left;
+    font-size: 1.2em
+}
+
 .column_title{
     justify-content: center;
     font-size: 1.8em;
 	letter-spacing: 3px;
-    margin: 15px 0;
+    margin: 15px 0 0;
 }
 
 /*----------------------------HOME section Contents (MQ Tablet)*/
@@ -1100,14 +1112,16 @@ footer{
 
 /*-----------------Column_60 / .band_history "The History*/
 					
-.column_60 >article{
-    margin: 0 5% 0;
-}
+/*.column_60 >article{*/
+/*    margin: 0 5% 0;*/
+/*    text-align: left;*/
+/*    font-size: 1.2em*/
+/*}*/
 
-.band_history{
-    text-align: center;
-
-}
+/*.band_history{*/
+/*    text-align: center;*/
+/*    font-size: 1.2em*/
+/*}*/
 
 /* index.html <section> Contents (End) ========================*/
 
