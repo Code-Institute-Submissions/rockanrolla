@@ -14,14 +14,14 @@ their availability and future events. Project brief and guidelines can be review
 
 ## How does it work?
 
-This project works over 6 Html pages styled using Bootstrap libraries and customized CSS properties. 
+This project works over 6 Html pages styled using Flexbox and customized CSS properties. 
 Folder projects_docs contain the previous wireframes to design the site and make it full responsive.
 
 ## Why a rock band site?
 
 The motivation behind this project is not only about following the briefing and guidelines but also
 to achieve something that I never did before. Creating a site like that, whith such content, should 
-give me the experience to be able to accept any other kind of customize project.
+give me the experience to be able to accept any other kind of customized project.
 
 
 --------------------------------------------------------------------------------------------

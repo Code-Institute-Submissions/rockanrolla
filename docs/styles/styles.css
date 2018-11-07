@@ -435,6 +435,7 @@ footer{
 .album_text > p {
     margin:0;    
 }
+
 /*-----------------Column_60 / .band_history "The History*/
 					
 .column_60 >article{
@@ -892,7 +893,8 @@ footer{
     text-decoration: none;
     color: #fafafa;
     font-family: Monoton, sans-serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
+    text-align: center;
 }    
     
 /* events.html <section> Contents (End) =======================*/
@@ -1071,7 +1073,6 @@ footer{
 .column_60 >article{    
     margin: 0 5% 0;
     text-align: left;
-    font-size: 1.2em
 }
 
 .column_title{
@@ -1200,7 +1201,7 @@ footer{
 /*"----------------------Column_60 / .band_history "The History*/
 					
 .fans_feedback{
-    font-size: 1.3em;
+    /*font-size: 1.3em;*/
     width: 90%;
 }
 
@@ -1318,7 +1319,7 @@ footer{
 .footer_container{
 	justify-content: space-between;
     align-items: center;
-    background-color: #8e16239e;
+    background-color: #8e16239;
 	opacity: 0.9;
 }
 
@@ -1360,7 +1361,7 @@ footer{
 	opacity: 0.9;
 }
 
-.footer_design:onhover{
+.footer_design:hover{
     animation-name: spin;
     animation-iteration-count: infinite;
     animation-duration: 2.5s;
@@ -1574,6 +1575,7 @@ to{
 @keyframes spin{
 	
     0%{
+    transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -1581,10 +1583,11 @@ to{
     }
     
     100%{
-    -moz-transform: rotate(-360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
+    transform: rotate(-360deg);
+    /*-moz-transform: rotate(-360deg);*/
+    /*-webkit-transform: rotate(360deg);*/
+    /*-o-transform: rotate(360deg);*/
+    /*-ms-transform: rotate(360deg);*/
 	}
 }
 
