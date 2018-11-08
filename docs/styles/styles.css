@@ -11,7 +11,6 @@ body{
     flex-wrap: wrap;
     margin:0;
     padding:0;
-    /*background-image: url("../pict/bckgr_main.jpg");*/
     background-image: url("../pict/bckgr_mobile_1080x1920.jpg");
     background-size: cover;
     background-repeat: no-repeat;    	
@@ -300,9 +299,6 @@ footer{
 }
 
 /* index.html <footer> (End) ==================================*/
-
-
-
 
 
 /*==================================================================*/
@@ -1111,19 +1107,6 @@ footer{
     margin:10px 0 0;
 }
 
-/*-----------------Column_60 / .band_history "The History*/
-					
-/*.column_60 >article{*/
-/*    margin: 0 5% 0;*/
-/*    text-align: left;*/
-/*    font-size: 1.2em*/
-/*}*/
-
-/*.band_history{*/
-/*    text-align: center;*/
-/*    font-size: 1.2em*/
-/*}*/
-
 /* index.html <section> Contents (End) ========================*/
 
 /*------------------------End HOME section Contents (MQ Tablet)*/
@@ -1146,44 +1129,6 @@ footer{
 .gallery_box > div{
     max-width: 44%;
 }
-
-/*.picture{*/
-/*    order:2;*/
-/*    height: 250px;*/
-/*    margin:2px;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: contain;*/
-/*}*/
-
-/*.pict_text{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    font-family: Anton, sans-serif;*/
-/*    font-size: 1.1em;*/
-/*    color: #0f0f0f;*/
-/*    text-align: center;*/
-/*    margin-top: 5px;*/
-/*}*/
-
-/*.pict_title{*/
-/*    order:1;*/
-/*    width: 300px;*/
-/*    height: 25px;*/
-/*    justify-content:center;*/
-/*    align-items: center;*/
-/*    font-size: 1.3em;*/
-/*    color: #0f0f0f;*/
-/*}*/
-
-/*.pict_text > h3{*/
-/*    order:1;*/
-/*}*/
-
-/*.pict_text > span{*/
-/*  order: 2;*/
-/*  margin: 10px 0 0;*/
-/*}*/
 
 .picture{
     max-height: 25%;
@@ -1209,25 +1154,10 @@ footer{
 
 /*---------------------------------------CLIPS section Contents*/
 
-/*.clips{*/
-/*    order: 2;*/
-/*    width: 340px;*/
-/*    text-align: center;*/
-/*    margin-top: 0;*/
-/*}*/
-
 .clips{
     width: 70%;
     /*height:auto; */
 }
-
-/*.clips_box{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    background-color: transparent;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
 
 .clips_box{
 
@@ -1373,7 +1303,7 @@ footer{
 /*-----------------------------------------Laptop Media queries*/
 /*-------------------------------------------------------------*/
 
-@media all and (min-device-width : 768px){
+@media (min-device-width : 768px){
     
 body{
     background-size: cover;
@@ -1484,7 +1414,7 @@ footer{
 /*-----------------------------------Large Screen Media queries*/
 /*-------------------------------------------------------------*/
 
-@media all and (min-device-width : 1024px){
+@media (min-device-width : 1024px){
     
 /*----------------------------------------------Screen <header>*/
 
