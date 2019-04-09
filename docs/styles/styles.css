@@ -107,7 +107,8 @@ footer{
         justify-content: space-around;
     margin:10px 0 0;
     padding:0;
-    width: 340px;
+    /* width: 340px; */
+    width: 320px;
 }
 
 .header_title{
