@@ -1185,6 +1185,7 @@ footer{
 }
 
 .purchase_link{
+    width: 100%;
     text-decoration: none;
     color: #fafafa;
     font-family: Monoton, sans-serif;
