@@ -164,9 +164,9 @@ footer{
 
 .nav_toggle{
     position: absolute;
-    width: 100%;
+    width: 80%;
     padding: 6% 0;
-    left: -100%;
+    left: -80%;
     z-index: 1;
     -webkit-transition: -webkit-transform 0.7s ease-in-out;
     transition: -webkit-transform 0.7s ease-in-out;
@@ -213,8 +213,8 @@ footer{
 }
 
 .nav_btn:hover +.nav_toggle{
-    -webkit-transform: translateX(70%);
-            transform: translateX(70%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
 }
 
 .toggle_link:hover{
