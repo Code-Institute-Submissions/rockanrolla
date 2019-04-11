@@ -459,8 +459,11 @@ footer{
 .slider_box > div:hover{    
     -webkit-transform-origin: center center;    
             transform-origin: center center;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    /* -webkit-transform: scale(0.9);
+            transform: scale(0.9); */
+
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 .slide{
