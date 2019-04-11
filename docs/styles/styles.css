@@ -1348,6 +1348,8 @@ footer{
 .nav_toggle{
     margin-top: 70px;
     padding: 0;
+    width: 100%;
+    left: -100%;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
 }
@@ -1872,8 +1874,8 @@ footer{
 /*=======================================================================*/
 
 /*=======================================================================*/
-/*=======================  Start of Animations ==========================*/
-/*=======================================================================*/
+/* =======================  Start of Animations ========================== */
+/* ======================================================================= */
 
 @-webkit-keyframes flip{
     
@@ -1943,147 +1945,6 @@ to{
 	}
 }
 
-/*=======================================================================*/
-/*========================  End of Animations ===========================*/
-/*=======================================================================*/
-
-
-    		/*----------------------------bin------------------------------*/
-			/*-------------------------------------------------------------*/
-			
-			/*--------------------*//*ooooooooooo*//*----------------------*/
-			/*--------------------*//*   B I N   *//*----------------------*/
-			/*--------------------*//*ooooooooooo*//*----------------------*/
-
-		    /*border: solid 1px green;*/
-            
-            /*margin:1% 0 8%;*/
-            /*width: auto;*/
-            /*margin-left: auto;*/
-            /*margin-right: auto;*/ 
-            /*align-items: center; */
-            
-            /*font-size: small;}*/
-			/*color: #fafafa;*/
-			/*color: #9e9e9f;*/
-			/*margin: 5px 40px;*/
-			/*letter-spacing: .5em; */
-	
-			/*.footer_container .column_40:hover +.column_60.socialmedia{*/
-			/*	background-color: #ed7621;*/
-			
-			/*	background-color: white;*/
-			/*    color: grey;*/
-			/*}*/
-			/*.footer_container .column_60:hover +.column_40 .contact{*/
-			/*		background-color: #ed7621;*/
-			
-			/*	background-color: white;*/
-			/*    color: grey;*/
-			/*}*/
-
-
-			/*.slide::-webkit-scrollbar-thumb {*/
-			/*    background: red;*/
-			/*    border-color: black;*/
-			/*    height: 10px;*/
-			/*    border-radius: 10px;*/
-			/*}*/
-			
-			/*#slide_1:target ~ .slide{left: 0px;}*/
-			/*#slide_2:target ~ .slide{left: 150px;}*/
-			/*#slide_3:target ~ .slide{left: 300px;}*/
-			/*#slide_4:target ~ .slide{left: 450px;}*/
-			/*#slide_5:target ~ .slide{left: 600px;}*/
-			/*#slide_6:target ~ .slide{left: 750px;}*/
-			/*#slide_7:target ~ .slide{left: 900px;}*/   
-		
-			/*flex-shrink: 0;*/
-		    /*height: 400px;*/
-		    
-		    /*.column_40{*/
-		    /*order:1;*/
-		    /*width: 40%;*/
-		    /*background-color: transparent;*/
-		    /*background-color: #fff;*/
-		    /*opacity: 0.5;*/
-		    /*border: solid 2px green;*/
-			/*}*/
-		
-			/*.column_60{*/
-		    /*order:2;*/
-		    /*width: 60%;*/
-		    /*color: #fff;*/
-		    /*font-family: Anton, sans-serif;*/
-		    /*background-color: red;*/
-		    /*background-color: #0f0f0f;*/
-		    /*opacity: 0.5;*/
-		    /*border: solid 2px green;*/
-			/*}*/
-		
-			/*.wrapper{*/
-		
-		    /*display: flex;*/
-		    /*width: auto;*/
-		    /*min-width: 600px;*/
-			/*} */
-		
-			/*.header_nav .nav_btn:hover +.nav_toggle{*/
-			    /*transform: translateX(-140%);*/
-			/*}*/
-		   
-			/*header {*/
-			    /*min-height: 200px;*/
-			    /*max-height: 200px;*/
-			/*}*/
-		
-			/*header{*/
-			/*    order:1;*/
-			/*    margin:1px;*/
-			/*    padding:0;*/
-			/*    min-height: 425px;*/
-			/*}*/
-			
-			/*.column {*/
-			/*	display:flex;*/
-			/*    flex-direction: column;*/
-			/*    justify-content: center;*/
-			/*    background-color: transparent;*/
-			/*    text-align: center;*/
-			/*    border-color: #34343d;*/
-			/*}*/
-			
-			/*.header_nav .nav_btn:focus{*/
-			/*    outline: none;*/
-			/*}*/
-			
-			/*.header_nav .slide_link:hover .bar{*/
-			/*    background-color: #ed7621;*/
-			/*    background-color: #0f0f0f;*/
-			/*}*/
-			
-			/*.header_nav .toggle_link:hover{*/
-			/*    color: #0f0f0f;*/
-			/*    background-color: #fff;*/
-			/*}*/
-			
-			/*.slider::-webkit-scrollbar {*/
-			/*    width: 10px;*/
-			/*    height: 10px;*/
-			/*}*/
-			
-			/*.slides::-webkit-scrollbar-track {*/
-			/*    background: transparent;*/
-			/*}*/
-			
-			/*.slider_box > div:target {*/
-			/*  transform: scale(0.8);*/
-			/*}*/
-			
-			/*.open_slider{*/
-			/*}*/
-			
-			/*    word-wrap: break-word;*/
-			/*    word-break: break-all;*/
-			/*    height: 80px;*/
-			/*}*/
+/* ======================================================================= */
+/* ========================  End of Animations =========================== */
+/* ======================================================================= */
