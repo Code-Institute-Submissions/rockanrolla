@@ -182,18 +182,12 @@ footer{
 }
 
 .nav_btn:hover +.nav_toggle{
-<<<<<<< HEAD
-<<<<<<< HEAD
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-=======
-    transform: translateX(70%);
->>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
-=======
-    transform: translateX(70%);
->>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
-}
 
+    /* -webkit-transform: translateX(100%);
+            transform: translateX(100%); */
+
+    transform: translateX(70%);
+}
 .toggle_link:hover{
     color: #0f0f0f;
     background-color: #fff;
@@ -319,19 +313,9 @@ footer{
 /*------------------------Column_40 / Slider "The Albums"*/
 
 .slider {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    order: 2;
     /* width: 340px; */
     width: 320px;
-=======
-=======
->>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
-    order: 2;
-    width: 340px;
->>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
     text-align: center;
     margin-top: 0;
     margin-left: auto;
@@ -383,8 +367,7 @@ footer{
 }
 	    
 .slider_box > div:hover{    
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     /* -webkit-transform-origin: center center;    
             transform-origin: center center; */
 
@@ -395,15 +378,11 @@ footer{
 
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
-=======
+
     transform-origin: center center;
     transform: scale(0.9);
->>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
-=======
-    transform-origin: center center;
-    transform: scale(0.9);
->>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
 }
+
 
 .slide{
     display: flex;
@@ -1063,19 +1042,13 @@ footer{
 .nav_toggle{
     margin-top: 70px;
     padding: 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 100%;
     left: -100%;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
-=======
+
     transform: translateX(100%);
->>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
-=======
-    transform: translateX(100%);
->>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
-}
+}                               
 
 .nav_btn{
     display:none;
@@ -1299,7 +1272,7 @@ footer{
 .footer_container{
 	justify-content: space-between;
     align-items: center;
-    background-color: #8e16239;
+    background-color: #8e1623;
 	opacity: 0.9;
 }
 
@@ -1348,7 +1321,7 @@ footer{
     animation-timing-function: linear;
 }
 
-}
+
 
 /*-----------------------------------------Laptop Media queries*/
 /*-------------------------------------------------------------*/
@@ -1369,19 +1342,9 @@ section{
 
 footer{    
     width:100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-=======
+    justify-content: center;
     height:300px;
     justify-content: center;
->>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
-=======
-    height:300px;
-    justify-content: center;
->>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
 }
 
 /*----------------------------------------------Laptop <header>*/
@@ -1548,13 +1511,9 @@ footer{
 /*=======================================================================*/
 
 /*=======================================================================*/
-<<<<<<< HEAD
-/* =======================  Start of Animations ========================== */
-/* ======================================================================= */
-=======
 /*=======================  Start of Animations ==========================*/
 /*=======================================================================*/
->>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
+
 
 @keyframes flip{
     
