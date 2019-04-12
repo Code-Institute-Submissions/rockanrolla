@@ -183,8 +183,12 @@ footer{
 
 .nav_btn:hover +.nav_toggle{
 <<<<<<< HEAD
+<<<<<<< HEAD
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
+=======
+    transform: translateX(70%);
+>>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
 =======
     transform: translateX(70%);
 >>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
@@ -316,12 +320,15 @@ footer{
 
 .slider {
 <<<<<<< HEAD
+<<<<<<< HEAD
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
     /* width: 340px; */
     width: 320px;
 =======
+=======
+>>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
     order: 2;
     width: 340px;
 >>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
@@ -377,6 +384,7 @@ footer{
 	    
 .slider_box > div:hover{    
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* -webkit-transform-origin: center center;    
             transform-origin: center center; */
 
@@ -387,6 +395,10 @@ footer{
 
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
+=======
+    transform-origin: center center;
+    transform: scale(0.9);
+>>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
 =======
     transform-origin: center center;
     transform: scale(0.9);
@@ -1052,10 +1064,14 @@ footer{
     margin-top: 70px;
     padding: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 100%;
     left: -100%;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
+=======
+    transform: translateX(100%);
+>>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
 =======
     transform: translateX(100%);
 >>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
@@ -1354,9 +1370,14 @@ section{
 footer{    
     width:100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+=======
+    height:300px;
+    justify-content: center;
+>>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
 =======
     height:300px;
     justify-content: center;
@@ -1527,8 +1548,13 @@ footer{
 /*=======================================================================*/
 
 /*=======================================================================*/
+<<<<<<< HEAD
 /* =======================  Start of Animations ========================== */
 /* ======================================================================= */
+=======
+/*=======================  Start of Animations ==========================*/
+/*=======================================================================*/
+>>>>>>> parent of 910fb43... 1st time using Visual SC+Autoprefix on styles.css
 
 @keyframes flip{
     
