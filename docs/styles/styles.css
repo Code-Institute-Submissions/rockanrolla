@@ -361,22 +361,17 @@ footer{
 .slider_box > div{
 	border-radius: 10px;
 	transition: transform 1s;    
-    -webkit-transition: transform 1s;
+    /* -webkit-transition: transform 1s;
 	-moz-transition: transform 1s;
-	-o-transition: transform 1s;
+	-o-transition: transform 1s; */
 }
 	    
 .slider_box > div:hover{    
 
-    /* -webkit-transform-origin: center center;    
-            transform-origin: center center; */
-
-    -webkit-transform-origin: center top;    
+    /* -webkit-transform-origin: center top;     */
             transform-origin: center top;
-    /* -webkit-transform: scale(0.9);
-            transform: scale(0.9); */
 
-    -webkit-transform: scale(1.1);
+    /* -webkit-transform: scale(1.1); */
             transform: scale(1.1);
 
     transform-origin: center center;
@@ -494,9 +489,9 @@ footer{
 	border-radius: 10px;
 	transition: transform 1s;
     margin: 10px;
-    -webkit-transition: transform 1s;
+    /* -webkit-transition: transform 1s;
 	-moz-transition: transform 1s;
-	-o-transition: transform 1s;
+	-o-transition: transform 1s; */
 }
 
 .gallery_box > div:hover{    
@@ -627,10 +622,11 @@ footer{
 	border-radius: 10px;
 	transition: transform 1s;
     margin: 10px;
-    -webkit-transition: transform 1s;
+    background-color: #fafafa;
+    /* -webkit-transition: transform 1s;
 	-moz-transition: transform 1s;
-	-o-transition: transform 1s;
-	background-color: #fafafa;
+	-o-transition: transform 1s; */
+
 }
 
 .clips_box > div:hover{    
@@ -761,10 +757,11 @@ footer{
 	border-radius: 10px;
 	transition: transform 1s;
     margin: 10px;
-    -webkit-transition: transform 1s;
+    background-color: #fafafa;
+    /* -webkit-transition: transform 1s;
 	-moz-transition: transform 1s;
-	-o-transition: transform 1s;
-	background-color: #fafafa;
+	-o-transition: transform 1s; */
+
 }
 
 .events_box > div:hover{    
@@ -863,9 +860,9 @@ footer{
 
 .event_sold_out{
     order:2;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
     margin: 10% 0 0 0;
+    /* -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg); */
 }
 
 .event_sold_out >h2{
@@ -1044,10 +1041,8 @@ footer{
     padding: 0;
     width: 100%;
     left: -100%;
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-
     transform: translateX(100%);
+    /* -webkit-transform: translateX(100%); */
 }                               
 
 .nav_btn{
@@ -1190,9 +1185,9 @@ footer{
 	border-radius: 10px;
 	transition: transform 1s;
     margin: 10px;
-    -webkit-transition: transform 1s;
+    /* -webkit-transition: transform 1s;
 	-moz-transition: transform 1s;
-	-o-transition: transform 1s;
+	-o-transition: transform 1s; */
 }
 
 .clips_box > div:hover{    
@@ -1530,10 +1525,10 @@ to{
 	
     0%{
     transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
+    /* -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
+    -ms-transform: rotate(0deg); */
     }
     
     100%{
