@@ -344,6 +344,7 @@ footer{
     transform-origin: center center;
     transform: scale(0.9);
 }
+
 .slider_controls{
     display:flex;
     flex-direction: row;
@@ -372,6 +373,18 @@ footer{
     background-color: #fff;
     color: #0f0f0f;
 }
+
+/* #previous_slide:hover{
+    background-color: #fa0202dc;
+    color: #0f0f0f;
+    border: 1px black solid;  
+}
+
+#next_slide:hover{
+    background-color: #fa0202dc;
+    color: #0f0f0f;
+    border: 1px black solid; 
+} */
 
 .slide{
     display: flex;
