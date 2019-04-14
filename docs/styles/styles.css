@@ -321,7 +321,6 @@ footer{
 
 .slider {
     order: 2;
-    /* width: 340px; */
     width: 320px;
     text-align: center;
     margin-top: 0;
@@ -329,6 +328,22 @@ footer{
     margin-right: auto;
 }
 
+.slider_box{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    /* align-items: flex-start; */
+}
+
+.slider_box > div::after{    
+    transform-origin: center center;
+    transform: scale(1.0);
+}
+ 
+.slider_box > div:target{    
+    transform-origin: center center;
+    transform: scale(0.9);
+}
 .slider_controls{
     display:flex;
     flex-direction: row;
@@ -353,83 +368,69 @@ footer{
 }
 
 .slide_link:hover {
-  	transform: scale(1.3,1.3);
-  	background-color: #fff;
-  	color: #0f0f0f;
-}
-
-.slider_box{
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    align-items: flex-start;
-}
-
-.slider_box > div{
-	border-radius: 10px;
-	transition: transform 1s;    
-}
-	    
-.slider_box > div:hover{    
-    transform-origin: center top;
-    transform: scale(1.1);
+    transform: scale(1.3,1.3);
+    background-color: #fff;
+    color: #0f0f0f;
 }
 
 .slide{
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 10px;
     margin:5px;
+    border-radius: 10px;
+    transition: transform 1s;
 }
 
-#slide_1{
+.slide:hover{    
+    transform-origin: center center;
+    transform: scale(0.9);
+}
+
+.slide::after{    
+    transform-origin: center center;
+    transform: scale(1.0);
+}
+
+
+
+#album_1{
     background-image: url("../pict/album_nav/slide_01.jpg")
 }
-#slide_2{
+#album_2{
     background-image: url("../pict/album_nav/slide_02.jpg")
 }
-#slide_3{
+#album_3{
     background-image: url("../pict/album_nav/slide_03.jpg")
 }
-#slide_4{
+#album_4{
     background-image: url("../pict/album_nav/slide_04.jpg")
 }
-#slide_5{
+#album_5{
     background-image: url("../pict/album_nav/slide_05.jpg")
 }
-#slide_6{
+#album_6{
     background-image: url("../pict/album_nav/slide_06.jpg")
 }
-#slide_7{
+#album_7{
     background-image: url("../pict/album_nav/slide_07.jpg")
-}
-#slide_8{
-    background-image: url("../pict/album_nav/slide_08.jpg")
 }
 
 .album_cover{
     order:1;
+    width:300px;
     height: 275px;
-    margin: 5px;
+    margin:10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.album_title{
-    order:2;
-    width: 300px;
-    height: 25px;
-    align-items: center;
-    font-size: 1.6em;
-}
-
 .album_text{
     order:3;
-    margin: 20px;
-    height: 75px;
-    margin-top: 10px;
+    width: 300px;
+    height: 125px;
+    margin: 10px;
     font-family: Anton, sans-serif;
     font-size: 1em;
     color: #0f0f0f;
@@ -438,6 +439,12 @@ footer{
 
 .album_text > p {
     margin:0;    
+}
+
+.album_title{
+    order:2;
+    align-items: center;
+    font-size: 1.6em;
 }
 
 /*------- Column_60 / .band_history "The History*/
