@@ -301,10 +301,15 @@ footer{
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
+    opacity:0;
 }
 
-#top_back:hover {
-    border: solid 2px red;
+body:hover #top_back{
+    opacity:1
+}
+
+body:hover::after #top_back{
+    opacity:0
 }
 
 /*==================================== End <Back-To-Top> Button*/
