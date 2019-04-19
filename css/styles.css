@@ -14,7 +14,7 @@ body{
     flex-wrap: wrap;
     margin:0;
     padding:0;
-    background-image: url("images/background_1080x1920.jpg");
+    background-image: url("../images/background_1080x1920.jpg");
     background-size: cover;
     background-repeat: no-repeat;    	
 }
@@ -87,7 +87,7 @@ header{
     width: 100%;
     margin-bottom: 10px;
     padding:0;
-    background: url("images/logo_250x282.jpg");
+    background: url("../images/logo_250x282.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -268,17 +268,17 @@ footer{
 
 .fcbk_icon{
 	order:2;
-    background: url("images\icons\facebook-4-48.png");
+    background: url("../images/icons/facebook-4-48.png");
 }
 
 .twt_icon{
 	order:3;
-    background: url("images/icons/twitter-4-48.png");
+    background: url("../images/icons/twitter-4-48.png");
 }
 
 .ytb_icon{
     order:4;
-    background: url("images/icons/youtube-4-48.png");
+    background: url("../images/icons/youtube-4-48.png");
 }
 
 .footer_design{    
@@ -296,7 +296,7 @@ footer{
     width: 40px;
     height: 40px;
     border: solid 2px white;
-    background-image: url("images\icons\buttonup.png");
+    background-image: url("images/icons/buttonup.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -413,25 +413,25 @@ body:hover::after #top_back{
 
 
 #album_1{
-    background-image: url("images\album_nav\slide_01.jpg")
+    background-image: url("../images/album_nav/slide_01.jpg")
 }
 #album_2{
-    background-image: url("images\album_nav\slide_02.jpg")
+    background-image: url("../images/album_nav/slide_02.jpg")
 }
 #album_3{
-    background-image: url("images\album_nav\slide_03.jpg")
+    background-image: url("../images/album_nav/slide_03.jpg")
 }
 #album_4{
-    background-image: url("images\album_nav\slide_04.jpg")
+    background-image: url("../images/album_nav/slide_04.jpg")
 }
 #album_5{
-    background-image: url("images\album_nav\slide_05.jpg")
+    background-image: url("../images/album_nav/slide_05.jpg")
 }
 #album_6{
-    background-image: url("images\album_nav\slide_06.jpg")
+    background-image: url("../images/album_nav/slide_06.jpg")
 }
 #album_7{
-    background-image: url("images\album_nav\slide_07.jpg")
+    background-image: url("../images/album_nav/slide_07.jpg")
 }
 
 .album_cover{
@@ -527,31 +527,31 @@ body:hover::after #top_back{
 }
 
 #pict_1{
-    background-image: url("images/pict_nav/pict_01.jpg")
+    background-image: url("../images/pict_nav/pict_01.jpg")
 }
 #pict_2{
-    background-image: url("images/pict_nav/pict_02.jpg")
+    background-image: url("../images/pict_nav/pict_02.jpg")
 }
 #pict_3{
-    background-image: url("images/pict_nav/pict_03.jpg")
+    background-image: url("../images/pict_nav/pict_03.jpg")
 }
 #pict_4{
-    background-image: url("images/pict_nav/pict_04.jpg")
+    background-image: url("../images/pict_nav/pict_04.jpg")
 }
 #pict_5{
-    background-image: url("images/pict_nav/pict_05.jpg")
+    background-image: url("../images/pict_nav/pict_05.jpg")
 }
 #pict_6{
-    background-image: url("images/pict_nav/pict_06.jpg")
+    background-image: url("../images/pict_nav/pict_06.jpg")
 }
 #pict_7{
-    background-image: url("images/pict_nav/pict_07.jpg")
+    background-image: url("../images/pict_nav/pict_07.jpg")
 }
 #pict_8{
-    background-image: url("images/pict_nav/pict_08.jpg")
+    background-image: url("../images/pict_nav/pict_08.jpg")
 }
 #pict_9{
-    background-image: url("images/pict_nav/pict_09.jpg")
+    background-image: url("../images/pict_nav/pict_09.jpg")
 }
 
 .picture{
