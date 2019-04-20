@@ -1142,7 +1142,7 @@ body:hover::after #top_back{
         height: 100px;
         width: 100px;
         margin: 10px 0 ;
-        background-image: url("images/icons/rubik-icon-23_trnsp_100x100.png");
+        background-image: url("../images/icons/rubik-icon-23_trnsp_100x100.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
