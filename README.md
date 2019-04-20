@@ -1,19 +1,4 @@
-
-
-
-<!-- ## How does it work?
-
-This project works over 6 Html pages styled using Flexbox and customized CSS properties. 
-Folder projects_docs contain the previous wireframes to design the site and make it full responsive. -->
-
-<!-- ## Why a rock band site?
-
-The motivation behind this project is not only about following the briefing and guidelines but also
-to achieve something that I never did before. Creating a site like that, whith such content, should 
-give me the experience to be able to accept any other kind of customized project. -->
-
-
-# Rockanrolla Band Website
+# __Rockanrolla Band Website__
 
 *__This is my very first Website Project.__*
 
@@ -25,9 +10,8 @@ This site is simulating all the previous features and all its content is pure fi
 
 [Click here to visit the site](https://danmtt.github.io/rockanrolla)
 
-
-## UX
------
+## __UX__
+---
 
 This website is aim to be visited by music and rock fans, more especifically those ones that grown up listening those beats during the 70's an 80's. This site shows the progress of the band from then till these actual days. 
 
@@ -66,9 +50,79 @@ __*Wireframes mockups:*__
 
 [Balsamiq Project wireframe](project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf)
 
+## __Features__
+---
 
-## Features
------
+The site works on 5 Html pages styles using Flexbox and customized CSS properties to feature a responsive design. 
+
+On each page the next elements are displayed:
+
+  1. A *__header__* containing a band logo, a title and a navigational menu between pages.
+  2. A *__section__* with two columns displaying *[specific contents](###specific-section-contents)* attending to the page selected.  
+  3. A *__footer__* that links the user to this developer and to the band via social media.
+  4. A *__back to top button__* that allows the visitor to go back to the header 
+
+### __*Specific Section contents*__
+
+__*Home*__
+
++ The contents displayed in the first column of this section are about all the band's albums. A carrousel containing seven slides with the album cover and some of the song titles should help the visitor to meet the band's discography.
+
++ The contents displayed in the second column are about the beginnig of the band's history. In a simple article element containing a header and two paragraphs, the visitor should be able to learn about the beginning of the band and why, after all this time, they are still together.
+
+__*Pictures*__
+
++ The contents displayed on the first column of this section are about the band's concerts. A gallery displays nine cards, every one containing an image and some information about a concert in a world venue. This cards are ordered by year to show the visitor the band progress through the years.  
+
++ The contents displayed on the second column are about feedback from events provided by fans that attended some of the concerts of the band.
+
+__*Clips*__
+
++ The contents displayed on the first column of this section are about the band's concert song recordings. A gallery displays four cards, every one containing the song name and a videoclip. Hovering or clicking on the card should start playing the clip. 
+
++ The contents displayed on the second column are about an specific videoclip. This is the first video recorded by the band and here is displayed when the visitor clicks on the text link or hover on the clip card. 
+
+__*Events*__
+
++ The contents displayed on the first column of this section are about the future events of the band. A carrousel is available with eight slides, each one containing information about a future event date, city, country, venue and tickets availability. This should help the fans to take a decision about which should be the best concert to attend.
+
++ The contents displayed on the second column are related to the purchase of concerts tickets. A link is diplayed that should link the visitors to an external site where tickets can be bought.
+
+__*Contact*__
+
+*Section contents*
+
++ The contents displayed on the first column of this section are about the form available for the visitor to give any kind of feedback about the band, their concerts, etc. A validated email is neccesary to send the feedback so this would give the band crew to give back a response, increasing the confidence between the musicians and the fans.
+
++ The contents displayed on the second column are about the chance given to any fan to hire the band for music events. This is managed through an external company so the visitor is offer a link to it if this is their desire.
+
+### Existing features
+
+### Features Left to Implement
+
+## Technologies Used
+---
+
+## Testing
+---
+
+## Deployment
+---
+
+## Credits
+---
+
+### Content
+- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+### Media
+- The photos used in this site were obtained from ...
+
+### Acknowledgements
+
+- I received inspiration for this project from X
+
+
 
 
 
