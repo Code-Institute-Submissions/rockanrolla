@@ -8,7 +8,6 @@ It is about an imaginary rock band from California from the 70's and the user ca
 
 This site is simulating all the previous features and all its content is pure fiction. Everything has been researched and collected from many different sites around the WWW.
 
-[Click here to visit the site](https://danmtt.github.io/rockanrolla)
 
 ## __UX__
 ---
@@ -196,17 +195,40 @@ The site has been developed using programming languages as HTML5 with semantic t
 
 This project was developed and stored in git using initially Cloud9 and Visual Studio Code after.
 
-The project was commited, staged and pushed to GitHub repository [Rockanrolla Project](https://github.com/danmtt/rockanrolla). It is published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
+The project was staged, commited and pushed to a GitHub repository frequently[Rockanrolla Project](https://github.com/danmtt/rockanrolla). It is published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
+
+[Click here to visit the site](https://danmtt.github.io/rockanrolla)
 
 
 ## Credits
 ---
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+The band I selected to be simulated on this site was "The Guess Who". I decided to change its name to "The Invasors" to make the site a bit different. I implemented the band history and the fans feedbacks reading and then editing some of the texts contained in these links:
+
+
 
 ### Media
-- The photos used in this site were obtained from ...
+
+Most of the site media content is related to "The Guess Who":
+
+  + [The Guess Who Song Research](https://www.taringa.net/+musicadelos6070/the-guess-who-discografia-1965-2004_12v27z)
+
+  + [The Guess Who Video Research](https://www.google.co.uk/search?rlz=1C1CHBF_esGB786GB786&biw=1745&bih=843&tbm=vid&ei=Z1vGW_6vL4uVgAapyY6oDA&q=THE+GUESS+WHO+VIDEOS&oq=THE+GUESS+WHO+VIDEOS&gs_l=psy-ab.3..0l2.19951.25843.0.29252.20.17.0.3.3.0.89.1244.17.17.0....0...1c.1.64.psy-ab..0.20.1237...0i8i30k1j0i8i10i30k1.0.3lJQ5jf22Og)
+
+The image research process has been done navigating through these sites:
+
+  + [Image Research 1](https://www.manitobamusicmuseum.com/theguesswho.htm)
+
+  
+
+The background and logo selected and displayed on the different project pages have been selected and edited from:
+  
+  + [Logo Image](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg)
+
+  + [Background Image](https://wallpapers-house.com/data/out/8/wallpaper2you_268116.jpg)
+
 
 ### Acknowledgements
 
