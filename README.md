@@ -195,6 +195,13 @@ The site has been developed using programming languages as HTML5 with semantic t
 ## Testing
 ---
 
+All the tests run on this project can be found on these two different markdown files:
+
+  + [Code Validation tests](project_docs/Font_selection_research/02_Yellow_Black_Monoton.jpg)
+
+  + [UX tests](project_docs/Font_selection_research/02_Yellow_Black_Monoton.jpg)
+
+
 ## Deployment
 ---
 
