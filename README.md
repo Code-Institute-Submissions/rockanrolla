@@ -176,11 +176,15 @@ The site has been developed using programming languages as HTML5 with semantic t
 
   A Complete Guide to Flexbox
   
-+ __*Sliders:*__ 'How to' documentation has been researched researched and coding examples edited from this sites::
++ __*Sliders:*__ 'How to' documentation has been researched and coding examples edited from this sites:
 
   - [Slider with just HTML and CSS](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/)
 
   - [Image Slider Using HTML And CSS Only](http://qnimate.com/creating-a-slider-using-html-and-css-only/)
+
++ __*Back to top button:*__ 'How to' documentation has been researched and coding examples edited from this site:
+
+  - [Back to top button using css and html only](https://stackoverflow.com/questions/32102747/how-to-make-a-back-to-top-button-using-css-and-html-only)
 
 + __*Code editors:*__ Two different editors have been used along the development of this project.
 
@@ -192,10 +196,11 @@ The site has been developed using programming languages as HTML5 with semantic t
 ---
 
 ## Deployment
+---
 
 This project was developed and stored in git using initially Cloud9 and Visual Studio Code after.
 
-The project was staged, commited and pushed to a GitHub repository frequently[Rockanrolla Project](https://github.com/danmtt/rockanrolla). It is published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
+The project was staged, commited and pushed frequently to a GitHub repository  named [Rockanrolla Project](https://github.com/danmtt/rockanrolla). It is published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
 
 [Click here to visit the site](https://danmtt.github.io/rockanrolla)
 
@@ -207,6 +212,17 @@ The project was staged, commited and pushed to a GitHub repository frequently[Ro
 
 The band I selected to be simulated on this site was "The Guess Who". I decided to change its name to "The Invasors" to make the site a bit different. I implemented the band history and the fans feedbacks reading and then editing some of the texts contained in these links:
 
+  + [Fans stories](https://www.vanmorrison.com/fans)
+
+  + [A rock musical project](https://en.wikipedia.org/wiki/The_Brian_Jonestown_Massacre)
+
+  + [A rock band example](https://consequenceofsound.net/aux-out/book-club-our-band-could-be-your-life/)
+
+  + [Rock music survival](https://www.theguardian.com/commentisfree/2018/oct/23/rock-music-survive-testosterone-guitar-female)
+
+  + [A good band bio](http://www.alandmoore.com/blog/how-to-write-a-good-band-bio/)
+
+  + [A music video 30 years later](https://metalinjection.net/video/guns-n-roses-unveil-its-so-easy-music-video-30-years-later)
 
 
 ### Media
@@ -235,8 +251,8 @@ The background, logo images displayed on the different project pages have been s
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
-
+- "Takk!" to my mentor [Simen Daehlin](http://simen.dehlin.info/#home) and 
+"Bedankt!" to student [Anna Greaves](https://github.com/AJGreaves) for all the help, patience and examples shown. Their help through different channels has been key to this project development! "Gracias!"
 
 
 
