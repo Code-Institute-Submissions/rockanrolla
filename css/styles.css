@@ -38,6 +38,14 @@ body h4,h5,h6{
     font-family: Anton, sans-serif;
 }
 
+.landing_container{
+    background-image: url("../images/red_guitar.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
 /*======================================================================================*/
 /*=========================== End Common HTML Elements =================================*/
 /*======================================================================================*/
@@ -858,8 +866,7 @@ body:hover::after #top_back{
 }
 
 .event_barcode{  
-    order:3;
-    background-image: url("/docs/pict/ticket_nav/ticket_barcode.jpg");
+    order:3;    background-image: url("../images/tickets/ticket_barcode.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
