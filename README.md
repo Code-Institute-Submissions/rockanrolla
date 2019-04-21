@@ -219,11 +219,14 @@ Most of the site media content is related to "The Guess Who":
 
 The image research process has been done navigating through these sites:
 
-  + [Image Research 1](https://www.manitobamusicmuseum.com/theguesswho.htm)
+  + [Logo Research](https://www.manitobamusicmuseum.com/theguesswho.htm)
 
-  
+  + [Background Research](https://wallpapers-house.com/group/band-backgrounds/index.php)
 
-The background and logo selected and displayed on the different project pages have been selected and edited from:
+  + [Random concert images](https://www.google.com/search?q=concerts&rlz=1C1CHBF_esGB786GB786&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiOwLyM_uHhAhVdRBUIHaAAA74Q_AUIDigB&biw=1280&bih=615)
+
+
+The background, logo images displayed on the different project pages have been selected and edited from:
   
   + [Logo Image](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg)
 
