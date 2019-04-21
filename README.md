@@ -147,11 +147,41 @@ __*Contact:*__
 ## Technologies Used
 ---
 
+The site has been developed using programming languages as HTML5 with semantic tags and CSS3 with Flexbox properties:
+
++ __*Fonts:*__ This site uses [Google Fonts](https://fonts.google.com/) to style its fonts 
+
++ __*Flexbox:*__ 'How to' documentation has been researched and coding examples edited from this sites:
+
+  - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+  
+  - [w3school - CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
+
+  - [Scrimba - Flexbox](https://scrimba.com/g/gflexbox)
+
+  A Complete Guide to Flexbox
+  
++ __*Sliders:*__ 'How to' documentation has been researched researched and coding examples edited from this sites::
+
+  - [Slider with just HTML and CSS](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/)
+
+  - [Image Slider Using HTML And CSS Only](http://qnimate.com/creating-a-slider-using-html-and-css-only/)
+
++ __*Code editors:*__ Two different editors have been used along the development of this project.
+
+  - [Cloud9](https://aws.amazon.com/es/cloud9/?origin=c9io)
+
+  - [Visual studio code](https://code.visualstudio.com/)
+
 ## Testing
 ---
 
 ## Deployment
----
+
+This project was developed and stored in git using initially Cloud9 and Visual Studio Code after.
+
+The project was commited, staged and pushed to GitHub repository [Rockanrolla Project](https://github.com/danmtt/rockanrolla). It is published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
+
 
 ## Credits
 ---
