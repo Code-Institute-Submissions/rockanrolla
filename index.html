@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="author" content="Dmtt">
         <title>The Invasors - Home</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head> 
     <body>    
@@ -35,12 +36,140 @@
         <section>
             <div class="wrapper section_container">
                 <div class="column_40">
-                    <h2 class="column_title">The Albums</h2>
-                    <div class="slider">
+                    <h2 class="column_title">The Albums</h2>                    
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                              <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                              <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                              <li data-target="#carousel-example-generic" data-slide-to="6"></li>                            
+                            </ol>
+                          
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <div id="slide_1" class="slide">
+                                        <div id="album_1" class="album_cover"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <article class="album_text">
+                                            <h3 class="album_title">Rock'n'rolla'</h3>
+                                            <p>"The Wrong Way" - 0:23</p>
+                                            <p>"Introesque" - 0:59</p>
+                                            <p>"Orchestred Welcome" - 2:17</p>
+                                            <p>********************</p>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div id="slide_2" class="slide">
+                                        <div id="album_2" class="album_cover"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <article class="album_text">
+                                            <h3 class="album_title">Moon base</h3>
+                                            <p>"Starcleaner" (Matthew J. Tow) - 2:29</p>
+                                            <p>"Here to Go" - 5:25</p>
+                                            <p>"When Jokers Attack" - 3:47</p>
+                                            <p>********************</p>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div id="slide_3" class="slide">
+                                        <div id="album_3" class="album_cover"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <article class="album_text">
+                                            <h3 class="album_title">Train to Mars</h3>
+                                            <p>"Prozac vs. Heroin" - 3:55</p>
+                                            <p>"Geezers" - 5:18</p>
+                                            <p>"Maryanne" - 2:05</p>
+                                            <p>*****************</p>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div id="slide_4" class="slide">
+                                        <div id="album_4" class="album_cover"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <article class="album_text">
+                                            <h3 class="album_title">Sun riders</h3>
+                                            <p>"I Never Told You So" - 2:11</p>
+                                            <p>"You Look Great,I'm Fucked Up" - 6:51</p>
+                                            <p>"Here It Comes" - 3:14</p>
+                                            <p>********************</p>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div id="slide_5" class="slide">
+                                        <div id="album_5" class="album_cover"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <article class="album_text">
+                                            <h3 class="album_title">Walking aside</h3>
+                                            <p>"Prozac vs. Heroin Revisited" - 4:38</p>
+                                            <p>"A New Low in Getting High" - 3:40</p>
+                                            <p>"Some Things Go Without Saying" - 2:26</p>
+                                            <p>********************</p>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div id="slide_6" class="slide">
+                                        <div id="album_6" class="album_cover"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <article class="album_text">
+                                            <h3 class="album_title">Also in</h3>
+                                            <p>"Tschuss" - 4:54</p>
+                                            <p>"The Pregnancy Test" - 2:19</p>
+                                            <p>"The Right Way" - 0:48</p>
+                                            <p>********************</p>
+                                        </article>
+                                    </div>
+                                </div>                                
+                                <div class="item">
+                                    <div id="slide_7" class="slide">
+                                        <div id="album_7" class="album_cover"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <article class="album_text">
+                                            <h3 class="album_title">Stelar wings</h3>
+                                            <p>"Toasted and recovered" - 4:13</p>
+                                            <p>"Basement meeting" - 2:45</p>
+                                            <p>"Towards the streesed line"- 1:36</p>
+                                            <p>********************</p>
+                                        </article>
+                                    </div>
+                                </div>                               
+                            </div>
+                          
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>               
+                    
+                    
+                    
+<!-- Start original slider                     -->
+
+                    <!-- <div class="slider">
                         <div class="slider_box">
                             <div id="slide_1" class="slide">
                                 <div id="album_1" class="album_cover"></div>
-                                <!-- <h3 class="album_title">Rock'n'rolla'</h3> -->
                                 <article class="album_text">
                                     <h3 class="album_title">Rock'n'rolla'</h3>
                                     <p>"The Wrong Way" - 0:23</p>
@@ -51,7 +180,6 @@
                             </div>
                             <div id="slide_2" class="slide">
                                 <div id="album_2" class="album_cover" ></div>
-                                <!-- <h3 class="album_title">Moon base</h3> -->
                                 <article class="album_text">
                                     <h3 class="album_title">Moon base</h3>
                                     <p>"Starcleaner" (Matthew J. Tow) - 2:29</p>
@@ -62,7 +190,6 @@
                             </div>
                             <div id="slide_3" class="slide">
                                 <div id="album_3"class="album_cover" ></div>
-                                <!-- <h3 class="album_title">Train to Mars</h3> -->
                                 <article class="album_text">
                                     <h3 class="album_title">Train to Mars</h3>
                                     <p>"Prozac vs. Heroin" - 3:55</p>
@@ -73,7 +200,6 @@
                             </div>
                             <div id="slide_4" class="slide">
                                 <div id="album_4" class="album_cover" ></div>
-                                <!-- <h3 class="album_title">Sun riders</h3> -->
                                 <article class="album_text">
                                     <h3 class="album_title">Sun riders</h3>
                                     <p>"I Never Told You So" - 2:11</p>
@@ -84,7 +210,6 @@
                             </div>
                             <div id="slide_5" class="slide">
                                 <div id="album_5"class="album_cover" ></div>
-                                <!-- <h3 class="album_title">Walking aside</h3> -->
                                 <article class="album_text">
                                     <h3 class="album_title">Walking aside</h3>
                                     <p>"Prozac vs. Heroin Revisited" - 4:38</p>
@@ -95,7 +220,7 @@
                             </div>
                             <div id="slide_6" class="slide">
                                 <div id="album_6" class="album_cover" ></div>
-                                <!-- <h3 class="album_title">Also in</h3> -->
+
                                 <article class="album_text">
                                     <h3 class="album_title">Also in</h3>
                                     <p>"Tschuss" - 4:54</p>
@@ -106,7 +231,6 @@
                             </div>
                             <div id="slide_7" class="slide">
                                 <div id="album_7" class="album_cover" ></div>
-                                <!-- <h3 class="album_title">Stelar wings</h3> -->
                                 <article class="album_text">
                                     <h3 class="album_title">Stelar wings</h3>
                                     <p>"Toasted and recovered" - 4:13</p>
@@ -117,7 +241,7 @@
                             </div> 
                         </div>
                         <div class="slider_controls">
-                            <!-- <div id="previous_slide" class="slide_link"><<</div> -->
+                            <div id="previous_slide" class="slide_link"><<</div>
                             <a href="#slide_1" class="slide_link" onclick="">1</a>
                             <a href="#slide_2" class="slide_link" onclick="">2</a>
                             <a href="#slide_3" class="slide_link" onclick="">3</a>
@@ -125,9 +249,12 @@
                             <a href="#slide_5" class="slide_link" onclick="">5</a>
                             <a href="#slide_6" class="slide_link" onclick="">6</a>
                             <a href="#slide_7" class="slide_link" onclick="">7</a>
-                            <!-- <div id="next_slide" class="slide_link">>></div> -->
+                            <div id="next_slide" class="slide_link">>></div>
                         </div>
-                    </div>
+                    </div> -->
+
+<!-- End original slider                     -->
+
                 </div>
                 <div class="column_60">
                     <!-- <h2 class="column_title">The History</h2> -->
@@ -175,7 +302,11 @@
                  </div> 
             </div>
         </footer>
-        <a id="top_back" href="#top"></a>        
+        <a id="top_back" href="#top"></a>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     </body>    
 </html>
 

@@ -32,6 +32,7 @@ body h1,h2,h3,h4,h5,h6{
 
 body h1,h2,h3{
     font-family: monoton, sans-serif;
+    line-height: 1.7;
 }
 
 body h4,h5,h6{
@@ -209,7 +210,7 @@ section{
 }
 
 .column_title{
-    order:1;
+    /* order:1; */
     font-size: 2.2em;
     text-align: center;
     margin-top: 0;
@@ -322,7 +323,7 @@ footer{
     width: 40px;
     height: 40px;
     border: solid 2px white;
-    background-image: url("images/icons/buttonup.png");
+    background-image: url("../images/icons/buttonup.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -436,7 +437,17 @@ body:hover::after #top_back{
     transform: scale(1.0);
 }
 
+.carousel-caption {
+    position:relative;
+    right: 0%;
+    bottom: 0;
+    left: 0%;
+}
 
+.carousel-indicators li{
+    border: 1px solid #000;
+    background-color: #d00000;
+}
 
 #album_1{
     background-image: url("../images/album_nav/slide_01.jpg")
@@ -462,7 +473,7 @@ body:hover::after #top_back{
 
 .album_cover{
     order:1;
-    width:300px;
+    /* width:300px; */
     height: 275px;
     margin:10px;
     background-position: center;
@@ -472,7 +483,7 @@ body:hover::after #top_back{
 
 .album_text{
     order:3;
-    width: 300px;
+    /* width: 300px; */
     height: 125px;
     margin: 10px;
     font-family: Anton, sans-serif;
