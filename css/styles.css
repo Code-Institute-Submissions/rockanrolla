@@ -38,13 +38,31 @@ body h4,h5,h6{
     font-family: Anton, sans-serif;
 }
 
-.landing_container{
-    background-image: url("../images/red_guitar.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 
+/*=========================== Start Landing page CSS =================================*/
+
+.callout-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.landing-page-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/red_guitar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*=========================== End Landing page CSS =================================*/
+
 
 /*======================================================================================*/
 /*=========================== End Common HTML Elements =================================*/
