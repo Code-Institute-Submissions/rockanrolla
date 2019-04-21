@@ -473,7 +473,7 @@ body:hover::after #top_back{
 
 .album_cover{
     order:1;
-    /* width:300px; */
+    width:300px;
     height: 275px;
     margin:10px;
     background-position: center;
@@ -483,7 +483,7 @@ body:hover::after #top_back{
 
 .album_text{
     order:3;
-    /* width: 300px; */
+    width: 300px;
     height: 125px;
     margin: 10px;
     font-family: Anton, sans-serif;
@@ -1213,6 +1213,11 @@ body:hover::after #top_back{
 
     .album_cover{
         height: 150px;
+        width: unset;
+    }  
+    
+    .album_text{
+        width: unset;
     }
 
     .album_title{
