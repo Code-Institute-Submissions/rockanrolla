@@ -55,11 +55,11 @@ __*Visitors experiences:*__
   
 __*Wireframes mockups:*__
 
-[Mobile Approach wireframe 01](project_docs/Wireframes/2018.06.29_rockandrollband_prj_wireframe_01.jpg)
+  + [Mobile Approach wireframe 01](project_docs/Wireframes/2018.06.29_rockandrollband_prj_wireframe_01.jpg)
 
-[Mobile Approach wireframe 02](project_docs/Wireframes/2018.06.29_rockandrollband_prj_wireframe_02.jpg)
+  + [Mobile Approach wireframe 02](project_docs/Wireframes/2018.06.29_rockandrollband_prj_wireframe_02.jpg)
 
-[Balsamiq Project wireframe](project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf)
+  + [Balsamiq Project wireframe](project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf)
 
 ## __Features__
 ---
@@ -142,15 +142,31 @@ __*Contact:*__
 
 + __*Landing page:*__ As shown in [Balsamiq Project wireframe](project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf), the project was originally planned over 6 Html pages. A landing page should be the perfect way to introduce images of the band as also some random song from their extended repertoire.
 
-+ __*Tickect / Band Hiring managment:*__ Actually the band use external companies to manage this features. A challenge for every band is to manage this so no external control over them is impossed by the ticketing industry. 
++ __*Ticket / Band Hiring managment:*__ Actually the band use external companies to manage this features. A challenge for every band is to manage this so no external control over them is impossed by the ticketing industry. 
 
 ## Technologies Used
 ---
 
 The site has been developed using programming languages as HTML5 with semantic tags and CSS3 with Flexbox properties:
 
-+ __*Fonts:*__ This site uses [Google Fonts](https://fonts.google.com/) to style its fonts 
++ __*Fonts Research:*__ This site uses [Google Fonts](https://fonts.google.com/) to style its fonts. Some font mockups have been created using [Our own thing](http://www.ourownthing.co.uk/fontpairing/):
 
+  + [Font mockup 01](project_docs/Font_selection_research/01_Blue_White_Monoton.jpg)
+
+  + [Font mockup 02](project_docs/Font_selection_research/01_Blue_White_Ranchers.jpg)
+
+  + [Font mockup 03](project_docs/Font_selection_research/02_Yellow_Black_Monoton.jpg)
+
+  + [Font mockup 04](project_docs/Font_selection_research/02_Yellow_Black_Ranchers.jpg)
+
+  + [Font mockup 05](project_docs/Font_selection_research/03_Black_White_Monoton.jpg)
+
+  + [Font mockup 06](project_docs/Font_selection_research/03_Black_White_Ranchers.jpg)
+
+  + [Font mockup 07](project_docs/Font_selection_research/04_Black_White_Monoton_Ranchers_Combo.jpg)
+
+  + [Font mockup 08](project_docs/Font_selection_research/04_White_Black_Monoton_Ranchers_Combo.jpg)
+ 
 + __*Flexbox:*__ 'How to' documentation has been researched and coding examples edited from this sites:
 
   - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
