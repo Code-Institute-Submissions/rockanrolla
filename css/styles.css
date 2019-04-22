@@ -390,13 +390,13 @@ footer{
     opacity:0;
 }
 
-body:hover #top_back{
+/* body:hover #top_back{
     opacity:1
 }
 
-body:hover::after #top_back{
+body::after #top_back{
     opacity:0
-}
+} */
 
 /*==================================== End <Back-To-Top> Button*/
 
