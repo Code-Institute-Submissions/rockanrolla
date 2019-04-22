@@ -351,72 +351,79 @@ body:hover::after #top_back{
 
 /*-------------- Column_40 / Slider "The Albums"*/
 
-.slider {
-    order: 2;
-    width: 320px;
-    text-align: center;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
+                            /*--------- Start Original slider CSS properties*/
+                            /*------------- (Replaced by bootstrap carousel)*/
 
-.slider_box{
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    /* align-items: flex-start; */
-}
+                            /* .slider {
+                                order: 2;
+                                width: 320px;
+                                text-align: center;
+                                margin-top: 0;
+                                margin-left: auto;
+                                margin-right: auto;
+                            }
 
-.slider_box > div::after{    
-    transform-origin: center center;
-    transform: scale(1.0);
-}
- 
-.slider_box > div:target{    
-    transform-origin: center center;
-    transform: scale(0.9);
-}
+                            .slider_box{
+                                display: flex;
+                                flex-direction: row;
+                                overflow-x: auto;
+                                /* align-items: flex-start;
+                            } */
 
-.slider_controls{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 10px;
-}
+                            /* .slider_box > div::after{    
+                                transform-origin: center center;
+                                transform: scale(1.0);
+                            }
+                            
+                            .slider_box > div:target{    
+                                transform-origin: center center;
+                                transform: scale(0.9);
+                            } */
 
-.slide_link{
-    content: "";
-    width: 25px;
-    height: 25px;
-    margin: 5px;
-    background-color: #626262;
-    border-radius: 50%;
-    cursor:pointer;
-    font-family: Anton, sans-serif;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    
-    transition: transform 0.2s ease-in-out;
-}
+                            /* .slider_controls{
+                                display:flex;
+                                flex-direction: row;
+                                justify-content: center;
+                                margin: 10px;
+                            } */
 
-.slide_link:hover {
-    transform: scale(1.3,1.3);
-    background-color: #fff;
-    color: #0f0f0f;
-}
+                            /* .slide_link{
+                                content: "";
+                                width: 25px;
+                                height: 25px;
+                                margin: 5px;
+                                background-color: #626262;
+                                border-radius: 50%;
+                                cursor:pointer;
+                                font-family: Anton, sans-serif;
+                                color: #fff;
+                                text-align: center;
+                                text-decoration: none;
+                                
+                                transition: transform 0.2s ease-in-out;
+                            } */
 
-/* #previous_slide:hover{
-    background-color: #fa0202dc;
-    color: #0f0f0f;
-    border: 1px black solid;  
-}
+                            /* .slide_link:hover {
+                                transform: scale(1.3,1.3);
+                                background-color: #fff;
+                                color: #0f0f0f;
+                            } */
 
-#next_slide:hover{
-    background-color: #fa0202dc;
-    color: #0f0f0f;
-    border: 1px black solid; 
-} */
+                            /* #previous_slide:hover{
+                                background-color: #fa0202dc;
+                                color: #0f0f0f;
+                                border: 1px black solid;  
+                            }
+
+                            #next_slide:hover{
+                                background-color: #fa0202dc;
+                                color: #0f0f0f;
+                                border: 1px black solid; 
+                            } */
+
+                            /*----------- End Original slider CSS properties*/
+                            /*------------- (Replaced by bootstrap carousel)*/
+
 
 .slide{
     display: flex;
@@ -429,13 +436,13 @@ body:hover::after #top_back{
 
 .slide:hover{    
     transform-origin: center center;
-    transform: scale(0.9);
+    transform: scale(.95);
 }
 
-.slide::after{    
+/* .slide::after{    
     transform-origin: center center;
     transform: scale(1.0);
-}
+} */
 
 .carousel-caption {
     position:relative;
@@ -444,6 +451,9 @@ body:hover::after #top_back{
     left: 0%;
 }
 
+.carousel-indicators{
+    top: 95%;
+}
 .carousel-indicators li{
     border: 1px solid #000;
     background-color: #d00000;
@@ -471,7 +481,7 @@ body:hover::after #top_back{
     background-image: url("../images/album_nav/slide_07.jpg")
 }
 
-.album_cover{
+.slide_cover{
     order:1;
     width:300px;
     height: 275px;
@@ -481,7 +491,7 @@ body:hover::after #top_back{
     background-size: cover;
 }
 
-.album_text{
+.slide_text{
     order:3;
     width: 300px;
     height: 125px;
@@ -492,11 +502,11 @@ body:hover::after #top_back{
     text-align: center;
 }
 
-.album_text > p {
+.slide_text > p {
     margin:0;    
 }
 
-.album_title{
+.slide_title{
     order:2;
     align-items: center;
     font-size: 1.6em;
@@ -524,44 +534,50 @@ body:hover::after #top_back{
 
 /*Column_40 / Gallery "The Concerts"*/
 
-.gallery{
-    order: 2;
-    width: 340px;
-    text-align: center;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
+                            /*-------- Start Original gallery CSS properties*/
+                            /*------------- (Replaced by bootstrap carousel)*/
 
-.gallery_box{
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    background-color: transparent;
-    justify-content: left;
-    align-items: center;        
-}
+                                            /* .gallery{
+                                                order: 2;
+                                                width: 340px;
+                                                text-align: center;
+                                                margin-top: 0;
+                                                margin-left: auto;
+                                                margin-right: auto;
+                                            }
 
-.gallery_box > div{
-	border-radius: 10px;
-	transition: transform 1s;
-    margin: 10px;
-}
+                                            .gallery_box{
+                                                display: flex;
+                                                flex-direction: row;
+                                                overflow-x: auto;
+                                                background-color: transparent;
+                                                justify-content: left;
+                                                align-items: center;        
+                                            }
 
-.gallery_box > div:hover{    
-    transform-origin: center center;
-    transform: scale(1.1);
-}
+                                        .gallery_box > div{
+                                            border-radius: 10px;
+                                            transition: transform 1s;
+                                            margin: 10px;
+                                        }
 
-.gallery_pict{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    border-radius: 10px;
-    margin:5px;
-    width:85%;
-}
+                                        .gallery_box > div:hover{    
+                                            transform-origin: center center;
+                                            transform: scale(1.1);
+                                        }
+
+                                        .gallery_pict{
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            background-color: white;
+                                            border-radius: 10px;
+                                            margin:5px;
+                                            width:85%;
+                                        } */
+
+                            /*---------- End Original gallery CSS properties*/
+                            /*------------- (Replaced by bootstrap carousel)*/
 
 #pict_1{
     background-image: url("../images/pict_nav/pict_01.jpg")
@@ -591,43 +607,43 @@ body:hover::after #top_back{
     background-image: url("../images/pict_nav/pict_09.jpg")
 }
 
-.picture{
-    order:2;
-    height: 250px;
-    margin:2px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+                                        /* .picture{
+                                            order:2;
+                                            height: 250px;
+                                            margin:2px;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                        }
 
-.pict_text{
-    display: flex;
-    flex-direction: column;
-    font-family: Anton, sans-serif;
-    font-size: 1.1em;
-    color: #0f0f0f;
-    text-align: center;
-    margin-top: 5px;
-}
+                                        .pict_text{
+                                            display: flex;
+                                            flex-direction: column;
+                                            font-family: Anton, sans-serif;
+                                            font-size: 1.1em;
+                                            color: #0f0f0f;
+                                            text-align: center;
+                                            margin-top: 5px;
+                                        }
 
-.pict_title{
-    order:1;
-    width: 300px;
-    height: 25px;
-    justify-content:center;
-    align-items: center;
-    font-size: 1.3em;
-    color: #0f0f0f;
-}
+                                        .pict_title{
+                                            order:1;
+                                            width: 300px;
+                                            height: 25px;
+                                            justify-content:center;
+                                            align-items: center;
+                                            font-size: 1.3em;
+                                            color: #0f0f0f;
+                                        }
 
-.pict_text > h3{
-    order:1;
-}
+                                        .pict_text > h3{
+                                            order:1;
+                                        }
 
-.pict_text > span{
-  order: 2;
-  margin: 10px 0 0;
-}
+                                        .pict_text > span{
+                                        order: 2;
+                                        margin: 10px 0 0;
+                                        } */
 
 /*-------- Column_60 / .fans_feedback "The Fans"*/
 					
