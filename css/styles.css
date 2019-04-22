@@ -1227,24 +1227,33 @@ body:hover::after #top_back{
         min-width: 55%;
     }
 
-    .album_cover{
+    .slide_cover{
         height: 150px;
         width: unset;
-    }  
-    
-    .album_text{
+    }
+
+    .slide_text{
         width: unset;
     }
 
-    .album_title{
-        width: 100%;
-    }
+                                            /* .album_cover{
+                                                height: 150px;
+                                                width: unset;
+                                            }  
+                                            
+                                            .album_text{
+                                                width: unset;
+                                            }
 
-    .album_text{
-        width: 100%;
-        font-size: .8em;
-        margin:10px 0 0;
-    }
+                                            .album_title{
+                                                width: 100%;
+                                            }
+
+                                            .album_text{
+                                                width: 100%;
+                                                font-size: .8em;
+                                                margin:10px 0 0;
+                                            } */
 
 /*---------- End INDEX.html <section> Contents (MQ Tablet)*/
 
