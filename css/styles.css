@@ -141,7 +141,7 @@ header{
 .nav_toggle{
     position: absolute;
     width: 80%;
-    padding: 6% 0;
+    padding: 10% 0;
     left: -80%;
     z-index: 1;
     transition: transform 0.7s ease-in-out;
@@ -161,7 +161,7 @@ header{
 .toggle_item{
     width: 100%;
     font-family: monoton, sans-serif;
-    font-size: 2.24em;
+    font-size: 2.5em;
     text-align: left;
     color: #fafafa;
 }
