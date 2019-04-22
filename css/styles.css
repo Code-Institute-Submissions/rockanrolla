@@ -221,6 +221,65 @@ section{
     order:1;
 }
 
+.slide{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin:5px;
+    border-radius: 10px;
+    transition: transform 1s;
+}
+
+.slide:hover{    
+    transform-origin: center center;
+    transform: scale(.95);
+}
+
+.carousel-caption {
+    position:relative;
+    right: 0%;
+    left: 0%;
+}
+
+.carousel-indicators{
+    top: 95%;
+}
+.carousel-indicators li{
+    border: 1px solid #000;
+    background-color: #d00000;
+}
+
+.slide_cover{
+    order:1;
+    width:300px;
+    height: 275px;
+    margin:10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide_text{
+    order:3;
+    width: 300px;
+    height: 125px;
+    margin: 10px;
+    font-family: Anton, sans-serif;
+    font-size: 1em;
+    color: #0f0f0f;
+    text-align: center;
+}
+
+.slide_text > p {
+    margin:0;    
+}
+
+.slide_title{
+    order:2;
+    align-items: center;
+    font-size: 1.6em;
+}
+
 .column_60{
     order:2;
     margin: 15px 10px;
@@ -351,165 +410,26 @@ body:hover::after #top_back{
 
 /*-------------- Column_40 / Slider "The Albums"*/
 
-                            /*--------- Start Original slider CSS properties*/
-                            /*------------- (Replaced by bootstrap carousel)*/
-
-                            /* .slider {
-                                order: 2;
-                                width: 320px;
-                                text-align: center;
-                                margin-top: 0;
-                                margin-left: auto;
-                                margin-right: auto;
-                            }
-
-                            .slider_box{
-                                display: flex;
-                                flex-direction: row;
-                                overflow-x: auto;
-                                /* align-items: flex-start;
-                            } */
-
-                            /* .slider_box > div::after{    
-                                transform-origin: center center;
-                                transform: scale(1.0);
-                            }
-                            
-                            .slider_box > div:target{    
-                                transform-origin: center center;
-                                transform: scale(0.9);
-                            } */
-
-                            /* .slider_controls{
-                                display:flex;
-                                flex-direction: row;
-                                justify-content: center;
-                                margin: 10px;
-                            } */
-
-                            /* .slide_link{
-                                content: "";
-                                width: 25px;
-                                height: 25px;
-                                margin: 5px;
-                                background-color: #626262;
-                                border-radius: 50%;
-                                cursor:pointer;
-                                font-family: Anton, sans-serif;
-                                color: #fff;
-                                text-align: center;
-                                text-decoration: none;
-                                
-                                transition: transform 0.2s ease-in-out;
-                            } */
-
-                            /* .slide_link:hover {
-                                transform: scale(1.3,1.3);
-                                background-color: #fff;
-                                color: #0f0f0f;
-                            } */
-
-                            /* #previous_slide:hover{
-                                background-color: #fa0202dc;
-                                color: #0f0f0f;
-                                border: 1px black solid;  
-                            }
-
-                            #next_slide:hover{
-                                background-color: #fa0202dc;
-                                color: #0f0f0f;
-                                border: 1px black solid; 
-                            } */
-
-                            /*----------- End Original slider CSS properties*/
-                            /*------------- (Replaced by bootstrap carousel)*/
-
-
-.slide{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    margin:5px;
-    border-radius: 10px;
-    transition: transform 1s;
-}
-
-.slide:hover{    
-    transform-origin: center center;
-    transform: scale(.95);
-}
-
-/* .slide::after{    
-    transform-origin: center center;
-    transform: scale(1.0);
-} */
-
-.carousel-caption {
-    position:relative;
-    right: 0%;
-    bottom: 0;
-    left: 0%;
-}
-
-.carousel-indicators{
-    top: 95%;
-}
-.carousel-indicators li{
-    border: 1px solid #000;
-    background-color: #d00000;
-}
-
 #album_1{
-    background-image: url("../images/album_nav/slide_01.jpg")
+    background-image: url("../images/albums/slide_01.jpg")
 }
 #album_2{
-    background-image: url("../images/album_nav/slide_02.jpg")
+    background-image: url("../images/albums/slide_02.jpg")
 }
 #album_3{
-    background-image: url("../images/album_nav/slide_03.jpg")
+    background-image: url("../images/albums/slide_03.jpg")
 }
 #album_4{
-    background-image: url("../images/album_nav/slide_04.jpg")
+    background-image: url("../images/albums/slide_04.jpg")
 }
 #album_5{
-    background-image: url("../images/album_nav/slide_05.jpg")
+    background-image: url("../images/albums/slide_05.jpg")
 }
 #album_6{
-    background-image: url("../images/album_nav/slide_06.jpg")
+    background-image: url("../images/albums/slide_06.jpg")
 }
 #album_7{
-    background-image: url("../images/album_nav/slide_07.jpg")
-}
-
-.slide_cover{
-    order:1;
-    width:300px;
-    height: 275px;
-    margin:10px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slide_text{
-    order:3;
-    width: 300px;
-    height: 125px;
-    margin: 10px;
-    font-family: Anton, sans-serif;
-    font-size: 1em;
-    color: #0f0f0f;
-    text-align: center;
-}
-
-.slide_text > p {
-    margin:0;    
-}
-
-.slide_title{
-    order:2;
-    align-items: center;
-    font-size: 1.6em;
+    background-image: url("../images/albums/slide_07.jpg")
 }
 
 /*------- Column_60 / .band_history "The History*/
@@ -534,116 +454,34 @@ body:hover::after #top_back{
 
 /*Column_40 / Gallery "The Concerts"*/
 
-                            /*-------- Start Original gallery CSS properties*/
-                            /*------------- (Replaced by bootstrap carousel)*/
-
-                                            /* .gallery{
-                                                order: 2;
-                                                width: 340px;
-                                                text-align: center;
-                                                margin-top: 0;
-                                                margin-left: auto;
-                                                margin-right: auto;
-                                            }
-
-                                            .gallery_box{
-                                                display: flex;
-                                                flex-direction: row;
-                                                overflow-x: auto;
-                                                background-color: transparent;
-                                                justify-content: left;
-                                                align-items: center;        
-                                            }
-
-                                        .gallery_box > div{
-                                            border-radius: 10px;
-                                            transition: transform 1s;
-                                            margin: 10px;
-                                        }
-
-                                        .gallery_box > div:hover{    
-                                            transform-origin: center center;
-                                            transform: scale(1.1);
-                                        }
-
-                                        .gallery_pict{
-                                            display: flex;
-                                            flex-direction: column;
-                                            justify-content: center;
-                                            background-color: white;
-                                            border-radius: 10px;
-                                            margin:5px;
-                                            width:85%;
-                                        } */
-
-                            /*---------- End Original gallery CSS properties*/
-                            /*------------- (Replaced by bootstrap carousel)*/
 
 #pict_1{
-    background-image: url("../images/pict_nav/pict_01.jpg")
+    background-image: url("../images/concerts/pict_01.jpg")
 }
 #pict_2{
-    background-image: url("../images/pict_nav/pict_02.jpg")
+    background-image: url("../images/concerts/pict_02.jpg")
 }
 #pict_3{
-    background-image: url("../images/pict_nav/pict_03.jpg")
+    background-image: url("../images/concerts/pict_03.jpg")
 }
 #pict_4{
-    background-image: url("../images/pict_nav/pict_04.jpg")
+    background-image: url("../images/concerts/pict_04.jpg")
 }
 #pict_5{
-    background-image: url("../images/pict_nav/pict_05.jpg")
+    background-image: url("../images/concerts/pict_05.jpg")
 }
 #pict_6{
-    background-image: url("../images/pict_nav/pict_06.jpg")
+    background-image: url("../images/concerts/pict_06.jpg")
 }
 #pict_7{
-    background-image: url("../images/pict_nav/pict_07.jpg")
+    background-image: url("../images/concerts/pict_07.jpg")
 }
 #pict_8{
-    background-image: url("../images/pict_nav/pict_08.jpg")
+    background-image: url("../images/concerts/pict_08.jpg")
 }
 #pict_9{
-    background-image: url("../images/pict_nav/pict_09.jpg")
+    background-image: url("../images/concerts/pict_09.jpg")
 }
-
-                                        /* .picture{
-                                            order:2;
-                                            height: 250px;
-                                            margin:2px;
-                                            background-position: center;
-                                            background-repeat: no-repeat;
-                                            background-size: contain;
-                                        }
-
-                                        .pict_text{
-                                            display: flex;
-                                            flex-direction: column;
-                                            font-family: Anton, sans-serif;
-                                            font-size: 1.1em;
-                                            color: #0f0f0f;
-                                            text-align: center;
-                                            margin-top: 5px;
-                                        }
-
-                                        .pict_title{
-                                            order:1;
-                                            width: 300px;
-                                            height: 25px;
-                                            justify-content:center;
-                                            align-items: center;
-                                            font-size: 1.3em;
-                                            color: #0f0f0f;
-                                        }
-
-                                        .pict_text > h3{
-                                            order:1;
-                                        }
-
-                                        .pict_text > span{
-                                        order: 2;
-                                        margin: 10px 0 0;
-                                        } */
 
 /*-------- Column_60 / .fans_feedback "The Fans"*/
 					
@@ -797,65 +635,12 @@ body:hover::after #top_back{
 
 /*----- Column_40 / x12 events "Upcoming Events"*/
 
-.events{
-    order: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-    width: 310px;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.events_box{
-    display: flex;
-    flex-direction: row;
-    background-color: transparent;
-    align-items: flex-start;
-    overflow-x: scroll;
-    width:100%;
-}
-
-.events_box > div{
-	border-radius: 10px;
-	transition: transform 1s;
-    margin: 10px;
-    background-color: #fafafa;
-}
-
-.events_box > div:hover{    
-    transform-origin: center center;
-    transform: scale(1.1);
-}
-
-.event{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /*width: 80%;*/
-    height: 400px;
-    background-color: #fafafa;
-    margin-bottom: 30px;
-    border-radius: 10px;
-}
-
-.event_date_weekday{
-    order:1;
-    font-size: 2.2em;
-    color: #0f0f0f;
-    font-family: Anton, sans-serif;
-    /*letter-spacing: 0.5em;*/
-    align-items: center;
-}
-
 .event_date_box{
-    order:2;
+    order:1;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .event_date_box >h4,h5{
@@ -866,68 +651,80 @@ body:hover::after #top_back{
     font-size: 2.5em;
 }
 
-.event_date_day{
-    order: 1;
-}
-
-.event_date_month{
-    order: 2;
-}
-
-.event_date_year{
-    order: 3;
+.event_date_weekday{
+    order:2;
+    font-size: 2.2em;
+    color: #0f0f0f;
+    font-family: Anton, sans-serif;
+    align-items: center;
 }
 
 .event_footer_box{
     order:3;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.event_text{
-    order:1;
     flex-direction: column;
-    margin: 0 0 5% 0
+    align-items: center;
 }
 
-.event_text >h2, h3{
+#event_1{
+    background-image: url("../images/events/event_01.jpg")
+}
+#event_2{
+    background-image: url("../images/events/event_02.jpg")
+}
+#event_3{
+    background-image: url("../images/events/event_03.jpg")
+}
+#event_4{
+    background-image: url("../images/events/event_04.jpg")
+}
+#event_5{
+    background-image: url("../images/events/event_05.jpg")
+}
+#event_6{
+    background-image: url("../images/events/event_06.jpg")
+}
+#event_7{
+    background-image: url("../images/events/event_07.jpg")
+}
+#event_8{
+    background-image: url("../images/events/event_08.jpg")
+}
+#event_9{
+    background-image: url("../images/events/event_09.jpg")
+}
+
+.event_text h2,h3{
     color: #0f0f0f;
     font-family: Anton, sans-serif;
-}
-
-.event_city{
-    order:2;
-    font-size: 2em;
-}
-
-.event_country{
-    order:3;
     font-size: 1.5em;
 }
 
-.event_venue{
-    order:4;
-}
 
 .event_barcode{  
-    order:3;    background-image: url("../images/tickets/ticket_barcode.jpg");
+    background-image: url("../images/events/ticket_barcode.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 30%;
+    /* width: 100%; */
+    height: 100px;
+    text-align: center;
+}
+
+.event_barcode h2{
+    font-family: Monoton, sans-serif;
+    font-size: 3em;
+    font-weight: bolder; 
 }
 
 .event_sold_out{
-    order:2;
-    margin: 10% 0 0 0;
+    color: #d00000;
+    padding-top: 5%; 
 }
 
-.event_sold_out >h2{
-    color: #d00000;
-    font-family: Monoton, sans-serif;
-    font-size: 2em; 
+.event_available{
+    color: #09f528e7;
+    padding-top: 5%;
 }
 
 /*---- Column_60 / x1 box "Purchase Tickets here*/
