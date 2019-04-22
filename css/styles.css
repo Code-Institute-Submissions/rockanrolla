@@ -520,46 +520,64 @@ body::after #top_back{
 .clips_box{
     display: flex;
     flex-direction: column;
-    background-color: transparent;
     justify-content: center;
     align-items: center;
+    background-color: #fafafa;
+    border-radius: 10px;
 }
 
-.clips_box > div{
-	border-radius: 10px;
+.clips_box > div{	
 	transition: transform 1s;
     margin: 10px;
-    background-color: #fafafa;
+    
 }
 
 .clips_box > div:hover{    
     transform-origin: center center;
     transform: scale(1.1);
-}
+    background-color: black;
+    color: white;
 
-.clip_embed > h3{
+}
+.clip_embed{
+    width: 250px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid black;
+    list-style-type: none;
+    margin: 5px auto 5px auto;
+}
+.clip_embed  h3{
     margin:0;
     padding: 0;    
-    text-align: center; 
-}
-    
-.clip_embed > article:hover{
-    animation-name: flip;    
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-    animation-timing-function: linear;
+    text-align: center;
 }
 
+.clip_embed a{
+    margin:0;
+    padding: 0;    
+    text-align: center;
+    text-decoration: none; 
+}
+  
+.clip_embed a:hover, a:active, a:focus {
+    color: white;
+}
+  
 .clip_title{
     order:2;
     width: 250px;
     margin: 0 7px;
     align-items: center;
-    color: #0f0f0f;
+    color: black;
     font-family: Anton, sans-serif;
-    text-decoration: none;
     font-size: 1.2em;
     text-transform: uppercase;
+}
+
+.video_frame{
+    margin: 5px 5px 20px;
+    border-radius: 8px;
 }
 
 /*---------- Column_60 / x1 clip "The Making of"*/
@@ -1104,6 +1122,7 @@ body::after #top_back{
         border-radius: 10px;
         transition: transform 1s;
         margin: 10px;
+
     }
 
     .clips_box > div:hover{    
@@ -1113,6 +1132,8 @@ body::after #top_back{
 
     .clips_box >ul{
         padding: 0;
+        text-decoration: none;
+        background-color: #fafafa;
     }
 
     .clip_list{
@@ -1139,10 +1160,10 @@ body::after #top_back{
     }
 
     .clip_embed{
-        width: 100%;
-        height:500px;
-        background-color: blue;
-        border: 2px solid yellow;
+        width: unset;
+        /* height:500px; */
+        /* background-color: #fafafa; */
+        /* border: 2px solid yellow; */
     }
 
 /*---------------------- End CLIPS.html <section> Contents*/
