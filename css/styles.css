@@ -387,7 +387,7 @@ footer{
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
-    opacity:0;
+    /* opacity:0; */
 }
 
 /* body:hover #top_back{
