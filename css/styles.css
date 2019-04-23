@@ -506,30 +506,20 @@ body::after #top_back{
 
 /*------------- Column_40 / x4 clips "The Clips"*/
 
-.clips{
-    order: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-    width: 310px;
-    margin: 0 auto 20px;
-    text-align: center;
-}
-
 .clips_box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
+    background-color: transparent;
     border-radius: 10px;
+    margin: 0 auto 20px;
 }
 
 .clips_box > div{	
 	transition: transform 1s;
-    margin: 10px;
-    
+    margin: 10px;    
 }
 
 .clips_box > div:hover{    
@@ -545,9 +535,11 @@ body::after #top_back{
     border: 1px solid black;
     list-style-type: none;
     margin: 5px auto 5px auto;
-
-
 }
+.clip_embed:hover{
+    border: 1px solid white;
+}
+
 .clip_embed  h3{
     margin:0;
     padding: 0;    
@@ -564,22 +556,18 @@ body::after #top_back{
 .clip_embed a:hover{
     color: white;
 }
+
 .clip_embed_span a:hover::after{
     color: black;  
 }
-/* .clip_embed a:active{
-    color: white;
-}
-.clip_embed_span a:active::after{
-    color: black;  
-} */
 .clip_embed a:focus {
     color: white;
 }
+
 .clip_embed_span a:focus::after{
     color: black;  
-}
-  
+}  
+
 .clip_title{
     order:2;
     width: 250px;
@@ -594,6 +582,7 @@ body::after #top_back{
 .video_frame{
     margin: 5px 5px 20px;
     border-radius: 8px;
+    background-color: #fff;
 }
 
 /*---------- Column_60 / x1 clip "The Making of"*/
@@ -614,12 +603,10 @@ body::after #top_back{
 }
 
 .clip_alone{
-    /* order: 3; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    /* width: 310px; */
     margin: 0 auto 20px;
     text-align: center;
 }
@@ -659,23 +646,6 @@ body::after #top_back{
 .clip_span a:focus::after{
     color: #fafafa;  
 }
-
-
-/* .span_1{
-    order:1;
-}
-
-.span_2{
-    order:2;
-}
-
-.span_3{
-    order:4;
-}
-
-.span_4{
-    order:5;
-} */
 
 .span_italic{
     color: #fafafa;
@@ -752,7 +722,6 @@ body::after #top_back{
     font-family: Anton, sans-serif;
     font-size: 1.5em;
 }
-
 
 .event_barcode{  
     background-image: url("../images/events/ticket_barcode.jpg");
