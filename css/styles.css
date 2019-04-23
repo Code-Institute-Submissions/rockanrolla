@@ -536,16 +536,17 @@ body::after #top_back{
     transform-origin: center center;
     transform: scale(1.1);
     background-color: black;
-    color: white;
-
 }
+
 .clip_embed{
-    width: 250px;
+    width: 90%;
     border-radius: 8px;
     background-color: white;
     border: 1px solid black;
     list-style-type: none;
     margin: 5px auto 5px auto;
+
+
 }
 .clip_embed  h3{
     margin:0;
@@ -559,9 +560,24 @@ body::after #top_back{
     text-align: center;
     text-decoration: none; 
 }
-  
-.clip_embed a:hover, a:active, a:focus {
+
+.clip_embed a:hover{
     color: white;
+}
+.clip_embed_span a:hover::after{
+    color: black;  
+}
+/* .clip_embed a:active{
+    color: white;
+}
+.clip_embed_span a:active::after{
+    color: black;  
+} */
+.clip_embed a:focus {
+    color: white;
+}
+.clip_embed_span a:focus::after{
+    color: black;  
 }
   
 .clip_title{
@@ -598,25 +614,20 @@ body::after #top_back{
 }
 
 .clip_alone{
-    order: 3;
+    /* order: 3; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    width: 310px;
+    /* width: 310px; */
     margin: 0 auto 20px;
     text-align: center;
 }
 
 .back_to_clip{
-    text-decoration: none;
     font-style: italic;
     color: #fafafa;
     letter-spacing: 0.1em;
-}
-
-.back_to_clip:hover{
-    color: #0f0f0f;
 }
 
 .clip_span{
@@ -626,7 +637,31 @@ body::after #top_back{
     margin-bottom: 20px;
 }
 
-.span_1{
+.clip_span a{
+    text-align: center;
+    text-decoration: none;
+}
+.clip_span a:hover{
+    color: #e8f801;
+}
+.clip_span a:hover::after{
+    color: #fafafa;  
+}
+.clip_span a:active{
+    color: #e8f801;
+}
+.clip_span a:active::after{
+    color: #fafafa;  
+}
+.clip_span a:focus{
+    color: #e8f801;
+}
+.clip_span a:focus::after{
+    color: #fafafa;  
+}
+
+
+/* .span_1{
     order:1;
 }
 
@@ -640,7 +675,7 @@ body::after #top_back{
 
 .span_4{
     order:5;
-}
+} */
 
 .span_italic{
     color: #fafafa;
