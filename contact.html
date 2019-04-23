@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="author" content="Dmtt">
         <title>The Invasors - Contact</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head> 
     <body>    
@@ -14,21 +15,21 @@
             <div class="wrapper header_container">
                 <h1 class="header_title"><i>The Invasors</i></h1>
                 <nav class="header_nav">
-                        <div class="nav_btn" onclick="">
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                        </div>
-                        <div class="nav_toggle">
-                            <ul class="toggle_menu">
-                                <li class="toggle_item"><a href="index.html" class="toggle_link">Home</a></li>
-                                <li class="toggle_item"><a href="pict.html" class="toggle_link">Pictures</a></li>
-                                <li class="toggle_item"><a href="clips.html" class="toggle_link">Clips</a></li>
-                                <li class="toggle_item"><a href="events.html" class="toggle_link">Events</a></li>
-                                <li class="toggle_item"><a href="contact.html" class="toggle_link">Contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
+                    <div class="nav_btn" onclick="">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="nav_toggle">
+                        <ul class="toggle_menu">
+                            <li class="toggle_item"><a href="index.html" class="toggle_link">Home</a></li>
+                            <li class="toggle_item"><a href="pict.html" class="toggle_link">Pictures</a></li>
+                            <li class="toggle_item"><a href="clips.html" class="toggle_link">Clips</a></li>
+                            <li class="toggle_item"><a href="events.html" class="toggle_link">Events</a></li>
+                            <li class="toggle_item"><a href="contact.html" class="toggle_link">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
                 <div class="header_logo"><a href="index.html"></a></div>
             </div>
         </header>        
@@ -39,6 +40,8 @@
                     <form class="feedback_form">
                         <label for="comments">Comments</label>
                         <input type="text" name="comments" class="feedback_form_comments" id="comments" placeholder="Please, insert your comments"/> 
+                        <label for="email">Your name</label>
+                        <input type="text" name="name" class="feedback_form_name" id="name" placeholder="Please insert your Name" required/>
                         <label for="email">Your Email</label>
                         <input type="text" name="email" class="feedback_form_email" id="email" placeholder="Please insert your Email" required/>
                         <input type="submit"  class="feedback_form_submit" value="Submit"/>
@@ -77,7 +80,11 @@
                 </div> 
             </div>
         </footer>
-        <a id="top_back" href="#top"></a>        
+        <a id="top_back" href="#top"></a>  
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     </body>    
 </html>
 

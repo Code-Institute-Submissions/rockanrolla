@@ -797,13 +797,13 @@ body::after #top_back{
     width:340px;
     margin-bottom: 10px;
     font-family: Anton, sans-serif;
-    color: #fafafa;
+    color: white;
     text-transform: uppercase;
     align-items: center;
 }
 
 .feedback_form >label{
-    font-size: 1.3em;    
+    font-size: 1.3em;   
 }
 
 .feedback_form >input{
@@ -816,25 +816,23 @@ body::after #top_back{
     border-radius: 5%;
 }
 
-.column_title .contact{
-    font-size: .7em;
-}
-
 .feedback_form_comments{    
+    width: 90%;
     height: 200px;
-    width: 330px;
+    color: black;
 }
 
-.feedback_form_email{
-	height: 25px;
-    width: 330px;
+.feedback_form_name, .feedback_form_email{
+    width: 90%;
+    height: 25px;
+    color: black;
 }
 
 .feedback_form_submit{
-   height: 35px;
-   width: 100px;
-   text-transform: uppercase;
-   background-color: #9e9e9f;
+    width: 25%;
+    height: 35px;
+    text-transform: uppercase;
+    background-color: #9e9e9f;
 }
 
 /*----------- End CONTACT.html <section> Contents (Mobile)*/
