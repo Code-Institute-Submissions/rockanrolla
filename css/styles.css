@@ -443,7 +443,7 @@ body::after #top_back{
 .band_history{
 	font-family: Anton, sans-serif;
     color: #bab7b7;    
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
     text-align: start;
     margin-top: 0;
 }
@@ -607,7 +607,7 @@ body::after #top_back{
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    margin: 0 auto 20px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -858,7 +858,7 @@ body::after #top_back{
     body{
         align-items: center;
         background-color: #000000;
-        background-size: contain;
+        background-size: cover;
     }
 
     header{
@@ -941,6 +941,10 @@ body::after #top_back{
 
     .section_container{
         margin: 10px 0 0px;
+
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     .column_40{
@@ -953,7 +957,7 @@ body::after #top_back{
     }
 
     .column_60{
-        margin: 0;
+        margin: 0 0 15px;
         width: 100%;
     }
 
@@ -963,9 +967,9 @@ body::after #top_back{
     }
 
     .column_title{
-        justify-content: center;
+        /* justify-content: center;
         font-size: 1.8em;
-        letter-spacing: 3px;
+        letter-spacing: 3px; */
         margin: 15px 0 0;
     }
 
@@ -1161,17 +1165,19 @@ body::after #top_back{
         
     }
 
-    .clip_embed{
+    /* .clip_embed{
         width: unset;
-        /* height:500px; */
-        /* background-color: #fafafa; */
-        /* border: 2px solid yellow; */
-    }
+        height:500px;
+        background-color: #fafafa;
+        border: 2px solid yellow;
+    } */
 
 /*---------------------- End CLIPS.html <section> Contents*/
 
 /*------------------- Start EVENTS.html <section> Contents*/
-/*######################################## UPDATE PENDING */
+.purchase_button {
+    width: 80%;
+}
 /*--------------------- End EVENTS.html <section> Contents*/
 
 /*------------------ Start CONTACT.html <section> Contents*/
@@ -1179,7 +1185,7 @@ body::after #top_back{
     .feedback_form{
         flex-direction: column;
         flex-wrap: wrap;
-        width: 70%;
+        width: 90%;
     }
 
     .feedback_form >input{
@@ -1190,13 +1196,11 @@ body::after #top_back{
     .feedback_form_comments{ 
         width: 100%;
     }
-
-    .feedback_form_email{
-        width: 100%;
-    }
+    .feedback_form_name, .feedback_form_email {
+        width: 100%;}
 
     .feedback_form_submit{
-    width: 150px;
+        width: 150px;
     }
 
 /*-------------------- End CONTACT.html <section> Contents*/
