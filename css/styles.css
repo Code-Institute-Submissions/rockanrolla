@@ -86,8 +86,7 @@ header{
 }
 
 .header_container{
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     margin:10px 0 0;
     padding:0;
@@ -853,8 +852,8 @@ body::after #top_back{
 /*============================================================================*/
 
 /* @media screen and (min-device-width : 416px){ */
-@media all and (min-device-width : 416px){
-/* @media (min-width : 416px){ */
+/* @media all and (min-device-width : 416px){ */
+@media screen and (min-width : 416px){
     body{
         align-items: center;
         background-color: #000000;
@@ -862,7 +861,7 @@ body::after #top_back{
     }
 
     header{
-        height: 150px;
+        height: unset;
         margin:0;
         width: 100%;
     }
@@ -885,45 +884,56 @@ body::after #top_back{
 /*========================================Start Tablet <header>*/
 
     .header_container{
-        flex-wrap: nowrap;
-        width: 100%;
+        /* flex-flow: row nowrap; */
+        width: unset;
+        align-content: center;
         align-items: center;
-        justify-content: space-between;
-        height: unset;
+        justify-content: center;
+        /* height: unset; */
     }
 
     .header_title{
         order: 2;
         text-align: justify;
         text-overflow: ellipsis;
-        min-width: 60%;
+        /* min-width: 60%; */
         font-size: 2.2em;
         letter-spacing: 3px;
     }
 
+    .header_nav{
+        width:100%;
+        order: 3;
+    }
+
     .header_logo{
         order: 1;
-        min-width: 40%;
+        margin:0;
+        width: 25%;
         min-height:unset;
+        background-position: unset;
+        background-repeat: no-repeat;
+        background-size: contain;
         height: 140px;
-    }  
-
-    .nav_toggle{
-        margin-top: 70px;
-        padding: 0;
-        width: 100%;
-        left: -100%;
-        transform: translateX(100%);
-    }                               
+    }
 
     .nav_btn{
         display:none;
     }
 
+    .nav_toggle{
+        position: relative;
+        /* margin-top: 70px; */
+        padding: 0;
+        width: 100%;
+        left: -100%;
+        transform: translateX(100%);
+    } 
+
     .toggle_menu{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .toggle_item{
