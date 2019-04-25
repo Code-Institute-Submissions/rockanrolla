@@ -32,7 +32,7 @@ body h1,h2,h3,h4,h5,h6{
 
 body h1,h2,h3{
     font-family: monoton, sans-serif;
-    /* line-height: 1.7; */
+    line-height: 1.7;
 }
 
 body h4,h5,h6{
@@ -208,7 +208,7 @@ section{
 	flex-direction: column;
 	justify-content: center;
     align-items: center;
-    margin:0 5%;
+    margin:5%;
 }
 
 .column_title{
@@ -228,7 +228,7 @@ section{
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin:5px;
+    /* margin:5px; */
     border-radius: 10px;
     transition: transform 1s;
 }
@@ -313,7 +313,7 @@ footer{
 
 .footer_POBox >h4{
 	font-size: 1em;
-	width: 100%;
+	/* width: 100%; */
 	color: #fafafa;
 	margin: 5px 0 0 25px;
 	letter-spacing: .5em; 
@@ -866,7 +866,7 @@ body::after #top_back{
 /* @media all and (min-device-width : 416px){ */
 /* @media screen and (min-device-width : 416px){ */
 /* @media screen and (min-width : 416px){ */
-@media only screen and (min-width : 416px){
+@media screen and (min-width : 425px){
     body{
         align-items: center;
         background-color: #000000;
@@ -880,7 +880,7 @@ body::after #top_back{
     }
 
     section{
-        margin-top: 5%;
+        margin: 2%;
         justify-content: center;
         width: 100%;
     }
@@ -994,7 +994,7 @@ body::after #top_back{
         /* justify-content: center;
         font-size: 1.8em;
         letter-spacing: 3px; */
-        margin: 15px 0 0;
+        /* margin: 15px 0 0; */
     }
 
 /*=========================================End Tablet <section>*/
