@@ -860,9 +860,9 @@ body::after #top_back{
 /*================================================= Start Tablet Media queries*/
 /*============================================================================*/
 
-/* @media screen and (min-device-width : 416px){ */
 /* @media all and (min-device-width : 416px){ */
-@media screen and (min-device-width : 416px){
+/* @media screen and (min-device-width : 416px){ */
+@media screen and (min-width : 416px){
     body{
         align-items: center;
         background-color: #000000;
