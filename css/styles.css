@@ -724,30 +724,38 @@ body::after #top_back{
 }
 
 .event_barcode{  
-    background-image: url("../images/events/ticket_barcode.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* width: 100%; */
     height: 100px;
     text-align: center;
 }
 
-.event_barcode h2{
+.available{
+    background-image: url("../images/events/ticket_barcode.jpg");
+}
+
+.sold_out{
+    background-image: url("../images/events/ticket_barcode_sold_out.jpg");
+
+}
+
+.event_barcode > h2{
     font-family: Monoton, sans-serif;
     font-size: 3em;
-    font-weight: bolder; 
+    font-weight: bolder;
+    padding-top: 5%;
 }
 
 .event_sold_out{
-    color: #d00000;
-    padding-top: 5%; 
+    color: black;
 }
 
 .event_available{
-    color: #09f528e7;
-    padding-top: 5%;
+    color: #d00000;
 }
+
+
 
 /*---- Column_60 / x1 box "Purchase Tickets here*/
 
