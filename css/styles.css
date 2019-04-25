@@ -189,6 +189,7 @@ header{
 .toggle_link:hover{
     color: #0f0f0f;
     background-color: #fff;
+    text-decoration: none;
 }
 
 /*========================================= End Mobile <header>*/
@@ -853,7 +854,7 @@ body::after #top_back{
 
 /* @media screen and (min-device-width : 416px){ */
 /* @media all and (min-device-width : 416px){ */
-@media screen and (min-width : 416px){
+@media screen and (min-device-width : 416px){
     body{
         align-items: center;
         background-color: #000000;
@@ -897,7 +898,7 @@ body::after #top_back{
         text-align: justify;
         text-overflow: ellipsis;
         /* min-width: 60%; */
-        font-size: 2.2em;
+        /* font-size: 2.2em; */
         letter-spacing: 3px;
     }
 
@@ -926,8 +927,8 @@ body::after #top_back{
         /* margin-top: 70px; */
         padding: 0;
         width: 100%;
-        left: -100%;
-        transform: translateX(100%);
+        left: 0%;
+        transform: translateX(0%);
     } 
 
     .toggle_menu{
@@ -937,12 +938,13 @@ body::after #top_back{
     }
 
     .toggle_item{
-        font-size: 1em;
+        /* font-size: 1em; */
         text-align: center;
     }
 
     .toggle_link{
         padding: 5px;
+        
     }
     
 /*==========================================End Tablet <header>*/
