@@ -32,7 +32,7 @@ body h1,h2,h3,h4,h5,h6{
 
 body h1,h2,h3{
     font-family: monoton, sans-serif;
-    line-height: 1.7;
+    /* line-height: 1.7; */
 }
 
 body h4,h5,h6{
@@ -99,6 +99,7 @@ header{
     margin: 0;
     padding: 0;
     font-size: 2em;
+    /* font-size: 15vh; */
     text-align: left;
     background-color: transparent;
 }
@@ -161,6 +162,7 @@ header{
     width: 100%;
     font-family: monoton, sans-serif;
     font-size: 2.5em;
+    /* font-size: 25vh; */
     text-align: left;
     color: #fafafa;
 }
@@ -212,6 +214,7 @@ section{
 .column_title{
     /* order:1; */
     font-size: 2.2em;
+    /* font-size: 100vh; */
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -862,7 +865,8 @@ body::after #top_back{
 
 /* @media all and (min-device-width : 416px){ */
 /* @media screen and (min-device-width : 416px){ */
-@media screen and (min-width : 416px){
+/* @media screen and (min-width : 416px){ */
+@media only screen and (min-width : 416px){
     body{
         align-items: center;
         background-color: #000000;
@@ -946,7 +950,7 @@ body::after #top_back{
     }
 
     .toggle_item{
-        /* font-size: 1em; */
+        font-size: 1em;
         text-align: center;
     }
 
