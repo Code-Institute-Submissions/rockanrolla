@@ -24,7 +24,7 @@ body{
 }
 
 body h1,h2,h3,h4,h5,h6{
-    color: #fff;
+    color: #fafafa;
     margin: 0;
     padding:0;
     text-transform: uppercase;
@@ -172,7 +172,7 @@ header{
     text-decoration: none;
     background-color: #0f0f0f;
     opacity: 0.8;
-    color: #fff;
+    color: #fafafa;
     padding: 10px 5px;
     transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
 }
@@ -190,7 +190,7 @@ header{
 }
 .toggle_link:hover{
     color: #0f0f0f;
-    background-color: #fff;
+    background-color: #fafafa;
     text-decoration: none;
 }
 
@@ -227,7 +227,7 @@ section{
 .slide{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #fafafa;
     /* margin:5px; */
     border-radius: 10px;
     transition: transform 1s;
@@ -248,7 +248,7 @@ section{
     top: 95%;
 }
 .carousel-indicators li{
-    border: 1px solid #000;
+    border: 1px solid #0f0f0f;
     background-color: #d00000;
 }
 
@@ -342,8 +342,8 @@ footer{
 }
 
 .column_title.socialmedia:hover{
-	background-color: white;
-    color: black;
+	background-color: #fafafa;
+    color: #0f0f0f;
 }
 
 .sm_icon {
@@ -384,7 +384,7 @@ footer{
     left: 84%;
     width: 40px;
     height: 40px;
-    border: solid 2px white;
+    border: solid 2px #fafafa;
     background-image: url("../images/icons/buttonup.png");
     background-position: center;
     background-size: contain;
@@ -528,19 +528,19 @@ body::after #top_back{
 .clips_box > div:hover{    
     transform-origin: center center;
     transform: scale(1.1);
-    background-color: black;
+    background-color: #0f0f0f;
 }
 
 .clip_embed{
     width: 90%;
     border-radius: 8px;
-    background-color: white;
-    border: 1px solid black;
+    background-color: #fafafa;
+    border: 1px solid #0f0f0f;
     list-style-type: none;
     margin: 5px auto 5px auto;
 }
 .clip_embed:hover{
-    border: 1px solid white;
+    border: 1px solid #fafafa;
 }
 
 .clip_embed  h3{
@@ -557,18 +557,18 @@ body::after #top_back{
 }
 
 .clip_embed a:hover{
-    color: white;
+    color: #fafafa;
 }
 
 .clip_embed_span a:hover::after{
-    color: black;  
+    color: #0f0f0f; 
 }
 .clip_embed a:focus {
-    color: white;
+    color: #fafafa;
 }
 
 .clip_embed_span a:focus::after{
-    color: black;  
+    color: #0f0f0f;
 }  
 
 .clip_title{
@@ -576,7 +576,7 @@ body::after #top_back{
     width: 250px;
     margin: 0 7px;
     align-items: center;
-    color: black;
+    color: #0f0f0f;
     font-family: Anton, sans-serif;
     font-size: 1.2em;
     text-transform: uppercase;
@@ -585,7 +585,7 @@ body::after #top_back{
 .video_frame{
     margin: 5px 5px 20px;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #fafafa;
 }
 
 /*---------- Column_60 / x1 clip "The Making of"*/
@@ -751,7 +751,7 @@ body::after #top_back{
 }
 
 .event_sold_out{
-    color: black;
+    color: #0f0f0f;
 }
 
 .event_available{
@@ -782,7 +782,7 @@ body::after #top_back{
     height: 150px;
     border-radius: 50%;
     background-color: red;
-    border: solid 5px black;
+    border: solid 5px #0f0f0f;
     justify-content: center;
     margin: 0 auto;
     /*opacity: 0.8;*/
@@ -808,7 +808,7 @@ body::after #top_back{
     width:340px;
     margin-bottom: 10px;
     font-family: Anton, sans-serif;
-    color: white;
+    color: #fafafa;
     text-transform: uppercase;
     align-items: center;
 }
@@ -830,13 +830,13 @@ body::after #top_back{
 .feedback_form_comments{    
     width: 90%;
     height: 200px;
-    color: black;
+    color: #0f0f0f;
 }
 
 .feedback_form_name, .feedback_form_email{
     width: 90%;
     height: 25px;
-    color: black;
+    color: #0f0f0f;
 }
 
 .feedback_form_submit{
@@ -869,7 +869,6 @@ body::after #top_back{
 @media screen and (min-width : 425px){
     body{
         align-items: center;
-        background-color: #000000;
         background-size: cover;
     }
 
@@ -1193,7 +1192,7 @@ body::after #top_back{
         width: unset;
         height:500px;
         background-color: #fafafa;
-        border: 2px solid yellow;
+        border: 2px solid #e8f801;
     } */
 
 /*---------------------- End CLIPS.html <section> Contents*/
