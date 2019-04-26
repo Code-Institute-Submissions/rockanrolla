@@ -14,7 +14,7 @@ body{
     flex-wrap: wrap;
     margin:0;
     padding:0;
-    background-image: url("../assets/images/background_1080x1920.jpg");
+    background-image: url("../images/background_1080x1920.jpg");
     background-size: cover;
     background-repeat: no-repeat;    	
 }
@@ -56,7 +56,7 @@ body h4,h5,h6{
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url('../assets/images/red_guitar.jpg');
+    background-image: url('../images/red_guitar.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,7 +114,7 @@ header{
     width: 100%;
     margin-bottom: 10px;
     padding:0;
-    background: url("../assets/images/logo_250x282.jpg");
+    background: url("../images/logo_250x282.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -357,17 +357,17 @@ footer{
 
 .fcbk_icon{
 	order:2;
-    background: url("../assets/images/icons/facebook-4-48.png");
+    background: url("../images/icons/facebook-4-48.png");
 }
 
 .twt_icon{
 	order:3;
-    background: url("../assets/images/icons/twitter-4-48.png");
+    background: url("../images/icons/twitter-4-48.png");
 }
 
 .ytb_icon{
     order:4;
-    background: url("../assets/images/icons/youtube-4-48.png");
+    background: url("../images/icons/youtube-4-48.png");
 }
 
 .footer_design{    
@@ -385,7 +385,7 @@ footer{
     width: 40px;
     height: 40px;
     border: solid 2px white;
-    background-image: url("../assets/images/icons/buttonup.png");
+    background-image: url("../images/icons/buttonup.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -414,25 +414,25 @@ body::after #top_back{
 /*-------------- Column_40 / Slider "The Albums"*/
 
 #album_1{
-    background-image: url("../assets/images/albums/slide_01.jpg")
+    background-image: url("../images/albums/slide_01.jpg")
 }
 #album_2{
-    background-image: url("../assets/images/albums/slide_02.jpg")
+    background-image: url("../images/albums/slide_02.jpg")
 }
 #album_3{
-    background-image: url("../assets/images/albums/slide_03.jpg")
+    background-image: url("../images/albums/slide_03.jpg")
 }
 #album_4{
-    background-image: url("../assets/images/albums/slide_04.jpg")
+    background-image: url("../images/albums/slide_04.jpg")
 }
 #album_5{
-    background-image: url("../assets/images/albums/slide_05.jpg")
+    background-image: url("../images/albums/slide_05.jpg")
 }
 #album_6{
-    background-image: url("../assets/images/albums/slide_06.jpg")
+    background-image: url("../images/albums/slide_06.jpg")
 }
 #album_7{
-    background-image: url("../assets/images/albums/slide_07.jpg")
+    background-image: url("../images/albums/slide_07.jpg")
 }
 
 /*------- Column_60 / .band_history "The History*/
@@ -459,31 +459,31 @@ body::after #top_back{
 
 
 #pict_1{
-    background-image: url("../assets/images/concerts/pict_01.jpg")
+    background-image: url("../images/concerts/pict_01.jpg")
 }
 #pict_2{
-    background-image: url("../assets/images/concerts/pict_02.jpg")
+    background-image: url("../images/concerts/pict_02.jpg")
 }
 #pict_3{
-    background-image: url("../assets/images/concerts/pict_03.jpg")
+    background-image: url("../images/concerts/pict_03.jpg")
 }
 #pict_4{
-    background-image: url("../assets/images/concerts/pict_04.jpg")
+    background-image: url("../images/concerts/pict_04.jpg")
 }
 #pict_5{
-    background-image: url("../assets/images/concerts/pict_05.jpg")
+    background-image: url("../images/concerts/pict_05.jpg")
 }
 #pict_6{
-    background-image: url("../assets/images/concerts/pict_06.jpg")
+    background-image: url("../images/concerts/pict_06.jpg")
 }
 #pict_7{
-    background-image: url("../assets/images/concerts/pict_07.jpg")
+    background-image: url("../images/concerts/pict_07.jpg")
 }
 #pict_8{
-    background-image: url("../assets/images/concerts/pict_08.jpg")
+    background-image: url("../images/concerts/pict_08.jpg")
 }
 #pict_9{
-    background-image: url("../assets/images/concerts/pict_09.jpg")
+    background-image: url("../images/concerts/pict_09.jpg")
 }
 
 /*-------- Column_60 / .fans_feedback "The Fans"*/
@@ -693,31 +693,31 @@ body::after #top_back{
 }
 
 #event_1{
-    background-image: url("../assets/images/events/event_01.jpg")
+    background-image: url("../images/events/event_01.jpg")
 }
 #event_2{
-    background-image: url("../assets/images/events/event_02.jpg")
+    background-image: url("../images/events/event_02.jpg")
 }
 #event_3{
-    background-image: url("../assets/images/events/event_03.jpg")
+    background-image: url("../images/events/event_03.jpg")
 }
 #event_4{
-    background-image: url("../assets/images/events/event_04.jpg")
+    background-image: url("../images/events/event_04.jpg")
 }
 #event_5{
-    background-image: url("../assets/images/events/event_05.jpg")
+    background-image: url("../images/events/event_05.jpg")
 }
 #event_6{
-    background-image: url("../assets/images/events/event_06.jpg")
+    background-image: url("../images/events/event_06.jpg")
 }
 #event_7{
-    background-image: url("../assets/images/events/event_07.jpg")
+    background-image: url("../images/events/event_07.jpg")
 }
 #event_8{
-    background-image: url("../assets/images/events/event_08.jpg")
+    background-image: url("../images/events/event_08.jpg")
 }
 #event_9{
-    background-image: url("../assets/images/events/event_09.jpg")
+    background-image: url("../images/events/event_09.jpg")
 }
 
 .event_text h2,h3{
@@ -735,11 +735,11 @@ body::after #top_back{
 }
 
 .available{
-    background-image: url("../assets/images/events/ticket_barcode.jpg");
+    background-image: url("../images/events/ticket_barcode.jpg");
 }
 
 .sold_out{
-    background-image: url("../assets/images/events/ticket_barcode_sold_out.jpg");
+    background-image: url("../images/events/ticket_barcode_sold_out.jpg");
 
 }
 
@@ -1039,7 +1039,7 @@ body::after #top_back{
         height: 100px;
         width: 100px;
         margin: 10px 0 ;
-        background-image: url("../assets/images/icons/rubik-icon-23_trnsp_100x100.png");
+        background-image: url("../images/icons/rubik-icon-23_trnsp_100x100.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
