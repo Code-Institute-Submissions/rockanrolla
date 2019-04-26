@@ -199,11 +199,9 @@ The site has been developed using programming languages as HTML5 with semantic t
 ## Testing
 ---
 
-All the tests run on this project can be found on these two different markdown files:
-
-  + [Code Validation tests](Code_Validation_Tests.md)
-
-  + [UX tests](UX_Tests.md)
+All the tests explanations about this project can be found at:
+ 
+  + [Test Process](TESTING.md)
 
 
 ## Deployment
