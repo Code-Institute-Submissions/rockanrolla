@@ -954,6 +954,7 @@ body::after #top_back{
     }
 
     .toggle_link{
+        flex-grow: 1;
         padding: 5px;
         
     }
