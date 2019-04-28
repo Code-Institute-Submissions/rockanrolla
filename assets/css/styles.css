@@ -173,7 +173,7 @@ header{
 .toggle_item{
     width: 100%;
     font-family: monoton, sans-serif;
-    font-size: 2.5em;
+    /* font-size: 2.5em; */
     /* font-size: 25vh; */
     text-align: left;
     text-decoration: none;
@@ -902,7 +902,7 @@ body::after #top_back{
     }
 
     .toggle_item{
-        font-size: 1em;
+        /* font-size: 1em; */
         text-align: center;
     }
 
@@ -1214,13 +1214,13 @@ body::after #top_back{
 
 /*======================================= Start Laptop <header>*/
 
-    .header_title{
+    /* .header_title{
         font-size: 4em;
-    }
+    } */
 
-    .toggle_item{
+    /* .toggle_item{
         font-size: 1.8em;
-    }
+    } */
     
     .header_logo{
         min-width: unset;
@@ -1231,9 +1231,9 @@ body::after #top_back{
 
 /*====================================== Start Laptop <section>*/
 
-    .column_title{
+    /* .column_title{
         font-size: 3em;
-    }
+    } */
 
     .album_cover{
         height: 200px;
@@ -1288,9 +1288,9 @@ body::after #top_back{
 
 /*------- Column_60 / .band_history "The History*/
 					
-.band_history{  
+/* .band_history{  
     font-size: 1.3em;
-}
+} */
                   
 /*---------- End INDEX.html <section> Contents (MQ Laptop)*/
 
@@ -1324,21 +1324,21 @@ body::after #top_back{
 @media screen and (min-device-width : 1024px){
     
 /*================================= Start Large Screen <header>*/
-
+/* 
     .header_title{
         font-size: 5em;
-    }
-
+    } */
+/* 
     .toggle_item{
         font-size: 2.3em;
-    }
+    } */
 /*=================================== End Large Screen <header>*/
 
 /*================================ Start Large Screen <section>*/
 
-    .column_title{
+    /* .column_title{
         font-size: 4.2em;
-    }
+    } */
 
 /*- Start INDEX.html <section> Contents (MQ Large Screens)*/
 
@@ -1358,9 +1358,9 @@ body::after #top_back{
         width: 80%;
     } */
 
-    .band_history{  
+    /* .band_history{  
         font-size: 1.5em;
-    }
+    } */
       				
 /*--- End INDEX.html <section> Contents (MQ Large Screens)*/
 
