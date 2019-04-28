@@ -543,7 +543,7 @@ body::after #top_back{
 
 }
 
-.clips_box >a>h3{
+.clips_box > a > h3{
     color: #0f0f0f;
     font-family: Anton, sans-serif;
     font-size: 1.3em;
@@ -563,34 +563,7 @@ body::after #top_back{
     background-color: #fafafa;
 }
 
-
-/* .clip_embed a:hover{
-    color: #fafafa;
-} */
-/* 
-.clip_embed_span a:hover::after{
-    color: #0f0f0f; 
-} */
-
-/* .clip_embed a:focus {
-    color: #fafafa;
-} */
-
-/* .clip_embed_span a:focus::after{
-    color: #0f0f0f;
-}   */
-
-
-
-
-
 /*---------- Column_60 / x1 clip "The Making of"*/
-
-.column_right  >div{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .clip_making_of{
     display: flex;
@@ -665,7 +638,7 @@ body::after #top_back{
     justify-content: space-evenly;
 }
 
-.event_date_box >h4,h5{
+.event_date_box > h4,h5{
     color: #360c0c;
     font-family: Monoton, sans-serif;
     margin:0 5px;
@@ -716,7 +689,7 @@ body::after #top_back{
     background-image: url("../images/events/event_09.jpg")
 }
 
-.event_text >h2, .event_text >h3{
+.event_text > h2, .event_text > h3{
     color: #0f0f0f;
     font-family: Anton, sans-serif;
     font-size: 1.5em;
@@ -736,7 +709,6 @@ body::after #top_back{
 
 .sold_out{
     background-image: url("../images/events/ticket_barcode_sold_out.jpg");
-
 }
 
 .event_barcode > h2{
@@ -754,44 +726,24 @@ body::after #top_back{
     color: #d00000;
 }
 
-
-
 /*---- Column_60 / x1 box "Purchase Tickets here*/
 
-.column_right  >div{
+/* .column_right  > div{
     display:flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
-.purchase_ticket{
-    display: flex;
-    flex-direction:column;
-    font-family: Anton, sans-serif;  
-    font-size: 1.1em;
-    text-align: start;
-    margin-top: 0;
-}
 
-.purchase_button{
+/* .column_right  > a > h3{
     width: 50%;
-    height: 150px;
-    border-radius: 50%;
-    background-color: red;
-    border: solid 5px #0f0f0f;
     justify-content: center;
-    margin: 0 auto;
-    /*opacity: 0.8;*/
-}
 
-.purchase_link{
-    width: 100%;
-    text-decoration: none;
-    color: #fafafa;
-    font-family: Monoton, sans-serif;
     font-size: 1.6em;
     text-align: center;
-}    
+    margin: auto;
+} */
+   
 
 /*------------ End EVENTS.html <section> Contents (Mobile)*/
 
@@ -981,7 +933,7 @@ body::after #top_back{
         width: 50%;
     }
 
-    .column_right >article{    
+    .column_right > article{    
         margin: 0 5% 0;
         text-align: left;
     }
@@ -1156,7 +1108,7 @@ body::after #top_back{
         transform: scale(1.1);
     }
 
-    .clips_box >ul{
+    .clips_box > ul{
         padding: 0;
         text-decoration: none;
         background-color: #fafafa;
@@ -1196,7 +1148,7 @@ body::after #top_back{
 
 /*------------------- Start EVENTS.html <section> Contents*/
 .purchase_button {
-    width: 80%;
+    /* width: 80%; */
 }
 /*--------------------- End EVENTS.html <section> Contents*/
 
