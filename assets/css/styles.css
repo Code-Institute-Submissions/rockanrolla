@@ -511,82 +511,78 @@ body::after #top_back{
 
 .clips_box{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    width:90%;
     justify-content: center;
     align-items: center;
-    /* background-color: #fafafa; */
     background-color: transparent;
     border-radius: 10px;
     margin: 0 auto 20px;
 }
 
-.clips_box > div{	
+.clips_box > a{	
 	transition: transform 1s;
-    margin: 10px;    
+    margin:0;
+    padding: 0; 
+    text-align: center;
+    text-decoration: none; 
+    margin: 5px auto 5px auto;   
 }
 
-.clips_box > div:hover{    
+.clips_box > a:hover{    
     transform-origin: center center;
     transform: scale(1.1);
     background-color: #0f0f0f;
 }
 
-.clip_embed{
-    width: 90%;
-    border-radius: 8px;
-    background-color: #fafafa;
-    border: 1px solid #0f0f0f;
-    list-style-type: none;
-    margin: 5px auto 5px auto;
-}
-.clip_embed:hover{
-    border: 1px solid #fafafa;
-}
-
-.clip_embed  h3{
-    margin:0;
-    padding: 0;    
-    text-align: center;
-}
-
-.clip_embed a{
-    margin:0;
-    padding: 0;    
-    text-align: center;
-    text-decoration: none; 
-}
-
-.clip_embed a:hover{
-    color: #fafafa;
-}
-
-.clip_embed_span a:hover::after{
-    color: #0f0f0f; 
-}
-.clip_embed a:focus {
-    color: #fafafa;
-}
-
-.clip_embed_span a:focus::after{
-    color: #0f0f0f;
-}  
-
 .clip_title{
     order:2;
-    width: 250px;
+    width: 100%;
     margin: 0 7px;
     align-items: center;
+
+}
+
+.clips_box >a>h3{
     color: #0f0f0f;
     font-family: Anton, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-transform: uppercase;
 }
 
+.clip_embed{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
 .video_frame{
+    width:95%;
     margin: 5px 5px 20px;
     border-radius: 8px;
     background-color: #fafafa;
 }
+
+
+/* .clip_embed a:hover{
+    color: #fafafa;
+} */
+/* 
+.clip_embed_span a:hover::after{
+    color: #0f0f0f; 
+} */
+
+/* .clip_embed a:focus {
+    color: #fafafa;
+} */
+
+/* .clip_embed_span a:focus::after{
+    color: #0f0f0f;
+}   */
+
+
+
+
 
 /*---------- Column_60 / x1 clip "The Making of"*/
 
@@ -720,7 +716,7 @@ body::after #top_back{
     background-image: url("../images/events/event_09.jpg")
 }
 
-.event_text h2,h3{
+.event_text >h2, .event_text >h3{
     color: #0f0f0f;
     font-family: Anton, sans-serif;
     font-size: 1.5em;
