@@ -149,6 +149,7 @@ header{
 
 .nav_toggle ul li{
     list-style: none;
+    text-decoration: none;
     padding: 0;
 }   
     
@@ -158,22 +159,25 @@ header{
     padding: 0;
 }
 
+.toggle_link{
+    display: block;
+    background-color: #0f0f0f;
+    color: #fafafa;
+    padding: 10px 5px;
+}
+
+.toggle_link:hover, .toggle_link:focus{
+    text-decoration: none;
+}
+
 .toggle_item{
     width: 100%;
     font-family: monoton, sans-serif;
     font-size: 2.5em;
     /* font-size: 25vh; */
     text-align: left;
-    color: #fafafa;
-}
-
-.toggle_link{
-    display: block;
     text-decoration: none;
-    background-color: #0f0f0f;
-    /* opacity: 0.8; */
     color: #fafafa;
-    padding: 10px 5px;
     transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
 }
 
@@ -188,7 +192,7 @@ header{
 .nav_btn:hover +.nav_toggle{
     transform: translateX(100%);
 }
-.toggle_link:hover{
+.toggle_item:hover, .toggle_item:focus{
     color: #0f0f0f;
     background-color: #fafafa;
     text-decoration: none;
@@ -533,7 +537,7 @@ body::after #top_back{
 .clips_box > a:hover{    
     transform-origin: center center;
     transform: scale(1.1);
-    background-color: #0f0f0f;
+    /* background-color: #0f0f0f; */
 }
 
 .clip_title{
@@ -904,7 +908,7 @@ body::after #top_back{
 
     .toggle_link{
         flex-grow: 1;
-        padding: 5px;
+        padding: 0px;
         
     }
     
