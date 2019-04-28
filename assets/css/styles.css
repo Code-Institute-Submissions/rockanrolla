@@ -173,7 +173,7 @@ header{
 .toggle_item{
     width: 100%;
     font-family: monoton, sans-serif;
-    /* font-size: 2.5em; */
+    font-size: 2.5em;
     /* font-size: 25vh; */
     text-align: left;
     text-decoration: none;
@@ -496,7 +496,7 @@ body::after #top_back{
 .fans_feedback{
 	font-family: Anton, sans-serif;
     color: #bab7b7;    
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
     text-align: start;
 }
 
@@ -574,7 +574,7 @@ body::after #top_back{
     display: flex;
     flex-direction:column;
     font-family: Anton, sans-serif;  
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
     text-align: left;
     margin-top: 0;
 }
@@ -902,7 +902,7 @@ body::after #top_back{
     }
 
     .toggle_item{
-        /* font-size: 1em; */
+        font-size: unset;
         text-align: center;
     }
 
