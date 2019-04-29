@@ -829,7 +829,7 @@ body::after #top_back{
     header{
         height: unset;
         margin:0;
-        width: 100%;
+        /* width: 100%; */
     }
 
     section{
@@ -851,7 +851,7 @@ body::after #top_back{
 
     .header_container{
         /* flex-flow: row nowrap; */
-        width: unset;
+        width: 100%;
         align-content: center;
         align-items: center;
         justify-content: center;
