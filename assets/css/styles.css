@@ -820,7 +820,7 @@ body::after #top_back{
 /* @media all and (min-device-width : 416px){ */
 /* @media screen and (min-device-width : 416px){ */
 /* @media screen and (min-width : 416px){ */
-@media screen and (min-width : 425px){
+@media (min-width : 425px){
     body{
         align-items: center;
         background-size: cover;
@@ -1193,7 +1193,7 @@ body::after #top_back{
 /*================================================= Start Laptop Media queries*/
 /*============================================================================*/
 
-@media screen and (min-device-width : 768px){
+@media (min-width : 768px){
     
     body{
         background-size: cover;
@@ -1322,7 +1322,7 @@ body::after #top_back{
 /*=========================================== Start Large Screen Media queries*/
 /*============================================================================*/
 
-@media screen and (min-device-width : 1024px){
+@media (min-width : 1024px){
     
 /*================================= Start Large Screen <header>*/
 /* 
