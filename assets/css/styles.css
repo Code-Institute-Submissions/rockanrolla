@@ -225,9 +225,73 @@ section{
 }
 
 .column_left{
+<<<<<<< HEAD:assets/css/styles.css
+=======
     order:1;
 }
 
+.slide{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    /* margin:5px; */
+    border-radius: 10px;
+    transition: transform 1s;
+}
+
+.slide:hover{    
+    transform-origin: center center;
+    transform: scale(.95);
+}
+
+.carousel-caption {
+    position:relative;
+    right: 0%;
+    left: 0%;
+}
+
+.carousel-indicators{
+    top: 95%;
+}
+.carousel-indicators li{
+    border: 1px solid #0f0f0f;
+    background-color: #d00000;
+}
+
+.slide_cover{
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
+    order:1;
+    width:300px;
+    height: 275px;
+    margin:10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide_text{
+    order:3;
+    width: 300px;
+    height: 125px;
+    margin: 10px;
+    font-family: Anton, sans-serif;
+    font-size: 1em;
+    color: #0f0f0f;
+    text-align: center;
+}
+
+.slide_text > p {
+    margin:0;    
+}
+
+.slide_title{
+    order:2;
+    align-items: center;
+    font-size: 1.6em;
+    color: #0f0f0f;
+}
+
+<<<<<<< HEAD:assets/css/styles.css
 .slide{
     display: flex;
     flex-direction: column;
@@ -287,6 +351,8 @@ section{
     font-size: 1.6em;
 }
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
 .column_right{
     order:2;
     margin: 15px 10px;
@@ -802,13 +868,10 @@ body::after #top_back{
 /*----------- End CONTACT.html <section> Contents (Mobile)*/
 
 /*========================= End Mobile Contents ==============================*/
-/*============================================================================*/
 
-/*======================================================================================*/
 /*=============================== End Mobile approach ==================================*/
-/*======================================================================================*/
 
-
+<<<<<<< HEAD:assets/css/styles.css
 /*======================================================================================*/
 /*============================== Start of Media queries ================================*/
 /*======================================================================================*/
@@ -820,43 +883,44 @@ body::after #top_back{
 /* @media screen and (min-device-width : 416px){ */
 /* @media screen and (min-width : 416px){ */
 @media screen and (min-width : 425px){
+=======
+/* START MEDIA QUERIES =================================================================*/
+/* Small devices (landscape phones, 576px and up)========================*/
+@media (min-width : 576px){
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     body{
         align-items: center;
         background-size: cover;
     }
-
     header{
         height: unset;
         margin:0;
-        width: 100%;
+        /* width: 100%; */
     }
-
     section{
         margin: 2%;
         justify-content: center;
         width: 100%;
     }
-
     footer{    
         width:100%;
         justify-content: center;
     }
-
     #top_back{
         display:none;
     }
-
-/*========================================Start Tablet <header>*/
-
     .header_container{
         /* flex-flow: row nowrap; */
+<<<<<<< HEAD:assets/css/styles.css
         width: unset;
+=======
+        width: 100%;
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
         align-content: center;
         align-items: center;
         justify-content: center;
         /* height: unset; */
     }
-
     .header_title{
         order: 2;
         text-align: justify;
@@ -865,12 +929,18 @@ body::after #top_back{
         /* font-size: 2.2em; */
         letter-spacing: 3px;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .header_nav{
         width:100%;
         order: 3;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .header_logo{
         order: 1;
         margin:0;
@@ -881,6 +951,7 @@ body::after #top_back{
         background-size: contain;
         height: 140px;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
     .nav_btn{
         display:none;
@@ -895,34 +966,47 @@ body::after #top_back{
         transform: translateX(0%);
     } 
 
+=======
+    .nav_btn{
+        display:none;
+    }
+    .nav_toggle{
+        position: relative;
+        /* margin-top: 70px; */
+        padding: 0;
+        width: 100%;
+        left: 0%;
+        transform: translateX(0%);
+    }
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .toggle_menu{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
-
     .toggle_item{
         font-size: unset;
         text-align: center;
     }
-
     .toggle_link{
         flex-grow: 1;
+<<<<<<< HEAD:assets/css/styles.css
         padding: 0px;
         
+=======
+        padding: 0px;        
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     }
-    
-/*==========================================End Tablet <header>*/
-
-/*=======================================Start Tablet <section>*/
-
     .section_container{
         margin: 10px 0 0px;
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .column_left, .column_right{
         display:flex;
         flex-direction: column;
@@ -931,16 +1015,20 @@ body::after #top_back{
         width: 50%;
         margin: 0 0 10px;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
     /* .column_right{
         margin: 0 0 15px;
         width: 50%;
     } */
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .column_right > article{    
         margin: 0 5% 0;
         text-align: left;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
     .column_title{
         /* justify-content: center; */
@@ -953,17 +1041,17 @@ body::after #top_back{
 
 /*========================================Start Tablet <footer>*/
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .footer_container{
         justify-content: space-between;
         align-items: center;
         background-color: #8e1623;
         opacity: 0.9;
     }
-
     .footer_POBox{
         order: 2;
     }
-
     .footer_POBox >h4{
         font-size: 1.1em;
         margin: 0 0 0 25px;
@@ -971,11 +1059,9 @@ body::after #top_back{
         text-align: left;
         margin-bottom: 9px;
     }
-
     .footer_POBox .fanclub{
         font-size: 1.8em;
     }
-
     .footer_socialmedia{
         order:1;
         margin: 10px 0;
@@ -984,7 +1070,6 @@ body::after #top_back{
         height: 125px;
         border-radius: 25px;
     }
-
     .footer_design{
         display: flex;
         order: 3;
@@ -997,37 +1082,29 @@ body::after #top_back{
         background-size: contain;
         opacity: 0.9;
     }
-
     .footer_design:hover{
         animation-name: spin;
         animation-iteration-count: infinite;
         animation-duration: 2.5s;
         animation-timing-function: linear;
     }
-
-/*==========================================End Tablet <footer>*/
-
-/*======================== Start Tablet Contents =============================*/
-/*============================================================================*/
-
-/*-------- Start INDEX.html <section> Contents (MQ Tablet)*/
-
-/*-------------- Column_40 / .slider "The Albums*/
-
     .slider {
         width: 95%;
         margin-left: auto;
         margin-right: auto;
     }
-
     .slide{
         min-width: 55%;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .slide_cover{
         height: 150px;
         width: unset;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
     .slide_text{
         width: unset;
@@ -1056,68 +1133,64 @@ body::after #top_back{
 
 /*--------- Start PICT.html <section> Contents (MQ Tablet)*/
 
+=======
+    .slide_text{
+        width: unset;
+    }
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .gallery{
         width:90%;
         margin-left: auto;
         margin-right: auto;
     }
-
     .gallery_box{
         justify-content: center;
         flex-wrap: wrap;
     }
-
     .gallery_box > div{
         max-width: 44%;
     }
-
     .picture{
         max-height: 25%;
     }
-
     .pict_title {
         width: unset;
     }
-
     .pict_text{
         max-height: 75px;
         margin-bottom: 35px;
-    }
-
-/*------- Column_60 / .band_history "The History*/
-                
+    }               
     .fans_feedback{
         /*font-size: 1.3em;*/
         width: 90%;
     }
-
-/*----------- End PICT.html <section> Contents (MQ Tablet)*/
-
-/*-------- Start CLIPS.html <section> Contents (MQ Tablet)*/
-
     .clips{
         width: 70%;
-        /*height:auto; */
     }
-
     .clips_box > div{
         border-radius: 10px;
         transition: transform 1s;
         margin: 10px;
+<<<<<<< HEAD:assets/css/styles.css
 
     }
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
 
+    }
     .clips_box > div:hover{    
         transform-origin: center center;
         transform: scale(1.1);
     }
+<<<<<<< HEAD:assets/css/styles.css
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .clips_box > ul{
         padding: 0;
         text-decoration: none;
         background-color: #fafafa;
     }
-
     .clip_list{
         width: 100%;
         display: flex;
@@ -1126,7 +1199,6 @@ body::after #top_back{
         list-style: none;
         margin-bottom: 10px;
     }
-
     .clip_list_item{
         text-decoration: none;
         font-family: Anton, sans-serif;
@@ -1135,11 +1207,11 @@ body::after #top_back{
         text-transform: uppercase;
         color: #fafafa;
     }
-
     .clips_link{
         font-size: 1.2em;
         
     }
+<<<<<<< HEAD:assets/css/styles.css
 
     /* .clip_embed{
         width: unset;
@@ -1158,59 +1230,49 @@ body::after #top_back{
 
 /*------------------ Start CONTACT.html <section> Contents*/
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .feedback_form{
         flex-direction: column;
         flex-wrap: wrap;
         width: 90%;
     }
-
     .feedback_form >input{
         text-align:center;
         height: 25px;  
     }
-
     .feedback_form_comments{ 
         width: 100%;
     }
     .feedback_form_name, .feedback_form_email {
+<<<<<<< HEAD:assets/css/styles.css
         width: 100%;}
 
+=======
+        width: 100%;
+    }
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .feedback_form_submit{
         width: 150px;
     }
-
-/*-------------------- End CONTACT.html <section> Contents*/
-
-/*=========================== End Tablet Contents ============================*/
-/*============================================================================*/
-
 }
-
-/*=================================================== End Tablet Media queries*/
-/*============================================================================*/
-
-/*================================================= Start Laptop Media queries*/
-/*============================================================================*/
-
-@media screen and (min-device-width : 768px){
-    
+/* Medium devices (tablets, 768px and up)================================*/
+@media (min-width : 768px){
     body{
         background-size: cover;
     }
-
     header{
         height: 200px;
     }
-
     section{
         margin: 2% auto 0;
     }
-
     footer{    
         width:100%;
         justify-content: center;
         justify-content: center;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
 /*======================================= Start Laptop <header>*/
 
@@ -1222,10 +1284,13 @@ body::after #top_back{
         font-size: 1.8em;
     } */
     
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .header_logo{
         min-width: unset;
         width: 20%;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
 /*========================================= End Laptop <header>*/
 
@@ -1235,49 +1300,45 @@ body::after #top_back{
         font-size: 3em;
     } */
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .album_cover{
         height: 200px;
     }
-
-/*======================================== End Laptop <section>*/
-
-/*======================================= Start Laptop <footer>*/
-
     .footer_container{
         flex-direction: row;
     }
-
     .footer_POBox{
         order: 1;
     }
-
     .footer_POBox >h4{
         font-size: 1.1em;
         margin: 0 0 0 25px;
         letter-spacing: .7em;
         text-align: left;
         margin-bottom: 9px;
-    }
- 
+    } 
     .footer_POBox .fanclub{
         font-size: 1.6em;
     }
-
     .footer_socialmedia{
         order:3;
         width: 30%;
         margin-right: 15px;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .footer_socialmedia > h2{
         display: none;
     }
-
     .footer_design{
         order: 2;
         height: 200px;
         width: 75px;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
 /*========================================= End Laptop <footer>*/
 
@@ -1344,13 +1405,18 @@ body::after #top_back{
 
 /*-------------- Column_40 / .slider "The Albums*/
 
+=======
+}
+/* Large devices (desktops, 992px and up)================================*/
+@media (min-width : 992px){
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .slider {
         width: 80%;
     }
-
     .album_cover{
         height: 300px;
     }
+<<<<<<< HEAD:assets/css/styles.css
 
 /*------- Column_60 / .band_history "The History*/
 
@@ -1384,64 +1450,42 @@ body::after #top_back{
 
 /*================================= Start Large Screen <footer>*/
 
+=======
+>>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .footer_POBox >h4{
         font-size: 1.3em;
     }
-
     .footer_POBox .fanclub{
         font-size: 2em;
         text-align: left;
-    }
-    
+    }    
     .footer_socialmedia{
         width: 35%;
     }
-
     .footer_design{
         width: 125px;
     }
-
-/*=================================== End Large Screen <footer>*/
-
 }
+/* Extra large devices (large desktops, 1200px and up) ==================*/
+@media (min-width : 1200px){
+}
+/* END MEDIA QUERIES ===================================================================*/
 
-/*============================================= End Large Screen Media queries*/
-/*============================================================================*/
-
-
-/*======================================================================================*/
-/*=============================== End of Media queries =================================*/
-/*======================================================================================*/
-
-
-/*======================================================================================*/
-/*================================  Start of Animations ================================*/
-/*======================================================================================*/
-
-
-@keyframes flip{
-    
+/* ANIMATIONS ==========================================================================*/
+@keyframes flip{    
     from{
     transform: rotateY(0deg)   
     }
-
     to{
     transform: rotateY(360deg) 
-    }
- 
+    } 
 }
-
-@keyframes spin{
-	
+@keyframes spin{	
     0%{
     transform: rotate(0deg);
-    }
-    
+    }    
     100%{
     transform: rotate(-360deg);
  	}
 }
-
-/*======================================================================================*/
-/*================================  End of Animations ==================================*/
-/*======================================================================================*/
+/* END ANIMATIONS ======================================================================*/
