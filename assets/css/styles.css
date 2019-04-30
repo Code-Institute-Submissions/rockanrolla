@@ -1,0 +1,1145 @@
+/*======================================================================================*/
+/*========================== Start Common HTML Elements ================================*/
+/*======================================================================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Anton:100,200,300,400,500,600,700');
+
+html,body{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0;
+    background-image: url("../images/background_1080x1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    	
+}
+
+.wrapper{
+    display: flex;
+}
+
+body h1,h2,h3,h4,h5,h6{
+    color: #fafafa;
+    margin: 0;
+    padding:0;
+    text-transform: uppercase;
+}
+
+body h1,h2,h3{
+    font-family: monoton, sans-serif;
+    line-height: 1.7;
+}
+
+body h4,h5,h6{
+    font-family: Anton, sans-serif;
+}
+
+
+/*=========================== Start Landing page CSS =================================*/
+
+.callout-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-page-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/red_guitar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*=========================== End Landing page CSS =================================*/
+
+
+/*======================================================================================*/
+/*=========================== End Common HTML Elements =================================*/
+/*======================================================================================*/
+
+/*======================================================================================*/
+/*=========================== Start of Mobile approach =================================*/
+/*======================================================================================*/
+
+/*===================== Start Mobile Main Structure ==========================*/
+/*============================================================================*/
+
+/*======================================= Start Mobile <header>*/
+
+header{
+    order:1;
+    height: 425px;
+    margin: 0 0 5%;
+    padding:0;
+}
+
+.header_container{
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin:10px 0 0;
+    padding:0;
+    /* width: 340px; */
+    width: 320px;
+}
+
+.header_title{
+    order: 1;
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    /* font-size: 15vh; */
+    text-align: left;
+    background-color: transparent;
+}
+
+.header_nav{
+    order:2;
+    margin: 4px 0;
+}
+
+.header_logo{
+    order: 3;
+    width: 100%;
+    margin-bottom: 10px;
+    padding:0;
+    background: url("../images/logo_250x282.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 400px;
+}
+
+.nav_btn{
+    order: 2;
+    border: none;
+    margin: 0px;
+    padding: 2px;
+}
+
+.header_nav .bar{
+    content: "";
+    width: 30px;
+    height: 4px;
+    margin: 5px;
+    padding: 0px;
+    background-color: #fafafa;
+    border-radius: 50%;
+}
+
+.nav_toggle{
+    position: absolute;
+    width: 80%;
+    padding: 10% 0;
+    left: -80%;
+    z-index: 1;
+    transition: transform 0.7s ease-in-out;
+}
+
+.nav_toggle ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}   
+    
+.toggle_menu{
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+.toggle_link{
+    display: block;
+    background-color: #0f0f0f;
+    color: #fafafa;
+    padding: 10px 5px;
+}
+
+.toggle_link:hover, .toggle_link:focus{
+    text-decoration: none;
+}
+
+.toggle_item{
+    width: 100%;
+    font-family: monoton, sans-serif;
+    font-size: 2.5em;
+    /* font-size: 25vh; */
+    text-align: left;
+    text-decoration: none;
+    color: #fafafa;
+    transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
+}
+
+.nav_btn:focus{
+    outline: none;
+}
+
+.nav_btn:hover .bar{
+    background-color: #0f0f0f;
+}
+
+.nav_btn:hover +.nav_toggle{
+    transform: translateX(100%);
+}
+.toggle_item:hover, .toggle_item:focus{
+    color: #0f0f0f;
+    background-color: #fafafa;
+    text-decoration: none;
+}
+
+/*========================================= End Mobile <header>*/
+
+/*====================================== Start Mobile <section>*/
+
+section{
+    order:2;
+	margin: 5% 0;
+    padding:0;
+}
+
+.section_container{
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    margin:5%;
+}
+
+.column_title{
+    /* order:1; */
+    font-size: 2.2em;
+    /* font-size: 100vh; */
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.column_left{
+    order:1;
+}
+
+.slide{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    /* margin:5px; */
+    border-radius: 10px;
+    transition: transform 1s;
+}
+
+.slide:hover{    
+    transform-origin: center center;
+    transform: scale(.95);
+}
+
+.carousel-caption {
+    position:relative;
+    right: 0%;
+    left: 0%;
+}
+
+.carousel-indicators{
+    top: 95%;
+}
+.carousel-indicators li{
+    border: 1px solid #0f0f0f;
+    background-color: #d00000;
+}
+
+.slide_cover{
+    order:1;
+    width:300px;
+    height: 275px;
+    margin:10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide_text{
+    order:3;
+    width: 300px;
+    height: 125px;
+    margin: 10px;
+    font-family: Anton, sans-serif;
+    font-size: 1em;
+    color: #0f0f0f;
+    text-align: center;
+}
+
+.slide_text > p {
+    margin:0;    
+}
+
+.slide_title{
+    order:2;
+    align-items: center;
+    font-size: 1.6em;
+    color: #0f0f0f;
+}
+
+.column_right{
+    order:2;
+    margin: 15px 10px;
+}
+
+/*======================================== End Mobile <section>*/
+
+/*======================================= Start Mobile <footer>*/
+
+footer{
+    order:3;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+.footer_container{
+    flex-direction: column;
+    background-color: #360c0c;
+    /* width: 100%; */
+    text-align: center;
+}
+
+.footer_POBox{
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+
+.footer_POBox >h4{
+	font-size: 1em;
+	/* width: 100%; */
+	color: #fafafa;
+	margin: 5px 0 0 25px;
+	letter-spacing: .5em; 
+	text-align: left;	
+}
+
+.footer_POBox .fanclub{
+	font-size: 1.2em;
+	margin-bottom: 5px;	
+}
+
+.footer_socialmedia{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;    
+    background-color: #360c0c;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+.column_title.socialmedia{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* .column_title.socialmedia:hover{
+	background-color: #fafafa;
+    color: #0f0f0f;
+} */
+
+.sm_icon {
+    width: 48px;
+    height: 48px;
+    margin: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fcbk_icon{
+	order:2;
+    background: url("../images/icons/facebook-4-48.png");
+}
+
+.twt_icon{
+	order:3;
+    background: url("../images/icons/twitter-4-48.png");
+}
+
+.ytb_icon{
+    order:4;
+    background: url("../images/icons/youtube-4-48.png");
+}
+
+.footer_design{    
+    display: none;
+}
+
+/*========================================= End Mobile <footer>*/
+
+/*================================== Start <Back-To-Top> Button*/
+
+#top_back{
+    position: fixed;
+ 	bottom: 0%;
+    left: 84%;
+    width: 40px;
+    height: 40px;
+    border: solid 2px #fafafa;
+    background-image: url("../images/icons/buttonup.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    /* opacity:0; */
+}
+
+/* body:hover #top_back{
+    opacity:1
+}
+
+body::after #top_back{
+    opacity:0
+} */
+
+/*==================================== End <Back-To-Top> Button*/
+
+/*====================== End Mobile Main Structure ===========================*/
+/*============================================================================*/
+
+/*======================== Start Mobile Contents =============================*/
+/*============================================================================*/
+
+/*----------- Start INDEX.html <section> Contents (Mobile)*/
+
+/*-------------- Column_40 / Slider "The Albums"*/
+
+#album_1{
+    background-image: url("../images/albums/slide_01.jpg")
+}
+#album_2{
+    background-image: url("../images/albums/slide_02.jpg")
+}
+#album_3{
+    background-image: url("../images/albums/slide_03.jpg")
+}
+#album_4{
+    background-image: url("../images/albums/slide_04.jpg")
+}
+#album_5{
+    background-image: url("../images/albums/slide_05.jpg")
+}
+#album_6{
+    background-image: url("../images/albums/slide_06.jpg")
+}
+#album_7{
+    background-image: url("../images/albums/slide_07.jpg")
+}
+
+/*------- Column_60 / .band_history "The History*/
+					
+.column_right >article{
+	margin-top:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.band_history{
+	font-family: Anton, sans-serif;
+    color: #bab7b7;    
+    /* font-size: 1.1em; */
+    text-align: start;
+    margin-top: 0;
+}
+
+/*------------- End INDEX.html <section> Contents (Mobile)*/
+
+/*------------ Start PICT.html <section> Contents (Mobile)*/
+
+/*Column_40 / Gallery "The Concerts"*/
+
+
+#pict_1{
+    background-image: url("../images/concerts/pict_01.jpg")
+}
+#pict_2{
+    background-image: url("../images/concerts/pict_02.jpg")
+}
+#pict_3{
+    background-image: url("../images/concerts/pict_03.jpg")
+}
+#pict_4{
+    background-image: url("../images/concerts/pict_04.jpg")
+}
+#pict_5{
+    background-image: url("../images/concerts/pict_05.jpg")
+}
+#pict_6{
+    background-image: url("../images/concerts/pict_06.jpg")
+}
+#pict_7{
+    background-image: url("../images/concerts/pict_07.jpg")
+}
+#pict_8{
+    background-image: url("../images/concerts/pict_08.jpg")
+}
+#pict_9{
+    background-image: url("../images/concerts/pict_09.jpg")
+}
+
+/*-------- Column_60 / .fans_feedback "The Fans"*/
+					
+.fans_feedback{
+	font-family: Anton, sans-serif;
+    color: #bab7b7;    
+    /* font-size: 1.1em; */
+    text-align: start;
+}
+
+.fans_feedback > span{
+    color: #fafafa;
+}
+
+.fans_feedback > p{
+    margin-bottom: 0;
+}
+
+/*-------------- End PICT.html <section> Contents (Mobile)*/
+
+/*----------- Start CLIPS.html <section> Contents (Mobile)*/
+
+/*------------- Column_40 / x4 clips "The Clips"*/
+
+.clips_box{
+    display: flex;
+    flex-direction: column-reverse;
+    /* width:50%; */
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+}
+
+.clips_box > a{	
+	transition: transform 1s;
+    margin:0;
+    padding: 0; 
+    text-align: center;
+    text-decoration: none; 
+    margin: 5px auto 5px auto;   
+}
+
+.clips_box > a:hover{    
+    transform-origin: center center;
+    transform: scale(1.1);
+    /* background-color: #0f0f0f; */
+}
+
+.clip_title{
+    order:2;
+    width: 100%;
+    margin: 0 7px;
+    align-items: center;
+
+}
+
+.clips_box > a > h3{
+    color: #0f0f0f;
+    font-family: Anton, sans-serif;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.clip_embed{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.video_frame{
+    width:95%;
+    margin: 5px 5px 20px;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+/*---------- Column_60 / x1 clip "The Making of"*/
+
+.clip_making_of{
+    display: flex;
+    flex-direction:column;
+    font-family: Anton, sans-serif;  
+    /* font-size: 1.1em; */
+    text-align: left;
+    margin-top: 0;
+}
+
+.clip_alone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin: 0 auto;
+    text-align: center;
+}
+
+.back_to_clip{
+    font-style: italic;
+    color: #fafafa;
+    letter-spacing: 0.1em;
+}
+
+.clip_span{
+    display: block;
+    color: #bab7b7;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.clip_span a{
+    text-align: center;
+    text-decoration: none;
+}
+.clip_span a:hover{
+    color: #e8f801;
+}
+.clip_span a:hover::after{
+    color: #fafafa;  
+}
+.clip_span a:active{
+    color: #e8f801;
+}
+.clip_span a:active::after{
+    color: #fafafa;  
+}
+.clip_span a:focus{
+    color: #e8f801;
+}
+.clip_span a:focus::after{
+    color: #fafafa;  
+}
+
+.span_italic{
+    color: #fafafa;
+    font-style: italic;
+}
+
+/*------------- End CLIPS.html <section> Contents (Mobile)*/
+
+/*---------- Start EVENTS.html <section> Contents (Mobile)*/
+
+/*----- Column_40 / x12 events "Upcoming Events"*/
+
+.event_date_box{
+    order:1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.event_date_box > h4,h5{
+    color: #360c0c;
+    font-family: Monoton, sans-serif;
+    margin:0 5px;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+.event_date_weekday{
+    order:2;
+    font-size: 2.2em;
+    color: #0f0f0f;
+    font-family: Anton, sans-serif;
+    align-items: center;
+}
+
+.event_footer_box{
+    order:3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#event_1{
+    background-image: url("../images/events/event_01.jpg")
+}
+#event_2{
+    background-image: url("../images/events/event_02.jpg")
+}
+#event_3{
+    background-image: url("../images/events/event_03.jpg")
+}
+#event_4{
+    background-image: url("../images/events/event_04.jpg")
+}
+#event_5{
+    background-image: url("../images/events/event_05.jpg")
+}
+#event_6{
+    background-image: url("../images/events/event_06.jpg")
+}
+#event_7{
+    background-image: url("../images/events/event_07.jpg")
+}
+#event_8{
+    background-image: url("../images/events/event_08.jpg")
+}
+#event_9{
+    background-image: url("../images/events/event_09.jpg")
+}
+
+.event_text > h2, .event_text > h3{
+    color: #0f0f0f;
+    font-family: Anton, sans-serif;
+    font-size: 1.5em;
+}
+
+.event_barcode{  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    text-align: center;
+}
+
+.available{
+    background-image: url("../images/events/ticket_barcode.jpg");
+}
+
+.sold_out{
+    background-image: url("../images/events/ticket_barcode_sold_out.jpg");
+}
+
+.event_barcode > h2{
+    font-family: Monoton, sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    padding-top: 5%;
+}
+
+.event_sold_out{
+    color: #0f0f0f;
+}
+
+.event_available{
+    color: #d00000;
+}
+
+/*---- Column_60 / x1 box "Purchase Tickets here*/
+
+/* .column_right  > div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+/* .column_right  > a > h3{
+    width: 50%;
+    justify-content: center;
+
+    font-size: 1.6em;
+    text-align: center;
+    margin: auto;
+} */
+   
+
+/*------------ End EVENTS.html <section> Contents (Mobile)*/
+
+/*--------- Start CONTACT.html <section> Contents (Mobile)*/
+
+.feedback_form{
+	order:2;                                       
+    display:flex;
+    flex-direction: column;
+    width:340px;
+    margin-bottom: 10px;
+    font-family: Anton, sans-serif;
+    color: #fafafa;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.feedback_form >label{
+    font-size: 1.3em;   
+}
+
+.feedback_form >input{
+    text-align: center;
+    word-wrap: break-word;
+	font-style: italic;
+	font-size: 0.9em;
+	font-family: Anton, sans-serif;
+    margin: 5px 0 10px;
+    border-radius: 5%;
+}
+
+.feedback_form_comments{    
+    width: 90%;
+    height: 200px;
+    color: #0f0f0f;
+}
+
+.feedback_form_name, .feedback_form_email{
+    width: 90%;
+    height: 25px;
+    color: #0f0f0f;
+}
+
+.feedback_form_submit{
+    width: 25%;
+    height: 35px;
+    text-transform: uppercase;
+    background-color: #9e9e9f;
+}
+
+/*----------- End CONTACT.html <section> Contents (Mobile)*/
+
+/*========================= End Mobile Contents ==============================*/
+
+/*=============================== End Mobile approach ==================================*/
+
+/* START MEDIA QUERIES =================================================================*/
+/* Small devices (landscape phones, 576px and up)========================*/
+@media (min-width : 576px){
+    body{
+        align-items: center;
+        background-size: cover;
+    }
+    header{
+        height: unset;
+        margin:0;
+        /* width: 100%; */
+    }
+    section{
+        margin: 2%;
+        justify-content: center;
+        width: 100%;
+    }
+    footer{    
+        width:100%;
+        justify-content: center;
+    }
+    #top_back{
+        display:none;
+    }
+    .header_container{
+        /* flex-flow: row nowrap; */
+        width: 100%;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        /* height: unset; */
+    }
+    .header_title{
+        order: 2;
+        text-align: justify;
+        text-overflow: ellipsis;
+        /* min-width: 60%; */
+        /* font-size: 2.2em; */
+        letter-spacing: 3px;
+    }
+    .header_nav{
+        width:100%;
+        order: 3;
+    }
+    .header_logo{
+        order: 1;
+        margin:0;
+        width: 25%;
+        min-height:unset;
+        background-position: unset;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 140px;
+    }
+    .nav_btn{
+        display:none;
+    }
+    .nav_toggle{
+        position: relative;
+        /* margin-top: 70px; */
+        padding: 0;
+        width: 100%;
+        left: 0%;
+        transform: translateX(0%);
+    }
+    .toggle_menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .toggle_item{
+        font-size: unset;
+        text-align: center;
+    }
+    .toggle_link{
+        flex-grow: 1;
+        padding: 0px;        
+    }
+    .section_container{
+        margin: 10px 0 0px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .column_left, .column_right{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        width: 50%;
+        margin: 0 0 10px;
+    }
+    .column_right > article{    
+        margin: 0 5% 0;
+        text-align: left;
+    }
+    .footer_container{
+        justify-content: space-between;
+        align-items: center;
+        background-color: #8e1623;
+        opacity: 0.9;
+    }
+    .footer_POBox{
+        order: 2;
+    }
+    .footer_POBox >h4{
+        font-size: 1.1em;
+        margin: 0 0 0 25px;
+        letter-spacing: .7em;
+        text-align: left;
+        margin-bottom: 9px;
+    }
+    .footer_POBox .fanclub{
+        font-size: 1.8em;
+    }
+    .footer_socialmedia{
+        order:1;
+        margin: 10px 0;
+        width: 95%;
+        align-items: center;
+        height: 125px;
+        border-radius: 25px;
+    }
+    .footer_design{
+        display: flex;
+        order: 3;
+        height: 100px;
+        width: 100px;
+        margin: 10px 0 ;
+        background-image: url("../images/icons/rubik-icon-23_trnsp_100x100.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        opacity: 0.9;
+    }
+    .footer_design:hover{
+        animation-name: spin;
+        animation-iteration-count: infinite;
+        animation-duration: 2.5s;
+        animation-timing-function: linear;
+    }
+    .slider {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slide{
+        min-width: 55%;
+    }
+    .slide_cover{
+        height: 150px;
+        width: unset;
+    }
+    .slide_text{
+        width: unset;
+    }
+    .gallery{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gallery_box{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .gallery_box > div{
+        max-width: 44%;
+    }
+    .picture{
+        max-height: 25%;
+    }
+    .pict_title {
+        width: unset;
+    }
+    .pict_text{
+        max-height: 75px;
+        margin-bottom: 35px;
+    }               
+    .fans_feedback{
+        /*font-size: 1.3em;*/
+        width: 90%;
+    }
+    .clips{
+        width: 70%;
+    }
+    .clips_box > div{
+        border-radius: 10px;
+        transition: transform 1s;
+        margin: 10px;
+
+    }
+    .clips_box > div:hover{    
+        transform-origin: center center;
+        transform: scale(1.1);
+    }
+    .clips_box > ul{
+        padding: 0;
+        text-decoration: none;
+        background-color: #fafafa;
+    }
+    .clip_list{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    .clip_list_item{
+        text-decoration: none;
+        font-family: Anton, sans-serif;
+        color: #fafafa;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fafafa;
+    }
+    .clips_link{
+        font-size: 1.2em;
+        
+    }
+    .feedback_form{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .feedback_form >input{
+        text-align:center;
+        height: 25px;  
+    }
+    .feedback_form_comments{ 
+        width: 100%;
+    }
+    .feedback_form_name, .feedback_form_email {
+        width: 100%;
+    }
+    .feedback_form_submit{
+        width: 150px;
+    }
+}
+/* Medium devices (tablets, 768px and up)================================*/
+@media (min-width : 768px){
+    body{
+        background-size: cover;
+    }
+    header{
+        height: 200px;
+    }
+    section{
+        margin: 2% auto 0;
+    }
+    footer{    
+        width:100%;
+        justify-content: center;
+        justify-content: center;
+    }
+    .header_logo{
+        min-width: unset;
+        width: 20%;
+    }
+    .album_cover{
+        height: 200px;
+    }
+    .footer_container{
+        flex-direction: row;
+    }
+    .footer_POBox{
+        order: 1;
+    }
+    .footer_POBox >h4{
+        font-size: 1.1em;
+        margin: 0 0 0 25px;
+        letter-spacing: .7em;
+        text-align: left;
+        margin-bottom: 9px;
+    } 
+    .footer_POBox .fanclub{
+        font-size: 1.6em;
+    }
+    .footer_socialmedia{
+        order:3;
+        width: 30%;
+        margin-right: 15px;
+    }
+    .footer_socialmedia > h2{
+        display: none;
+    }
+    .footer_design{
+        order: 2;
+        height: 200px;
+        width: 75px;
+    }
+}
+/* Large devices (desktops, 992px and up)================================*/
+@media (min-width : 992px){
+    .slider {
+        width: 80%;
+    }
+    .album_cover{
+        height: 300px;
+    }
+    .footer_POBox >h4{
+        font-size: 1.3em;
+    }
+    .footer_POBox .fanclub{
+        font-size: 2em;
+        text-align: left;
+    }    
+    .footer_socialmedia{
+        width: 35%;
+    }
+    .footer_design{
+        width: 125px;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) ==================*/
+@media (min-width : 1200px){
+}
+/* END MEDIA QUERIES ===================================================================*/
+
+/* ANIMATIONS ==========================================================================*/
+@keyframes flip{    
+    from{
+    transform: rotateY(0deg)   
+    }
+    to{
+    transform: rotateY(360deg) 
+    } 
+}
+@keyframes spin{	
+    0%{
+    transform: rotate(0deg);
+    }    
+    100%{
+    transform: rotate(-360deg);
+ 	}
+}
+/* END ANIMATIONS ======================================================================*/
