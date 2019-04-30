@@ -2,6 +2,8 @@
 /*========================== Start Common HTML Elements ================================*/
 /*======================================================================================*/
 
+/* Commented lines erased */
+
 @import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Anton:100,200,300,400,500,600,700');
 
 html,body{
@@ -90,7 +92,6 @@ header{
     justify-content: space-around;
     margin:10px 0 0;
     padding:0;
-    /* width: 340px; */
     width: 320px;
 }
 
@@ -99,7 +100,6 @@ header{
     margin: 0;
     padding: 0;
     font-size: 2em;
-    /* font-size: 15vh; */
     text-align: left;
     background-color: transparent;
 }
@@ -174,7 +174,6 @@ header{
     width: 100%;
     font-family: monoton, sans-serif;
     font-size: 2.5em;
-    /* font-size: 25vh; */
     text-align: left;
     text-decoration: none;
     color: #fafafa;
@@ -216,9 +215,7 @@ section{
 }
 
 .column_title{
-    /* order:1; */
     font-size: 2.2em;
-    /* font-size: 100vh; */
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -232,7 +229,6 @@ section{
     display: flex;
     flex-direction: column;
     background-color: #fafafa;
-    /* margin:5px; */
     border-radius: 10px;
     transition: transform 1s;
 }
@@ -307,7 +303,6 @@ footer{
 .footer_container{
     flex-direction: column;
     background-color: #360c0c;
-    /* width: 100%; */
     text-align: center;
 }
 
@@ -319,7 +314,6 @@ footer{
 
 .footer_POBox >h4{
 	font-size: 1em;
-	/* width: 100%; */
 	color: #fafafa;
 	margin: 5px 0 0 25px;
 	letter-spacing: .5em; 
@@ -346,11 +340,6 @@ footer{
     font-size: 1.5em;
     text-align: center;
 }
-
-/* .column_title.socialmedia:hover{
-	background-color: #fafafa;
-    color: #0f0f0f;
-} */
 
 .sm_icon {
     width: 48px;
@@ -396,16 +385,7 @@ footer{
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
-    /* opacity:0; */
 }
-
-/* body:hover #top_back{
-    opacity:1
-}
-
-body::after #top_back{
-    opacity:0
-} */
 
 /*==================================== End <Back-To-Top> Button*/
 
@@ -452,7 +432,6 @@ body::after #top_back{
 .band_history{
 	font-family: Anton, sans-serif;
     color: #bab7b7;    
-    /* font-size: 1.1em; */
     text-align: start;
     margin-top: 0;
 }
@@ -497,7 +476,6 @@ body::after #top_back{
 .fans_feedback{
 	font-family: Anton, sans-serif;
     color: #bab7b7;    
-    /* font-size: 1.1em; */
     text-align: start;
 }
 
@@ -518,7 +496,6 @@ body::after #top_back{
 .clips_box{
     display: flex;
     flex-direction: column-reverse;
-    /* width:50%; */
     justify-content: center;
     align-items: center;
     background-color: transparent;
@@ -538,7 +515,6 @@ body::after #top_back{
 .clips_box > a:hover{    
     transform-origin: center center;
     transform: scale(1.1);
-    /* background-color: #0f0f0f; */
 }
 
 .clip_title{
@@ -546,7 +522,6 @@ body::after #top_back{
     width: 100%;
     margin: 0 7px;
     align-items: center;
-
 }
 
 .clips_box > a > h3{
@@ -732,25 +707,6 @@ body::after #top_back{
     color: #d00000;
 }
 
-/*---- Column_60 / x1 box "Purchase Tickets here*/
-
-/* .column_right  > div{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-
-/* .column_right  > a > h3{
-    width: 50%;
-    justify-content: center;
-
-    font-size: 1.6em;
-    text-align: center;
-    margin: auto;
-} */
-   
-
 /*------------ End EVENTS.html <section> Contents (Mobile)*/
 
 /*--------- Start CONTACT.html <section> Contents (Mobile)*/
@@ -816,7 +772,6 @@ body::after #top_back{
     header{
         height: unset;
         margin:0;
-        /* width: 100%; */
     }
     section{
         margin: 2%;
@@ -831,19 +786,15 @@ body::after #top_back{
         display:none;
     }
     .header_container{
-        /* flex-flow: row nowrap; */
         width: 100%;
         align-content: center;
         align-items: center;
         justify-content: center;
-        /* height: unset; */
     }
     .header_title{
         order: 2;
         text-align: justify;
         text-overflow: ellipsis;
-        /* min-width: 60%; */
-        /* font-size: 2.2em; */
         letter-spacing: 3px;
     }
     .header_nav{
@@ -865,7 +816,6 @@ body::after #top_back{
     }
     .nav_toggle{
         position: relative;
-        /* margin-top: 70px; */
         padding: 0;
         width: 100%;
         left: 0%;
@@ -985,7 +935,6 @@ body::after #top_back{
         margin-bottom: 35px;
     }               
     .fans_feedback{
-        /*font-size: 1.3em;*/
         width: 90%;
     }
     .clips{
@@ -1023,8 +972,7 @@ body::after #top_back{
         color: #fafafa;
     }
     .clips_link{
-        font-size: 1.2em;
-        
+        font-size: 1.2em;        
     }
     .feedback_form{
         flex-direction: column;
