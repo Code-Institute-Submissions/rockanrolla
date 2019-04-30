@@ -225,73 +225,9 @@ section{
 }
 
 .column_left{
-<<<<<<< HEAD:assets/css/styles.css
-=======
     order:1;
 }
 
-.slide{
-    display: flex;
-    flex-direction: column;
-    background-color: #fafafa;
-    /* margin:5px; */
-    border-radius: 10px;
-    transition: transform 1s;
-}
-
-.slide:hover{    
-    transform-origin: center center;
-    transform: scale(.95);
-}
-
-.carousel-caption {
-    position:relative;
-    right: 0%;
-    left: 0%;
-}
-
-.carousel-indicators{
-    top: 95%;
-}
-.carousel-indicators li{
-    border: 1px solid #0f0f0f;
-    background-color: #d00000;
-}
-
-.slide_cover{
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
-    order:1;
-    width:300px;
-    height: 275px;
-    margin:10px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slide_text{
-    order:3;
-    width: 300px;
-    height: 125px;
-    margin: 10px;
-    font-family: Anton, sans-serif;
-    font-size: 1em;
-    color: #0f0f0f;
-    text-align: center;
-}
-
-.slide_text > p {
-    margin:0;    
-}
-
-.slide_title{
-    order:2;
-    align-items: center;
-    font-size: 1.6em;
-    color: #0f0f0f;
-}
-
-<<<<<<< HEAD:assets/css/styles.css
 .slide{
     display: flex;
     flex-direction: column;
@@ -349,10 +285,9 @@ section{
     order:2;
     align-items: center;
     font-size: 1.6em;
+    color: #0f0f0f;
 }
 
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
 .column_right{
     order:2;
     margin: 15px 10px;
@@ -871,23 +806,9 @@ body::after #top_back{
 
 /*=============================== End Mobile approach ==================================*/
 
-<<<<<<< HEAD:assets/css/styles.css
-/*======================================================================================*/
-/*============================== Start of Media queries ================================*/
-/*======================================================================================*/
-
-/*================================================= Start Tablet Media queries*/
-/*============================================================================*/
-
-/* @media all and (min-device-width : 416px){ */
-/* @media screen and (min-device-width : 416px){ */
-/* @media screen and (min-width : 416px){ */
-@media screen and (min-width : 425px){
-=======
 /* START MEDIA QUERIES =================================================================*/
 /* Small devices (landscape phones, 576px and up)========================*/
 @media (min-width : 576px){
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     body{
         align-items: center;
         background-size: cover;
@@ -911,11 +832,7 @@ body::after #top_back{
     }
     .header_container{
         /* flex-flow: row nowrap; */
-<<<<<<< HEAD:assets/css/styles.css
-        width: unset;
-=======
         width: 100%;
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
         align-content: center;
         align-items: center;
         justify-content: center;
@@ -929,18 +846,10 @@ body::after #top_back{
         /* font-size: 2.2em; */
         letter-spacing: 3px;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .header_nav{
         width:100%;
         order: 3;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .header_logo{
         order: 1;
         margin:0;
@@ -951,22 +860,6 @@ body::after #top_back{
         background-size: contain;
         height: 140px;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-    .nav_btn{
-        display:none;
-    }
-
-    .nav_toggle{
-        position: relative;
-        /* margin-top: 70px; */
-        padding: 0;
-        width: 100%;
-        left: 0%;
-        transform: translateX(0%);
-    } 
-
-=======
     .nav_btn{
         display:none;
     }
@@ -978,7 +871,6 @@ body::after #top_back{
         left: 0%;
         transform: translateX(0%);
     }
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .toggle_menu{
         display: flex;
         flex-direction: row;
@@ -990,12 +882,7 @@ body::after #top_back{
     }
     .toggle_link{
         flex-grow: 1;
-<<<<<<< HEAD:assets/css/styles.css
-        padding: 0px;
-        
-=======
         padding: 0px;        
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     }
     .section_container{
         margin: 10px 0 0px;
@@ -1003,10 +890,6 @@ body::after #top_back{
         justify-content: space-around;
         align-items: flex-start;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .column_left, .column_right{
         display:flex;
         flex-direction: column;
@@ -1015,34 +898,10 @@ body::after #top_back{
         width: 50%;
         margin: 0 0 10px;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-    /* .column_right{
-        margin: 0 0 15px;
-        width: 50%;
-    } */
-
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .column_right > article{    
         margin: 0 5% 0;
         text-align: left;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-    .column_title{
-        /* justify-content: center; */
-        /* font-size: 1.8em; */
-        /* letter-spacing: 3px; */
-        /* margin: 15px 0 0; */
-    }
-
-/*=========================================End Tablet <section>*/
-
-/*========================================Start Tablet <footer>*/
-
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .footer_container{
         justify-content: space-between;
         align-items: center;
@@ -1096,48 +955,13 @@ body::after #top_back{
     .slide{
         min-width: 55%;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .slide_cover{
         height: 150px;
         width: unset;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
     .slide_text{
         width: unset;
     }
-
-                                            /* .album_cover{
-                                                height: 150px;
-                                                width: unset;
-                                            }  
-                                            
-                                            .album_text{
-                                                width: unset;
-                                            }
-
-                                            .album_title{
-                                                width: 100%;
-                                            }
-
-                                            .album_text{
-                                                width: 100%;
-                                                font-size: .8em;
-                                                margin:10px 0 0;
-                                            } */
-
-/*---------- End INDEX.html <section> Contents (MQ Tablet)*/
-
-/*--------- Start PICT.html <section> Contents (MQ Tablet)*/
-
-=======
-    .slide_text{
-        width: unset;
-    }
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .gallery{
         width:90%;
         margin-left: auto;
@@ -1171,21 +995,12 @@ body::after #top_back{
         border-radius: 10px;
         transition: transform 1s;
         margin: 10px;
-<<<<<<< HEAD:assets/css/styles.css
-
-    }
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
 
     }
     .clips_box > div:hover{    
         transform-origin: center center;
         transform: scale(1.1);
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .clips_box > ul{
         padding: 0;
         text-decoration: none;
@@ -1211,27 +1026,6 @@ body::after #top_back{
         font-size: 1.2em;
         
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-    /* .clip_embed{
-        width: unset;
-        height:500px;
-        background-color: #fafafa;
-        border: 2px solid #e8f801;
-    } */
-
-/*---------------------- End CLIPS.html <section> Contents*/
-
-/*------------------- Start EVENTS.html <section> Contents*/
-/* .purchase_button {
-    width: 80%;
-} */
-/*--------------------- End EVENTS.html <section> Contents*/
-
-/*------------------ Start CONTACT.html <section> Contents*/
-
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .feedback_form{
         flex-direction: column;
         flex-wrap: wrap;
@@ -1245,13 +1039,8 @@ body::after #top_back{
         width: 100%;
     }
     .feedback_form_name, .feedback_form_email {
-<<<<<<< HEAD:assets/css/styles.css
-        width: 100%;}
-
-=======
         width: 100%;
     }
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .feedback_form_submit{
         width: 150px;
     }
@@ -1272,36 +1061,10 @@ body::after #top_back{
         justify-content: center;
         justify-content: center;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-/*======================================= Start Laptop <header>*/
-
-    /* .header_title{
-        font-size: 4em;
-    } */
-
-    /* .toggle_item{
-        font-size: 1.8em;
-    } */
-    
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .header_logo{
         min-width: unset;
         width: 20%;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-/*========================================= End Laptop <header>*/
-
-/*====================================== Start Laptop <section>*/
-
-    /* .column_title{
-        font-size: 3em;
-    } */
-
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .album_cover{
         height: 200px;
     }
@@ -1326,10 +1089,6 @@ body::after #top_back{
         width: 30%;
         margin-right: 15px;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .footer_socialmedia > h2{
         display: none;
     }
@@ -1338,120 +1097,15 @@ body::after #top_back{
         height: 200px;
         width: 75px;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-/*========================================= End Laptop <footer>*/
-
-/*========================== Start Laptop Contents ===========================*/
-/*============================================================================*/
-
-/*-------- Start INDEX.html <section> Contents (MQ Laptop)*/
-
-/*------- Column_60 / .band_history "The History*/
-					
-/* .band_history{  
-    font-size: 1.3em;
-} */
-                  
-/*---------- End INDEX.html <section> Contents (MQ Laptop)*/
-
-/*--------- Start PICT.html <section> Contents (MQ Laptop)*/
-/*######################################## UPDATE PENDING */ 
-/*----------- End PICT.html <section> Contents (MQ Laptop)*/
-
-/*-------- Start CLIPS.html <section> Contents (MQ Laptop)*/
-/*######################################## UPDATE PENDING */ 
-/*---------- End CLIPS.html <section> Contents (MQ Laptop)*/
-
-/*------- Start EVENTS.html <section> Contents (MQ Laptop)*/
-/*######################################## UPDATE PENDING */ 
-/*--------- End EVENTS.html <section> Contents (MQ Laptop)*/
-
-/*------ Start CONTACT.html <section> Contents (MQ Laptop)*/
-/*######################################## UPDATE PENDING */ 
-/*-------- End CONTACT.html <section> Contents (MQ Laptop)*/
-
-/*=========================== End Laptop Contents ============================*/
-/*============================================================================*/
-
-}
-
-/*=================================================== End Laptop Media queries*/
-/*============================================================================*/
-
-/*=========================================== Start Large Screen Media queries*/
-/*============================================================================*/
-
-@media screen and (min-device-width : 1024px){
-    
-/*================================= Start Large Screen <header>*/
-/* 
-    .header_title{
-        font-size: 5em;
-    } */
-/* 
-    .toggle_item{
-        font-size: 2.3em;
-    } */
-/*=================================== End Large Screen <header>*/
-
-/*================================ Start Large Screen <section>*/
-
-    /* .column_title{
-        font-size: 4.2em;
-    } */
-
-/*- Start INDEX.html <section> Contents (MQ Large Screens)*/
-
-/*-------------- Column_40 / .slider "The Albums*/
-
-=======
 }
 /* Large devices (desktops, 992px and up)================================*/
 @media (min-width : 992px){
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .slider {
         width: 80%;
     }
     .album_cover{
         height: 300px;
     }
-<<<<<<< HEAD:assets/css/styles.css
-
-/*------- Column_60 / .band_history "The History*/
-
-    /* .column_right{
-        width: 80%;
-    } */
-
-    /* .band_history{  
-        font-size: 1.5em;
-    } */
-      				
-/*--- End INDEX.html <section> Contents (MQ Large Screens)*/
-
-/*-- Start PICT.html <section> Contents (MQ Large Screens)*/
-/*######################################## UPDATE PENDING */ 
-/*---- End PICT.html <section> Contents (MQ Large Screens)*/
-
-/*- Start CLIPS.html <section> Contents (MQ Large Screens)*/
-/*######################################## UPDATE PENDING */ 
-/*--- End CLIPS.html <section> Contents (MQ Large Screens)*/
-
-/* Start EVENTS.html <section> Contents (MQ Large Screens)*/
-/*######################################## UPDATE PENDING */ 
-/*-- End EVENTS.html <section> Contents (MQ Large Screens)*/
-
-/*Start CONTACT.html <section> Contents (MQ Large Screens)*/
-/*######################################## UPDATE PENDING */ 
-/*- End CONTACT.html <section> Contents (MQ Large Screens)*/
-
-/*================================== End Large Screen <section>*/
-
-/*================================= Start Large Screen <footer>*/
-
-=======
->>>>>>> 137c37b922c2988954fabf046a95559dba3d6880:assets/css/styles.css
     .footer_POBox >h4{
         font-size: 1.3em;
     }
