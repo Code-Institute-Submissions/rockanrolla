@@ -176,6 +176,9 @@ header{
 
 /* <SECTION> ===================================*/
 
+/* Within the next block of CSS, the properties of this element 
+and its child, placed along the five pages of the site are defined.*/
+
 section{
     order:2;
 	margin: 5% 0;
@@ -200,10 +203,10 @@ article{
     margin: 0 auto;
     font-family: Anton, sans-serif;
     color: #bab7b7;    
-    text-align: justify;
+    text-align: justify; 
 }
-article a{
-    color: #fafafa; /* To highlight the anchor inside the grey paragraph*/
+article a{ /* To highlight the anchor inside the grey paragraph font color and space betwwen letters are defined */
+    color: #fafafa; 
     letter-spacing: 0.1em;
 }
 article a:hover, article a:active, article a:focus{
@@ -218,11 +221,20 @@ span{
 }
 
 /* Within the next block of CSS, the properties of the elements inside 
-the sliders "THE ALBUMS", "THE CONCERTS" and UPCOMING EVENTS", placed in 
-the left column of the section element are defined. As this element also 
-have properties from bootstrap v3.3.7, they have also been redefined */
+the sliders "THE ALBUMS" (index.html), "THE CONCERTS" (pict.html), and 
+UPCOMING EVENTS" (events.html), placed in the left column of the section 
+element are defined. The issues found when trying to make it work under 
+flexbox 'only' made me took the decision to include a bootstrap v3.3.7 based 
+slider and redefine its inherited properties (See ref: README.md - Technologies Used) */
 
-.slide{
+.carousel-indicators{ /* This class is defined in bootstrap and redefined here to let the slider work properly */ 
+    top: 95%;
+}
+.carousel-indicators li{ /* This class is defined in bootstrap and redefined here to let the slider work properly*/ 
+    top: 95%;
+    border: 1px solid #0f0f0f;
+    background-color: #d00000;
+}.slide{
     /* display: flex; */
     flex-direction: column;
     background-color: #fafafa;
@@ -231,20 +243,12 @@ have properties from bootstrap v3.3.7, they have also been redefined */
 }
 .slide:hover{    
     transform-origin: center center;
-    transform: scale(.95);
+    transform: scale(.95); /*To produce a slight shrinking effect when placing the mouse/clicking on the slide */
 }
 .carousel-caption {
     position:relative;
     right: 0%;
     left: 0%;
-}
-.carousel-indicators{ /* This class is defined in bootstrap and redefined here to let the slider work properly */ 
-    top: 95%;
-}
-.carousel-indicators li{ /* This class is defined in bootstrap and redefined here to let the slider work properly*/ 
-    top: 95%;
-    border: 1px solid #0f0f0f;
-    background-color: #d00000;
 }
 .slide_cover{
     order:1;
@@ -275,7 +279,6 @@ have properties from bootstrap v3.3.7, they have also been redefined */
     margin:0;    
 }
 
-
 /* Within the next block of CSS, the properties of the videoclips inside 
 the ordered lists placed inside the left column of the section elements 
 are defined. They are also applied on the videoclip placed inside the 
@@ -286,19 +289,18 @@ article element inside the right column of the section in pict.html */
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
     border-radius: 10px;
     margin: 0 auto 20px;
 }
 .clips_box > a{	
-	transition: transform 1s;
+	transition: transform 1s; /* The link to the video grows for 1 second */
     margin:0;
     padding: 0; 
     text-align: center;
     text-decoration: none; 
     margin: 5px auto 5px auto;   
 }
-.clips_box > a:hover{    
+.clips_box > a:hover{ /*To produce a growing effect when placing the mouse/clicking on the clip title */  
     transform-origin: center center;
     transform: scale(1.1);
 }
@@ -306,15 +308,15 @@ article element inside the right column of the section in pict.html */
     order:2;
     width: 100%;
     margin: 0 7px;
-    align-items: center;
+    /* align-items: center; */
 }
-.clips_box > a > h3{
+.clips_box > a > h3{ /*To emphasize the videoclip name font-size and font-family changes */
     color: #0f0f0f;
     font-family: Anton, sans-serif;
     font-size: 1.3em;
     text-transform: uppercase;
 }
-.clip_embed{
+.clip_embed{ /*To shape the sides of the videoclip container */
     width: 100%;
     border-radius: 8px;
     background-color: #fafafa;
@@ -344,7 +346,7 @@ design is different than the other sliders */
     text-transform: uppercase;
     font-size: 2.5em;
 }
-.event_date_weekday{ /*To emphasize the day the weekday the event takes place */
+.event_date_weekday{ /*To emphasize the day the weekday the event takes place font-size and font-family changes */
     order:2;
     font-size: 2.2em;
     color: #0f0f0f;
@@ -361,14 +363,13 @@ design is different than the other sliders */
     color: #0f0f0f;
     font-family: Anton, sans-serif;
 }
-.event_barcode{  /* Defines the barcode div inside the slider */
+.event_barcode{  /* Defines the barcode image inside the slider */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100px;
     text-align: center;
 }
-
 .event_barcode > h2{
     font-family: Monoton, sans-serif;
     align-self: center;
@@ -399,33 +400,35 @@ are defined. */
     text-transform: uppercase;
     align-items: center;
 }
-.feedback_form >label{
-    font-size: 1.3em;   
+.feedback_form label{
+    font-size: 1.3em;
+    text-transform: uppercase;  
 }
-.feedback_form >input{
+
+.feedback_form input, .feedback_form > textarea { /* Textarea maxlength and rows attributes defined in html code */
+    width: 90%;
     text-align: center;
-    word-wrap: break-word;
+    text-overflow: ellipsis;
+    color: #0f0f0f;
 	font-style: italic;
 	font-size: 0.9em;
 	font-family: Anton, sans-serif;
     margin: 5px 0 10px;
-    border-radius: 5%;
+    border-radius: 5%
 }
-.feedback_form_comments{    
-    width: 90%;
-    height: 200px;
-    color: #0f0f0f;
+#comments{
+    overflow: hidden;
+    resize: none; /* Textareas growing and stretching vertical and horizontally not controlled by user*/
+ 
 }
-.feedback_form_name, .feedback_form_email{
-    width: 90%;
+#name, #email{
     height: 25px;
-    color: #0f0f0f;
 }
-.feedback_form_submit{
+#submit{
     width: 25%;
     height: 35px;
     text-transform: uppercase;
-    background-color: #9e9e9f;
+    background-color: #9e9e9f
 }
 
 /* <FOOTER> ====================================*/
@@ -434,27 +437,27 @@ footer{
     order:3;
     margin:0;
     padding:0;
-    width:100%;
+    width:100%
 }
 .footer_container{
     flex-direction: column;
     background-color: #360c0c;
-    text-align: center;
+    text-align: center
 }
 .footer_POBox{
 	justify-content: center;
 	align-items: center;
-	margin: 10px;
+	margin: 10px
 }
 .footer_POBox >h4{
 	font-size: 1em;
 	margin: 5px 0 0 25px;
 	letter-spacing: .5em; 
-	text-align: left;	
+	text-align: left	
 }
 .footer_POBox .fanclub{
 	font-size: 1.2em;
-	margin-bottom: 5px;	
+	margin-bottom: 5px
 }
 .footer_socialmedia{
     display: flex;
@@ -464,7 +467,7 @@ footer{
     width: 100%;    
     background-color: #360c0c;
     color: #fafafa;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 .column_title.socialmedia{
     font-size: 1.5em;
@@ -488,7 +491,7 @@ footer{
 
 /* <BACK TO TOP> BUTTON */
 
-/*  This button shaped div is defined within the next CSS properties. 
+/*  The shapeof this div is defined within the next CSS properties. 
 It's placed at the bottom right corner of the site and only appears 
 on mobiles*/
 
@@ -722,13 +725,6 @@ on mobiles*/
         flex-direction: column;
         flex-wrap: wrap;
         width: 90%;
-    }
-    .feedback_form >input{
-        text-align:center;
-        height: 25px;  
-    }
-    .feedback_form_comments{ 
-        width: 100%;
     }
     .feedback_form_name, .feedback_form_email {
         width: 100%;

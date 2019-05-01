@@ -36,12 +36,13 @@
                 <h2 class="column_title">Contact Us!</h2>
                 <form class="feedback_form">
                     <label for="comments">Comments</label>
-                    <input type="text" name="comments" class="feedback_form_comments" id="comments" placeholder="Please, insert your comments"/> 
+                    <!-- Setting the attributes rows and maxlength to textarea to control fans comments -->
+                    <textarea type="text" name="comments" id="comments" placeholder="Please, insert your comments" rows="10"  maxlength="400" wrap="hard"></textarea> 
                     <label for="email">Your name</label>
-                    <input type="text" name="name" class="feedback_form_name" id="name" placeholder="Please insert your Name" required/>
+                    <input type="text" name="name" id="name" placeholder="Please insert your Name" required/>
                     <label for="email">Your Email</label>
-                    <input type="text" name="email" class="feedback_form_email" id="email" placeholder="Please insert your Email" required/>
-                    <input type="submit"  class="feedback_form_submit" value="Submit"/>
+                    <input type="text" name="email" id="email" placeholder="Please insert your Email" required/>
+                    <input type="submit" id="submit" value="Submit"/>
                 </form>
             </div>
             <div class="column_right">
