@@ -234,25 +234,23 @@ slider and redefine its inherited properties (See ref: README.md - Technologies 
     top: 95%;
     border: 1px solid #0f0f0f;
     background-color: #d00000;
-}.slide{
-    /* display: flex; */
-    flex-direction: column;
+}
+.carousel-caption { /* This class is defined in bootstrap and redefined here to let the slider work properly*/
+    position:relative;
+    right: 0%;
+    left: 0%;
+}
+.slide{
     background-color: #fafafa;
     border-radius: 10px;
     transition: transform 1s;
 }
 .slide:hover{    
-    transform-origin: center center;
+    transform-origin: center center; /* To set the shrinking middle point in the center vertical and horizontal */
     transform: scale(.95); /*To produce a slight shrinking effect when placing the mouse/clicking on the slide */
-}
-.carousel-caption {
-    position:relative;
-    right: 0%;
-    left: 0%;
 }
 .slide_cover{
     order:1;
-    width:300px;
     height: 275px;
     margin:10px;
     background-position: center;
@@ -265,7 +263,7 @@ slider and redefine its inherited properties (See ref: README.md - Technologies 
     font-size: 1.6em;
     color: #0f0f0f;
 }
-.slide_text{
+.slide_text{ /* To style the caption inside the slider */
     order:3;
     width: 300px;
     height: 125px;
@@ -286,7 +284,7 @@ article element inside the right column of the section in pict.html */
 
 .clips_box{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse; /* This moves iframe to the bottom, bellow videoclips list */ 
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -330,7 +328,9 @@ article element inside the right column of the section in pict.html */
 
 /* Within the next block of CSS, the properties of the elements inside 
 slider "UPCOMING EVENTS" are defined. These changes were needed as its 
-design is different than the other sliders */
+design is different than the other sliders. I tried to style every line 
+differently to see the effects and learn from them. The goal was to make 
+every event slide look like an event ticket! */
 
 .event_date_box{
     order:1;
@@ -518,7 +518,7 @@ on mobiles*/
         background-size: cover;
     }
     header{
-        height: unset;
+        height: unset; /* To not interfiere with flex grid when expanding screen */
         margin:0;
     }
     section{
