@@ -9,7 +9,7 @@ html,body{
     box-sizing: border-box
 }
 body{
-    display: flex;
+    display: flex; /* Flexbox is the selected grid for the site */
     justify-content: center;
     flex-wrap: wrap;
     margin:0;
@@ -26,13 +26,13 @@ body h1,h2,h3,h4,h5,h6{
 }
 body h1,h2,h3{
     font-family: monoton, sans-serif;
-    line-height: 1.7;
+    line-height: 1.7; /* To let the titles font size expand */
 }
 body h4,h5,h6{
     font-family: Anton, sans-serif
 }
 .wrapper{
-    display: flex
+    display: flex /* To control the grid properly along the pages */
 }
 
 /*=============================== SITE CONTENTS */
@@ -223,7 +223,7 @@ the left column of the section element are defined. As this element also
 have properties from bootstrap v3.3.7, they have also been redefined */
 
 .slide{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     background-color: #fafafa;
     border-radius: 10px;
@@ -238,10 +238,11 @@ have properties from bootstrap v3.3.7, they have also been redefined */
     right: 0%;
     left: 0%;
 }
-.carousel-indicators{
+.carousel-indicators{ /* This class is defined in bootstrap and redefined here to let the slider work properly */ 
     top: 95%;
 }
-.carousel-indicators li{
+.carousel-indicators li{ /* This class is defined in bootstrap and redefined here to let the slider work properly*/ 
+    top: 95%;
     border: 1px solid #0f0f0f;
     background-color: #d00000;
 }
@@ -253,6 +254,12 @@ have properties from bootstrap v3.3.7, they have also been redefined */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.slide_title{
+    order:2;
+    align-items: center;
+    font-size: 1.6em;
+    color: #0f0f0f;
 }
 .slide_text{
     order:3;
@@ -267,12 +274,7 @@ have properties from bootstrap v3.3.7, they have also been redefined */
 .slide_text > p {
     margin:0;    
 }
-.slide_title{
-    order:2;
-    align-items: center;
-    font-size: 1.6em;
-    color: #0f0f0f;
-}
+
 
 /* Within the next block of CSS, the properties of the videoclips inside 
 the ordered lists placed inside the left column of the section elements 
@@ -358,7 +360,6 @@ design is different than the other sliders */
 .event_text > h2, .event_text > h3{
     color: #0f0f0f;
     font-family: Anton, sans-serif;
-    font-size: 1.5em;
 }
 .event_barcode{  /* Defines the barcode div inside the slider */
     background-repeat: no-repeat;
@@ -370,7 +371,7 @@ design is different than the other sliders */
 
 .event_barcode > h2{
     font-family: Monoton, sans-serif;
-    font-size: 3em;
+    align-self: center;
     font-weight: bolder;
     padding-top: 5%;
 }
