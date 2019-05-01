@@ -317,7 +317,7 @@ article element inside the right column of the section in pict.html */
     border-radius: 8px;
     background-color: #fafafa;
 }
-.video_frame{
+.video_frame{ /* To style the iframe window where the videclip is played */
     width:95%;
     margin: 5px 5px 20px;
     border-radius: 8px;
@@ -342,7 +342,7 @@ design is different than the other sliders */
     text-transform: uppercase;
     font-size: 2.5em;
 }
-.event_date_weekday{
+.event_date_weekday{ /*To emphasize the day the weekday the event takes place */
     order:2;
     font-size: 2.2em;
     color: #0f0f0f;
@@ -360,7 +360,7 @@ design is different than the other sliders */
     font-family: Anton, sans-serif;
     font-size: 1.5em;
 }
-.event_barcode{  
+.event_barcode{  /* Defines the barcode div inside the slider */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -377,11 +377,15 @@ design is different than the other sliders */
 .available{background: url("../images/events/ticket_barcode.jpg")}
 .sold_out{background: url("../images/events/ticket_barcode_sold_out.jpg")}
 .event_sold_out{
-    color: #0f0f0f;
+    color: #0f0f0f; /* Changes the color of the text overlay the barcode picture */
 }
 .event_available{
-    color: #d00000;
+    color: #d00000; /* Changes the color of the text overlay the barcode picture */
 }
+
+/* Within the next block of CSS, the properties of the elements inside 
+the form placed in the left column of the section element in contact.html 
+are defined. */
 
 .feedback_form{
 	order:2;                                       
@@ -482,6 +486,11 @@ footer{
 }
 
 /* <BACK TO TOP> BUTTON */
+
+/*  This button shaped div is defined within the next CSS properties. 
+It's placed at the bottom right corner of the site and only appears 
+on mobiles*/
+
 #top_back{
     position: fixed;
  	bottom: 0%;
