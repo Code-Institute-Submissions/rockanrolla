@@ -217,10 +217,10 @@ span{
     color: #fafafa /* To highlight who has posted a comment */
 }
 
-/* Within the next block of CSS I have defined
-the properties of the elements inside slider "UPCOMING EVENTS".
-As this element also have properties from bootstrap v3.3.7 I have had
-to redefine some of them */
+/* Within the next block of CSS, the properties of the elements inside 
+the sliders "THE ALBUMS", "THE CONCERTS" and UPCOMING EVENTS", placed in 
+the left column of the section element are defined. As this element also 
+have properties from bootstrap v3.3.7, they have also been redefined */
 
 .slide{
     display: flex;
@@ -273,6 +273,12 @@ to redefine some of them */
     font-size: 1.6em;
     color: #0f0f0f;
 }
+
+/* Within the next block of CSS, the properties of the videoclips inside 
+the ordered lists placed inside the left column of the section elements 
+are defined. They are also applied on the videoclip placed inside the 
+article element inside the right column of the section in pict.html */
+
 .clips_box{
     display: flex;
     flex-direction: column-reverse;
@@ -318,8 +324,9 @@ to redefine some of them */
     background-color: #fafafa;
 }
 
-/* Within the next block of CSS I have defined
-the properties of the elements inside slider "UPCOMING EVENTS" */
+/* Within the next block of CSS, the properties of the elements inside 
+slider "UPCOMING EVENTS" are defined. These changes were needed as its 
+design is different than the other sliders */
 
 .event_date_box{
     order:1;
