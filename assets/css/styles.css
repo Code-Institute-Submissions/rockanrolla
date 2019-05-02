@@ -308,7 +308,7 @@ article element inside the right column of the section in pict.html */
     border-radius: 10px;
     margin: 0 auto 20px;
 }
-.clips_box > a, .feedback_form #submit{	
+.clips_box > a, .feedback_form #submit{	/* Also applies to submit button in contact.html */
     margin: 5px auto 5px auto;
     padding: 0; 
     text-align: center;
@@ -676,9 +676,6 @@ on mobiles*/
     }
     .footer_POBox >h4{ /* To redefine the size of the fan club address fonts and its margins */
         font-size: 1.1em;
-        margin: 0 0 0 25px;
-        letter-spacing: .7em;
-        margin-bottom: 9px;
     }
     .footer_POBox .fanclub{ /* To redefine the size of two of the h4 of the address fonts */
         font-size: 1.8em;
@@ -723,9 +720,8 @@ on mobiles*/
     }
     .footer_POBox >h4{ /* To redefine the size of the fan club address fonts and its margins */
         font-size: 1.1em;
-        margin: 0 0 0 25px;
+        margin: 0 0 10px 25px;
         letter-spacing: .7em;
-        margin-bottom: 9px;
     } 
     .footer_POBox .fanclub{ /* To redefine the size of two of the h4 of the address fonts */
         font-size: 1.6em;
@@ -734,14 +730,15 @@ on mobiles*/
         order: 2; /* To change the display position in the row */
         width: 75px;
     }
+    .column_title.socialmedia{
+        display: none; /* To hide the text " Connect with us " */
+    }
     .footer_socialmedia{
         order:3; /* To change the display position in the row */
         width: 30%;
         margin-right: 15px;
     }
-    .footer_socialmedia > h2{
-        display: none; /* To hide the text " Connect with us " */
-    }
+
 }
 /* Large devices (desktops, 992px and up)================================*/
 @media (min-width : 992px){
@@ -760,7 +757,6 @@ on mobiles*/
     }
     .footer_POBox .fanclub{ /* To redefine the size of two of the h4 of the address fonts */
         font-size: 2em;
-        text-align: left;
     }    
     .footer_socialmedia{
         width: 35%;
