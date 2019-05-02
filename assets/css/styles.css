@@ -205,7 +205,9 @@ article{
     color: #bab7b7;    
     text-align: justify; 
 }
-article a{ /* To highlight the anchor inside the grey paragraph font color and space betwwen letters are defined */
+article a{ 
+    /* To highlight the anchor inside the grey paragraph font color and 
+    space betwwen letters are defined */
     color: #fafafa; 
     letter-spacing: 0.1em;
 }
@@ -223,19 +225,27 @@ span{
 /* Within the next block of CSS, the properties of the elements inside 
 the sliders "THE ALBUMS" (index.html), "THE CONCERTS" (pict.html), and 
 UPCOMING EVENTS" (events.html), placed in the left column of the section 
-element are defined. The issues found when trying to make it work under 
-flexbox 'only' made me took the decision to include a bootstrap v3.3.7 based 
-slider and redefine its inherited properties (See ref: README.md - Technologies Used) */
+element are defined. 
+The issues found when trying to make it work under flexbox 'only' made me 
+took the decision to include a bootstrap v3.3.7 based slider and redefine 
+its inherited properties (See ref: README.md - Technologies Used) */
 
-.carousel-indicators{ /* This class is defined in bootstrap and redefined here to let the slider work properly */ 
+.carousel-indicators{
+    /* This bootstrap class is redefined here to let the slider work properly. 
+    Forced to the bottom of the slide, below the other elements without changing 
+    position absolute */  
     top: 95%;
 }
-.carousel-indicators li{ /* This class is defined in bootstrap and redefined here to let the slider work properly*/ 
-    top: 95%;
+.carousel-indicators li{
+    /* This bootstrap class is redefined here to let the slider work properly*/ 
+    /* top: 95%; */
     border: 1px solid #0f0f0f;
     background-color: #d00000;
 }
-.carousel-caption { /* This class is defined in bootstrap and redefined here to let the slider work properly*/
+.carousel-caption { 
+    /* This bootstrap class is redefined here to let the slider work properly.
+    Absolute position is changed to relative to include it inside the slide. 
+    Left and right position set to 0% to center it.*/
     position:relative;
     right: 0%;
     left: 0%;
@@ -246,7 +256,7 @@ slider and redefine its inherited properties (See ref: README.md - Technologies 
     transition: transform 1s;
 }
 .slide:hover{    
-    transform-origin: center center; /* To set the shrinking middle point in the center vertical and horizontal */
+    transform-origin: center center; /* To match the shrinking point with the center point on the axis(vertical and horizontal) */
     transform: scale(.95); /*To produce a slight shrinking effect when placing the mouse/clicking on the slide */
 }
 .slide_cover{
@@ -442,24 +452,24 @@ footer{
 .footer_container{
     flex-direction: column;
     background-color: #360c0c;
-    text-align: center
+    text-align: center    
 }
-.footer_POBox{
+.footer_POBox{ /* To define the flow of the fan club address box */
 	justify-content: center;
 	align-items: center;
 	margin: 10px
 }
-.footer_POBox >h4{
+.footer_POBox .fanclub{ /* To define the flow of the fan club title lines */
+	font-size: 1.2em;
+	margin-bottom: 5px
+}
+.footer_POBox >h4{ /* To define the size of the fan club address fonts and its margins */
 	font-size: 1em;
 	margin: 5px 0 0 25px;
 	letter-spacing: .5em; 
 	text-align: left	
 }
-.footer_POBox .fanclub{
-	font-size: 1.2em;
-	margin-bottom: 5px
-}
-.footer_socialmedia{
+.footer_socialmedia{ /* To define the flow of the socialmedia box and its links */
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -469,11 +479,11 @@ footer{
     color: #fafafa;
     text-transform: uppercase
 }
-.column_title.socialmedia{
+.column_title.socialmedia{ /* To define the side and centering of text allocated in footer_socialmedia */
     font-size: 1.5em;
     text-align: center;
 }
-.sm_icon {
+.sm_icon { /* To define the size of the socialmedia boxes and the way they cointains icons */
     width: 48px;
     height: 48px;
     margin: 5px;
@@ -486,7 +496,7 @@ footer{
 .ytb_icon{background-image: url("../images/icons/youtube-4-48.png")}
 
 .footer_design{    
-    display: none;
+    display: none; /*To avoid the display of the "cube" image linked to my profile on C9. */
 }
 
 /* <BACK TO TOP> BUTTON */
@@ -526,10 +536,6 @@ on mobiles*/
         justify-content: center;
         width: 100%;
     }
-    footer{    
-        width:100%;
-        justify-content: center;
-    }
     #top_back{
         display:none;
     }
@@ -546,7 +552,7 @@ on mobiles*/
         letter-spacing: 3px;
     }
     .header_nav{
-        width:100%;
+        width:100%; /* To not interfiere with flex grid when expanding screen */
         order: 3;
     }
     .header_logo{
@@ -560,21 +566,21 @@ on mobiles*/
         height: 140px;
     }
     .nav_btn{
-        display:none;
+        display:none; /* To not display the burguer button and allow the display of the ordered list inline */
     }
-    .nav_toggle{
+    .nav_toggle{ /* To define the changes needed to display the menu inline: positioned inside the screen*/
         position: relative;
         padding: 0;
         width: 100%;
         left: 0%;
-        transform: translateX(0%);
+        transform: translateX(0%); 
     }
-    .toggle_menu{
+    .toggle_menu{ /* To define the changes needed to display the items of menu inline: show them pwith the same sizes */
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
-    .toggle_item{
+    .toggle_item{ /* To not interfiere with flex grid and typograpy when shrinking screen -Known Issue - */
         font-size: unset;
         text-align: center;
     }
@@ -588,7 +594,7 @@ on mobiles*/
         justify-content: space-around;
         align-items: flex-start;
     }
-    .column_left, .column_right{
+    .column_left, .column_right{ /* To change the way they are displayed and to give the same space to both */
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -607,9 +613,9 @@ on mobiles*/
         opacity: 0.9;
     }
     .footer_POBox{
-        order: 2;
+        order: 2; /* To redefine the position on the flex column */
     }
-    .footer_POBox >h4{
+    .footer_POBox >h4{ /* To redefine the size of the fan club address fonts and its margins */
         font-size: 1.1em;
         margin: 0 0 0 25px;
         letter-spacing: .7em;
@@ -620,7 +626,7 @@ on mobiles*/
         font-size: 1.8em;
     }
     .footer_socialmedia{
-        order:1;
+        order:1; /* To redefine the position on the flex column */
         margin: 10px 0;
         width: 95%;
         align-items: center;
@@ -651,7 +657,7 @@ on mobiles*/
         margin-right: auto;
     }
     .slide{
-        min-width: 55%;
+        min-width: 80%; /* To define the minimun space that the slide should ocuppy */ 
     }
     .slide_cover{
         height: 150px;
@@ -659,35 +665,7 @@ on mobiles*/
     }
     .slide_text{
         width: unset;
-    }
-    .gallery{
-        width:90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .gallery_box{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .gallery_box > div{
-        max-width: 44%;
-    }
-    .picture{
-        max-height: 25%;
-    }
-    .pict_title {
-        width: unset;
-    }
-    .pict_text{
-        max-height: 75px;
-        margin-bottom: 35px;
-    }               
-    .fans_feedback{
-        width: 90%;
-    }
-    .clips{
-        width: 70%;
-    }
+    }            
     .clips_box > div{
         border-radius: 10px;
         transition: transform 1s;
@@ -701,14 +679,6 @@ on mobiles*/
         padding: 0;
         text-decoration: none;
         background-color: #fafafa;
-    }
-    .clip_list{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        list-style: none;
-        margin-bottom: 10px;
     }
     .clip_list_item{
         text-decoration: none;
@@ -755,6 +725,9 @@ on mobiles*/
     }
     .album_cover{
         height: 200px;
+    }
+    .clips_box {
+        width: 60%;
     }
     .footer_container{
         flex-direction: row;
@@ -810,20 +783,13 @@ on mobiles*/
 }
 /* Extra large devices (large desktops, 1200px and up) ==================*/
 @media (min-width : 1200px){
+    
 }
 /* END MEDIA QUERIES ===================================================================*/
 
 /* ANIMATIONS ==========================================================================*/
-@keyframes flip{    
-    from{
-    transform: rotateY(0deg)   
-    }
-    to{
-    transform: rotateY(360deg) 
-    } 
-}
-@keyframes spin{	
-    0%{
+@keyframes spin{/* This animation is for the cube image placed in the footer. Rotate 360deg when hover */
+      0%{
     transform: rotate(0deg);
     }    
     100%{
