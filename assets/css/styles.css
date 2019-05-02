@@ -91,7 +91,6 @@ header{
     padding: 0;
     font-size: 2em;
     text-align: left;
-    background-color: transparent;
 }
 .header_nav{
     order:2;
@@ -106,7 +105,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 400px;
+    height: 400px;
 }
 .nav_btn{
     order: 2;
@@ -543,23 +542,26 @@ on mobiles*/
         width: 100%;
         align-content: center;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
     }
     .header_title{
         order: 2;
+        flex-grow: 2;  
         text-align: justify;
+        font-size: 3em;
+        align-self: center;
         text-overflow: ellipsis;
-        letter-spacing: 3px;
+        letter-spacing: 4px;
     }
     .header_nav{
-        width:100%; /* To not interfiere with flex grid when expanding screen */
         order: 3;
+        width:100%; /* To not interfiere with flex grid when expanding screen */
+        
     }
     .header_logo{
         order: 1;
-        margin:0;
+        margin-left: 10px;
         width: 25%;
-        min-height:unset;
         background-position: unset;
         background-repeat: no-repeat;
         background-size: contain;
@@ -714,21 +716,22 @@ on mobiles*/
     section{
         margin: 2% auto 0;
     }
-    footer{    
-        width:100%;
-        justify-content: center;
-        justify-content: center;
-    }
-    .header_logo{
-        min-width: unset;
-        width: 20%;
+    .header_title{ /* To define the growing of title with bigger screens */
+        font-size: 4em;
+        letter-spacing: 5px;
     }
     .album_cover{
         height: 200px;
     }
-    .clips_box {
+    .clips_box { /* To keep the proportions of the list and iframe when growing with bigger screens */
         width: 60%;
     }
+    footer{    
+        width:100%;
+        justify-content: center;
+    }
+
+
     .footer_container{
         flex-direction: row;
     }
