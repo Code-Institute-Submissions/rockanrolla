@@ -154,7 +154,7 @@ header{
     display: block;
     background-color: #0f0f0f;
     color: #fafafa;
-    padding: 10px 5px;
+    /* padding: 10px 5px; */
 }
 .toggle_link:hover, .toggle_link:focus{
     text-decoration: none
@@ -580,11 +580,10 @@ on mobiles*/
     }
     .toggle_item{ 
         text-align: center; /* To center the text from left side to center of div */
-        font-size: 1.2em /* To increase the font size with bigger screens */
+        font-size: 1.2em; /* To increase the font size with bigger screens */
     }
     .toggle_link{
         flex-grow: 2; /* To allow this element to fill the near space available */
-        padding: 5px    
     }
     .section_container{
         margin: 10px 0 0px;
@@ -712,6 +711,9 @@ on mobiles*/
         font-size: 4em;
         letter-spacing: 5px;
     }
+    .toggle_item{ 
+        font-size: 1.6em; /* To increase the font size with bigger screens */
+    }
     .footer_container{
         flex-direction: row; /* To change the display direction */
         height: 200px; /* To set a minimum height to its body. It looks too 'piled' when height unset*/
@@ -743,6 +745,13 @@ on mobiles*/
 }
 /* Large devices (desktops, 992px and up)================================*/
 @media (min-width : 992px){
+    .header_title{ /* To define the growing of title with bigger screens */
+        font-size: 5em;
+        letter-spacing: 6px;
+    }  
+    .toggle_item{ 
+        font-size: 2em; /* To increase the font size with bigger screens */
+    }
     .slider {
         width: 80%;
     }
@@ -763,9 +772,9 @@ on mobiles*/
 /* Extra large devices (large desktops, 1200px and up) ==================*/
 @media (min-width : 1200px){
     .header_title{ /* To define the growing of title with bigger screens */
-        font-size: 5em;
-        letter-spacing: 6px;
-    }    
+        font-size: 6em;
+        letter-spacing: 7px;
+    }  
 }
 /* END MEDIA QUERIES ===================================================================*/
 
