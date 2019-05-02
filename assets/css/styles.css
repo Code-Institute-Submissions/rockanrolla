@@ -6,11 +6,13 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Anton:100,200,300,400,500,600,700');
 
 html,body{
-    box-sizing: border-box
+    box-sizing: border-box;
+    background-color:#d00000; /* To define the nearest color to the background image while loading and avoid white page */
 }
 body{
     display: flex; /* Flexbox is the selected grid for the site */
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin:0;
     padding:0;
@@ -72,32 +74,36 @@ body h4,h5,h6{
 /* ============================ MOBILE APPROACH */
 
 /* <HEADER> ====================================*/
+
+/* Within the next block of CSS, the properties of this element 
+and its child, placed along the five pages of the site are defined.*/
+
 header{
-    order:1;
-    height: 425px;
+    height: 425px; /* To define height enough to allocate header_logo, header_title and header_nav */
     margin: 0 0 5%;
     padding:0;
 }
 .header_container{
-    flex-flow: row wrap;
+    flex-flow: row wrap; /* Best way found to define the position of child elements in mobile approach */
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
     margin:10px 0 0;
     padding:0;
-    width: 320px;
 }
 .header_title{
-    order: 1;
+    order: 1; /* To set the position on the flex column */
     margin: 0;
     padding: 0;
     font-size: 2em;
     text-align: left;
 }
 .header_nav{
-    order:2;
+    order:2; /* To set the position on the flex column */
     margin: 4px 0;
 }
 .header_logo{
-    order: 3;
+    order: 3; /* To set the position on the flex column */
     width: 100%;
     margin-bottom: 10px;
     padding:0;
@@ -105,7 +111,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 400px;
+    height: 400px; /* This leaves 25px free for header_title and nav_btn */
 }
 .nav_btn{
     order: 2;
@@ -123,12 +129,16 @@ header{
     border-radius: 50%;
 }
 .nav_toggle{
-    position: absolute;
+    /* To define the properties of the navigation menu */ 
+    position: absolute; 
     width: 80%;
-    padding: 10% 0;
-    left: -80%;
-    z-index: 1;
-    transition: transform 0.7s ease-in-out;
+    padding: 10% 0;    
+    left: -80%; /* hidden in the left, unseen but ready */    
+    z-index: 1; /* One layer over the rest of the elements */    
+    transition: transform 0.7s ease-in-out; /* Ref to translateX transform when hover */
+}
+.nav_btn:hover +.nav_toggle{
+    transform: translateX(100%); /* This moves nav_toggle from -80% to 80%. Hidden in the left then when hover on nav_btn moving to the right */ 
 }
 .nav_toggle ul li{
     list-style: none;
@@ -152,21 +162,19 @@ header{
 .toggle_item{
     width: 100%;
     font-family: monoton, sans-serif;
-    font-size: 2.5em;
-    text-align: left;
+    font-size: 2.5em;    
+    text-align: left; /* To align text to the left of the toggle_menu div */ 
     text-decoration: none;
     color: #fafafa;
     transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
 }
-.nav_btn:focus{
-    outline: none
+.nav_btn:focus{     
+    outline: none /* To not display outline when button selected */
 }
-.nav_btn:hover .bar{
-    background-color: #0f0f0f
+.nav_btn:hover .bar{    
+    background-color: #0f0f0f /* To change color on child when hover over parent */
 }
-.nav_btn:hover +.nav_toggle{
-    transform: translateX(100%);
-}
+
 .toggle_item:hover, .toggle_item:focus{
     color: #0f0f0f;
     background-color: #fafafa;
@@ -179,9 +187,10 @@ header{
 and its child, placed along the five pages of the site are defined.*/
 
 section{
-    order:2;
 	margin: 5% 0;
     padding:0;
+    justify-content: center;
+    width: 100%;
 }
 .section_container{
 	flex-direction: column;
@@ -214,10 +223,10 @@ article a:hover, article a:active, article a:focus{
     color: #e8f801;
     text-decoration: none;
 }
-article a:hover::after, article a:active::after{
-    color: #fafafa;  /*Tried to back to normal? */
+article a:hover::after, article a:active::after{    
+    color: #fafafa; /*To set color back to nitial status after hover and active */
 }
-span{
+span{    
     color: #fafafa /* To highlight who has posted a comment */
 }
 
@@ -299,15 +308,14 @@ article element inside the right column of the section in pict.html */
     border-radius: 10px;
     margin: 0 auto 20px;
 }
-.clips_box > a{	
-	transition: transform 1s; /* The link to the video grows for 1 second */
-    margin:0;
+.clips_box > a, .feedback_form #submit{	
+    margin: 5px auto 5px auto;
     padding: 0; 
     text-align: center;
-    text-decoration: none; 
-    margin: 5px auto 5px auto;   
+    text-decoration: none;
+    transition: transform 1s; /* The link to the video grows for 1 second */  
 }
-.clips_box > a:hover{ /*To produce a growing effect when placing the mouse/clicking on the clip title */  
+.clips_box > a:hover, .feedback_form #submit:hover{ /*To produce a growing effect when placing the mouse/clicking on the clip title */  
     transform-origin: center center;
     transform: scale(1.1);
 }
@@ -317,7 +325,7 @@ article element inside the right column of the section in pict.html */
     margin: 0 7px;
     /* align-items: center; */
 }
-.clips_box > a > h3{ /*To emphasize the videoclip name font-size and font-family changes */
+.clips_box > a > h3, .feedback_form #submit{ /*To emphasize the videoclip name font-size and font-family changes */
     color: #0f0f0f;
     font-family: Anton, sans-serif;
     font-size: 1.3em;
@@ -372,7 +380,7 @@ every event slide look like an event ticket! */
     color: #0f0f0f;
     font-family: Anton, sans-serif;
 }
-.event_barcode{  /* Defines the barcode image inside the slider */
+.event_barcode{ /* Defines the barcode image inside the slider */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -410,8 +418,9 @@ are defined. */
     align-items: center;
 }
 .feedback_form label{
-    font-size: 1.3em;
-    text-transform: uppercase;  
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 4px; /* To expand letters to display better */  
 }
 
 .feedback_form input, .feedback_form > textarea { /* Textarea maxlength and rows attributes defined in html code */
@@ -435,15 +444,15 @@ are defined. */
 }
 #submit{
     width: 25%;
-    height: 35px;
+    font-style: normal;
     text-transform: uppercase;
-    background-color: #9e9e9f
+    border-radius: 8px;
 }
 
 /* <FOOTER> ====================================*/
 
 footer{
-    order:3;
+    /* order:3; */
     margin:0;
     padding:0;
     width:100%
@@ -458,15 +467,15 @@ footer{
 	align-items: center;
 	margin: 10px
 }
-.footer_POBox .fanclub{ /* To define the flow of the fan club title lines */
-	font-size: 1.2em;
-	margin-bottom: 5px
-}
 .footer_POBox >h4{ /* To define the size of the fan club address fonts and its margins */
 	font-size: 1em;
 	margin: 5px 0 0 25px;
 	letter-spacing: .5em; 
 	text-align: left	
+}
+.footer_POBox .fanclub{ /* To redefine the size of two of the h4 of the address fonts */
+	font-size: 1.2em;
+	margin-bottom: 5px
 }
 .footer_socialmedia{ /* To define the flow of the socialmedia box and its links */
     display: flex;
@@ -522,44 +531,17 @@ on mobiles*/
 
 /* Small devices (landscape phones, 576px and up)========================*/
 @media (min-width : 576px){
-    body{
-        align-items: center;
-        background-size: cover;
-    }
     header{
-        height: unset; /* To not interfiere with flex grid when expanding screen */
-        margin:0;
-    }
-    section{
-        margin: 2%;
-        justify-content: center;
-        width: 100%;
+        height: unset; /* To reset and not interfiere with flex grid when expanding screen */
     }
     #top_back{
-        display:none;
+        display:none; /* To not display back to top button */ 
     }
     .header_container{
-        width: 100%;
-        align-content: center;
-        align-items: center;
-        justify-content: left;
+        justify-content: left; /* To define position of elements 'pushing' to the left */
     }
-    .header_title{
-        order: 2;
-        flex-grow: 2;  
-        text-align: justify;
-        font-size: 3em;
-        align-self: center;
-        text-overflow: ellipsis;
-        letter-spacing: 4px;
-    }
-    .header_nav{
-        order: 3;
-        width:100%; /* To not interfiere with flex grid when expanding screen */
-        
-    }
-    .header_logo{
-        order: 1;
+    .header_logo{ 
+        order: 1; /* To redefine the position on the flex column */ 
         margin-left: 10px;
         width: 25%;
         background-position: unset;
@@ -567,34 +549,48 @@ on mobiles*/
         background-size: contain;
         height: 140px;
     }
+    .header_title{
+        order: 2; /* To redefine the position on the flex column */
+        flex-grow: 2; /* To allow title to fill the near space available */  
+        text-align: justify;
+        font-size: 3em;
+        align-self: center;
+        text-overflow: ellipsis;
+        letter-spacing: 4px;
+    }
+    .header_nav{
+        order: 3; /* To redefine the position on the flex column */
+        width:100%; /* To not interfiere with flex grid when expanding screen */
+        
+    }
     .nav_btn{
-        display:none; /* To not display the burguer button and allow the display of the ordered list inline */
+        display:none; /* To not display the burguer button */
     }
     .nav_toggle{ /* To define the changes needed to display the menu inline: positioned inside the screen*/
         position: relative;
         padding: 0;
         width: 100%;
-        left: 0%;
-        transform: translateX(0%); 
+        left: 0%; /* Now it is always set inside the visible screen */
+        transform: translateX(0%); /* With this set to 0% the movement doesn't aply */
     }
-    .toggle_menu{ /* To define the changes needed to display the items of menu inline: show them pwith the same sizes */
+    .toggle_menu{ /* To distribute the space available between the items of menu inline */
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
-    .toggle_item{ /* To not interfiere with flex grid and typograpy when shrinking screen -Known Issue - */
-        font-size: unset;
-        text-align: center;
+    .toggle_item{ 
+        text-align: center; /* To center the text from left side to center of div */
+        font-size: 1.2em /* To increase the font size with bigger screens */
     }
     .toggle_link{
-        flex-grow: 1;
-        padding: 0px;        
+        flex-grow: 2; /* To allow this element to fill the near space available */
+        padding: 5px    
     }
     .section_container{
         margin: 10px 0 0px;
         flex-direction: row;
         justify-content: space-around;
-        align-items: flex-start;
+        align-items: flex-start
     }
     .column_left, .column_right{ /* To change the way they are displayed and to give the same space to both */
         display:flex;
@@ -602,76 +598,34 @@ on mobiles*/
         justify-content: center;
         align-items:center;
         width: 50%;
-        margin: 0 0 10px;
+        margin: 0 0 10px
     }
     .column_right > article{    
         margin: 0 5% 0;
-        text-align: left;
-    }
-    .footer_container{
-        justify-content: space-between;
-        align-items: center;
-        background-color: #8e1623;
-        opacity: 0.9;
-    }
-    .footer_POBox{
-        order: 2; /* To redefine the position on the flex column */
-    }
-    .footer_POBox >h4{ /* To redefine the size of the fan club address fonts and its margins */
-        font-size: 1.1em;
-        margin: 0 0 0 25px;
-        letter-spacing: .7em;
-        text-align: left;
-        margin-bottom: 9px;
-    }
-    .footer_POBox .fanclub{
-        font-size: 1.8em;
-    }
-    .footer_socialmedia{
-        order:1; /* To redefine the position on the flex column */
-        margin: 10px 0;
-        width: 95%;
-        align-items: center;
-        height: 125px;
-        border-radius: 25px;
-    }
-    .footer_design{
-        display: flex;
-        order: 3;
-        height: 100px;
-        width: 100px;
-        margin: 10px 0 ;
-        background-image: url("../images/icons/rubik-icon-23_trnsp_100x100.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        opacity: 0.9;
-    }
-    .footer_design:hover{
-        animation-name: spin;
-        animation-iteration-count: infinite;
-        animation-duration: 2.5s;
-        animation-timing-function: linear;
-    }
+        text-align: left
+    }    
     .slider {
         width: 95%;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto
     }
     .slide{
         min-width: 80%; /* To define the minimun space that the slide should ocuppy */ 
     }
     .slide_cover{
         height: 150px;
-        width: unset;
+        width: unset
     }
     .slide_text{
-        width: unset;
+        width: unset /* To avoid limits when expanding on bigger screens */
     }            
     .clips_box > div{
         border-radius: 10px;
         transition: transform 1s;
-        margin: 10px;
+        margin: 10px
+    }
+    .clips_box { /* To keep the proportions of the list and iframe when growing with bigger screens */
+        width: 70%;
     }
     .clips_box > div:hover{    
         transform-origin: center center;
@@ -703,63 +657,88 @@ on mobiles*/
     }
     .feedback_form_submit{
         width: 150px;
+    }    
+    .footer_container{ /* To redefine the way the elements behave in the footer color and give some transparency to the footer */
+        justify-content: space-between;
+        align-items: center;
+        background-color: #8e1623;
+        opacity: 0.9;
+    }
+    .footer_socialmedia{
+        order:1; /* To redefine the position on the flex column */
+        margin: 10px 0;
+        width: 95%;
+        align-items: center;
+        height: 125px;
+        border-radius: 25px;
+    }
+    .footer_POBox{
+        order: 2; /* To redefine the position on the flex column */
+    }
+    .footer_POBox >h4{ /* To redefine the size of the fan club address fonts and its margins */
+        font-size: 1.1em;
+        margin: 0 0 0 25px;
+        letter-spacing: .7em;
+        margin-bottom: 9px;
+    }
+    .footer_POBox .fanclub{ /* To redefine the size of two of the h4 of the address fonts */
+        font-size: 1.8em;
+    }
+    .footer_design{ /* To define this element after not being displayed on mobile approach */
+        order: 3; /* To redefine the position on the flex column */
+        display: flex;
+        height: 100px;
+        width: 100px;
+        margin: 10px 0 ;
+        background-image: url("../images/icons/rubik-icon-23_trnsp_100x100.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        opacity: 0.9; 
+    }
+    .footer_design:hover{
+        animation-name: spin; /* @keyframe 'spin' defined at the bottom of this code */
+        animation-iteration-count: infinite;
+        animation-duration: 2.5s;
+        animation-timing-function: linear;
     }
 }
 /* Medium devices (tablets, 768px and up)================================*/
 @media (min-width : 768px){
-    body{
-        background-size: cover;
-    }
-    header{
-        height: 200px;
-    }
-    section{
+     section{
         margin: 2% auto 0;
     }
     .header_title{ /* To define the growing of title with bigger screens */
         font-size: 4em;
         letter-spacing: 5px;
     }
-    .album_cover{
-        height: 200px;
-    }
-    .clips_box { /* To keep the proportions of the list and iframe when growing with bigger screens */
-        width: 60%;
-    }
-    footer{    
-        width:100%;
-        justify-content: center;
-    }
-
-
     .footer_container{
-        flex-direction: row;
+        flex-direction: row; /* To change the display direction */
+        height: 200px; /* To set a minimum height to its body. It looks too 'piled' when height unset*/
     }
     .footer_POBox{
-        order: 1;
+        order: 1; /* To change the display position in the row */
     }
-    .footer_POBox >h4{
+    .footer_POBox >h4{ /* To redefine the size of the fan club address fonts and its margins */
         font-size: 1.1em;
         margin: 0 0 0 25px;
         letter-spacing: .7em;
-        text-align: left;
         margin-bottom: 9px;
     } 
-    .footer_POBox .fanclub{
+    .footer_POBox .fanclub{ /* To redefine the size of two of the h4 of the address fonts */
         font-size: 1.6em;
     }
+    .footer_design{
+        order: 2; /* To change the display position in the row */
+        width: 75px;
+    }
     .footer_socialmedia{
-        order:3;
+        order:3; /* To change the display position in the row */
         width: 30%;
         margin-right: 15px;
     }
     .footer_socialmedia > h2{
-        display: none;
-    }
-    .footer_design{
-        order: 2;
-        height: 200px;
-        width: 75px;
+        display: none; /* To hide the text " Connect with us " */
     }
 }
 /* Large devices (desktops, 992px and up)================================*/
@@ -767,13 +746,10 @@ on mobiles*/
     .slider {
         width: 80%;
     }
-    .album_cover{
-        height: 300px;
-    }
     .footer_POBox >h4{
         font-size: 1.3em;
     }
-    .footer_POBox .fanclub{
+    .footer_POBox .fanclub{ /* To redefine the size of two of the h4 of the address fonts */
         font-size: 2em;
         text-align: left;
     }    
@@ -786,13 +762,17 @@ on mobiles*/
 }
 /* Extra large devices (large desktops, 1200px and up) ==================*/
 @media (min-width : 1200px){
-    
+    .header_title{ /* To define the growing of title with bigger screens */
+        font-size: 5em;
+        letter-spacing: 6px;
+    }    
 }
 /* END MEDIA QUERIES ===================================================================*/
 
 /* ANIMATIONS ==========================================================================*/
-@keyframes spin{/* This animation is for the cube image placed in the footer. Rotate 360deg when hover */
-      0%{
+@keyframes spin{
+/* This animation is for the cube image placed in the footer. Rotate 360deg when hover */
+    0%{
     transform: rotate(0deg);
     }    
     100%{
