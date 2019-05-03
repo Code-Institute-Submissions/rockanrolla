@@ -149,7 +149,10 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 + __*Implement contents in quantity and quality on section's columns:*__ The visual available space on some of the right columns, in pages index.html, events.html and contact.html, and on the left column in clips.html is a chance to include more contents about the band. 
 
-+ __*Ticket / Band Hiring managment:*__ Actually the band use external companies to manage this features. A challenge for every band is to manage this so no external control over them is impossed by the ticketing industry.
++ __*Ticket / Band Hiring managment:*__ Actually the band use external companies to manage this features. A challenge for every band is to manage this independently so no external control over them is impossed by the ticketing industry.
+
++ __*Better design adapted to specific devices:*__ As a challenge to learn more about design, this site could always be improved. Typography types, sizes and colors as the same applied to backgrounds and other elements are qualities that display in different ways in different devices.  Also the responsive design and the breakpoints in media queries are always changing with the new devices releases, so yes, this all could be a future implementation to keep in mind.
+
 
 <img src="assets\images\icons\buttonup.png" alt="Back to Features" width="20" height="20"/> *[Back to Features](#features)*
 
@@ -164,7 +167,7 @@ Nevertheless at some point while optimizing the code for the sliders, Bootstrap 
 
 This mixture between Flex as main and Bootstrap as secondary has been a challenge for a new developer as I, but the learnings from this sure will help in future projects. 
 
-+ __*Fonts Research:*__
++ __*"Our own thing" - Font research and design:*__
 
   This site uses [Google Fonts](https://fonts.google.com/) to style its fonts. Some of the font mockups have been created using [Our own thing](http://www.ourownthing.co.uk/fontpairing/):
 
@@ -193,24 +196,30 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
   - [w3school - CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
 
   - [Scrimba - Flexbox](https://scrimba.com/g/gflexbox)
-    
-+ __*Sliders:*__
 
-  The next 'How to' documentation has been researched and coding examples edited from this sites:
++ __*CSS Tricks and QNimate documentation:*__
+
+  In a first attempt, the next 'How to' documentation from the sites below has been researched and coding examples edited to develope the sliders along the site:
 
   - [Slider with just HTML and CSS](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/)
 
   - [Image Slider Using HTML And CSS Only](http://qnimate.com/creating-a-slider-using-html-and-css-only/)
+    
++ __*Bootstrap v3.3.7 and jQuery v3.2.1:*__
 
   But after various attemps to implement the slider / carousel only with Html and Css, it became an 'horrendous' visual feature for the project so I decided to implement a generic example from Bootstrap and adapt its code to make it functional for the site. This feature has been implemented to index.html("The Albums"), pict.html ("The concerts"), events.html ("Upcoming Events").
 
   - [Bootstrap Carousel with javascript](https://getbootstrap.com/docs/3.4/javascript/#carousel-examples)
 
-+ __*Back to top button:*__ 'How to' documentation has been researched and coding examples edited from this site:
++ __*Stackoverflow Documentation: Back to top button :*__ 
+
+  The next 'How to' documentation has been researched and coding examples edited from this site:
 
   - [Back to top button using css and html only](https://stackoverflow.com/questions/32102747/how-to-make-a-back-to-top-button-using-css-and-html-only)
 
-+ __*Code editors:*__ Two different editors have been used along the development of this project.
++ __*Code editors:*__ 
+
+  Two different editors have been used along the development of this project.
 
   - [Cloud9](https://aws.amazon.com/es/cloud9/?origin=c9io)
 
@@ -236,6 +245,10 @@ This project was developed and stored in git using initially Cloud9 and Visual S
 The project was staged, commited and pushed frequently to a GitHub repository  named [Rockanrolla Project](https://github.com/danmtt/rockanrolla). It is published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
 
 [Click here to visit the site](https://danmtt.github.io/rockanrolla)
+
+<img src="assets\images\icons\buttonup.png" alt="Back to Features" width="20" height="20"/> *[Back to Deployment](#deployment)*
+
+<img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
 
 
 ## Credits
@@ -287,7 +300,7 @@ The background, logo images displayed on the different project pages have been s
 - "Takk!" to my mentor [Simen Daehlin](http://simen.dehlin.info/#home) and 
 "Bedankt!" to student [Anna Greaves](https://github.com/AJGreaves) for all the help, patience and examples shown. Their help through different channels has been key to this project development! "Gracias!"
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Credits" width="20" height="20"/> *[Back to Features](#credits)*
+<img src="assets\images\icons\buttonup.png" alt="Back to Credits" width="20" height="20"/> *[Back to Credits](#credits)*
 
 <img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
 
