@@ -6,7 +6,7 @@ It is based on all the learnings acquired through the initial three modules or t
 
 It is about an imaginary rock band from California from the 70's and the user can review their albums, past and future events and videoclips. It also allows the user to keep in contact with the band providing their feedback via mail and, if interested, buy event tickets or hire the band for private events.
 
-This site is simulating all the previous features and all its content is pure fiction. Everything has been researched and collected from many different sites around the WWW.
+This site is simulating all the previous features and all its content is pure fiction. Everything has been researched and collected from many different sites around the World Wide Web.
 
 
 ## __UX__
@@ -60,34 +60,66 @@ __*Wireframes mockups:*__
 
   + [Balsamiq Project wireframe](assets/project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf)
 
+
+<a ref="https://github.com/danmtt/rockanrolla/blob/master/README.md#ux"><img src="assets/images/icons/buttonup.png" alt="UX" width="24" height="24" />Back to UX</a>
+
+ <img src="assets\images\icons\buttonup.png" alt="IMAGE ALT TEXT HERE" width="24" height="24" /><img src="assets\images\icons\buttonup.png" alt="IMAGE ALT TEXT HERE" width="24" height="24" /> *[Back to top of the document](#rockanrolla-band-website)*
+
 ## __Features__
 ---
 
 The site works on 5 Html pages styles using Flexbox and customized CSS properties to feature a responsive design. 
 
-On each page the next elements are displayed:
+On each page the next features are displayed:
 
-  1. A __*header*__ containing a band logo, a title and a navigational menu between pages.
+  1. A __*header*__ containing a [band logo](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg), a title and a navigational menu between pages.
 
   2. A *__section__* with two columns displaying *[specific contents](###specific-section-contents)* attending to the page selected.
 
-  3. A __*footer*__ that links the user to this developer and to the band via social media.
+  3. A __*footer*__ that shows the fan club address and links the visitor to the band via social media as also to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under costruction).
 
-  4. A __*back to top button*__ that allows the visitor to go back to the header 
+  4. A __*back to top button*__ that allows the visitor to go back to the header.
+
+### __*Existing features*__
+
++ __*Header:*__ Exist on every page and it is a key feature for the visitor experience when navigating through the site. It is responsive and displayed in a very simple way.
+  
+  - *Band Logo*. A simple [picture](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg) showing the band in its best cheerfuk moment.
+
+  - *Band Name*. A title displaying the band name. This title is invented and has got nothing to do with rock and roll bands but with a [special racehorse](https://en.wikipedia.org/wiki/Invasor_(horse)) named like that.
+
+  - *Responsive navigation menu*. It adapts to the different devices used by the visitor to display the site.
+
++ __*Section:*__  Exist on every page and it is a key feature for the visitor experience when looking for contents the site. Contains two columns with different 'ingredients' each. They are displayed as a column in small devices and in a row in bigger ones (left and right). Every different page uses different contents based on:
+
+  - *Slider*. A simple way to display cards with images and/or information about the band. The interaction with the screen make it particularly valuable on the Mobile Approach due to its quickness and easy use. This feature, displayed on the left of the section on Tablets and Laptops with bigger screens, gave me the chance to have more space available to display more information about the band in the right area of the section. This could be a feature to implement in the future so I recognize that there is still space available on the right columns... 
+
+  - *Gallery*. Another simple way to display cards with images and/or information about the band. 
+
+
++ __*Footer:*__ Exist on every page and it is a key feature for the visitor experience when connecting to the band in different social media platforms. It is responsive and displayed in a very simple way.
+
+  - *Band PO box*. A box showing the PO address of the band to allow visitors to write mail letters to the band. This is a vintage feature added to the site. Some fans still rely on written old-style feedback, as the band itself.
+  
+  - *Developer link*. An image that links the visitor to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under costruction). It displays a cube in 3d that rotates 360 degrees when hovered. This is a special feature that I would like to include in every project in the future.
+
+  - *Social media platform's icons*. A box containing three links to connect the visitor to the different social media profiles of the band. This way they should receive current news and posts, increading the chances to interact with the band.
+
++ __*Back to top button:*__ A button that only exist on Mobile approach helps the customer to navigate back to the page header to easily link to anothe page of the site.
 
 ### __*Specific Section contents*__
 
-__*Home:*__
++ __*Home:*__
 
-+ The contents displayed in the first column of this section are about all the band's albums. A carrousel containing seven slides with the album cover and some of the song titles should help the visitor to meet the band's discography.
+  - The contents displayed in the first column of this section are about all the band's albums. A carrousel containing seven slides with the album cover and some of the song titles should help the visitor to meet the band's discography.
 
-+ The contents displayed in the second column are about the beginnig of the band's history. In a simple article element containing a header and two paragraphs, the visitor should be able to learn about the beginning of the band and why, after all this time, they are still together.
+  - The contents displayed in the second column are about the beginnig of the band's history. In a simple article element containing a header and two paragraphs, the visitor should be able to learn about the beginning of the band and why, after all this time, they are still together.
 
-__*Pictures:*__
++ __*Pictures:*__
 
-+ The contents displayed on the first column of this section are about the band's concerts. A gallery displays nine cards, every one containing an image and some information about a concert in a world venue. This cards are ordered by year to show the visitor the band progress through the years.  
+  - The contents displayed on the first column of this section are about the band's concerts. A gallery displays nine cards, every one containing an image and some information about a concert in a world venue. This cards are ordered by year to show the visitor the band progress through the years.  
 
-+ The contents displayed on the second column are about feedback from events provided by fans that attended some of the concerts of the band.
+  - The contents displayed on the second column are about feedback from events provided by fans that attended some of the concerts of the band.
 
 __*Clips:*__
 
@@ -103,52 +135,31 @@ __*Events:*__
 
 __*Contact:*__
 
-*Section contents*
-
 + The contents displayed on the first column of this section are about the form available for the visitor to give any kind of feedback about the band, their concerts, etc. A validated email is neccesary to send the feedback so this would give the band crew to give back a response, increasing the confidence between the musicians and the fans.
 
 + The contents displayed on the second column are about the chance given to any fan to hire the band for music events. This is managed through an external company so the visitor is offer a link to it if this is their desire.
-
-### Existing features
-
-+ __*Header:*__ Exist on every page and it is a key feature for the visitor experience when navigating through the site. It is responsive and displayed in a very simple way.
-  
-  - *Band Logo*. A simple picture showing the band in its best cheerfuk moment.
-
-  - *Band Name*. A title displaying the band name.
-
-  - *Responsive navigation menu*. It adapts to the different devices used by the visitor to display the site.
-
-+ __*Section:*__  Exist on every page and it is a key feature for the visitor experience when looking for contents the site. Every different page uses different features as:
-
-  - *Slider*. A simple way to display cards with images and/or information about the band. The interaction with the screen make it particularly valuable on the Mobile Approach due to its quickness
-
-  - *Gallery*. Another simple way to display cards with images and/or information about the band. This way looks better on Tablets and Laptops with bigger screens and the chance to have more space avilable to display more cards than in the Mobile approach. 
-
-
-+ __*Footer:*__ Exist on every page and it is a key feature for the visitor experience when connecting to the band in different social media platforms. It is responsive and displayed in a very simple way.
-
-  - *Band PO box*. A box showing the PO address of the band to allow visitors to write mail letters to the band. This is a vintage feature added to the site. Some fans still rely on written old-style feedback, as the band itself.
-  
-  - *Developer link*. An image that rotates when clicked links the visitor to the developer's resume. This is only a special feature that is included in every project designed by [danmtt](https://danmtt.github.io/ucd-resume/index.html).
-
-  - *Social media platform's icons*. A box containing three links to connect the visitor to the different social media profiles of the band. This way they should receive current news and posts, increading the chances to interact with the band.
-
-+ __*Back to top button:*__ A button that only exist on Mobile approach helps the customer to navigate back to the page header to easily link to anothe page of the site.
 
 
 ### Features Left to Implement
 
 + __*Landing page:*__ As shown in [Balsamiq Project wireframe](assets/project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf), the project was originally planned over 6 Html pages. A landing page should be the perfect way to introduce images of the band as also some random song from their extended repertoire.
 
++ __*Implement contents in quantity and quality on section's columns:*__ The visual available space on some of the right columns, in pages index.html, events.html and contact.html, and on the left column in clips.html is a chance to include more contents about the band. 
+
 + __*Ticket / Band Hiring managment:*__ Actually the band use external companies to manage this features. A challenge for every band is to manage this so no external control over them is impossed by the ticketing industry. 
 
 ## Technologies Used
 ---
 
-The site has been developed using programming languages as HTML5 with semantic tags and CSS3 with Flexbox properties:
+The site has been developed using programming languages as HTML5 with semantic tags and CSS3 with Flex grid properties. The main reason to select this grid instead Bootstrap was the challenge to learn how to code more 'directly', without the support of libraries.
 
-+ __*Fonts Research:*__ This site uses [Google Fonts](https://fonts.google.com/) to style its fonts. Some font mockups have been created using [Our own thing](http://www.ourownthing.co.uk/fontpairing/):
+Nevertheless at some point while optimizing the code for the sliders, Bootstrap with jQuery was the most obvious solution and was implemented to make them work properly. 
+
+This mixture between Flex as main and Bootstrap as secondary has been a challenge for a new developer as I, but the learnings from this sure will help in future projects. 
+
++ __*Fonts Research:*__
+
+  This site uses [Google Fonts](https://fonts.google.com/) to style its fonts. Some of the font mockups have been created using [Our own thing](http://www.ourownthing.co.uk/fontpairing/):
 
   + [Font mockup 01](assets/project_docs/Font_selection_research/01_Blue_White_Monoton.jpg)
 
@@ -166,25 +177,29 @@ The site has been developed using programming languages as HTML5 with semantic t
 
   + [Font mockup 08](assets/project_docs/Font_selection_research/04_White_Black_Monoton_Ranchers_Combo.jpg)
  
-+ __*Flexbox:*__ 'How to' documentation has been researched and coding examples edited from this sites:
++ __*Flexbox:*__
+
+  The next 'How to' documentation has been researched and coding examples edited from this sites:
 
   - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
   
   - [w3school - CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
 
   - [Scrimba - Flexbox](https://scrimba.com/g/gflexbox)
+    
++ __*Sliders:*__
 
-  A Complete Guide to Flexbox
-  
-+ __*Sliders:*__ 'How to' documentation has been researched and coding examples edited from this sites:
+  The next 'How to' documentation has been researched and coding examples edited from this sites:
 
   - [Slider with just HTML and CSS](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/)
 
   - [Image Slider Using HTML And CSS Only](http://qnimate.com/creating-a-slider-using-html-and-css-only/)
 
-  After various attemps to implement the slider / carousel only with Html and Css, it  became an 'horrendous' visual feature for the project so I decided to implement a generic example from Bootstrap and adapt its code to make it functional for the site. This feature has been implemented to index.html("The Albums"), pict.html ("The concerts"), events.html ("Upcoming Events").
+  But after various attemps to implement the slider / carousel only with Html and Css, it became an 'horrendous' visual feature for the project so I decided to implement a generic example from Bootstrap and adapt its code to make it functional for the site. This feature has been implemented to index.html("The Albums"), pict.html ("The concerts"), events.html ("Upcoming Events").
 
   - [Bootstrap Carousel with javascript](https://getbootstrap.com/docs/3.4/javascript/#carousel-examples)
+
+
 
 + __*Back to top button:*__ 'How to' documentation has been researched and coding examples edited from this site:
 
