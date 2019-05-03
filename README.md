@@ -245,7 +245,7 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
 <img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
 
-## Testing
+## __Testing__
 ---
 
 All the tests explanations about this project can be found at:
@@ -253,7 +253,7 @@ All the tests explanations about this project can be found at:
   + [Test Process](TESTING.md)
 
 
-## Deployment
+## __Deployment__
 ---
 
 This project was developed and stored in git using initially Cloud9 and Visual Studio Code after.
@@ -267,7 +267,7 @@ The project was staged, commited and pushed frequently to a GitHub repository  n
 <img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
 
 
-## Credits
+## __Credits__
 ---
 
 ### Content
@@ -319,25 +319,27 @@ The videoclips displayed on the different project pages have been selected and e
 - "Takk!" to my mentor [Simen Daehlin](http://simen.dehlin.info/#home) and 
 "Bedankt!" to student [Anna Greaves](https://github.com/AJGreaves) for all the help, patience and examples shown. Their help through different channels has been key to this project development! "Gracias!"
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Credits" width="20" height="20"/> *[Back to Deployment](#credits)*
+<img src="assets\images\icons\buttonup.png" alt="Back to Credits" width="20" height="20"/> *[Back to Credits](#credits)*
 
 <img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
 
-## Disclaimer
+## __Disclaimer__
 ---
 
-All the information on this project -https://github.com/danmtt/rockanrolla and on its landing website- https://danmtt.github.io/rockanrolla/ - is published in good faith and for educational purpose only. 
+All the information on this project - https://github.com/danmtt/rockanrolla - and on its landing website - https://danmtt.github.io/rockanrolla/ - is published in good faith and for __educational__ purpose only. 
 
-The Invasors does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (The Invasors), is strictly at your own risk. The Invasors will not be liable for any losses and/or damages in connection with the use of our website. Our Disclaimer was generated with the help of the Disclaimer Generator and the Disclaimer Template.
+*__The Invasors__* does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (*__The Invasors__*), is strictly at your own risk. *__The Invasors__* will not be liable for any losses and/or damages in connection with the use of our website. Our Disclaimer was generated with the help of the Disclaimer Generator and the Disclaimer Template.
 
 From this website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.
 
 Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.
 
-Consent
+*__Consent__*
+
 By using our website, you hereby consent to our disclaimer and agree to its terms.
 
-Update
+*__Update__*
+
 Should we update, amend or make any changes to this disclaimer, those changes will be prominently posted here.
 
 <img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
