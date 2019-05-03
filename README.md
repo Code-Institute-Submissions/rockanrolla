@@ -225,11 +225,21 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
 + __*Code editors:*__ 
 
-  Two different editors have been used along the development of this project.
+  Two different editors have been used along the development of this project. Cloud9 gave me the starting point about how to code online but VSCode has made the difference, allowing me to code locally in different computers while conmmuting to work every day...
 
   - [Cloud9](https://aws.amazon.com/es/cloud9/?origin=c9io)
 
   - [Visual studio code](https://code.visualstudio.com/)
+
++ __*Disclaimer generator:*__
+
+  To make the site as much legal as possible, simulating the real world, I doubted about using a proper license from the link below: 
+
+  - [Creative Commons](https://creativecommons.org/share-your-work/)
+
+  But to simplify the task I looked for a generic disclaimer as the one in the link below to have the job done easily. I copied, pasted and edited the text at the bottom of this file. This is something to learn in the oncoming projects, I suppose.
+
+  - [Disclaimer generator](https://www.disclaimergenerator.net/download.php?lang=en&token=yAq8UM39sPgWMZt3gx6MYnxDEr5L4WIo)
 
 <img src="assets\images\icons\buttonup.png" alt="Back to Technologies Used" width="20" height="20"/> *[Back to Technologies Used](#technologies-used)*
 
@@ -252,7 +262,7 @@ The project was staged, commited and pushed frequently to a GitHub repository  n
 
 [Click here to visit the site](https://danmtt.github.io/rockanrolla)
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Features" width="20" height="20"/> *[Back to Deployment](#deployment)*
+<img src="assets\images\icons\buttonup.png" alt="Back to Deployment" width="20" height="20"/> *[Back to Deployment](#deployment)*
 
 <img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
 
@@ -262,7 +272,7 @@ The project was staged, commited and pushed frequently to a GitHub repository  n
 
 ### Content
 
-The band I selected to be simulated on this site was "The Guess Who". I decided to change its name to "The Invasors" to make the site a bit different. I implemented the band history and the fans feedbacks reading and then editing some of the texts contained in these links:
+  The band I selected to be simulated on this site was "The Guess Who". I decided to change its name to "The Invasors" to make the site a bit different. I implemented the band history and the fans feedbacks reading and then editing some of the texts contained in these links:
 
   + [Fans stories](https://www.vanmorrison.com/fans)
 
@@ -300,13 +310,35 @@ The background, logo images displayed on the different project pages have been s
 
   + [Background Image](https://wallpapers-house.com/data/out/8/wallpaper2you_268116.jpg)
 
+The videoclips displayed on the different project pages have been selected and edited from:
+  
+  + [Youtube Search](https://www.youtube.com/results?search_query=the+guess+who)
 
 ### Acknowledgements
 
 - "Takk!" to my mentor [Simen Daehlin](http://simen.dehlin.info/#home) and 
 "Bedankt!" to student [Anna Greaves](https://github.com/AJGreaves) for all the help, patience and examples shown. Their help through different channels has been key to this project development! "Gracias!"
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Credits" width="20" height="20"/> *[Back to Credits](#credits)*
+<img src="assets\images\icons\buttonup.png" alt="Back to Credits" width="20" height="20"/> *[Back to Deployment](#credits)*
+
+<img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
+
+## Disclaimer
+---
+
+All the information on this project -https://github.com/danmtt/rockanrolla and on its landing website- https://danmtt.github.io/rockanrolla/ - is published in good faith and for educational purpose only. 
+
+The Invasors does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (The Invasors), is strictly at your own risk. The Invasors will not be liable for any losses and/or damages in connection with the use of our website. Our Disclaimer was generated with the help of the Disclaimer Generator and the Disclaimer Template.
+
+From this website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.
+
+Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.
+
+Consent
+By using our website, you hereby consent to our disclaimer and agree to its terms.
+
+Update
+Should we update, amend or make any changes to this disclaimer, those changes will be prominently posted here.
 
 <img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
 
