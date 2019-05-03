@@ -186,6 +186,12 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
   + [Font mockup 07](assets/project_docs/Font_selection_research/04_Black_White_Monoton_Ranchers_Combo.jpg)
 
   + [Font mockup 08](assets/project_docs/Font_selection_research/04_White_Black_Monoton_Ranchers_Combo.jpg)
+
++ __*Balsamiq tool for wireframes design:*__ 
+
+  The next web tool signing into a first free month subscription has been used to develop and learn how to do web mockups. Nevertheless, post-it coloured sticks, A4 and pencils, and a whiteboard have been my best friends along the project. 
+
+  - [Balsamiq wireframes](https://balsamiq.com/index.html)
  
 + __*Flexbox:*__
 
