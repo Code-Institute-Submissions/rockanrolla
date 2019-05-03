@@ -61,7 +61,7 @@ __*Wireframes mockups:*__
   + [Balsamiq Project wireframe](assets/project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf)
 
 
- <img src="assets\images\icons\buttonup.png" alt="Back to UX" width="24" height="24"/> *[Back to UX](##ux)*
+ <img src="assets\images\icons\buttonup.png" alt="Back to UX" width="24" height="24"/> *[Back to UX](#ux)*
 
  <img src="assets\images\icons\buttonup.png" alt="Back to top" width="24" height="24"/> *[Back to top of the document](#rockanrolla-band-website)*
 
@@ -151,7 +151,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 + __*Ticket / Band Hiring managment:*__ Actually the band use external companies to manage this features. A challenge for every band is to manage this so no external control over them is impossed by the ticketing industry.
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Features" width="24" height="24"/> *[Back to Features](##features)*
+<img src="assets\images\icons\buttonup.png" alt="Back to Features" width="24" height="24"/> *[Back to Features](#features)*
 
 <img src="assets\images\icons\buttonup.png" alt="Back to top" width="24" height="24"/> *[Back to top of the document](#rockanrolla-band-website)*
 
@@ -216,7 +216,7 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
   - [Visual studio code](https://code.visualstudio.com/)
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Technologies Used" width="24" height="24"/> *[Back to Technologies Used](##technologies-used)*
+<img src="assets\images\icons\buttonup.png" alt="Back to Technologies Used" width="24" height="24"/> *[Back to Technologies Used](#technologies-used)*
 
 <img src="assets\images\icons\buttonup.png" alt="Back to top" width="24" height="24"/> *[Back to top of the document](#rockanrolla-band-website)*
 
