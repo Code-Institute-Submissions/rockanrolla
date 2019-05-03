@@ -61,51 +61,54 @@ __*Wireframes mockups:*__
   + [Balsamiq Project wireframe](assets/project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf)
 
 
-<a ref="https://github.com/danmtt/rockanrolla/blob/master/README.md#ux"><img src="assets/images/icons/buttonup.png" alt="UX" width="24" height="24" />Back to UX</a>
+ <img src="assets\images\icons\buttonup.png" alt="Back to UX" width="24" height="24"/> *[Back to UX](##ux)*
 
- <img src="assets\images\icons\buttonup.png" alt="IMAGE ALT TEXT HERE" width="24" height="24" /><img src="assets\images\icons\buttonup.png" alt="IMAGE ALT TEXT HERE" width="24" height="24" /> *[Back to top of the document](#rockanrolla-band-website)*
+ <img src="assets\images\icons\buttonup.png" alt="Back to top" width="24" height="24"/> *[Back to top of the document](#rockanrolla-band-website)*
 
 ## __Features__
 ---
 
 The site works on 5 Html pages styles using Flexbox and customized CSS properties to feature a responsive design. 
 
-On each page the next features are displayed:
+On each page the next *[existing features](###existing-features)* with *[specific contents](###specific-section-contents)* are displayed with an open mind, in a resposive way and always opening the door to [implement them](###features-left-to-implement)
 
-  1. A __*header*__ containing a [band logo](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg), a title and a navigational menu between pages.
+  - A __*header*__ containing a [band logo](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg), a title and a navigation menu between pages.
 
-  2. A *__section__* with two columns displaying *[specific contents](###specific-section-contents)* attending to the page selected.
+  - A *__section__* with two columns displaying the contents realted to the page selected.
 
-  3. A __*footer*__ that shows the fan club address and links the visitor to the band via social media as also to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under costruction).
+  - A __*footer*__ that shows the fan club address and links the visitor to the band via social media as also to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under costruction).
 
-  4. A __*back to top button*__ that allows the visitor to go back to the header.
+  - A __*back to top button*__ that allows the visitor to go back to the header.
 
 ### __*Existing features*__
 
 + __*Header:*__ Exist on every page and it is a key feature for the visitor experience when navigating through the site. It is responsive and displayed in a very simple way.
   
-  - *Band Logo*. A simple [picture](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg) showing the band in its best cheerfuk moment.
+  - __*Band Logo*__. A simple [picture](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg) showing the band in its best cheerfuk moment.
 
-  - *Band Name*. A title displaying the band name. This title is invented and has got nothing to do with rock and roll bands but with a [special racehorse](https://en.wikipedia.org/wiki/Invasor_(horse)) named like that.
+  - __*Band Name*__. A title displaying the band name. This title is invented and has got nothing to do with rock and roll bands but with a [special racehorse](https://en.wikipedia.org/wiki/Invasor_(horse)) named like that.
 
-  - *Responsive navigation menu*. It adapts to the different devices used by the visitor to display the site.
+  - __*Responsive navigation menu*__. It adapts to the different devices used by the visitor to display the site.
 
-+ __*Section:*__  Exist on every page and it is a key feature for the visitor experience when looking for contents the site. Contains two columns with different 'ingredients' each. They are displayed as a column in small devices and in a row in bigger ones (left and right). Every different page uses different contents based on:
++ __*Section:*__  Exist on every page and it is a key feature for the visitor experience when looking for contents the site. Contains two columns with different 'ingredients' each. They are displayed as a column in small devices and in a row in bigger ones (left and right). Every different page uses different contents using:
 
-  - *Slider*. A simple way to display cards with images and/or information about the band. The interaction with the screen make it particularly valuable on the Mobile Approach due to its quickness and easy use. This feature, displayed on the left of the section on Tablets and Laptops with bigger screens, gave me the chance to have more space available to display more information about the band in the right area of the section. This could be a feature to implement in the future so I recognize that there is still space available on the right columns... 
+  - __*Sliders*__. A simple way to display cards with images and/or information about the band. The interaction with the screen make it particularly valuable on the Mobile Approach due to its quickness and easy use. This feature, displayed on the left of the section on Tablets and Laptops with bigger screens, gave me the chance to have more space available to display more information about the band in the right area of the section. This could be a feature to implement in the future so I recognize that there is still space available on the right columns... 
 
-  - *Gallery*. Another simple way to display cards with images and/or information about the band. 
+  - __*Articles*__. Used along different columns to display the specific content related to the page visited with paragraphs / spans containing information about the band, feedback from fans, and links to videoclips and other sites to buy tickets and, if wished, also hire the band for private events.
 
+  - __*Forms*__. With inputs and textareas to make it easy to the visitor to contact the band and give feedback.
+
+  - __*Div elements*__. With CSS animations defined and links to show .mp4 videoclips targeting a common iframe, easy to play and giving the chance to the visitor to listen to some songs from the band. 
 
 + __*Footer:*__ Exist on every page and it is a key feature for the visitor experience when connecting to the band in different social media platforms. It is responsive and displayed in a very simple way.
 
-  - *Band PO box*. A box showing the PO address of the band to allow visitors to write mail letters to the band. This is a vintage feature added to the site. Some fans still rely on written old-style feedback, as the band itself.
+  - __*Band PO box*__. A box showing the PO address of the band to allow visitors to write mail letters to the band. This is a vintage feature added to the site. Some fans still rely on written old-style feedback, as the band itself.
   
-  - *Developer link*. An image that links the visitor to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under costruction). It displays a cube in 3d that rotates 360 degrees when hovered. This is a special feature that I would like to include in every project in the future.
+  - __*Developer link*__. An image that links the visitor to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under costruction). It displays a cube in 3d that rotates 360 degrees when hovered. This is a special feature that I would like to include in every project in the future.
 
-  - *Social media platform's icons*. A box containing three links to connect the visitor to the different social media profiles of the band. This way they should receive current news and posts, increading the chances to interact with the band.
+  - __*Social media platform's icons*__. A box containing three links to connect the visitor to the different social media profiles of the band. This way they should receive current news and posts, increading the chances to interact with the band.
 
-+ __*Back to top button:*__ A button that only exist on Mobile approach helps the customer to navigate back to the page header to easily link to anothe page of the site.
++ __*Back to top button:*__ A button that only exist on Mobile approach and helps the customer to navigate back to the page header and then easily navigate to another page of the site.
 
 ### __*Specific Section contents*__
 
@@ -121,32 +124,36 @@ On each page the next features are displayed:
 
   - The contents displayed on the second column are about feedback from events provided by fans that attended some of the concerts of the band.
 
-__*Clips:*__
++ __*Clips:*__
 
-+ The contents displayed on the first column of this section are about the band's concert song recordings. A gallery displays four cards, every one containing the song name and a videoclip. Hovering or clicking on the card should start playing the clip. 
+  - The contents displayed on the first column of this section are about the band's concert song recordings. A gallery displays four cards, every one containing the song name and a videoclip. Hovering or clicking on the card should start playing the clip. 
 
-+ The contents displayed on the second column are about an specific videoclip. This is the first video recorded by the band and here is displayed when the visitor clicks on the text link or hover on the clip card. 
+  - The contents displayed on the second column are about an specific videoclip. This is the first video recorded by the band and here is displayed when the visitor clicks on the text link or hover on the clip card. 
 
-__*Events:*__
++ __*Events:*__
 
-+ The contents displayed on the first column of this section are about the future events of the band. A carrousel is available with eight slides, each one containing information about a future event date, city, country, venue and tickets availability. This should help the fans to take a decision about which should be the best concert to attend.
+  - The contents displayed on the first column of this section are about the future events of the band. A carrousel is available with eight slides, each one containing information about a future event date, city, country, venue and tickets availability. This should help the fans to take a decision about which should be the best concert to attend.
 
-+ The contents displayed on the second column are related to the purchase of concerts tickets. A link is diplayed that should link the visitors to an external site where tickets can be bought.
+  - The contents displayed on the second column are related to the purchase of concerts tickets. A link is diplayed that should link the visitors to an external site where tickets can be bought.
 
-__*Contact:*__
++ __*Contact:*__
 
-+ The contents displayed on the first column of this section are about the form available for the visitor to give any kind of feedback about the band, their concerts, etc. A validated email is neccesary to send the feedback so this would give the band crew to give back a response, increasing the confidence between the musicians and the fans.
+  - The contents displayed on the first column of this section are about the form available for the visitor to give any kind of feedback about the band, their concerts, etc. A validated email is neccesary to send the feedback so this would give the band crew to give back a response, increasing the confidence between the musicians and the fans.
 
-+ The contents displayed on the second column are about the chance given to any fan to hire the band for music events. This is managed through an external company so the visitor is offer a link to it if this is their desire.
+  - The contents displayed on the second column are about the chance given to any fan to hire the band for music events. This is managed through an external company so the visitor is offer a link to it if this is their desire.
 
 
-### Features Left to Implement
+### __*Features Left to Implement*__
 
 + __*Landing page:*__ As shown in [Balsamiq Project wireframe](assets/project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf), the project was originally planned over 6 Html pages. A landing page should be the perfect way to introduce images of the band as also some random song from their extended repertoire.
 
 + __*Implement contents in quantity and quality on section's columns:*__ The visual available space on some of the right columns, in pages index.html, events.html and contact.html, and on the left column in clips.html is a chance to include more contents about the band. 
 
-+ __*Ticket / Band Hiring managment:*__ Actually the band use external companies to manage this features. A challenge for every band is to manage this so no external control over them is impossed by the ticketing industry. 
++ __*Ticket / Band Hiring managment:*__ Actually the band use external companies to manage this features. A challenge for every band is to manage this so no external control over them is impossed by the ticketing industry.
+
+<img src="assets\images\icons\buttonup.png" alt="Back to Features" width="24" height="24"/> *[Back to Features](##features)*
+
+<img src="assets\images\icons\buttonup.png" alt="Back to top" width="24" height="24"/> *[Back to top of the document](#rockanrolla-band-website)*
 
 ## Technologies Used
 ---
@@ -199,8 +206,6 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
   - [Bootstrap Carousel with javascript](https://getbootstrap.com/docs/3.4/javascript/#carousel-examples)
 
-
-
 + __*Back to top button:*__ 'How to' documentation has been researched and coding examples edited from this site:
 
   - [Back to top button using css and html only](https://stackoverflow.com/questions/32102747/how-to-make-a-back-to-top-button-using-css-and-html-only)
@@ -210,6 +215,10 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
   - [Cloud9](https://aws.amazon.com/es/cloud9/?origin=c9io)
 
   - [Visual studio code](https://code.visualstudio.com/)
+
+<img src="assets\images\icons\buttonup.png" alt="Back to Technologies Used" width="24" height="24"/> *[Back to Technologies Used](##technologies-used)*
+
+<img src="assets\images\icons\buttonup.png" alt="Back to top" width="24" height="24"/> *[Back to top of the document](#rockanrolla-band-website)*
 
 ## Testing
 ---
