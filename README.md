@@ -61,9 +61,9 @@ __*Wireframes mockups:*__
   + [Balsamiq Project wireframe](assets/project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf)
 
 
- <img src="assets\images\icons\buttonup.png" alt="Back to UX" width="24" height="24"/> *[Back to UX](#ux)*
+ <img src="assets\images\icons\buttonup.png" alt="Back to UX" width="20" height="20"/> *[Back to UX](#ux)*
 
- <img src="assets\images\icons\buttonup.png" alt="Back to top" width="24" height="24"/> *[Back to top of the document](#rockanrolla-band-website)*
+ <img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
 
 ## __Features__
 ---
@@ -151,11 +151,11 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 + __*Ticket / Band Hiring managment:*__ Actually the band use external companies to manage this features. A challenge for every band is to manage this so no external control over them is impossed by the ticketing industry.
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Features" width="24" height="24"/> *[Back to Features](#features)*
+<img src="assets\images\icons\buttonup.png" alt="Back to Features" width="20" height="20"/> *[Back to Features](#features)*
 
-<img src="assets\images\icons\buttonup.png" alt="Back to top" width="24" height="24"/> *[Back to top of the document](#rockanrolla-band-website)*
+<img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
 
-## Technologies Used
+## __Technologies Used__
 ---
 
 The site has been developed using programming languages as HTML5 with semantic tags and CSS3 with Flex grid properties. The main reason to select this grid instead Bootstrap was the challenge to learn how to code more 'directly', without the support of libraries.
@@ -216,9 +216,9 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
   - [Visual studio code](https://code.visualstudio.com/)
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Technologies Used" width="24" height="24"/> *[Back to Technologies Used](#technologies-used)*
+<img src="assets\images\icons\buttonup.png" alt="Back to Technologies Used" width="20" height="20"/> *[Back to Technologies Used](#technologies-used)*
 
-<img src="assets\images\icons\buttonup.png" alt="Back to top" width="24" height="24"/> *[Back to top of the document](#rockanrolla-band-website)*
+<img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
 
 ## Testing
 ---
@@ -286,6 +286,10 @@ The background, logo images displayed on the different project pages have been s
 
 - "Takk!" to my mentor [Simen Daehlin](http://simen.dehlin.info/#home) and 
 "Bedankt!" to student [Anna Greaves](https://github.com/AJGreaves) for all the help, patience and examples shown. Their help through different channels has been key to this project development! "Gracias!"
+
+<img src="assets\images\icons\buttonup.png" alt="Back to Credits" width="20" height="20"/> *[Back to Features](#credits)*
+
+<img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
 
 
 
