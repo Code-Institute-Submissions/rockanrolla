@@ -182,9 +182,9 @@ The site has been developed using programming languages as HTML5 with semantic t
 
   - [Image Slider Using HTML And CSS Only](http://qnimate.com/creating-a-slider-using-html-and-css-only/)
 
-  After various attemps to implement the slider / carousel only with Html and Css, it  became an 'horrendous' visual feature for the project so I decided to implement a generic example from Bootstrap and adapt its code to make it functional for the site. This feature has been implemented to index.html("The Albums"), pict.html ("The concerts"), events.html ("Upcoming Events").
+  After various attemps to implement the slider / carousel only with Html and Css, it  became an 'horrendous' visual feature for the project so I decided to implement a generic example from Bootstrap with jQuery and adapt its code to make it functional for the site. This feature has been implemented to index.html("The Albums"), pict.html ("The concerts"), events.html ("Upcoming Events").
 
-  - [Bootstrap Carousel with javascript](https://getbootstrap.com/docs/3.4/javascript/#carousel-examples)
+  - [Bootstrap Carousel with jQuery](https://getbootstrap.com/docs/3.4/javascript/#carousel-examples)
 
 + __*Back to top button:*__ 'How to' documentation has been researched and coding examples edited from this site:
 
