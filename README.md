@@ -6,7 +6,7 @@ It is based on all the learnings acquired through the initial three modules or t
 
 It is about an imaginary rock band from California from the 70's and the user can review their albums, past and future events and videoclips. It also allows the user to keep in contact with the band providing their feedback via mail and, if interested, buy event tickets or hire the band for private events.
 
-This site is simulating all the previous features and all its content is pure fiction. Everything has been researched and collected from many different sites around the World Wide Web.
+This site is simulating all the previous features and all its content are pure fiction. Every content has been researched, collected and edited from many different sites around the World Wide Web.
 
 
 ## __UX__
@@ -16,43 +16,49 @@ This website is aim to be visited by music and rock fans, more especifically tho
 
 __*Average visitor should probably be:*__
 
-* Between 30 and 70 year old.
+- Between 20 and 80 year old. This is a wide range, but music is for all ages.
 
-* music / Rock and roll lover.
+- Music / Rock and roll lover.
 
-* Curious about rock history.
+- Curious about rock history.
 
-* Engaged with concerts and live events.
+- Engaged with concerts and live events.
 
 __*Most of the visitors to this site are probably looking for:*__
 
-* Valuable information about the band that made them dance and feel like no other during a single concert or an event.
+- Valuable information about the band that made them dance, sing and feel like no other during a single concert or an event.
 
-* New ways to keep in touch with their favourite music band 
+- New ways to keep in touch with their favourite music band.
+
+- Listen to the band's songs easyly and without paying for it.
 
 __*This site could help them to feel part of the crowd again:*__
 
-* The easy menu allows visitors to navigate between the site pages
+- The easy menu allows visitors to navigate between the site pages
 
-* Many other music bands overload the sites with sponsors. That takes visitor's attention to different things. On this site, the band is the main sponsor
+- Many other music bands overload the sites with sponsors. This doesn't happen in this site. Visitor's attention is directly put to work with the different contents. On this site, the band is the main sponsor!
 
-* Some past events are included and displayed in a time line. This should encourage visitors to update their experiences when attending to a concert not displayed on site.
+- Some past events are included and displayed in a time line. This should encourage visitors to update their experiences when attending to a concert that is not displayed on the site.
 
-__*Visitors experiences:*__
+- Some songs of the band are ready to be played with only one click. This quick way should engage new and experienced fans to listen to their music and keep the clips.html link saved betweeen their favourites.
 
-  1. As a new visitor to this page I would like to navigate throug the contents in a easy way.
+__*Visitors experiences:*__ New and repeating visitors shoul be between the ones that navigate the site. Some of their intentions are represented below:
 
-  2. As a new visitor to this page I would like to find some pictures of previous and future events of this band.
+- As a new visitor to this page I would like to navigate throug the contents in a easy way.
 
-  3. As a new visitor to this page I would like to listen to some music from this band.
+- As a new visitor to this page I would like to find some pictures of previous and future events of this band.
 
-  4. As a fan of this band I would like to be able to give some feedback about my feelings during a concert I attended.
+- As a new visitor to this page I would like to listen to some music from this band.
 
-  5. As a fan of this band I would like to buy a ticket for a concert.
+- As a fan of this band I would like to be able to give some feedback about my feelings during a concert I attended.
 
-  6. As a fan of this band I would like to follow the band through social media sites.
+- As a fan of this band I would like to buy a ticket for a concert.
+
+- As a fan of this band I would like to follow the band through social media sites.
   
-__*Wireframes mockups:*__
+__*Wireframes mockups:*__ 
+
+Trying to approach the best way to navigate the site and its contents, I started first designing some drafts by hand and then worked with an online application.
 
   + [Mobile Approach wireframe 01](assets/project_docs/Wireframes/2018.06.29_rockandrollband_prj_wireframe_01.jpg)
 
@@ -74,7 +80,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
   - A __*header*__ containing a [band logo](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg), a title and a navigation menu between pages.
 
-  - A *__section__* with two columns displaying the contents realted to the page selected.
+  - A *__section__* with two columns displaying the contents related to the page selected.
 
   - A __*footer*__ that shows the fan club address and links the visitor to the band via social media as also to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under costruction).
 
@@ -86,13 +92,13 @@ On each page the next *[existing features](###existing-features)* with *[specifi
   
   - __*Band Logo*__. A simple [picture](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg) showing the band in its best cheerfuk moment.
 
-  - __*Band Name*__. A title displaying the band name. This title is invented and has got nothing to do with rock and roll bands but with a [special racehorse](https://en.wikipedia.org/wiki/Invasor_(horse)) named like that.
+  - __*Band Name*__. A title displaying the band name. This title is invented and has got nothing to do with rock and roll bands but with a [special racehorse](https://en.wikipedia.org/wiki/Invasor_(horse)) named like that. One of my best friends loves this horse because he is a winner, so this honours their friendship in a way...
 
   - __*Responsive navigation menu*__. It adapts to the different devices used by the visitor to display the site.
 
 + __*Section:*__  Exist on every page and it is a key feature for the visitor experience when looking for contents the site. Contains two columns with different 'ingredients' each. They are displayed as a column in small devices and in a row in bigger ones (left and right). Every different page uses different contents using:
 
-  - __*Sliders*__. A simple way to display cards with images and/or information about the band. The interaction with the screen make it particularly valuable on the Mobile Approach due to its quickness and easy use. This feature, displayed on the left of the section on Tablets and Laptops with bigger screens, gave me the chance to have more space available to display more information about the band in the right area of the section. This could be a feature to implement in the future so I recognize that there is still space available on the right columns... 
+  - __*Carrousels*__. A simple way to display cards with images and/or information about the band. The interaction with the screen make it particularly valuable on the Mobile Approach due to its quickness and easy use. A transformation on the size of every card is triggered when hovering on it. These carrousels, displayed on the left of the section on Tablets and Laptops with bigger screens, gave me the chance to have space available to display more information about the band in the right area of the screen. This could be a feature to implement in the future so I recognize that there is still space available on the right columns... 
 
   - __*Articles*__. Used along different columns to display the specific content related to the page visited with paragraphs / spans containing information about the band, feedback from fans, and links to videoclips and other sites to buy tickets and, if wished, also hire the band for private events.
 
@@ -120,25 +126,25 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 + __*Pictures:*__
 
-  - The contents displayed on the first column of this section are about the band's concerts. A gallery displays nine cards, every one containing an image and some information about a concert in a world venue. This cards are ordered by year to show the visitor the band progress through the years.  
+  - The contents displayed on the first column of this section are about the band's concerts. A carrousel displays nine cards, every one containing an image and some information about a concert in a world venue. This cards are ordered by year to show the visitor the band progress through the years.  
 
   - The contents displayed on the second column are about feedback from events provided by fans that attended some of the concerts of the band.
 
 + __*Clips:*__
 
-  - The contents displayed on the first column of this section are about the band's concert song recordings. A gallery displays four cards, every one containing the song name and a videoclip. Hovering or clicking on the card should start playing the clip. 
+  - The contents displayed on the first column of this section are about the band's concert song recordings. A menu displays four divs and an iframe. Every div contains a title of a song and it links to a videoclip of that song recorded live and stored in the assets folder. Hovering on them triggers an animation and clicking on them displays the videoclip of that song in the frame below.
 
-  - The contents displayed on the second column are about an specific videoclip. This is the first video recorded by the band and here is displayed when the visitor clicks on the text link or hover on the clip card. 
+  - The contents displayed on the second column are about an specific videoclip that is compared to another band's song. This is the first videoclip recorded by the band and works as the divs in the first column. In the information provided in the article appear two links targeting also the displaying frame. The hovering animation here is replaced by a change on the color of the text. This aims to allow the visitor to compare quickly both songs.
 
 + __*Events:*__
 
-  - The contents displayed on the first column of this section are about the future events of the band. A carrousel is available with eight slides, each one containing information about a future event date, city, country, venue and tickets availability. This should help the fans to take a decision about which should be the best concert to attend.
+  - The contents displayed on the first column of this section are about the future events of the band. A carrousel is available with six cards, each one containing information about a future event date, weekday, city, country, venue. Tickets availability is delivered with a barcode image and coloured text over it (green or red). This should help the fans to take a decision about which should be the best concert to attend.
 
-  - The contents displayed on the second column are related to the purchase of concerts tickets. A link is diplayed that should link the visitors to an external site where tickets can be bought.
+  - The contents displayed on the second column are related to the purchase of concerts tickets. A link is diplayed that should help to link the visitors to an external site where tickets can be bought.
 
 + __*Contact:*__
 
-  - The contents displayed on the first column of this section are about the form available for the visitor to give any kind of feedback about the band, their concerts, etc. A validated email is neccesary to send the feedback so this would give the band crew to give back a response, increasing the confidence between the musicians and the fans.
+  - The contents displayed on the first column of this section are about the form available for the visitor to give any kind of feedback about the band, their concerts, etc. A validated name and email is neccesary to send the feedback so this would give the band crew to give back a response, increasing the confidence between the musicians and the fans.
 
   - The contents displayed on the second column are about the chance given to any fan to hire the band for music events. This is managed through an external company so the visitor is offer a link to it if this is their desire.
 
@@ -163,7 +169,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 The site has been developed using programming languages as HTML5 with semantic tags and CSS3 with Flex grid properties. The main reason to select this grid instead Bootstrap was the challenge to learn how to code more 'directly', without the support of libraries.
 
-Nevertheless at some point while optimizing the code for the sliders, Bootstrap with jQuery was the most obvious solution and was implemented to make them work properly. 
+Nevertheless at some point while optimizing the code for the carrousels, Bootstrap with jQuery was the most obvious solution and was implemented to make them work properly. 
 
 This mixture between Flex as main and Bootstrap as secondary has been a challenge for a new developer as I, but the learnings from this sure will help in future projects. 
 
@@ -205,7 +211,7 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
 + __*CSS Tricks and QNimate documentation:*__
 
-  In a first attempt, the next 'How to' documentation from the sites below has been researched and coding examples edited to develope the sliders along the site:
+  In a first attempt, the next 'How to' documentation from the sites below has been researched and coding examples edited to develope the carrousels along the site:
 
   - [Slider with just HTML and CSS](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/)
 
@@ -213,7 +219,7 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
     
 + __*Bootstrap v3.3.7 and jQuery v3.2.1:*__
 
-  But after various attemps to implement the slider / carousel only with Html and Css, it became an 'horrendous' visual feature for the project so I decided to implement a generic example from Bootstrap and adapt its code to make it functional for the site. This feature has been implemented to index.html("The Albums"), pict.html ("The concerts"), events.html ("Upcoming Events").
+  But after various attemps to implement the carrousel only with Html and Css, it became an 'horrendous' visual feature for the project so I decided to implement a generic example from Bootstrap and adapt its code to make it functional for the site. This feature has been implemented to index.html("The Albums"), pict.html ("The concerts"), events.html ("Upcoming Events").
 
   - [Bootstrap Carousel with javascript](https://getbootstrap.com/docs/3.4/javascript/#carousel-examples)
 
@@ -256,11 +262,39 @@ All the tests explanations about this project can be found at:
 ## __Deployment__
 ---
 
-This project was developed and stored in git using initially Cloud9 and Visual Studio Code after.
+This project was developed in the beggining using the [Cloud9 IDE](https://aws.amazon.com/es/cloud9/?origin=c9ioand) committed regularly to git and pushed using its built in functionality. To achieve that info researched from its [documentation](https://docs.c9.io/docs) has been of great value.
 
-The project was staged, commited and pushed frequently to a GitHub repository  named [Rockanrolla Project](https://github.com/danmtt/rockanrolla). It is published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
+After the different challenges during the project development, I learnt about a more effective way of working on it. After having committed more or less two thirds of them i started using [VS Code](https://code.visualstudio.com/) committing the changes in the project to git and also pushing and pulling between two different machines, a laptop and a tower pc, to be as productive as possible while commutting to work and after locally at home. This has make a big impact in the project. Learning about how to resolve the technical issues using its [documentation](https://code.visualstudio.com/docs) helped me to develope the project quicker than before.
 
-[Click here to visit the site](https://danmtt.github.io/rockanrolla)
+As explained, using those tools, the project was staged, commited and pushed frequently to a GitHub repository named [rockanrolla](https://github.com/danmtt/rockanrolla). It is published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
+
+In order to achieve this and deploy this page to GitHub Pages from its GitHub repository, these are the steps I followed:
+
++ Using Cloud9 IDE I created a repository for the project. Then I worked on its file structure and the initial code in the different files. Then I initialized git and made an initial commit using the console and these commands:
+  - git init
+  - git commit -m"Commit update explanation"Project structure Update / Readme.md"
++ After this, I created a repository in myt GitHub user account to upload the project. It can be found online as [rockanrolla](https://github.com/danmtt/rockanrolla).
++ From Cloud9 IDE console I set up and pushed up the existing repository to the master branch using these commands: 
+  - git remote add origin https://github.com/danmtt/rockanrolla
+  - git push -u origin master-
++ After providing the right user name and password, the project uploaded correctly to GitHub
+and I could regularly keep up commiting its changes using these commands from Cloud9:
+  - git commit -m"Commit update explanation"
+  - git push
++ To set up the page into GitHub pages, on my GitHub user main page I selected the rockanrolla repository. Then on its project home page I clicked on settings, scrolled down to the GitHub pages section, selected the source (master-branch) and after a few seconds, automatically the site was deployed. [Click here to visit the site](https://danmtt.github.io/rockanrolla).
+
+As explained, I started using VS Code after a while and for that I had to clone the project from GitHub. So if the project needs to run locally and any developer is interested about how to do this, the next steps explain how to do it:
+
++ On my GitHub user main page, [danmtt](https://github.com/danmtt), select the rockanrolla repository. 
++ Then on the project home page, click on 'Clone or Download' and copy the clone URL for the repository.
++ In your local IDE open a terminal and change the current working directory to the location where you want to clone the project.
++ Type the next command and paste the url copied after it. It should be:
+  - git clone https://github.com/danmtt/rockanrolla.git
++ Press Enter and the project should start to clone itself into that directory.
+
+If any issue comes up after following these steps, please read the next [documentation](https://help.github.com/en/articles/cloning-a-repository).
+
+At the moment of submitting this project the development branch and the master branch are exactly the same.
 
 <img src="assets\images\icons\buttonup.png" alt="Back to Deployment" width="20" height="20"/> *[Back to Deployment](#deployment)*
 
