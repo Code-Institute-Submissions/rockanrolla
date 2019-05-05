@@ -616,7 +616,7 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
 }
-.footer_design{    
+.footer_logo{    
     display: none; /*To avoid the display of the "cube" image linked to my profile on C9. */
 }
 
@@ -851,7 +851,7 @@ on mobiles*/
     .footer_POBox .fanclub{ /* To redefine the size of two of the h4 of the address fonts */
         font-size: 1.8em;
     }
-    .footer_design{ /* To define this element after not being displayed on mobile approach */
+    .footer_logo{ /* To define this element after not being displayed on mobile approach */
         -webkit-box-ordinal-group: 4;
             -ms-flex-order: 3;
                 order: 3; /* To redefine the position on the flex column */
@@ -861,13 +861,12 @@ on mobiles*/
         height: 100px;
         width: 100px;
         margin: 10px 0 ;
-        background-image: url("../images/icons/rubik-icon-23_trnsp_100x100.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         opacity: 0.9; 
     }
-    .footer_design:hover{
+    .footer_logo:hover > img { /* To spin 360 degrees the image inside when hover on the link */ 
         -webkit-animation-name: spin;
                 animation-name: spin; /* @keyframe 'spin' defined at the bottom of this code */
         -webkit-animation-iteration-count: infinite;
@@ -910,7 +909,7 @@ on mobiles*/
     .footer_POBox .fanclub{ /* To redefine the size of two of the h4 of the address fonts */
         font-size: 1.6em;
     }
-    .footer_design{
+    .footer_logo{
         -webkit-box-ordinal-group: 3;
             -ms-flex-order: 2;
                 order: 2; /* To change the display position in the row */
@@ -949,7 +948,7 @@ on mobiles*/
     .footer_socialmedia{
         width: 35%;
     }
-    .footer_design{
+    .footer_logo{
         width: 125px;
     }
 }
