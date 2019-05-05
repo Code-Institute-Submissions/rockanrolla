@@ -237,6 +237,15 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
   - [Visual studio code](https://code.visualstudio.com/)
 
+    + __*Autoprefix:*__ 
+
+  To optimize CSS styles and make it work properly in different browsers, I parsed it add vendor prexises using the next links and pluggins:
+  
+  - [Autoprefixer CSS online](https://autoprefixer.github.io/)
+
+  - [Autoprefixer - VS Code pluggin](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer)
+  
+
 + __*Disclaimer generator:*__
 
   To make the site as much legal as possible, simulating the real world, I doubted about using a proper license from the link below: 
