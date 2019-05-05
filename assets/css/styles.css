@@ -168,6 +168,12 @@ header{
     -webkit-transform: translateX(100%);
             transform: translateX(100%); /* This moves nav_toggle from -80% to 80%. Hidden in the left then when hover on nav_btn moving to the right */ 
 }
+.nav_btn:focus{     
+    outline: none /* To not display outline when button selected */
+}
+.nav_btn:hover .bar{    
+    background-color: #0f0f0f /* To change color on child when hover over parent */
+}
 .nav_toggle ul li{
     list-style: none;
     text-decoration: none;
@@ -178,15 +184,6 @@ header{
     margin:0;
     padding: 0;
 }
-.toggle_link{
-    display: block;
-    background-color: #0f0f0f;
-    color: #fafafa;
-    /* padding: 10px 5px; */
-}
-.toggle_link:hover, .toggle_link:focus{
-    text-decoration: none
-}
 .toggle_item{
     width: 100%;
     font-family: monoton, sans-serif;
@@ -194,21 +191,25 @@ header{
     text-align: left; /* To align text to the left of the toggle_menu div */ 
     text-decoration: none;
     color: #fafafa;
-    -webkit-transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
-    transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
+    /* padding: 10px 5px; */
 }
-.nav_btn:focus{     
-    outline: none /* To not display outline when button selected */
+.toggle_link{
+    display: block;
+    background-color: #0f0f0f;
+    color: #fafafa;
+ /* To control the transition timing for the changes in text color and background */
+    -webkit-transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;  
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
-.nav_btn:hover .bar{    
-    background-color: #0f0f0f /* To change color on child when hover over parent */
-}
-
-.toggle_item:hover, .toggle_item:focus{
+.toggle_item:hover >.toggle_link, .toggle_item:focus >.toggle_link{
+/* To set a transformation when hovering on toggle_item that changes text color 
+and background color to child toggle_link */
     color: #0f0f0f;
     background-color: #fafafa;
     text-decoration: none;
 }
+
+
 
 /* <SECTION> ===================================*/
 
@@ -688,8 +689,7 @@ on mobiles*/
         -webkit-box-ordinal-group: 4;
             -ms-flex-order: 3;
                 order: 3; /* To redefine the position on the flex column */
-        width:100%; /* To not interfiere with flex grid when expanding screen */
-        
+        width:100%; /* To not interfiere with flex grid when expanding screen */        
     }
     .nav_btn{
         display:none; /* To not display the burguer button */
@@ -722,6 +722,7 @@ on mobiles*/
         -webkit-box-flex: 2;
             -ms-flex-positive: 2;
                 flex-grow: 2; /* To allow this element to fill the near space available */
+        padding: 0;
     }
     .section_container{
         margin: 10px 0 0px;
