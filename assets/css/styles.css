@@ -177,12 +177,13 @@ header{
 .nav_toggle ul li{
     list-style: none;
     text-decoration: none;
-    padding: 0;
+    /* padding: 0; */
 }
 .toggle_menu{
     width: 100%;
     margin:0;
     padding: 0;
+    background-color: #0f0f0f;
 }
 .toggle_item{
     width: 100%;
@@ -191,7 +192,7 @@ header{
     text-align: left; /* To align text to the left of the toggle_menu div */ 
     text-decoration: none;
     color: #fafafa;
-    /* padding: 10px 5px; */
+    padding: 10px 5px;
 }
 .toggle_link{
     display: block;
@@ -208,8 +209,6 @@ and background color to child toggle_link */
     background-color: #fafafa;
     text-decoration: none;
 }
-
-
 
 /* <SECTION> ===================================*/
 
@@ -701,6 +700,9 @@ on mobiles*/
         left: 0%; /* Now it is always set inside the visible screen */
         -webkit-transform: translateX(0%);
                 transform: translateX(0%); /* With this set to 0% the movement doesn't aply */
+    }
+    .nav_toggle ul li{
+        padding: 0;
     }
     .toggle_menu{ /* To distribute the space available between the items of menu inline */
         display: -webkit-box;
