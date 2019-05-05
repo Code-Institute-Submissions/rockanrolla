@@ -1,4 +1,4 @@
-![Band Logo](assets\images\logo_250x282.jpg "The Invasors") 
+![Band Logo](assets/images/logo_250x282.jpg "The Invasors") 
 
 # __Rockanrolla Band Website - Testing__
 
