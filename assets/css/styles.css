@@ -6,14 +6,22 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Anton:100,200,300,400,500,600,700');
 
 html,body{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     background-color:#d00000; /* To define the nearest color to the background image while loading and avoid white page */
 }
 body{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; /* Flexbox is the selected grid for the site */
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin:0;
     padding:0;
     background-image: url("../images/background_1080x1920.jpg");
@@ -34,6 +42,8 @@ body h4,h5,h6{
     font-family: Anton, sans-serif
 }
 .wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex /* To control the grid properly along the pages */
 }
 
@@ -84,26 +94,38 @@ header{
     padding:0;
 }
 .header_container{
-    flex-flow: row wrap; /* Best way found to define the position of child elements in mobile approach */
-    justify-content: space-around;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; /* Best way found to define the position of child elements in mobile approach */
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     margin:10px 0 0;
     padding:0;
 }
 .header_title{
-    order: 1; /* To set the position on the flex column */
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; /* To set the position on the flex column */
     margin: 0;
     padding: 0;
     font-size: 2em;
     text-align: left;
 }
 .header_nav{
-    order:2; /* To set the position on the flex column */
+    -webkit-box-ordinal-group:3;
+        -ms-flex-order:2;
+            order:2; /* To set the position on the flex column */
     margin: 4px 0;
 }
 .header_logo{
-    order: 3; /* To set the position on the flex column */
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3; /* To set the position on the flex column */
     width: 100%;
     margin-bottom: 10px;
     padding:0;
@@ -114,7 +136,9 @@ header{
     height: 400px; /* This leaves 25px free for header_title and nav_btn */
 }
 .nav_btn{
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
     border: none;
     margin: 0px;
     padding: 2px;
@@ -135,10 +159,14 @@ header{
     padding: 10% 0;    
     left: -80%; /* hidden in the left, unseen but ready */    
     z-index: 1; /* One layer over the rest of the elements */    
-    transition: transform 0.7s ease-in-out; /* Ref to translateX transform when hover */
+    -webkit-transition: -webkit-transform 0.7s ease-in-out;    
+    transition: -webkit-transform 0.7s ease-in-out;    
+    transition: transform 0.7s ease-in-out;    
+    transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out; /* Ref to translateX transform when hover */
 }
 .nav_btn:hover +.nav_toggle{
-    transform: translateX(100%); /* This moves nav_toggle from -80% to 80%. Hidden in the left then when hover on nav_btn moving to the right */ 
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); /* This moves nav_toggle from -80% to 80%. Hidden in the left then when hover on nav_btn moving to the right */ 
 }
 .nav_toggle ul li{
     list-style: none;
@@ -166,6 +194,7 @@ header{
     text-align: left; /* To align text to the left of the toggle_menu div */ 
     text-decoration: none;
     color: #fafafa;
+    -webkit-transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
     transition: color 0.5s ease-in-out, background-color 1s ease-in-out;
 }
 .nav_btn:focus{     
@@ -189,13 +218,22 @@ and its child, placed along the five pages of the site are defined.*/
 section{
 	margin: 5% 0;
     padding:0;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
 }
 .section_container{
-	flex-direction: column;
-	justify-content: center;
-    align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin:5%;
 }
 .column_title{
@@ -261,14 +299,21 @@ its inherited properties (See ref: README.md - Technologies Used) */
 .slide{
     background-color: #fafafa;
     border-radius: 10px;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
     transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
 }
 .slide:hover{    
-    transform-origin: center center; /* To match the shrinking point with the center point on the axis(vertical and horizontal) */
-    transform: scale(.95); /*To produce a slight shrinking effect when placing the mouse/clicking on the slide */
+    -webkit-transform-origin: center center;    
+            transform-origin: center center; /* To match the shrinking point with the center point on the axis(vertical and horizontal) */
+    -webkit-transform: scale(.95);
+            transform: scale(.95); /*To produce a slight shrinking effect when placing the mouse/clicking on the slide */
 }
 .slide_cover{
-    order:1;
+    -webkit-box-ordinal-group:2;
+        -ms-flex-order:1;
+            order:1;
     height: 275px;
     margin:10px;
     background-position: center;
@@ -276,13 +321,19 @@ its inherited properties (See ref: README.md - Technologies Used) */
     background-size: cover;
 }
 .slide_title{
-    order:2;
-    align-items: center;
+    -webkit-box-ordinal-group:3;
+        -ms-flex-order:2;
+            order:2;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 1.6em;
     color: #0f0f0f;
 }
 .slide_text{ /* To style the caption inside the slider */
-    order:3;
+    -webkit-box-ordinal-group:4;
+        -ms-flex-order:3;
+            order:3;
     width: 300px;
     height: 125px;
     margin: 10px;
@@ -301,10 +352,19 @@ are defined. They are also applied on the videoclip placed inside the
 article element inside the right column of the section in pict.html */
 
 .clips_box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column-reverse; /* This moves iframe to the bottom, bellow videoclips list */ 
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; /* This moves iframe to the bottom, bellow videoclips list */ 
+    -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-radius: 10px;
     margin: 0 auto 20px;
 }
@@ -313,14 +373,21 @@ article element inside the right column of the section in pict.html */
     padding: 0; 
     text-align: center;
     text-decoration: none;
-    transition: transform 1s; /* The link to the video grows for 1 second */  
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s; /* The link to the video grows for 1 second */  
 }
 .clips_box > a:hover, .feedback_form #submit:hover{ /*To produce a growing effect when placing the mouse/clicking on the clip title */  
-    transform-origin: center center;
-    transform: scale(1.1);
+    -webkit-transform-origin: center center;  
+            transform-origin: center center;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .clip_title{
-    order:2;
+    -webkit-box-ordinal-group:3;
+        -ms-flex-order:2;
+            order:2;
     width: 100%;
     margin: 0 7px;
     /* align-items: center; */
@@ -350,11 +417,22 @@ differently to see the effects and learn from them. The goal was to make
 every event slide look like an event ticket! */
 
 .event_date_box{
-    order:1;
+    -webkit-box-ordinal-group:2;
+        -ms-flex-order:1;
+            order:1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 .event_date_box > h4,h5{
     color: #360c0c;
@@ -364,17 +442,30 @@ every event slide look like an event ticket! */
     font-size: 2.5em;
 }
 .event_date_weekday{ /*To emphasize the day the weekday the event takes place font-size and font-family changes */
-    order:2;
+    -webkit-box-ordinal-group:3;
+        -ms-flex-order:2;
+            order:2;
     font-size: 2.2em;
     color: #0f0f0f;
     font-family: Anton, sans-serif;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .event_footer_box{
-    order:3;
+    -webkit-box-ordinal-group:4;
+        -ms-flex-order:3;
+            order:3;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .event_text > h2, .event_text > h3{
     color: #0f0f0f;
@@ -389,7 +480,8 @@ every event slide look like an event ticket! */
 }
 .event_barcode > h2{
     font-family: Monoton, sans-serif;
-    align-self: center;
+    -ms-flex-item-align: center;
+        align-self: center;
     font-weight: bolder;
     padding-top: 5%;
 }
@@ -407,15 +499,24 @@ the form placed in the left column of the section element in contact.html
 are defined. */
 
 .feedback_form{
-	order:2;                                       
+	-webkit-box-ordinal-group:3;
+	    -ms-flex-order:2;
+	        order:2;                                       
+    display:-webkit-box;                                       
+    display:-ms-flexbox;                                       
     display:flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width:340px;
     margin-bottom: 10px;
     font-family: Anton, sans-serif;
     color: #fafafa;
     text-transform: uppercase;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .feedback_form label{
     font-size: 1.5em;
@@ -458,13 +559,20 @@ footer{
     width:100%
 }
 .footer_container{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: #360c0c;
     text-align: center    
 }
 .footer_POBox{ /* To define the flow of the fan club address box */
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	margin: 10px
 }
 .footer_POBox >h4{ /* To define the size of the fan club address fonts and its margins */
@@ -478,10 +586,19 @@ footer{
 	margin-bottom: 5px
 }
 .footer_socialmedia{ /* To define the flow of the socialmedia box and its links */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;    
     background-color: #360c0c;
     color: #fafafa;
@@ -538,10 +655,14 @@ on mobiles*/
         display:none; /* To not display back to top button */ 
     }
     .header_container{
-        justify-content: left; /* To define position of elements 'pushing' to the left */
+        -webkit-box-pack: left;
+            -ms-flex-pack: left;
+                justify-content: left; /* To define position of elements 'pushing' to the left */
     }
     .header_logo{ 
-        order: 1; /* To redefine the position on the flex column */ 
+        -webkit-box-ordinal-group: 2; 
+            -ms-flex-order: 1; 
+                order: 1; /* To redefine the position on the flex column */ 
         margin-left: 10px;
         width: 25%;
         background-position: unset;
@@ -550,16 +671,23 @@ on mobiles*/
         height: 140px;
     }
     .header_title{
-        order: 2; /* To redefine the position on the flex column */
-        flex-grow: 2; /* To allow title to fill the near space available */  
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2; /* To redefine the position on the flex column */
+        -webkit-box-flex: 2;
+            -ms-flex-positive: 2;
+                flex-grow: 2; /* To allow title to fill the near space available */  
         text-align: justify;
         font-size: 3em;
-        align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
         text-overflow: ellipsis;
         letter-spacing: 4px;
     }
     .header_nav{
-        order: 3; /* To redefine the position on the flex column */
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3; /* To redefine the position on the flex column */
         width:100%; /* To not interfiere with flex grid when expanding screen */
         
     }
@@ -571,31 +699,56 @@ on mobiles*/
         padding: 0;
         width: 100%;
         left: 0%; /* Now it is always set inside the visible screen */
-        transform: translateX(0%); /* With this set to 0% the movement doesn't aply */
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%); /* With this set to 0% the movement doesn't aply */
     }
     .toggle_menu{ /* To distribute the space available between the items of menu inline */
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
     }
     .toggle_item{ 
         text-align: center; /* To center the text from left side to center of div */
         font-size: 1.2em; /* To increase the font size with bigger screens */
     }
     .toggle_link{
-        flex-grow: 2; /* To allow this element to fill the near space available */
+        -webkit-box-flex: 2;
+            -ms-flex-positive: 2;
+                flex-grow: 2; /* To allow this element to fill the near space available */
     }
     .section_container{
         margin: 10px 0 0px;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-start
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start
     }
     .column_left, .column_right{ /* To change the way they are displayed and to give the same space to both */
+        display:-webkit-box;
+        display:-ms-flexbox;
         display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items:center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
         width: 50%;
         margin: 0 0 10px
     }
@@ -620,15 +773,20 @@ on mobiles*/
     }            
     .clips_box > div{
         border-radius: 10px;
+        -webkit-transition: -webkit-transform 1s;
+        transition: -webkit-transform 1s;
         transition: transform 1s;
+        transition: transform 1s, -webkit-transform 1s;
         margin: 10px
     }
     .clips_box { /* To keep the proportions of the list and iframe when growing with bigger screens */
         width: 70%;
     }
     .clips_box > div:hover{    
-        transform-origin: center center;
-        transform: scale(1.1);
+        -webkit-transform-origin: center center;    
+                transform-origin: center center;
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
     }
     .clips_box > ul{
         padding: 0;
@@ -647,8 +805,12 @@ on mobiles*/
         font-size: 1.2em;        
     }
     .feedback_form{
-        flex-direction: column;
-        flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         width: 90%;
     }
     .feedback_form_name, .feedback_form_email {
@@ -658,21 +820,31 @@ on mobiles*/
         width: 150px;
     }    
     .footer_container{ /* To redefine the way the elements behave in the footer color and give some transparency to the footer */
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         background-color: #8e1623;
         opacity: 0.9;
     }
     .footer_socialmedia{
-        order:1; /* To redefine the position on the flex column */
+        -webkit-box-ordinal-group:2;
+            -ms-flex-order:1;
+                order:1; /* To redefine the position on the flex column */
         margin: 10px 0;
         width: 95%;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         height: 125px;
         border-radius: 25px;
     }
     .footer_POBox{
-        order: 2; /* To redefine the position on the flex column */
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2; /* To redefine the position on the flex column */
     }
     .footer_POBox >h4{ /* To redefine the size of the fan club address fonts and its margins */
         font-size: 1.1em;
@@ -681,7 +853,11 @@ on mobiles*/
         font-size: 1.8em;
     }
     .footer_design{ /* To define this element after not being displayed on mobile approach */
-        order: 3; /* To redefine the position on the flex column */
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3; /* To redefine the position on the flex column */
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: 100px;
         width: 100px;
@@ -693,10 +869,14 @@ on mobiles*/
         opacity: 0.9; 
     }
     .footer_design:hover{
-        animation-name: spin; /* @keyframe 'spin' defined at the bottom of this code */
-        animation-iteration-count: infinite;
-        animation-duration: 2.5s;
-        animation-timing-function: linear;
+        -webkit-animation-name: spin;
+                animation-name: spin; /* @keyframe 'spin' defined at the bottom of this code */
+        -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+        -webkit-animation-duration: 2.5s;
+                animation-duration: 2.5s;
+        -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
     }
 }
 /* Medium devices (tablets, 768px and up)================================*/
@@ -712,11 +892,16 @@ on mobiles*/
         font-size: 1.6em; /* To increase the font size with bigger screens */
     }
     .footer_container{
-        flex-direction: row; /* To change the display direction */
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; /* To change the display direction */
         height: 200px; /* To set a minimum height to its body. It looks too 'piled' when height unset*/
     }
     .footer_POBox{
-        order: 1; /* To change the display position in the row */
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1; /* To change the display position in the row */
     }
     .footer_POBox >h4{ /* To redefine the size of the fan club address fonts and its margins */
         font-size: 1.1em;
@@ -727,14 +912,18 @@ on mobiles*/
         font-size: 1.6em;
     }
     .footer_design{
-        order: 2; /* To change the display position in the row */
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2; /* To change the display position in the row */
         width: 75px;
     }
     .column_title.socialmedia{
         display: none; /* To hide the text " Connect with us " */
     }
     .footer_socialmedia{
-        order:3; /* To change the display position in the row */
+        -webkit-box-ordinal-group:4;
+            -ms-flex-order:3;
+                order:3; /* To change the display position in the row */
         width: 30%;
         margin-right: 15px;
     }
@@ -775,13 +964,26 @@ on mobiles*/
 /* END MEDIA QUERIES ===================================================================*/
 
 /* ANIMATIONS ==========================================================================*/
+@-webkit-keyframes spin{
+/* This animation is for the cube image placed in the footer. Rotate 360deg when hover */
+    0%{
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    }    
+    100%{
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+ 	}
+}
 @keyframes spin{
 /* This animation is for the cube image placed in the footer. Rotate 360deg when hover */
     0%{
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
     }    
     100%{
-    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
  	}
 }
 /* END ANIMATIONS ======================================================================*/
