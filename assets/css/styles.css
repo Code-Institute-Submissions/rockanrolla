@@ -616,10 +616,6 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
 }
-.fcbk_icon{background-image: url("../images/icons/facebook-4-48.png")}
-.twt_icon{background-image: url("../images/icons/twitter-4-48.png")}
-.ytb_icon{background-image: url("../images/icons/youtube-4-48.png")}
-
 .footer_design{    
     display: none; /*To avoid the display of the "cube" image linked to my profile on C9. */
 }
