@@ -66,10 +66,9 @@ Trying to approach the best way to navigate the site and its contents, I started
 
   + [Balsamiq Project wireframe](assets/project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf)
 
+[![Back to UX](assets/images/icons/buttonup_20_20.jpg)](#ux) *Back to UX*
 
- <img src="assets\images\icons\buttonup.png" alt="Back to UX" width="20" height="20"/> *[Back to UX](#ux)*
-
- <img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg)](#rockanrolla-band-website) *Back to top of the document*
 
 ## __Features__
 ---
@@ -159,10 +158,9 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 + __*Better design adapted to specific devices:*__ As a challenge to learn more about design, this site could always be improved. Typography types, sizes and colors as the same applied to backgrounds and other elements are qualities that display in different ways in different devices.  Also the responsive design and the breakpoints in media queries are always changing with the new devices releases, so yes, this all could be a future implementation to keep in mind.
 
+[![Back to Features](assets/images/icons/buttonup_20_20.jpg)](#features) *Back to Features*
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Features" width="20" height="20"/> *[Back to Features](#features)*
-
-<img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg)](#rockanrolla-band-website) *Back to top of the document*
 
 ## __Technologies Used__
 ---
@@ -240,7 +238,7 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
     + __*Autoprefix:*__ 
 
   To optimize CSS styles and make it work properly in different browsers, I parsed it add vendor prexises using the next links and pluggins:
-  
+
   - [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
   - [Autoprefixer - VS Code pluggin](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer)
@@ -256,16 +254,17 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
   - [Disclaimer generator](https://www.disclaimergenerator.net/download.php?lang=en&token=yAq8UM39sPgWMZt3gx6MYnxDEr5L4WIo)
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Technologies Used" width="20" height="20"/> *[Back to Technologies Used](#technologies-used)*
 
-<img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
+[![Back to Technologies Used](assets/images/icons/buttonup_20_20.jpg)](#technologies-used) *Back to Technologies Used*
+
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg)](#rockanrolla-band-website) *Back to top of the document*
 
 ## __Testing__
 ---
 
-All the tests explanations about this project can be found at:
+All the tests explanations about this project can be found on a separate .md file. Please, click the link below:
  
-  + [Test Process](TESTING.md)
+  + [Rockanrolla Band Website - Testing](TESTING.md/#rockanrolla-website---testing-briefing)
 
 
 ## __Deployment__
@@ -305,10 +304,9 @@ If any issue comes up after following these steps, please read the next [documen
 
 At the moment of submitting this project the development branch and the master branch are exactly the same.
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Deployment" width="20" height="20"/> *[Back to Deployment](#deployment)*
+[![Back to Deployment](assets/images/icons/buttonup_20_20.jpg)](#deployment) *Back to Deployment*
 
-<img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
-
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg)](#rockanrolla-band-website) *Back to top of the document*
 
 ## __Credits__
 ---
@@ -362,9 +360,9 @@ The videoclips displayed on the different project pages have been selected and e
 - "Takk!" to my mentor [Simen Daehlin](http://simen.dehlin.info/#home) and 
 "Bedankt!" to student [Anna Greaves](https://github.com/AJGreaves) for all the help, patience and examples shown. Their help through different channels has been key to this project development! "Gracias!"
 
-<img src="assets\images\icons\buttonup.png" alt="Back to Credits" width="20" height="20"/> *[Back to Credits](#credits)*
+[![Back to Credits](assets/images/icons/buttonup_20_20.jpg)](#credits) *Back to Credits*
 
-<img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg)](#rockanrolla-band-website) *Back to top of the document*
 
 ## __Disclaimer__
 ---
@@ -385,7 +383,7 @@ By using our website, you hereby consent to our disclaimer and agree to its term
 
 Should we update, amend or make any changes to this disclaimer, those changes will be prominently posted here.
 
-<img src="assets\images\icons\buttonup.png" alt="Back to top" width="20" height="20"/> *[Back to top of the document](#rockanrolla-band-website)*
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg)](#rockanrolla-band-website) *Back to top of the document*
 
 
 
