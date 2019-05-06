@@ -14,7 +14,7 @@ This site is simulating all the previous features and all its content are pure f
 ## __UX__
 ---
 
-This website is aim to be visited by music and rock fans, more specifically those ones that grown up listening those beats during the 70's and 80's. This site shows the progress of the band from then till these actual days. 
+This website is aim to be visited by music and rock fans, more specifically those that grown up listening those beats during the 70's and 80's. This site shows the progress of the band from then till these actual days. 
 
 __*Average visitor should probably be:*__
 
@@ -42,7 +42,7 @@ __*This site could help them to feel part of the crowd again:*__
 
 - Some past events are included and displayed in a time line. This should encourage visitors to update their experiences when attending to a concert that is not displayed on the site.
 
-- Some songs of the band are ready to be played with only one click. This quick way should engage new and experienced fans to listen to their music and keep the clips.html link saved betweeen their favourites.
+- Some songs of the band are ready to be played with only one click. This quick way should engage new and experienced fans to listen to their music and keep the clips.html link saved between their favourites.
 
 __*Visitors experiences:*__ New and repeating visitors shoul be between the ones that navigate the site. Some of their intentions are represented below:
 
@@ -77,13 +77,13 @@ Trying to approach the best way to navigate the site and its contents, I started
 
 The site works on 5 HTML pages styles using Flexbox and customized CSS properties to feature a responsive design. 
 
-On each page the next *[existing features](###existing-features)* with *[specific contents](###specific-section-contents)* are displayed with an open mind, in a resposive way and always opening the door to [implement them](###features-left-to-implement)
+On each page the next *[existing features](###existing-features)* with *[specific contents](###specific-section-contents)* are displayed with an open mind, in a responsive way and always opening the door to [implement them](###features-left-to-implement)
 
   - A __*header*__ containing a [band logo](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg), a title and a navigation menu between pages.
 
   - A *__section__* with two columns displaying the contents related to the page selected.
 
-  - A __*footer*__ that shows the fan club address and links the visitor to the band via social media as also to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under costruction).
+  - A __*footer*__ that shows the fan club address and links the visitor to the band via social media as also to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under construction).
 
   - A __*back to top button*__ that allows the visitor to go back to the header.
 
@@ -91,7 +91,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 + __*Header:*__ Exist on every page and it is a key feature for the visitor experience when navigating through the site. It is responsive and displayed in a very simple way.
   
-  - __*Band Logo*__. A simple [picture](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg) showing the band in its best cheerfuk moment.
+  - __*Band Logo*__. A simple [picture](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg) showing the band in its best cheerful moment.
 
   - __*Band Name*__. A title displaying the band name. This title is invented and has got nothing to do with rock and roll bands but with a [special racehorse](https://en.wikipedia.org/wiki/Invasor_(horse)) named like that. One of my best friends loves this horse because he is a winner, so this honors their friendship in a way...
 
@@ -99,7 +99,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 + __*Section:*__  Exist on every page and it is a key feature for the visitor experience when looking for contents the site. Contains two columns with different 'ingredients' each. They are displayed as a column in small devices and in a row in bigger ones (left and right). Every different page uses different contents using:
 
-  - __*Carrousels*__. A simple way to display cards with images and/or information about the band. The interaction with the screen make it particularly valuable on the Mobile Approach due to its quickness and easy use. A transformation on the size of every card is triggered when hovering on it. These carrousels, displayed on the left of the section on Tablets and Laptops with bigger screens, gave me the chance to have space available to display more information about the band in the right area of the screen. This could be a feature to implement in the future so I recognize that there is still space available on the right columns... 
+  - __*Carousels*__. A simple way to display cards with images and/or information about the band. The interaction with the screen make it particularly valuable on the Mobile Approach due to its quickness and easy use. A transformation on the size of every card is triggered when hovering on it. These carousels, displayed on the left of the section on Tablets and Laptops with bigger screens, gave me the chance to have space available to display more information about the band in the right area of the screen. This could be a feature to implement in the future so I recognize that there is still space available on the right columns... 
 
   - __*Articles*__. Used along different columns to display the specific content related to the page visited with paragraphs / spans containing information about the band, feedback from fans, and links to videoclips and other sites to buy tickets and, if wished, also hire the band for private events.
 
@@ -111,7 +111,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
   - __*Band PO box*__. A box showing the PO address of the band to allow visitors to write mail letters to the band. This is a vintage feature added to the site. Some fans still rely on written old-style feedback, as the band itself.
   
-  - __*Developer link*__. An image that links the visitor to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under costruction). It displays a cube in 3d that rotates 360 degrees when hovered. This is a special feature that I would like to include in every project in the future.
+  - __*Developer link*__. An image that links the visitor to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under construction). It displays a cube in 3d that rotates 360 degrees when hovered. This is a special feature that I would like to include in every project in the future.
 
   - __*Social media platform's icons*__. A box containing three links to connect the visitor to the different social media profiles of the band. This way they should receive current news and posts, increasing the chances to interact with the band.
 
@@ -127,7 +127,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 + __*Pictures:*__
 
-  - The contents displayed on the first column of this section are about the band's concerts. A carrousel displays nine cards, every one containing an image and some information about a concert in a world venue. This cards are ordered by year to show the visitor the band progress through the years.  
+  - The contents displayed on the first column of this section are about the band's concerts. A carrousel displays nine cards, every one containing an image and some information about a concert in a world venue. These cards are ordered by year to show the visitor the band progress through the years.  
 
   - The contents displayed on the second column are about feedback from events provided by fans that attended some of the concerts of the band.
 
@@ -141,11 +141,11 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
   - The contents displayed on the first column of this section are about the future events of the band. A carrousel is available with six cards, each one containing information about a future event date, weekday, city, country, venue. Tickets availability is delivered with a barcode image and colored text over it (green or red). This should help the fans to take a decision about which should be the best concert to attend.
 
-  - The contents displayed on the second column are related to the purchase of concerts tickets. A link is diplayed that should help to link the visitors to an external site where tickets can be bought.
+  - The contents displayed on the second column are related to the purchase of concerts tickets. A link is displayed that should help to link the visitors to an external site where tickets can be bought.
 
 + __*Contact:*__
 
-  - The contents displayed on the first column of this section are about the form available for the visitor to give any kind of feedback about the band, their concerts, etc. A validated name and email is neccesary to send the feedback so this would give the band crew to give back a response, increasing the confidence between the musicians and the fans.
+  - The contents displayed on the first column of this section are about the form available for the visitor to give any kind of feedback about the band, their concerts, etc. A validated name and email is necessary to send the feedback so this would give the band crew to give back a response, increasing the confidence between the musicians and the fans.
 
   - The contents displayed on the second column are about the chance given to any fan to hire the band for music events. This is managed through an external company so the visitor is offer a link to it if this is their desire.
 
@@ -156,7 +156,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 + __*Implement contents in quantity and quality on section's columns:*__ The visual available space on some of the right columns, in pages index.html, events.html and contact.html, and on the left column in clips.html is a chance to include more contents about the band. 
 
-+ __*Ticket / Band Hiring managment:*__ Actually the band use external companies to manage this features. A challenge for every band is to manage this independently so no external control over them is impossed by the ticketing industry.
++ __*Ticket / Band Hiring management:*__ Actually the band use external companies to manage this features. A challenge for every band is to manage this independently so no external control over them is imposed by the ticketing industry.
 
 + __*Better design adapted to specific devices:*__ As a challenge to learn more about design, this site could always be improved. Typography types, sizes and colors as the same applied to backgrounds and other elements are qualities that display in different ways in different devices.  Also the responsive design and the breakpoints in media queries are always changing with the new devices releases, so yes, this all could be a future implementation to keep in mind.
 
@@ -169,13 +169,13 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 The site has been developed using programming languages as HTML5 with semantic tags and CSS3 with Flex grid properties. The main reason to select this grid instead Bootstrap was the challenge to learn how to code more 'directly', without the support of libraries.
 
-Nevertheless at some point while optimizing the code for the carrousels, Bootstrap with jQuery was the most obvious solution and was implemented to make them work properly. 
+Nevertheless at some point while optimizing the code for the carousels, Bootstrap with jQuery was the most obvious solution and was implemented to make them work properly. 
 
 This mixture between Flex as main and Bootstrap as secondary has been a challenge for a new developer as I, but the learnings from this sure will help in future projects. 
 
 + __*"Our own thing" - Font research and design:*__
 
-  This site uses [Google Fonts](https://fonts.google.com/) to style its fonts. Some of the font mockups have been created using [Our own thing](http://www.ourownthing.co.uk/fontpairing/):
+  This site uses [Google Fonts](https://fonts.google.com/) to style its fonts. Some font mockups have been created using [Our own thing](http://www.ourownthing.co.uk/fontpairing/):
 
   + [Font mockup 01](assets/project_docs/Font_selection_research/01_Blue_White_Monoton.jpg)
 
@@ -211,7 +211,7 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
 + __*CSS Tricks and QNimate documentation:*__
 
-  In a first attempt, the next 'How to' documentation from the sites below has been researched and coding examples edited to develop the carrousels along the site:
+  In a first attempt, the next 'How to' documentation from the sites below has been researched and coding examples edited to develop the carousels along the site:
 
   - [Slider with just HTML and CSS](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/)
 
@@ -231,7 +231,7 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
 + __*Code editors:*__ 
 
-  Two different editors have been used along the development of this project. Cloud9 gave me the starting point about how to code online but VS Code has made the difference, allowing me to code locally in different computers while conmmuting to work every day...
+  Two different editors have been used along the development of this project. Cloud9 gave me the starting point about how to code online but VS Code has made the difference, allowing me to code locally in different computers while commuting to work every day...
 
   - [Cloud9](https://aws.amazon.com/es/cloud9/?origin=c9io)
 
@@ -239,7 +239,7 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
 + __*Autoprefix:*__ 
 
-  To optimize CSS styles and make it work properly in different browsers, I parsed it add vendor prefixes using the next links and plugins:
+  To optimize CSS styles and make it work properly in different browsers, I parsed it and added vendor prefixes using the next links and plugins:
 
   - [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
@@ -271,9 +271,9 @@ All the tests explanations about this project can be found on a separate .md fil
 ## __Deployment__
 ---
 
-This project was developed in the begining using the [Cloud9 IDE](https://aws.amazon.com/es/cloud9/?origin=c9ioand) committed regularly to git and pushed using its built in functionality. To achieve that info researched from its [documentation](https://docs.c9.io/docs) has been of great value.
+This project was developed in the beginning using the [Cloud9 IDE](https://aws.amazon.com/es/cloud9/?origin=c9ioand) committed regularly to git and pushed using its built in functionality. To achieve that info researched from its [documentation](https://docs.c9.io/docs) has been of great value.
 
-After the different challenges during the project development, I learnt about a more effective way of working on it. After having committed more or less two thirds of them i started using [VS Code](https://code.visualstudio.com/) committing the changes in the project to git and also pushing and pulling between two different machines, a laptop and a tower pc, to be as productive as possible while commuting to work and after locally at home. This has make a big impact in the project. Learning about how to resolve the technical issues using its [documentation](https://code.visualstudio.com/docs) helped me to develop the project quicker than before.
+After the different challenges during the project development, I learnt about a more effective way of working on it. After having committed more or less two-thirds of them i started using [VS Code](https://code.visualstudio.com/) committing the changes in the project to git and also pushing and pulling between two different machines, a laptop and a tower pc, to be as productive as possible while commuting to work and after locally at home. This has make a big impact in the project. Learning about how to resolve the technical issues using its [documentation](https://code.visualstudio.com/docs) helped me to develop the project quicker than before.
 
 As explained, using those tools, the project was staged, committed and pushed frequently to a GitHub repository named [rockanrolla](https://github.com/danmtt/rockanrolla). It is published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
 
@@ -356,7 +356,7 @@ The videoclips displayed on the different project pages have been selected and e
   
   + [Youtube Search](https://www.youtube.com/results?search_query=the+guess+who)
 
-### __*Acknowledgements*__
+### __*Acknowledgments*__
 
 - *"Takk!"* to my mentor [Simen Daehlin](http://simen.dehlin.info/#home) and 
 *"Bedankt!"* to student [Anna Greaves](https://github.com/AJGreaves) for all the help, patience and examples shown. Their help through different channels has been key to this project development! *"¡Gracias!"*
