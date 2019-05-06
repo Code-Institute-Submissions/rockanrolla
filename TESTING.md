@@ -130,17 +130,19 @@ To run this tests I have used three different applications online. Limited by th
 
 ### __*Code Validation:*__ 
 
-Testing HTML / CSS code in the project regularly has been of great help. The tools used are related below as also the .pdf files with the results of those tests.
+Testing HTML / CSS code in the project regularly has been of great help. The tools used are related below as also the .pdf files directory with the results of those tests, including warnings of different types and pass reports. 
 
 + [The W3C Markup Validation Service](https://validator.w3.org/)
 
 + [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator.html.en)
 
-+ [Code Validation Test Results](assets/project_docs/)
++ [Code Validation Test Results](assets/project_docs/tests/code-validation/)
 
 ### __*Readability:*__ 
 
 + [Readability test tool](https://www.webfx.com/tools/read-able/check.php?tab=Test+By+Url&uri=https%3A%2F%2Fdanmtt.github.io%2Frockanrolla%2F)
+
++ [Readability test results](assets/project_docs/tests/code-validation/)
 
 
 [![Online testing methods](assets/images/icons/buttonup_20_20.jpg "Online testing methods")](#online-testing-methods) *Back to Online testing methods*
