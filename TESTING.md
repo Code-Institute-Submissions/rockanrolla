@@ -136,13 +136,14 @@ Testing HTML / CSS code in the project regularly has been of great help. The too
 
 + [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator.html.en)
 
-+ [Code Validation Test Results](assets/project_docs/Tests/Code validation/)
++ [Code Validation Test Results](assets/project_docs/tests/code-validation/)
+
 
 ### __*Readability:*__ 
 
 + [Readability test tool](https://www.webfx.com/tools/read-able/check.php?tab=Test+By+Url&uri=https%3A%2F%2Fdanmtt.github.io%2Frockanrolla%2F)
 
-+ [Readability test results](assets/project_docs/Tests/Readability/)
++ [Readability test results](assets/project_docs/tests/readability/)
 
 
 [![Online testing methods](assets/images/icons/buttonup_20_20.jpg "Online testing methods")](#online-testing-methods) *Back to Online testing methods*
