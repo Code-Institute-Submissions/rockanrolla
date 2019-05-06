@@ -125,16 +125,18 @@ To run this tests I sent the GitHub Pages link to different friends and colleagu
 
 ## __Online testing methods:__
 ---
-To run this tests I have used ??? different applications online. Limited by the budget of the project (0), only free tools have been used but the research of many different ones have opened a wide view about how a project could be tested in many ways. 
+To run this tests I have used three different applications online. Limited by the budget of the project (0), only free tools have been used but the research of many different ones have opened a wide view about how a project could be tested in many ways. 
  
 
 ### __*Code Validation:*__ 
+
+Testing HTML / CSS code in the project regularly has been of great help. The tools used are related below as also the .pdf files with the results of those tests.
 
 + [The W3C Markup Validation Service](https://validator.w3.org/)
 
 + [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator.html.en)
 
-+ 
++ [Code Validation Test Results](assets/project_docs/)
 
 ### __*Readability:*__ 
 
