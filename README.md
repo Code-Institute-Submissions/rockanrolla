@@ -14,7 +14,7 @@ This site is simulating all the previous features and all its content are pure f
 ## __UX__
 ---
 
-This website is aim to be visited by music and rock fans, more especifically those ones that grown up listening those beats during the 70's an 80's. This site shows the progress of the band from then till these actual days. 
+This website is aim to be visited by music and rock fans, more specifically those ones that grown up listening those beats during the 70's and 80's. This site shows the progress of the band from then till these actual days. 
 
 __*Average visitor should probably be:*__
 
@@ -32,7 +32,7 @@ __*Most of the visitors to this site are probably looking for:*__
 
 - New ways to keep in touch with their favourite music band.
 
-- Listen to the band's songs easyly and without paying for it.
+- Listen to the band's songs easily and without paying for it.
 
 __*This site could help them to feel part of the crowd again:*__
 
@@ -46,7 +46,7 @@ __*This site could help them to feel part of the crowd again:*__
 
 __*Visitors experiences:*__ New and repeating visitors shoul be between the ones that navigate the site. Some of their intentions are represented below:
 
-- As a new visitor to this page I would like to navigate throug the contents in a easy way.
+- As a new visitor to this page I would like to navigate through the contents in an easy way.
 
 - As a new visitor to this page I would like to find some pictures of previous and future events of this band.
 
@@ -75,7 +75,7 @@ Trying to approach the best way to navigate the site and its contents, I started
 ## __Features__
 ---
 
-The site works on 5 Html pages styles using Flexbox and customized CSS properties to feature a responsive design. 
+The site works on 5 HTML pages styles using Flexbox and customized CSS properties to feature a responsive design. 
 
 On each page the next *[existing features](###existing-features)* with *[specific contents](###specific-section-contents)* are displayed with an open mind, in a resposive way and always opening the door to [implement them](###features-left-to-implement)
 
@@ -93,7 +93,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
   
   - __*Band Logo*__. A simple [picture](https://manitobamusicmuseum.webs.com/The%20Guess%20Who%201972-74.jpg) showing the band in its best cheerfuk moment.
 
-  - __*Band Name*__. A title displaying the band name. This title is invented and has got nothing to do with rock and roll bands but with a [special racehorse](https://en.wikipedia.org/wiki/Invasor_(horse)) named like that. One of my best friends loves this horse because he is a winner, so this honours their friendship in a way...
+  - __*Band Name*__. A title displaying the band name. This title is invented and has got nothing to do with rock and roll bands but with a [special racehorse](https://en.wikipedia.org/wiki/Invasor_(horse)) named like that. One of my best friends loves this horse because he is a winner, so this honors their friendship in a way...
 
   - __*Responsive navigation menu*__. It adapts to the different devices used by the visitor to display the site.
 
@@ -113,7 +113,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
   
   - __*Developer link*__. An image that links the visitor to the [developer's resume](https://danmtt.github.io/ucd-resume/index.html) (under costruction). It displays a cube in 3d that rotates 360 degrees when hovered. This is a special feature that I would like to include in every project in the future.
 
-  - __*Social media platform's icons*__. A box containing three links to connect the visitor to the different social media profiles of the band. This way they should receive current news and posts, increading the chances to interact with the band.
+  - __*Social media platform's icons*__. A box containing three links to connect the visitor to the different social media profiles of the band. This way they should receive current news and posts, increasing the chances to interact with the band.
 
 + __*Back to top button:*__ A button that only exist on Mobile approach and helps the customer to navigate back to the page header and then easily navigate to another page of the site.
 
@@ -139,7 +139,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 + __*Events:*__
 
-  - The contents displayed on the first column of this section are about the future events of the band. A carrousel is available with six cards, each one containing information about a future event date, weekday, city, country, venue. Tickets availability is delivered with a barcode image and coloured text over it (green or red). This should help the fans to take a decision about which should be the best concert to attend.
+  - The contents displayed on the first column of this section are about the future events of the band. A carrousel is available with six cards, each one containing information about a future event date, weekday, city, country, venue. Tickets availability is delivered with a barcode image and colored text over it (green or red). This should help the fans to take a decision about which should be the best concert to attend.
 
   - The contents displayed on the second column are related to the purchase of concerts tickets. A link is diplayed that should help to link the visitors to an external site where tickets can be bought.
 
@@ -152,7 +152,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 ### __*Features Left to Implement*__
 
-+ __*Landing page:*__ As shown in [Balsamiq Project wireframe](assets/project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf), the project was originally planned over 6 Html pages. A landing page should be the perfect way to introduce images of the band as also some random song from their extended repertoire.
++ __*Landing page:*__ As shown in [Balsamiq Project wireframe](assets/project_docs/Wireframes/Balsamiq_wireframe_Rockanrolla_project.pdf), the project was originally planned over 6 HTML pages. A landing page should be the perfect way to introduce images of the band as also some random song from their extended repertoire.
 
 + __*Implement contents in quantity and quality on section's columns:*__ The visual available space on some of the right columns, in pages index.html, events.html and contact.html, and on the left column in clips.html is a chance to include more contents about the band. 
 
@@ -195,7 +195,7 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
 + __*Balsamiq tool for wireframes design:*__ 
 
-  The next web tool signing into a first free month subscription has been used to develop and learn how to do web mockups. Nevertheless, post-it coloured sticks, A4 and pencils, and a whiteboard have been my best friends along the project. 
+  On the The next web tool I signed into a first free month subscription and it has been used to develop and learn how to do web mockups. Nevertheless, post-it colored sticks, A4 and pencils, and a whiteboard have been my best friends along the project. 
 
   - [Balsamiq wireframes](https://balsamiq.com/index.html)
  
@@ -211,7 +211,7 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
 + __*CSS Tricks and QNimate documentation:*__
 
-  In a first attempt, the next 'How to' documentation from the sites below has been researched and coding examples edited to develope the carrousels along the site:
+  In a first attempt, the next 'How to' documentation from the sites below has been researched and coding examples edited to develop the carrousels along the site:
 
   - [Slider with just HTML and CSS](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/)
 
@@ -219,7 +219,7 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
     
 + __*Bootstrap v3.3.7 and jQuery v3.2.1:*__
 
-  But after various attemps to implement the carrousel only with Html and Css, it became an 'horrendous' visual feature for the project so I decided to implement a generic example from Bootstrap and adapt its code to make it functional for the site. This feature has been implemented to index.html("The Albums"), pict.html ("The concerts"), events.html ("Upcoming Events").
+  But after various attempts to implement the carrousel only with HTML and CSS, it became an 'horrendous' visual feature for the project so I decided to implement a generic example from Bootstrap and adapt its code to make it functional for the site. This feature has been implemented to index.html("The Albums"), pict.html ("The concerts"), events.html ("Upcoming Events").
 
   - [Bootstrap Carousel with javascript](https://getbootstrap.com/docs/3.4/javascript/#carousel-examples)
 
@@ -227,11 +227,11 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
   The next 'How to' documentation has been researched and coding examples edited from this site:
 
-  - [Back to top button using css and html only](https://stackoverflow.com/questions/32102747/how-to-make-a-back-to-top-button-using-css-and-html-only)
+  - [Back to top button using CSS and HTML only](https://stackoverflow.com/questions/32102747/how-to-make-a-back-to-top-button-using-css-and-html-only)
 
 + __*Code editors:*__ 
 
-  Two different editors have been used along the development of this project. Cloud9 gave me the starting point about how to code online but VSCode has made the difference, allowing me to code locally in different computers while conmmuting to work every day...
+  Two different editors have been used along the development of this project. Cloud9 gave me the starting point about how to code online but VS Code has made the difference, allowing me to code locally in different computers while conmmuting to work every day...
 
   - [Cloud9](https://aws.amazon.com/es/cloud9/?origin=c9io)
 
@@ -239,11 +239,11 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
 + __*Autoprefix:*__ 
 
-  To optimize CSS styles and make it work properly in different browsers, I parsed it add vendor prexises using the next links and pluggins:
+  To optimize CSS styles and make it work properly in different browsers, I parsed it add vendor prefixes using the next links and plugins:
 
   - [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
-  - [Autoprefixer - VS Code pluggin](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer)
+  - [Autoprefixer - VS Code plugin](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer)
   
 
 + __*Disclaimer generator:*__
@@ -271,23 +271,23 @@ All the tests explanations about this project can be found on a separate .md fil
 ## __Deployment__
 ---
 
-This project was developed in the beggining using the [Cloud9 IDE](https://aws.amazon.com/es/cloud9/?origin=c9ioand) committed regularly to git and pushed using its built in functionality. To achieve that info researched from its [documentation](https://docs.c9.io/docs) has been of great value.
+This project was developed in the begining using the [Cloud9 IDE](https://aws.amazon.com/es/cloud9/?origin=c9ioand) committed regularly to git and pushed using its built in functionality. To achieve that info researched from its [documentation](https://docs.c9.io/docs) has been of great value.
 
-After the different challenges during the project development, I learnt about a more effective way of working on it. After having committed more or less two thirds of them i started using [VS Code](https://code.visualstudio.com/) committing the changes in the project to git and also pushing and pulling between two different machines, a laptop and a tower pc, to be as productive as possible while commutting to work and after locally at home. This has make a big impact in the project. Learning about how to resolve the technical issues using its [documentation](https://code.visualstudio.com/docs) helped me to develope the project quicker than before.
+After the different challenges during the project development, I learnt about a more effective way of working on it. After having committed more or less two thirds of them i started using [VS Code](https://code.visualstudio.com/) committing the changes in the project to git and also pushing and pulling between two different machines, a laptop and a tower pc, to be as productive as possible while commuting to work and after locally at home. This has make a big impact in the project. Learning about how to resolve the technical issues using its [documentation](https://code.visualstudio.com/docs) helped me to develop the project quicker than before.
 
-As explained, using those tools, the project was staged, commited and pushed frequently to a GitHub repository named [rockanrolla](https://github.com/danmtt/rockanrolla). It is published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
+As explained, using those tools, the project was staged, committed and pushed frequently to a GitHub repository named [rockanrolla](https://github.com/danmtt/rockanrolla). It is published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
 
 In order to achieve this and deploy this page to GitHub Pages from its GitHub repository, these are the steps I followed:
 
 + Using Cloud9 IDE I created a repository for the project. Then I worked on its file structure and the initial code in the different files. Then I initialized git and made an initial commit using the console and these commands:
   - git init
   - git commit -m"Commit update explanation"Project structure Update / Readme.md"
-+ After this, I created a repository in myt GitHub user account to upload the project. It can be found online as [rockanrolla](https://github.com/danmtt/rockanrolla).
++ After this, I created a repository in my GitHub user account to upload the project. It can be found online as [rockanrolla](https://github.com/danmtt/rockanrolla).
 + From Cloud9 IDE console I set up and pushed up the existing repository to the master branch using these commands: 
   - git remote add origin https://github.com/danmtt/rockanrolla
   - git push -u origin master-
 + After providing the right user name and password, the project uploaded correctly to GitHub
-and I could regularly keep up commiting its changes using these commands from Cloud9:
+and I could regularly keep up committing its changes using these commands from Cloud9:
   - git commit -m"Commit update explanation"
   - git push
 + To set up the page into GitHub pages, on my GitHub user main page I selected the rockanrolla repository. Then on its project home page I clicked on settings, scrolled down to the GitHub pages section, selected the source (master-branch) and after a few seconds, automatically the site was deployed. [Click here to visit the site](https://danmtt.github.io/rockanrolla).
@@ -314,7 +314,7 @@ At the moment of submitting this project the development branch and the master b
 
 ### __*Content*__
 
-  The band I selected to be simulated on this site was "The Guess Who". I decided to change its name to "The Invasors" to make the site a bit different. I implemented the band history and the fans feedbacks reading and then editing some of the texts contained in these links:
+  The band I selected to be simulated on this site was "The Guess Who". I decided to change its name to "The Invasors" to make the site a bit different. I implemented the band history and the fans feedback reading and then editing some of the texts contained in these links:
 
   + [Fans stories](https://www.vanmorrison.com/fans)
 
