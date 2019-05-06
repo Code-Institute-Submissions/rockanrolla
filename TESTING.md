@@ -142,7 +142,7 @@ Testing HTML / CSS code in the project regularly has been of great help. The too
 
 + [Readability test tool](https://www.webfx.com/tools/read-able/check.php?tab=Test+By+Url&uri=https%3A%2F%2Fdanmtt.github.io%2Frockanrolla%2F)
 
-+ [Readability test results](assets/project_docs/Tests/Readability/)
++ [Readability Test results](assets/project_docs/Tests/Readability/)
 
 
 [![Online testing methods](assets/images/icons/buttonup_20_20.jpg "Online testing methods")](#online-testing-methods) *Back to Online testing methods*
