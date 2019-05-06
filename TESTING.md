@@ -151,7 +151,7 @@ As Spanish is my mother tongue, I have always in mind the way I write in English
 
 [![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Website - Testing")](#rockanrolla-band-website---testing) *Back to top of the document*
 
-[![Back to Rockanrolla Band - README.md](assets/images/icons/buttonup_20_20_left.jpg "README.md")](README.md/#rockanrolla-band-project) *Back to README*
+[![Go to Rockanrolla Band Project - README.md](assets/images/icons/buttonup_20_20_left.jpg "README.md")](README.md/#rockanrolla-band-project) *Go to README.md*
 
 
 
