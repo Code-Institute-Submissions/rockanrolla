@@ -1,6 +1,6 @@
 ![Band Logo](assets/images/logo_250x282.jpg "The Invasors") 
 
-# __Rockanrolla Band Website__ 
+# __Rockanrolla Band Project__ 
 
 *__This is my very first Website Project.__*
 
@@ -70,7 +70,7 @@ Trying to approach the best way to navigate the site and its contents, I started
 
 [![Back to UX](assets/images/icons/buttonup_20_20.jpg "UX")](#ux) *Back to UX*
 
-[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Website")](#rockanrolla-band-website) *Back to top of the document*
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Project")](#rockanrolla-band-project) *Back to top of the document*
 
 ## __Features__
 ---
@@ -162,7 +162,7 @@ On each page the next *[existing features](###existing-features)* with *[specifi
 
 [![Back to Features](assets/images/icons/buttonup_20_20.jpg "Features")](#features) *Back to Features*
 
-[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Website")](#rockanrolla-band-website) *Back to top of the document*
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Project")](#rockanrolla-band-project) *Back to top of the document*
 
 ## __Technologies Used__
 ---
@@ -259,15 +259,14 @@ This mixture between Flex as main and Bootstrap as secondary has been a challeng
 
 [![Back to Technologies Used](assets/images/icons/buttonup_20_20.jpg "Technologies Used")](#technologies-used) *Back to Technologies Used*
 
-[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Website")](#rockanrolla-band-website) *Back to top of the document*
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Project")](#rockanrolla-band-project) *Back to top of the document*
 
 ## __Testing__
 ---
 
 All the tests explanations about this project can be found on a separate .md file. Please, click the link below:
- 
-  + [Rockanrolla Band Website - Testing](TESTING.md/#rockanrolla-website---testing-briefing)
 
+[![Go to Rockanrolla Band Website - Testing- TESTING.md](assets/images/icons/buttonup_20_20_right.jpg "TESTING.md")](TESTING.md/#rockanrolla-band-website---testing) *Go to TESTING.md*
 
 ## __Deployment__
 ---
@@ -308,12 +307,12 @@ At the moment of submitting this project the development branch and the master b
 
 [![Back to Deployment](assets/images/icons/buttonup_20_20.jpg "Deployment")](#deployment) *Back to Deployment*
 
-[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Website")](#rockanrolla-band-website) *Back to top of the document*
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Project")](#rockanrolla-band-project) *Back to top of the document*
 
 ## __Credits__
 ---
 
-### Content
+### __*Content*__
 
   The band I selected to be simulated on this site was "The Guess Who". I decided to change its name to "The Invasors" to make the site a bit different. I implemented the band history and the fans feedbacks reading and then editing some of the texts contained in these links:
 
@@ -330,7 +329,7 @@ At the moment of submitting this project the development branch and the master b
   + [A music video 30 years later](https://metalinjection.net/video/guns-n-roses-unveil-its-so-easy-music-video-30-years-later)
 
 
-### Media
+### __*Media*__
 
 Most of the site media content is related to "The Guess Who":
 
@@ -357,35 +356,35 @@ The videoclips displayed on the different project pages have been selected and e
   
   + [Youtube Search](https://www.youtube.com/results?search_query=the+guess+who)
 
-### Acknowledgements
+### __*Acknowledgements*__
 
-- "Takk!" to my mentor [Simen Daehlin](http://simen.dehlin.info/#home) and 
-"Bedankt!" to student [Anna Greaves](https://github.com/AJGreaves) for all the help, patience and examples shown. Their help through different channels has been key to this project development! "Gracias!"
+- *"Takk!"* to my mentor [Simen Daehlin](http://simen.dehlin.info/#home) and 
+*"Bedankt!"* to student [Anna Greaves](https://github.com/AJGreaves) for all the help, patience and examples shown. Their help through different channels has been key to this project development! *"¡Gracias!"*
 
 [![Back to Credits](assets/images/icons/buttonup_20_20.jpg "Credits")](#credits) *Back to Credits*
 
-[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Website")](#rockanrolla-band-website) *Back to top of the document*
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Project")](#rockanrolla-band-project) *Back to top of the document*
 
 ## __Disclaimer__
 ---
 
 All the information on this project - https://github.com/danmtt/rockanrolla - and on its landing website - https://danmtt.github.io/rockanrolla/ - is published in good faith and for __educational__ purpose only. 
 
-*__The Invasors__* does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (*__The Invasors__*), is strictly at your own risk. *__The Invasors__* will not be liable for any losses and/or damages in connection with the use of our website. Our Disclaimer was generated with the help of the Disclaimer Generator and the Disclaimer Template.
+__*The Invasors*__ does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (__*The Invasors*__), is strictly at your own risk. __*The Invasors*__ will not be liable for any losses and/or damages in connection with the use of our website. Our Disclaimer was generated with the help of the Disclaimer Generator and the Disclaimer Template.
 
 From this website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.
 
 Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.
 
-*__Consent__*
+### __*Consent*__
 
 By using our website, you hereby consent to our disclaimer and agree to its terms.
 
-*__Update__*
+### __*Update*__
 
 Should we update, amend or make any changes to this disclaimer, those changes will be prominently posted here.
 
-[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Website")](#rockanrolla-band-website) *Back to top of the document*
+[![Back to top of the document](assets/images/icons/buttonup_20_20.jpg "Rockanrolla Band Project")](#rockanrolla-band-project) *Back to top of the document*
 
 
 
