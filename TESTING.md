@@ -140,6 +140,8 @@ Testing HTML / CSS code in the project regularly has been of great help. The too
 
 ### __*Readability:*__ 
 
+As Spanish is my mother tongue, I have always in mind the way I write in English. Perhaps sometimes i go around a lot to explain something simple and, for that reason, I decide to run this test on the site and also on README.md and TESTING.md to check that everything could be understood properly.
+
 + [Readability test tool](https://www.webfx.com/tools/read-able/)
 
 + [Readability Test results](assets/project_docs/Tests/Readability/)
